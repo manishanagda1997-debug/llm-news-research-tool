@@ -1,0 +1,973 @@
+{
+ "version": "7",
+ "prompt_version": "4",
+ "number_check": "2",
+ "pacer_version": "2",
+ "model_setting": "gpt-oss-120b",
+ "model": "openai/gpt-oss-120b",
+ "generation": {
+  "temperature": 1.0,
+  "reasoning_effort": "medium",
+  "max_completion_tokens": 4096
+ },
+ "output_limit_sent": 4096,
+ "k": 10,
+ "designs": [
+  "direct"
+ ],
+ "records": [
+  {
+   "run": "2026-10-14",
+   "design": "direct",
+   "k": 10,
+   "articles": [
+    {
+     "id": 1,
+     "key": "A33d2a07840",
+     "title": "Tata Motors raises Iveco takeover offer price to 14.40 euro per share"
+    },
+    {
+     "id": 2,
+     "key": "A59aa7b0222",
+     "title": "No higher bid: Tata Motors’ final price faces crucial test as Iveco shareholders hold the key"
+    },
+    {
+     "id": 3,
+     "key": "A1f7d47f39c",
+     "title": "Stellantis and Tata Motors Passenger Vehicles broaden partnership to develop vehicles in Pune"
+    },
+    {
+     "id": 4,
+     "key": "A947c84dec7",
+     "title": "Tata Motors, Stellantis expand partnership: New deal details explained"
+    },
+    {
+     "id": 5,
+     "key": "A986c846cdc",
+     "title": "Tata Motors sweetens Iveco offer as key investors hold out"
+    },
+    {
+     "id": 6,
+     "key": "Ab5f09d2bd1",
+     "title": "Tata Motors PV, Maruti Suzuki, Ashok Leyland, auto stocks drop up to 3% as RBI signals rate cuts are ‘off the table’"
+    },
+    {
+     "id": 7,
+     "key": "A24e6d8662d",
+     "title": "Jaguar unveils $130,500 electric vehicle two years after controversial rebrand"
+    },
+    {
+     "id": 8,
+     "key": "A8619a7e886",
+     "title": "Tata Motors PV, Stellantis expand tie-up for global vehicle development"
+    },
+    {
+     "id": 9,
+     "key": "Ac20bce29ad",
+     "title": "Tata Motors' Jaguar rolls out £130,000 Type 01 luxury EV as British brand begins electric reboot"
+    },
+    {
+     "id": 10,
+     "key": "A5f2210687a",
+     "title": "Tata Motors raises Iveco takeover offer to 14.4 euro per share amid delays"
+    }
+   ],
+   "result": {
+    "status": "ok",
+    "summary": {
+     "article_briefs": [
+      {
+       "id": 1,
+       "brief": "Tata Motors increased its all‑cash offer for Iveco to €14.40 per share, up from €14.10, valuing the deal at €3.91 billion if all 271.2 million shares are tendered; the premium is 33.47% over the July 17 2025 price and 6.77% over July 29 2025 price, funded partly by an €85 million credit facility with MUFG Bank.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 2,
+       "brief": "Tata Motors’ €3.91 billion bid for Iveco is in its final stage; the offer of €14.40 per share is final, with Exor’s 27.06% stake backing it and minority shareholders holding about 20% that could affect the 80% acceptance threshold, while the combined entity would generate roughly €21 billion revenue and sell around 5,90,000 vehicles annually.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 3,
+       "brief": "Stellantis India, Tata Motors Passenger Vehicles and its subsidiary signed a definitive agreement expanding their partnership into advanced vehicle technology and product collaboration, with development to be carried out in Pune and manufacturing at the 50:50 FIAPL joint venture for export to over 50 global markets.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 4,
+       "brief": "Tata Motors Passenger Vehicles and Stellantis formalised an expanded partnership to combine Tata’s vehicle architecture and technology with Stellantis’ global product development, targeting vehicle development in India for more than 50 markets and production at the FIAPL joint venture.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 5,
+       "brief": "Tata Motors raised its Iveco offer by 2% to €14.40 per share on 9 Oct after activist Petrus Advisers rejected the earlier price; three large shareholders—Davidson Kempner, Syquant Capital and Petrus Advisers—hold about 20.4% of Iveco and have not tendered, while Exor controls 27.06% of shares (43% voting rights).",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 6,
+       "brief": "The Nifty Auto index fell over 1% as RBI signalled that interest‑rate cuts are off the table; auto stocks including Tata Motors PV dropped up to 3%, with concerns over inflation, raw‑material costs and macro‑economic headwinds affecting the sector.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 7,
+       "brief": "Jaguar, owned by Tata Motors, unveiled a new all‑electric luxury vehicle priced at $130,500, marking the brand’s first new model in eight years and its electric‑vehicle reboot.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 8,
+       "brief": "Tata Motors Passenger Vehicles and Stellantis expanded their tie‑up to include advanced technology and vehicle‑architecture collaboration, planning to develop and manufacture vehicles in India for over 50 global markets via the FIAPL 50:50 JV.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 9,
+       "brief": "Jaguar launched the £130,000 Type 01 luxury EV, designed, engineered and built in the UK, with more than 1,000PS, 850‑volt electrical architecture and an EPA‑rated range of up to 400 miles, targeting the high‑end market and signaling the brand’s electric‑reboot.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 10,
+       "brief": "Tata Motors increased its all‑cash offer for Iveco to €14.40 per share, a €0.30 rise, citing delayed authorisations; the revised price represents a 33.47% premium over the July 17 2025 price and values the transaction at €3.91 billion, funded partly by an €85 million credit facility.",
+       "enough_text": true,
+       "hidden": false
+      }
+     ],
+     "key_points": [
+      {
+       "text": "Tata Motors raised its all‑cash offer for Iveco to €14.40 per share, increasing the transaction value to €3.91 billion and funding the additional payout with an €85 million credit facility, with no further increase planned.",
+       "citations": [
+        1,
+        10
+       ]
+      },
+      {
+       "text": "The final €14.40‑per‑share offer is now subject to shareholder approval; Exor’s 27.06% stake backs the deal while minority shareholders holding about 20% could determine whether the 80% acceptance threshold is met, and the combined entity would have roughly €21 billion revenue and 5,90,000 annual vehicle sales.",
+       "citations": [
+        2
+       ]
+      },
+      {
+       "text": "Three major shareholders—Davidson Kempner, Syquant Capital and Petrus Advisers—hold about 20.4% of Iveco and have not tendered their shares despite the price increase, posing a risk to deal completion.",
+       "citations": [
+        5
+       ]
+      },
+      {
+       "text": "Tata Motors Passenger Vehicles and Stellantis expanded their long‑standing partnership to include advanced vehicle technology and product development, with vehicles to be manufactured in India at the FIAPL 50:50 joint venture for export to more than 50 global markets.",
+       "citations": [
+        3,
+        4,
+        8
+       ]
+      },
+      {
+       "text": "Jaguar, Tata Motors’ luxury brand, launched a new all‑electric vehicle priced at $130,500/£130,000, marking its first new model in eight years and an electric‑reboot for the brand.",
+       "citations": [
+        7,
+        9
+       ]
+      }
+     ],
+     "industry_context": [
+      {
+       "text": "The RBI signalled that interest‑rate cuts are off the table, causing the Nifty Auto index to fall over 1% and auto stocks—including Tata Motors PV—to drop up to 3%, amid inflationary pressures and rising raw‑material costs affecting the automotive sector.",
+       "citations": [
+        6
+       ]
+      }
+     ],
+     "not_used": []
+    },
+    "message": "",
+    "removed": [],
+    "attempts": 1,
+    "origin": "live",
+    "headlines": [
+     {
+      "id": 1,
+      "title": "Tata Motors raises Iveco takeover offer price to 14.40 euro per share",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-raises-iveco-takeover-offer-price-to-14-40-euro-per-share/articleshow/134848656.cms"
+     },
+     {
+      "id": 2,
+      "title": "No higher bid: Tata Motors’ final price faces crucial test as Iveco shareholders hold the key",
+      "source": "BusinessLine",
+      "published_at": "",
+      "url": "https://www.thehindubusinessline.com/companies/no-higher-bid-tata-motors-final-price-faces-crucial-test-as-iveco-shareholders-hold-the-key/article71575128.ece"
+     },
+     {
+      "id": 3,
+      "title": "Stellantis and Tata Motors Passenger Vehicles broaden partnership to develop vehicles in Pune",
+      "source": "BusinessLine",
+      "published_at": "",
+      "url": "https://www.thehindubusinessline.com/companies/stellantis-and-tata-motors-passenger-vehicles-broaden-partnership-to-develop-vehicles-in-pune/article71574881.ece"
+     },
+     {
+      "id": 4,
+      "title": "Tata Motors, Stellantis expand partnership: New deal details explained",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://timesofindia.indiatimes.com/auto/cars/tata-motors-stellantis-expand-partnership-new-deal-details-explained/articleshow/134911814.cms"
+     },
+     {
+      "id": 5,
+      "title": "Tata Motors sweetens Iveco offer as key investors hold out",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/tata-motors-iveco-acquisition-deal-status-11791713827262.html"
+     },
+     {
+      "id": 6,
+      "title": "Tata Motors PV, Maruti Suzuki, Ashok Leyland, auto stocks drop up to 3% as RBI signals rate cuts are ‘off the table’",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/tata-motors-pv-maruti-suzuki-ashok-leyland-auto-stocks-drop-up-to-3-as-rbi-signals-rate-cuts-are-off-the-table/articleshow/134760101.cms"
+     },
+     {
+      "id": 7,
+      "title": "Jaguar unveils $130,500 electric vehicle two years after controversial rebrand",
+      "source": "Biztoc.com",
+      "published_at": "",
+      "url": "https://biztoc.com/x/4394801f54c43b02"
+     },
+     {
+      "id": 8,
+      "title": "Tata Motors PV, Stellantis expand tie-up for global vehicle development",
+      "source": "Business Standard",
+      "published_at": "",
+      "url": "https://www.business-standard.com/companies/news/tata-motors-pv-stellantis-expand-tie-up-for-global-vehicle-development-126101200728_1.html"
+     },
+     {
+      "id": 9,
+      "title": "Tata Motors' Jaguar rolls out £130,000 Type 01 luxury EV as British brand begins electric reboot",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/news/international/business/jaguar-rolls-out-130000-type-01-luxury-ev-as-british-brand-begins-electric-reboot/articleshow/134753430.cms"
+     },
+     {
+      "id": 10,
+      "title": "Tata Motors raises Iveco takeover offer to 14.4 euro per share amid delays",
+      "source": "Business Standard",
+      "published_at": "",
+      "url": "https://www.business-standard.com/industry/auto/tata-motors-raises-iveco-takeover-offer-to-14-4-euro-per-share-amid-delays-126101000233_1.html"
+     }
+    ],
+    "problems": {
+     "structural": [],
+     "numbers": [],
+     "sources": []
+    },
+    "repairs": [
+     {
+      "section": "article_briefs",
+      "index": 8,
+      "numbers": [
+       "1,000"
+      ],
+      "references": [],
+      "before": "Jaguar launched the £130,000 Type 01 luxury electric GT, designed and built in the UK with over 1,000 PS, 850‑volt architecture and a 400‑mile range, targeting the high‑end market and signaling the brand’s electric‑reboot.",
+      "after": "Jaguar launched the £130,000 Type 01 luxury EV, designed, engineered and built in the UK, with more than 1,000PS, 850‑volt electrical architecture and an EPA‑rated range of up to 400 miles, targeting the high‑end market and signaling the brand’s electric‑reboot.",
+      "ok": true,
+      "requests": 1,
+      "responses": 1,
+      "stopped": null
+     }
+    ],
+    "attempt_log": [
+     {
+      "attempt": 1,
+      "valid_json": true,
+      "structural": [],
+      "numbers": [
+       {
+        "section": "article_briefs",
+        "index": 8
+       }
+      ],
+      "sources": []
+     }
+    ],
+    "correction": "targeted",
+    "design": "direct",
+    "seconds": 63.4,
+    "usage": {
+     "calls": 2,
+     "requests": [
+      {
+       "estimated": 10658,
+       "prompt_chars": 30173,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 1421,
+       "prompt_chars": 4066,
+       "outcome": "answered"
+      }
+     ],
+     "per_call": [
+      {
+       "input": 6083,
+       "output": 3362,
+       "reasoning": 1986,
+       "cached": 0,
+       "estimated": 10658,
+       "prompt_chars": 30173,
+       "finish_reason": "stop",
+       "sent_at": 0.062,
+       "window_used": 0,
+       "provider_remaining": null,
+       "header_age": null,
+       "answered_at": 8.234
+      },
+      {
+       "input": 942,
+       "output": 1202,
+       "reasoning": 1119,
+       "cached": 0,
+       "estimated": 1421,
+       "prompt_chars": 4066,
+       "finish_reason": "stop",
+       "sent_at": 60.062,
+       "window_used": 0,
+       "provider_remaining": 1470,
+       "header_age": 51.859,
+       "answered_at": 63.343
+      }
+     ],
+     "finish_reasons": [
+      "stop",
+      "stop"
+     ],
+     "input_tokens": 7025,
+     "output_tokens": 4564,
+     "reasoning_tokens": 3105,
+     "largest_call": 9445
+    },
+    "failures": [],
+    "failure_waits": [],
+    "prompt_chars": 34239,
+    "bad_answers": []
+   }
+  },
+  {
+   "run": "2026-10-23",
+   "design": "direct",
+   "k": 10,
+   "articles": [
+    {
+     "id": 1,
+     "key": "A29c1a29e1d",
+     "title": "Silent shareholders hold the key to Tata Motors' Iveco deal"
+    },
+    {
+     "id": 2,
+     "key": "Af3ec3babc9",
+     "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus"
+    },
+    {
+     "id": 3,
+     "key": "Aa2665f4ad4",
+     "title": "Tata Motors pips Mahindra to be No. 2 car company in April-September"
+    },
+    {
+     "id": 4,
+     "key": "A4055c39453",
+     "title": "Iveco Group shareholders approve Tata Motors' takeover proposals"
+    },
+    {
+     "id": 5,
+     "key": "Ab38652cb91",
+     "title": "Iveco shareholders approve Tata Motors' takeover bid; acceptance threshold cut to 80 pc"
+    },
+    {
+     "id": 6,
+     "key": "A0ae8a2cfab",
+     "title": "Lupin, SRF, TMPV, Maruti, NTPC among 74 BSE 500 stocks hit 52-week lows"
+    },
+    {
+     "id": 7,
+     "key": "Aee4703af04",
+     "title": "Global auto once fled India; but some MNCs are now changing the script"
+    },
+    {
+     "id": 8,
+     "key": "A3959810ae8",
+     "title": "Carmakers look to Diwali to rev up sales"
+    },
+    {
+     "id": 9,
+     "key": "A391b491c75",
+     "title": "Chandrasekaran, P.B. Balaji to join Iveco board as Tata deal reaches final stage"
+    },
+    {
+     "id": 10,
+     "key": "A690a6ec804",
+     "title": "Schaeffler India CEO taken into police custody over two worker deaths at Pune factory"
+    }
+   ],
+   "result": {
+    "status": "unavailable",
+    "summary": null,
+    "message": "Summary unavailable. Showing article headlines and available details instead.",
+    "removed": [],
+    "attempts": 1,
+    "origin": "live",
+    "headlines": [
+     {
+      "id": 1,
+      "title": "Silent shareholders hold the key to Tata Motors' Iveco deal",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/news/tata-motors-iveco-deal-status-shareholder-approval-11792483781433.html"
+     },
+     {
+      "id": 2,
+      "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-q2-results-preview-profit-may-rise-up-to-44-yoy-revenue-45-margins-volume-growth-in-focus/articleshow/135116132.cms"
+     },
+     {
+      "id": 3,
+      "title": "Tata Motors pips Mahindra to be No. 2 car company in April-September",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-motors-pips-mahindra-to-be-no-2-car-co-in-april-september/articleshow/134980266.cms"
+     },
+     {
+      "id": 4,
+      "title": "Iveco Group shareholders approve Tata Motors' takeover proposals",
+      "source": "Business Standard",
+      "published_at": "",
+      "url": "https://www.business-standard.com/industry/auto/iveco-group-shareholders-approve-tata-motors-takeover-proposals-126101600938_1.html"
+     },
+     {
+      "id": 5,
+      "title": "Iveco shareholders approve Tata Motors' takeover bid; acceptance threshold cut to 80 pc",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/industry/auto/lcv-hcv/iveco-shareholders-approve-tata-motors-takeover-bid-acceptance-threshold-cut-to-80-pc/articleshow/134996938.cms"
+     },
+     {
+      "id": 6,
+      "title": "Lupin, SRF, TMPV, Maruti, NTPC among 74 BSE 500 stocks hit 52-week lows",
+      "source": "Business Standard",
+      "published_at": "",
+      "url": "https://www.business-standard.com/markets/news/lupin-srf-tmpv-maruti-ntpc-among-74-bse-500-stocks-hit-52-week-lows-on-thursday-126102200219_1.html"
+     },
+     {
+      "id": 7,
+      "title": "Global auto once fled India; but some MNCs are now changing the script",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/news/suzuki-hyundai-stellantis-india-investments-11792062860055.html"
+     },
+     {
+      "id": 8,
+      "title": "Carmakers look to Diwali to rev up sales",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/carmakers-look-to-diwali-to-rev-up-sales/articleshow/135100959.cms"
+     },
+     {
+      "id": 9,
+      "title": "Chandrasekaran, P.B. Balaji to join Iveco board as Tata deal reaches final stage",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/news/chandrasekaran-p-b-balaji-to-join-iveco-board-as-tata-deal-reaches-final-stage-11792157208740.html"
+     },
+     {
+      "id": 10,
+      "title": "Schaeffler India CEO taken into police custody over two worker deaths at Pune factory",
+      "source": "BusinessLine",
+      "published_at": "",
+      "url": "https://www.thehindubusinessline.com/companies/schaeffler-india-ceo-taken-into-police-custody-over-two-worker-deaths-at-pune-factory/article71605261.ece"
+     }
+    ],
+    "problems": {
+     "structural": [],
+     "numbers": [],
+     "sources": []
+    },
+    "attempt_log": [],
+    "design": "direct",
+    "seconds": 0.0,
+    "usage": {
+     "calls": 0,
+     "requests": [
+      {
+       "estimated": 8284,
+       "prompt_chars": 33162,
+       "outcome": "preflight_too_large"
+      }
+     ],
+     "per_call": [],
+     "finish_reasons": [],
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "reasoning_tokens": 0,
+     "largest_call": 0
+    },
+    "failures": [
+     "preflight_too_large"
+    ],
+    "failure_waits": [
+     {
+      "kind": "preflight_too_large",
+      "wait_seconds": null
+     }
+    ],
+    "prompt_chars": 33162,
+    "bad_answers": []
+   }
+  },
+  {
+   "run": "2026-10-24",
+   "design": "direct",
+   "k": 10,
+   "articles": [
+    {
+     "id": 1,
+     "key": "A29c1a29e1d",
+     "title": "Silent shareholders hold the key to Tata Motors' Iveco deal"
+    },
+    {
+     "id": 2,
+     "key": "Af3ec3babc9",
+     "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus"
+    },
+    {
+     "id": 3,
+     "key": "A81fc8ba892",
+     "title": "Three Iveco investors stand to gain €63 million as Tata Motors races to secure buyout"
+    },
+    {
+     "id": 4,
+     "key": "Aaa3d8d3035",
+     "title": "Stocks in news: Swiggy, Infosys, HPCL, eMudhra, Adani Power, Shriram Finance, Tata Motors and NLC India"
+    },
+    {
+     "id": 5,
+     "key": "A79f20394bc",
+     "title": "Q2 Results Today Live: Infosys, Adani Power, JSW Steel, Tata Motors, Shriram Fin, Torrent Pharma, CG Power, BPCL, Dr Reddys Lab Share to announce Q2 results"
+    },
+    {
+     "id": 6,
+     "key": "A0ae8a2cfab",
+     "title": "Lupin, SRF, TMPV, Maruti, NTPC among 74 BSE 500 stocks hit 52-week lows"
+    },
+    {
+     "id": 7,
+     "key": "Af6c1b429d2",
+     "title": "Jaguar Land Rover India expands retail presence in Delhi, Gurugram; sees NCR as key market"
+    },
+    {
+     "id": 8,
+     "key": "A3959810ae8",
+     "title": "Carmakers look to Diwali to rev up sales"
+    },
+    {
+     "id": 9,
+     "key": "Aebbe4fd5d7",
+     "title": "Better than the V8: Range Rover Electric tested"
+    },
+    {
+     "id": 10,
+     "key": "Aac357bfe35",
+     "title": "Waymo to launch autonomous ride-hailing in Madrid next year"
+    }
+   ],
+   "result": {
+    "status": "ok",
+    "summary": {
+     "article_briefs": [
+      {
+       "id": 1,
+       "brief": "Tata Motors must persuade Iveco’s silent shareholders – about three‑quarters of the investors who did not vote – to reach the 80% acceptance needed to fully acquire and delist the Italian truck maker. 52.9% of Iveco’s common shares backed the deal at a €14.40 per‑share offer, but opposition remains, especially to board appointments.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 2,
+       "brief": "Brokerage forecasts suggest Tata Motors Commercial Vehicles (TMCV) will post roughly 43% YoY volume growth in Q2 FY27, driving revenue up about 44‑45% YoY to Rs 24,218.4‑24,638.1 crore, while adjusted PAT could rise 25.7‑44.3% YoY. Margins are expected to stay under pressure from input‑cost inflation despite a 2.5% price hike.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 3,
+       "brief": "Three investors holding about 20.4% of Iveco – Davidson Kempner, Syquant Capital and Petrus Advisers – could gain roughly €63 million at the €14.40 per‑share offer. As of 21 Oct, only 33.4% of Iveco shares had been tendered; the offer closes on 26 Oct, and Tata Motors needs 80% to secure full control.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 4,
+       "brief": "Tata Motors is listed among several stocks that will be in focus on 23 Oct as investors await September‑quarter earnings, credit rating updates and other developments.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 5,
+       "brief": "Tata Motors reported a Q2 consolidated profit of ₹1,257 crore, with revenue up 36.3% YoY. The stock fell about 4% in the session preceding the results announcement.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 6,
+       "brief": "Tata Motors Passenger Vehicles (TMPV) shares fell to a 52‑week low, joining 74 BSE‑500 stocks hit by a market sell‑off driven by high crude oil prices and macro‑economic concerns.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 7,
+       "brief": "Jaguar Land Rover India, owned by Tata Group, expanded its retail footprint to 33 outlets in 26 cities, adding a larger facility in Delhi and a new showroom in Gurugram. Q1 retail sales rose 11% YoY, with Range Rover models making up over 85% of sales.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 8,
+       "brief": "India’s carmakers, including Tata Motors Passenger Vehicles, are counting on the Diwali festive period to sustain sales momentum after a 22% YoY drop in Navratri passenger‑vehicle registrations, citing strong bookings and deliveries during the period.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 9,
+       "brief": "Autocar tested the new Range Rover Electric, marking Jaguar Land Rover’s entry into the EV segment after four years of development.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 10,
+       "brief": "Waymo plans to launch autonomous ride‑hailing in Madrid using electric Jaguar I‑PACE vehicles, indicating growing use of EVs in autonomous mobility services.",
+       "enough_text": true,
+       "hidden": false
+      }
+     ],
+     "key_points": [
+      {
+       "text": "Tata Motors needs additional shareholder support to meet the 80% threshold for full control of Iveco; currently 52.9% of shares backed the €14.40 per‑share offer, with notable opposition to board appointments.",
+       "citations": [
+        1
+       ]
+      },
+      {
+       "text": "Tata Motors Commercial Vehicles is projected to achieve about 43% YoY volume growth in Q2 FY27, driving revenue up 44‑45% YoY, while adjusted profit could rise 25.7‑44.3% YoY, though margins face pressure from input‑cost inflation.",
+       "citations": [
+        2
+       ]
+      },
+      {
+       "text": "The acquisition of Iveco depends on the participation of three investors holding about 20.4% of the company; with only 33.4% of shares tendered as of 21 Oct, Tata Motors must secure additional support before the 26 Oct deadline to reach the 80% target.",
+       "citations": [
+        3
+       ]
+      },
+      {
+       "text": "Tata Motors reported Q2 consolidated profit of ₹1,257 crore and revenue growth of 36.3% YoY; the shares fell roughly 4% ahead of the results announcement.",
+       "citations": [
+        5
+       ]
+      },
+      {
+       "text": "Tata Motors Passenger Vehicles shares hit a 52‑week low amid a broader market decline fueled by elevated crude prices and macro‑economic headwinds.",
+       "citations": [
+        6
+       ]
+      },
+      {
+       "text": "Jaguar Land Rover, Tata‑owned, expanded its retail network to 33 outlets across 26 cities, with Q1 retail sales up 11% YoY and Range Rover models accounting for over 85% of sales.",
+       "citations": [
+        7
+       ]
+      },
+      {
+       "text": "Tata Motors Passenger Vehicles, together with Maruti Suzuki and Hyundai, reported strong bookings and deliveries during Navratri and expect demand to hold through the Diwali festive period despite a 22% YoY decline in overall passenger‑vehicle registrations.",
+       "citations": [
+        8
+       ]
+      }
+     ],
+     "industry_context": [
+      {
+       "text": "The Indian passenger‑vehicle market saw a 22% YoY decline in Navratri registrations, but festive‑season demand remains robust, with top manufacturers reporting strong bookings.",
+       "citations": [
+        8
+       ]
+      },
+      {
+       "text": "Waymo’s plan to use electric Jaguar I‑PACE cars for autonomous ride‑hailing in Madrid highlights growing adoption of EVs and autonomous‑mobility services in the automotive sector.",
+       "citations": [
+        10
+       ]
+      }
+     ],
+     "not_used": [
+      {
+       "id": 4,
+       "reason": "Only mentions Tata Motors among many stocks to watch; provides no specific company development."
+      },
+      {
+       "id": 9,
+       "reason": "Focuses on a product test (Range Rover Electric) without detailing a corporate development or broader industry trend."
+      }
+     ]
+    },
+    "message": "",
+    "removed": [],
+    "attempts": 1,
+    "origin": "live",
+    "headlines": [
+     {
+      "id": 1,
+      "title": "Silent shareholders hold the key to Tata Motors' Iveco deal",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/news/tata-motors-iveco-deal-status-shareholder-approval-11792483781433.html"
+     },
+     {
+      "id": 2,
+      "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-q2-results-preview-profit-may-rise-up-to-44-yoy-revenue-45-margins-volume-growth-in-focus/articleshow/135116132.cms"
+     },
+     {
+      "id": 3,
+      "title": "Three Iveco investors stand to gain €63 million as Tata Motors races to secure buyout",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/tata-motors-iveco-acquisition-deal-status-shareholders-approval-11792650839298.html"
+     },
+     {
+      "id": 4,
+      "title": "Stocks in news: Swiggy, Infosys, HPCL, eMudhra, Adani Power, Shriram Finance, Tata Motors and NLC India",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-swiggy-infosys-hpcl-emudhra-adani-power-shriram-finance-tata-motors-and-nlc-india/articleshow/135123918.cms"
+     },
+     {
+      "id": 5,
+      "title": "Q2 Results Today Live: Infosys, Adani Power, JSW Steel, Tata Motors, Shriram Fin, Torrent Pharma, CG Power, BPCL, Dr Reddys Lab Share to announce Q2 results",
+      "source": "BusinessLine",
+      "published_at": "",
+      "url": "https://www.thehindubusinessline.com/companies/q2-results-today-live-updates-infosys-adani-power-jsw-steel-tata-motors-shiram-fin-torrent-pharma-cg-power-bpcl-dr-reddys-lab-company-results-23-october-2026/article71611542.ece"
+     },
+     {
+      "id": 6,
+      "title": "Lupin, SRF, TMPV, Maruti, NTPC among 74 BSE 500 stocks hit 52-week lows",
+      "source": "Business Standard",
+      "published_at": "",
+      "url": "https://www.business-standard.com/markets/news/lupin-srf-tmpv-maruti-ntpc-among-74-bse-500-stocks-hit-52-week-lows-on-thursday-126102200219_1.html"
+     },
+     {
+      "id": 7,
+      "title": "Jaguar Land Rover India expands retail presence in Delhi, Gurugram; sees NCR as key market",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/jaguar-land-rover-india-expands-retail-presence-in-delhi-gurugram-sees-ncr-as-key-market/articleshow/135027102.cms"
+     },
+     {
+      "id": 8,
+      "title": "Carmakers look to Diwali to rev up sales",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/carmakers-look-to-diwali-to-rev-up-sales/articleshow/135100959.cms"
+     },
+     {
+      "id": 9,
+      "title": "Better than the V8: Range Rover Electric tested",
+      "source": "Autocar",
+      "published_at": "",
+      "url": "https://www.autocar.co.uk/car-review/land-rover/range-rover-electric"
+     },
+     {
+      "id": 10,
+      "title": "Waymo to launch autonomous ride-hailing in Madrid next year",
+      "source": "CNA",
+      "published_at": "",
+      "url": "https://www.channelnewsasia.com/business/waymo-launch-autonomous-ride-hailing-in-madrid-next-year-6475706"
+     }
+    ],
+    "problems": {
+     "structural": [],
+     "numbers": [],
+     "sources": []
+    },
+    "repairs": [
+     {
+      "section": "article_briefs",
+      "index": 1,
+      "numbers": [
+       "₹24,218",
+       "24,638 crore"
+      ],
+      "references": [],
+      "before": "Brokerage forecasts suggest Tata Motors Commercial Vehicles (TMCV) will post roughly 43% YoY volume growth in Q2 FY27, driving revenue up about 44‑45% YoY to Rs 24,218‑24,638 crore, while adjusted PAT could rise 25.7‑44.3% YoY. Margins are expected to stay under pressure from input‑cost inflation despite a 2.5% price hike.",
+      "after": "Brokerage forecasts suggest Tata Motors Commercial Vehicles (TMCV) will post roughly 43% YoY volume growth in Q2 FY27, driving revenue up about 44‑45% YoY to Rs 24,218.4‑24,638.1 crore, while adjusted PAT could rise 25.7‑44.3% YoY. Margins are expected to stay under pressure from input‑cost inflation despite a 2.5% price hike.",
+      "ok": true,
+      "requests": 1,
+      "responses": 1,
+      "stopped": null
+     },
+     {
+      "section": "article_briefs",
+      "index": 5,
+      "numbers": [
+       "73"
+      ],
+      "references": [],
+      "before": "Tata Motors Passenger Vehicles (TMPV) shares fell to a 52‑week low, joining 73 other BSE‑500 stocks hit by a market sell‑off driven by high crude oil prices and macro‑economic concerns.",
+      "after": "Tata Motors Passenger Vehicles (TMPV) shares fell to a 52‑week low, joining 74 BSE‑500 stocks hit by a market sell‑off driven by high crude oil prices and macro‑economic concerns.",
+      "ok": true,
+      "requests": 1,
+      "responses": 1,
+      "stopped": null
+     },
+     {
+      "section": "key_points",
+      "index": 1,
+      "numbers": [
+       "₹24,200",
+       "24,600 crore"
+      ],
+      "references": [],
+      "before": "Tata Motors Commercial Vehicles is projected to achieve about 43% YoY volume growth in Q2 FY27, driving revenue up 44‑45% YoY to roughly Rs 24,200‑24,600 crore, while adjusted profit could rise 25.7‑44.3% YoY, though margins face pressure from input‑cost inflation.",
+      "after": "Tata Motors Commercial Vehicles is projected to achieve about 43% YoY volume growth in Q2 FY27, driving revenue up 44‑45% YoY, while adjusted profit could rise 25.7‑44.3% YoY, though margins face pressure from input‑cost inflation.",
+      "ok": true,
+      "requests": 1,
+      "responses": 1,
+      "stopped": null
+     }
+    ],
+    "attempt_log": [
+     {
+      "attempt": 1,
+      "valid_json": true,
+      "structural": [],
+      "numbers": [
+       {
+        "section": "article_briefs",
+        "index": 1
+       },
+       {
+        "section": "article_briefs",
+        "index": 5
+       },
+       {
+        "section": "key_points",
+        "index": 1
+       }
+      ],
+      "sources": []
+     }
+    ],
+    "correction": "targeted",
+    "design": "direct",
+    "seconds": 125.9,
+    "usage": {
+     "calls": 4,
+     "requests": [
+      {
+       "estimated": 7506,
+       "prompt_chars": 29803,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 1690,
+       "prompt_chars": 4697,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 1701,
+       "prompt_chars": 4493,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 1736,
+       "prompt_chars": 4638,
+       "outcome": "answered"
+      }
+     ],
+     "per_call": [
+      {
+       "input": 6900,
+       "output": 3237,
+       "reasoning": 1752,
+       "cached": 0,
+       "estimated": 7506,
+       "prompt_chars": 29803,
+       "finish_reason": "stop",
+       "sent_at": 120.062,
+       "window_used": 0,
+       "provider_remaining": 5510,
+       "header_age": 56.719,
+       "answered_at": 127.5
+      },
+      {
+       "input": 1149,
+       "output": 982,
+       "reasoning": 871,
+       "cached": 0,
+       "estimated": 1690,
+       "prompt_chars": 4697,
+       "finish_reason": "stop",
+       "sent_at": 183.297,
+       "window_used": 0,
+       "provider_remaining": 562,
+       "header_age": 55.797,
+       "answered_at": 185.859
+      },
+      {
+       "input": 1062,
+       "output": 498,
+       "reasoning": 436,
+       "cached": 0,
+       "estimated": 1701,
+       "prompt_chars": 4493,
+       "finish_reason": "stop",
+       "sent_at": 185.859,
+       "window_used": 2131,
+       "provider_remaining": 2954,
+       "header_age": 0.0,
+       "answered_at": 187.187
+      },
+      {
+       "input": 1130,
+       "output": 508,
+       "reasoning": 429,
+       "cached": 0,
+       "estimated": 1736,
+       "prompt_chars": 4638,
+       "finish_reason": "stop",
+       "sent_at": 187.875,
+       "window_used": 3691,
+       "provider_remaining": 3408,
+       "header_age": 0.688,
+       "answered_at": 189.453
+      }
+     ],
+     "finish_reasons": [
+      "stop",
+      "stop",
+      "stop",
+      "stop"
+     ],
+     "input_tokens": 10241,
+     "output_tokens": 5225,
+     "reasoning_tokens": 3488,
+     "largest_call": 10137
+    },
+    "failures": [],
+    "failure_waits": [],
+    "prompt_chars": 43631,
+    "bad_answers": []
+   }
+  }
+ ]
+}

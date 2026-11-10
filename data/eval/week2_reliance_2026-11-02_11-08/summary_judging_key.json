@@ -1,0 +1,183 @@
+{
+ "record_fingerprint": "cafeacb1606a9ce7c9d82321c1e509a1da6a470d4b962216dcc19b2f0f3bf015",
+ "seed": 49,
+ "items": {
+  "1": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08",
+   "section": "key_points",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "47d990a7987dc7fc25d84790eec2dc9af217d3d69ba0f422dd6677335fc42f37"
+  },
+  "2": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08",
+   "section": "article_briefs",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "3924d9119716f7a786f343a51c4e7f47562ca98d655d661381f507f78e8c4ff5"
+  },
+  "3": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08",
+   "section": "key_points",
+   "index": 3,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "56f1b6c2e645b4bd60cfb5a4b635f33a95bb34f7edb3c5a1c5fbbd18b9c1dbd8"
+  },
+  "4": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08",
+   "section": "article_briefs",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "c68946445c3040da10e7851b6efa263ec06eb0f6cde6d8c5a58650ecf6ee71f8"
+  },
+  "5": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08",
+   "section": "key_points",
+   "index": 2,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "d5379aa4373a59c8ebc462fa01fabf9ccaec79078ae8302ac8c6b7c05dd5fede"
+  },
+  "6": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08",
+   "section": "industry_context",
+   "index": 1,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "43583ab094290bcb06820e09fd41ae1c5a3b3180948956d3b66de2579d125d43"
+  },
+  "7": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08",
+   "section": "article_briefs",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "d3fe85a7ca46f363d115669d58980fff58efde62e4d9081a03be7cbf159b8060"
+  },
+  "8": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08",
+   "section": "key_points",
+   "index": 0,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "2abac3dda9da1b44eb682cedcbaa54deb3e63121deecac47747fa535eaf0db3f"
+  },
+  "9": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08",
+   "section": "article_briefs",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "c90357f4c57807f1a97bc2ba848cc3710c18fc433a918978d948f041e2bd2085"
+  },
+  "10": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08",
+   "section": "article_briefs",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "f7545c622754a1c6f4de69316fa2d7c709e97fba1349695ff0ea5ebee199d0c8"
+  },
+  "11": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08",
+   "section": "industry_context",
+   "index": 0,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "7388f2de4dded187aecb62eb6e0cbbee76842b9a4d1d5d72462728baa43a98f1"
+  },
+  "12": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08",
+   "section": "key_points",
+   "index": 5,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "a8e62daa7c47d048454dbeb044c11d2e65327bc9c742ea15d918211a1a0cfa05"
+  },
+  "13": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08",
+   "section": "key_points",
+   "index": 1,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "7070d0287433be35d75d386341f1e9f50064dcc2218d29f210506bcd4b6d3907"
+  }
+ },
+ "carried": [],
+ "summaries": {
+  "A": {
+   "design": "direct",
+   "run": "week2_reliance_2026-11-02_11-08"
+  }
+ },
+ "events": {
+  "1": {
+   "letter": "A",
+   "event": "reliance_q2_results",
+   "ids": [
+    2,
+    3
+   ],
+   "fingerprint": "bd9180cc979be90de565f3cfcb1fdf062e79d299d8e07d58134978a7c116796e"
+  },
+  "2": {
+   "letter": "A",
+   "event": "ril_post_q2_share_outlook",
+   "ids": [
+    5
+   ],
+   "fingerprint": "6e1775d10f951edc9e572083498d8dab947a74775bf4bfdc7f323f2d0048f2ff"
+  }
+ },
+ "industry": {
+  "1": {
+   "letter": "A",
+   "fingerprint": "d2a4b37cac0a57e42b1fe002a68c2449a7e41646eec1a92a0f0acd39fae589ce"
+  }
+ },
+ "pairs": {},
+ "record_file": "week2_summary_run.json"
+}

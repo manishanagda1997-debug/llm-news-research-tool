@@ -1,0 +1,497 @@
+{
+ "run": "fresh_2026-10-24_30",
+ "design": "direct",
+ "k": 5,
+ "source_commit": "1c913242763b260bb1535cec6a383e211a3cbad8",
+ "freeze_fingerprint": "6810217961e5b1e6e7bb8d76bfa898ef6d90903329f805bbfe59f8defdf4f3b1",
+ "prompt_version": "4",
+ "number_check": "2",
+ "pacer_version": "3",
+ "passage_version": "3",
+ "model_setting": "gpt-oss-120b",
+ "model": "openai/gpt-oss-120b",
+ "generation": {
+  "temperature": 1.0,
+  "reasoning_effort": "medium",
+  "max_completion_tokens": 4096
+ },
+ "output_limit_sent": 4096,
+ "cache": "No answer cache is read or written; the run result is saved in this record.",
+ "passages_file": "data/fulltext/summary_v2_fresh_k5_c7_p4_passages.json",
+ "attempt_file": "data/eval/summary_v2_fresh_k5_c7_p4_attempt.json",
+ "passage_fingerprints": [
+  {
+   "id": 1,
+   "key": "A352acfa7e7",
+   "sha256": "b5eba6cdaca8fe5c1e97749885fb4f2919c0e34458281a9f081633acf04f4bb1"
+  },
+  {
+   "id": 2,
+   "key": "A98aa3b5ab5",
+   "sha256": "5fcfaf29f0eb1b9f1db0e0e9360df4d0c1a586ab76a3348ac9e5025ef5cc0dc8"
+  },
+  {
+   "id": 3,
+   "key": "Ab1e656bc1b",
+   "sha256": "65395471e97e78adf3d2fbce3c027c6c1285b86ae49790f88b04517ab5ecf980"
+  },
+  {
+   "id": 4,
+   "key": "Aafaa5221ba",
+   "sha256": "ab7c9f060d44188a717faaa302c94597a695629966bff14fedb8dbee3908d63f"
+  },
+  {
+   "id": 5,
+   "key": "A9945d7a206",
+   "sha256": "f2e1c407e425c029e90227927c341297a5a224a3e5614f875d9c3373cf42c8ae"
+  }
+ ],
+ "candidates": [
+  {
+   "position": 1,
+   "key": "A93923b4582",
+   "title": "Indian billionaire eyes Dutch energy storage firm – media"
+  },
+  {
+   "position": 2,
+   "key": "A352acfa7e7",
+   "title": "Tata Motors secures Iveco takeover as 87.81% shareholders back €3.91-billion deal"
+  },
+  {
+   "position": 3,
+   "key": "A98aa3b5ab5",
+   "title": "Tata Motors’ €3.91-billion Iveco bid faces make-or-break October 26 test of global ambitions"
+  },
+  {
+   "position": 4,
+   "key": "Ab1e656bc1b",
+   "title": "Tata Motors, Amazon partner to deploy 3,000 electric trucks for ecommerce logistics"
+  },
+  {
+   "position": 5,
+   "key": "Ab3632d3883",
+   "title": "AirPod – a Possible Alternative to Fuel Cars (12 pics)"
+  },
+  {
+   "position": 6,
+   "key": "Aafaa5221ba",
+   "title": "Tata Motors completes Iveco acquisition to turbocharge global play"
+  },
+  {
+   "position": 7,
+   "key": "A9945d7a206",
+   "title": "TATA MOTORS COMPLETES INITIAL SETTLEMENT OF RECOMMENDED TENDER OFFER FOR IVECO GROUP. IVECO GROUP HAS NOW BECOME PART OF TATA MOTORS, SUBSEQUENT CHANGES ARE ANNOUNCED"
+  },
+  {
+   "position": 8,
+   "key": "Ab8765c12c2",
+   "title": "Tata Motors stands firm on ₹1,531-per-share Iveco bid as investor questions valuation: All you need to know"
+  },
+  {
+   "position": 9,
+   "key": "A33632e3c53",
+   "title": "Tata Motors Clears Key Hurdle in Iveco Takeover as Shareholders Back Buyout"
+  },
+  {
+   "position": 10,
+   "key": "A5d09a10230",
+   "title": "Tata Motors acquires majority stake in Italian commercial vehicle maker Iveco for 3.43 billion euros"
+  },
+  {
+   "position": 11,
+   "key": "A66dd6cf637",
+   "title": "Tata Motor’s Iveco takeover bid clears 80% threshold"
+  },
+  {
+   "position": 12,
+   "key": "A0c2176d8e7",
+   "title": "Mint explainer: what’s next for Tata Motors as it prepares to integrate Iveco?"
+  },
+  {
+   "position": 13,
+   "key": "Adce2b3f6d3",
+   "title": "Tata Motors Ltd (BOM:544569) (Q2 2027) Earnings Call Highlights: Revenue Jumps 42% as EV .."
+  },
+  {
+   "position": 14,
+   "key": "Acb93c4e064",
+   "title": "JLR bets on local assembly, EVs to defend India luxury car ranking"
+  },
+  {
+   "position": 15,
+   "key": "Aaddc2e4810",
+   "title": "From 104 shareholders to nearly 80 lakh! Jio becomes India's most widely owned stock on listing day"
+  },
+  {
+   "position": 16,
+   "key": "Ac6cc19686f",
+   "title": "Tata Motors' Iveco takeover bid clears 80 pc acceptance threshold"
+  },
+  {
+   "position": 17,
+   "key": "A1b5cf245a6",
+   "title": "Amazon expects India EV fleet to cross 20,000 vehicles over next year"
+  },
+  {
+   "position": 18,
+   "key": "A1bcda36707",
+   "title": "Tata Motors' Iveco bid crosses 80% threshold as acceptances hit 87.81%"
+  },
+  {
+   "position": 19,
+   "key": "A314883433a",
+   "title": "Tata Motors' bid to takeover Iveco clears 80% acceptance threshold"
+  },
+  {
+   "position": 20,
+   "key": "Aa48c5bc764",
+   "title": "Tata Motors completes Iveco takeover with 89.42% stake, buyout continues"
+  },
+  {
+   "position": 21,
+   "key": "A24663871a5",
+   "title": "Hyundai launches Bayon SUV, targets 250,000 mid-size sales in a year"
+  },
+  {
+   "position": 22,
+   "key": "A363990ea5f",
+   "title": "Tata Motors takes 89.42% stake in Iveco, gains control of Italian CV maker"
+  },
+  {
+   "position": 23,
+   "key": "A2c1997b5bd",
+   "title": "Stocks to watch: Infosys, Tata Motors, Paytm, IndusInd Bank, Senco Gold"
+  },
+  {
+   "position": 24,
+   "key": "A95d9ce85c5",
+   "title": "Tata Motors takes control of Iveco in €3.43-billion deal; focus shifts to debt, integration"
+  },
+  {
+   "position": 25,
+   "key": "A251275669d",
+   "title": "Amazon plans 3,000 electric trucks with Tata Motors for India logistics"
+  },
+  {
+   "position": 26,
+   "key": "A67ca6f4610",
+   "title": "Hyundai puts Bayon to task, for meeting Creta’s target"
+  },
+  {
+   "position": 27,
+   "key": "Af80d4b144e",
+   "title": "Amazon to expand EV fleet to more than 20,000 by next year for transport of goods"
+  },
+  {
+   "position": 28,
+   "key": "A68c3530e1c",
+   "title": "Waymo’s next robotaxi is a purpose-built Toyota bZ4X"
+  },
+  {
+   "position": 29,
+   "key": "Aef40a17de7",
+   "title": "How to watch Richard Hammond’s Workshop season 6 online — stream the classic car restoration show from anywhere"
+  },
+  {
+   "position": 30,
+   "key": "Aff0de8642d",
+   "title": "New Land Rover Discovery: bold reinvention due for British favourite as JLR House of Brands takes shape"
+  },
+  {
+   "position": 31,
+   "key": "A66704ee612",
+   "title": "Waymo picks Toyota bZ4X as its next robotaxi, starting in Japan in 2027"
+  },
+  {
+   "position": 32,
+   "key": "A2f209d8b77",
+   "title": "Luxury EVs face a status test, rivals retreat from full electrification"
+  },
+  {
+   "position": 33,
+   "key": "A468075561e",
+   "title": "Toyota, Waymo to test autonomous bZ4Xs in Japan in 2027, eye overseas expansion"
+  },
+  {
+   "position": 34,
+   "key": "Aa4488a4c9c",
+   "title": "JLR India starts local production of Defender 110 in Pune, cuts prices by up to ₹34 lakh"
+  },
+  {
+   "position": 35,
+   "key": "Afe637bd9ac",
+   "title": "JLR looks to narrow gap with BMW in India on local Defender assembly and price cuts of up to Rs 34 lakh"
+  },
+  {
+   "position": 36,
+   "key": "Add03ec2c8d",
+   "title": "Gunther Werks Painted Martin Brundle’s Helmet Onto an 860-HP Air-Cooled Porsche 911"
+  }
+ ],
+ "selected": [
+  {
+   "rank": 1,
+   "id": 1,
+   "key": "A352acfa7e7",
+   "title": "Tata Motors secures Iveco takeover as 87.81% shareholders back €3.91-billion deal"
+  },
+  {
+   "rank": 2,
+   "id": 2,
+   "key": "A98aa3b5ab5",
+   "title": "Tata Motors’ €3.91-billion Iveco bid faces make-or-break October 26 test of global ambitions"
+  },
+  {
+   "rank": 3,
+   "id": 3,
+   "key": "Ab1e656bc1b",
+   "title": "Tata Motors, Amazon partner to deploy 3,000 electric trucks for ecommerce logistics"
+  },
+  {
+   "rank": 4,
+   "id": 4,
+   "key": "Aafaa5221ba",
+   "title": "Tata Motors completes Iveco acquisition to turbocharge global play"
+  },
+  {
+   "rank": 5,
+   "id": 5,
+   "key": "A9945d7a206",
+   "title": "TATA MOTORS COMPLETES INITIAL SETTLEMENT OF RECOMMENDED TENDER OFFER FOR IVECO GROUP. IVECO GROUP HAS NOW BECOME PART OF TATA MOTORS, SUBSEQUENT CHANGES ARE ANNOUNCED"
+  }
+ ],
+ "records": [
+  {
+   "run": "fresh_2026-10-24_30",
+   "design": "direct",
+   "k": 5,
+   "articles": [
+    {
+     "id": 1,
+     "key": "A352acfa7e7",
+     "title": "Tata Motors secures Iveco takeover as 87.81% shareholders back €3.91-billion deal"
+    },
+    {
+     "id": 2,
+     "key": "A98aa3b5ab5",
+     "title": "Tata Motors’ €3.91-billion Iveco bid faces make-or-break October 26 test of global ambitions"
+    },
+    {
+     "id": 3,
+     "key": "Ab1e656bc1b",
+     "title": "Tata Motors, Amazon partner to deploy 3,000 electric trucks for ecommerce logistics"
+    },
+    {
+     "id": 4,
+     "key": "Aafaa5221ba",
+     "title": "Tata Motors completes Iveco acquisition to turbocharge global play"
+    },
+    {
+     "id": 5,
+     "key": "A9945d7a206",
+     "title": "TATA MOTORS COMPLETES INITIAL SETTLEMENT OF RECOMMENDED TENDER OFFER FOR IVECO GROUP. IVECO GROUP HAS NOW BECOME PART OF TATA MOTORS, SUBSEQUENT CHANGES ARE ANNOUNCED"
+    }
+   ],
+   "result": {
+    "status": "ok",
+    "summary": {
+     "article_briefs": [
+      {
+       "id": 1,
+       "brief": "Tata Motors secured shareholder backing for its €3.91‑billion takeover of Iveco, with 87.81% of shares (238,157,212 shares) tendered, exceeding the 80% threshold and setting up a combined group with about €21 billion revenue and >590,000 vehicles.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 2,
+       "brief": "The €3.91‑billion Iveco bid reached its final tender deadline on 26 Oct, with Tata confident of crossing the 80% acceptance level; activist Petrus Advisers challenged the valuation, while industry observers noted weak European demand, high electrification costs and emissions‑compliance pressures.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 3,
+       "brief": "Tata Motors and Amazon announced a collaboration to deploy 3,000 electric trucks for Amazon’s logistics network in India over the next three years, with the first fleet flagged off by the Heavy Industries Minister.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 4,
+       "brief": "Tata Motors completed the acquisition of Iveco, after nearly 88% of shares were tendered; the deal, valued at about $4.5 billion, combines >540,000 vehicles and >$25 billion revenue, and brings new board members from Tata to Iveco.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 5,
+       "brief": "Settlement of the Iveco tender offer was finalized on 30 Oct, giving Tata Motors approximately 89.42% of Iveco’s share capital; the announcement detailed board composition changes and an advance of Iveco’s Q3 2026 results to 3 Nov.",
+       "enough_text": true,
+       "hidden": false
+      }
+     ],
+     "key_points": [
+      {
+       "text": "Tata Motors obtained 87.81% shareholder acceptance for its €3.91‑billion takeover of Iveco, clearing the 80% threshold and moving towards settlement.",
+       "citations": [
+        1
+       ]
+      },
+      {
+       "text": "The acquisition creates a global commercial‑vehicle group with combined annual revenue of approximately €21 billion and sales of over 590,000 vehicles.",
+       "citations": [
+        1,
+        2
+       ]
+      },
+      {
+       "text": "Tata Motors raised its offer price to €14.40 per share (a 2.1% increase from €14.10) as the final consideration.",
+       "citations": [
+        1,
+        2,
+        4
+       ]
+      },
+      {
+       "text": "Activist investor Petrus Advisers argued the offer undervalues Iveco, estimating a fair value of about €18 per share, roughly 25% above the bid.",
+       "citations": [
+        1,
+        2
+       ]
+      },
+      {
+       "text": "Tata Motors completed the Iveco acquisition, holding about 89.42% of Iveco’s share capital after settlement, and announced board changes and forthcoming Q3 results.",
+       "citations": [
+        4,
+        5
+       ]
+      },
+      {
+       "text": "The combined business now includes Iveco’s strong positions in Europe and Latin America and Tata’s presence in India and Africa, expanding geographic exposure (Europe 46%, India 32%).",
+       "citations": [
+        1,
+        4
+       ]
+      },
+      {
+       "text": "Tata Motors and Amazon signed a partnership to deploy 3,000 electric trucks for Amazon’s logistics network in India over the next three years.",
+       "citations": [
+        3
+       ]
+      }
+     ],
+     "industry_context": [
+      {
+       "text": "European truckmakers are experiencing weak demand, high electrification spending, emissions‑compliance costs and rising competition, which could affect the merged entity’s performance.",
+       "citations": [
+        2
+       ]
+      },
+      {
+       "text": "India’s freight transportation demand is expected to grow with the economy, prompting emphasis on energy‑efficient commercial vehicle electrification.",
+       "citations": [
+        3
+       ]
+      }
+     ],
+     "not_used": []
+    },
+    "message": "",
+    "removed": [],
+    "attempts": 1,
+    "origin": "live",
+    "headlines": [
+     {
+      "id": 1,
+      "title": "Tata Motors secures Iveco takeover as 87.81% shareholders back €3.91-billion deal",
+      "source": "BusinessLine",
+      "published_at": "",
+      "url": "https://www.thehindubusinessline.com/companies/tata-motors-secures-iveco-takeover-as-8781-shareholders-back-391-billion-deal/article71628693.ece"
+     },
+     {
+      "id": 2,
+      "title": "Tata Motors’ €3.91-billion Iveco bid faces make-or-break October 26 test of global ambitions",
+      "source": "BusinessLine",
+      "published_at": "",
+      "url": "https://www.thehindubusinessline.com/companies/tata-motors-391-billion-iveco-bid-faces-make-or-break-october-26-test-of-global-ambitions/article71622938.ece"
+     },
+     {
+      "id": 3,
+      "title": "Tata Motors, Amazon partner to deploy 3,000 electric trucks for ecommerce logistics",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/tech/startups/tata-motors-amazon-partner-to-deploy-3000-electric-trucks-for-ecommerce-logistics/articleshow/135228266.cms"
+     },
+     {
+      "id": 4,
+      "title": "Tata Motors completes Iveco acquisition to turbocharge global play",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/news/tata-motors-completes-iveco-acquisition-to-turbocharge-global-play-11793019547840.html"
+     },
+     {
+      "id": 5,
+      "title": "TATA MOTORS COMPLETES INITIAL SETTLEMENT OF RECOMMENDED TENDER OFFER FOR IVECO GROUP. IVECO GROUP HAS NOW BECOME PART OF TATA MOTORS, SUBSEQUENT CHANGES ARE ANNOUNCED",
+      "source": "Financial Post",
+      "published_at": "",
+      "url": "https://financialpost.com/globe-newswire/tata-motors-completes-initial-settlement-of-recommended-tender-offer-for-iveco-group-iveco-group-has-now-become-part-of-tata-motors-subsequent-changes-are-announced"
+     }
+    ],
+    "problems": {
+     "structural": [],
+     "numbers": [],
+     "sources": []
+    },
+    "repairs": [],
+    "attempt_log": [
+     {
+      "attempt": 1,
+      "valid_json": true,
+      "structural": [],
+      "numbers": [],
+      "sources": []
+     }
+    ],
+    "correction": "targeted",
+    "design": "direct",
+    "seconds": 4.9,
+    "usage": {
+     "calls": 1,
+     "requests": [
+      {
+       "estimated": 6527,
+       "prompt_chars": 17778,
+       "outcome": "answered",
+       "admission": "paced",
+       "input_estimate": 5927
+      }
+     ],
+     "per_call": [
+      {
+       "input": 3826,
+       "output": 1908,
+       "reasoning": 999,
+       "cached": 0,
+       "estimated": 6527,
+       "prompt_chars": 17778,
+       "finish_reason": "stop",
+       "sent_at": 0.0,
+       "window_used": 0,
+       "provider_remaining": null,
+       "header_age": null,
+       "answered_at": 4.844
+      }
+     ],
+     "finish_reasons": [
+      "stop"
+     ],
+     "input_tokens": 3826,
+     "output_tokens": 1908,
+     "reasoning_tokens": 999,
+     "largest_call": 5734
+    },
+    "failures": [],
+    "failure_waits": [],
+    "prompt_chars": 17778,
+    "bad_answers": []
+   }
+  }
+ ]
+}

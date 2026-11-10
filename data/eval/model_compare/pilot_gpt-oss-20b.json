@@ -1,0 +1,51 @@
+{
+ "configuration": "gpt-oss-20b",
+ "settings": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b",
+  "generation": {
+   "temperature": 1.0,
+   "reasoning_effort": "medium"
+  }
+ },
+ "articles": 5,
+ "wall_seconds": 2.0,
+ "llm_stats": {
+  "calls": 1,
+  "rate_limited": 0,
+  "retries": 0,
+  "failures": {},
+  "waits": [],
+  "waited_seconds": 0.0,
+  "input_tokens": 3599,
+  "output_tokens": 1032,
+  "reasoning_tokens": 831,
+  "per_call": [
+   {
+    "input": 3599,
+    "output": 1032,
+    "reasoning": 831
+   }
+  ]
+ },
+ "estimates": {
+  "2026-10-14": {
+   "kind": "estimate",
+   "tokens_per_article": 926.2,
+   "query_tokens": 23155,
+   "seconds": 173.66250000000002
+  },
+  "2026-10-23": {
+   "kind": "estimate",
+   "tokens_per_article": 926.2,
+   "query_tokens": 15745,
+   "seconds": 118.08749999999999
+  },
+  "2026-10-24": {
+   "kind": "estimate",
+   "tokens_per_article": 926.2,
+   "query_tokens": 23155,
+   "seconds": 173.66250000000002
+  }
+ }
+}

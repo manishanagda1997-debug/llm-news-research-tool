@@ -1,0 +1,135 @@
+{
+  "result": {
+    "status": "ok",
+    "summary": {
+      "article_briefs": [
+        {
+          "id": 1,
+          "brief": "Tata Motors' €3.9 billion acquisition of Iveco hinges on winning support from the silent shareholders, roughly three in four investors who stayed away from Friday’s special shareholder meeting, to reach the 80% acceptance required for full control. While shareholders holding about 52.9% of Iveco’s common shares—including promoter Exor with 27%—backed the deal, the company must still persuade owners of about 27% of common shares that did not vote, as opposition saw roughly one in three non‑promoter votes cast against key resolutions and 37.27 million votes (about 13.7% of 271.2 million shares) against the appointment of Natarajan Chandrasekaran as chair. Tata Motors has sweetened the offer by 2% from €14.10 per share to €14.40 on 9 October and says the current Iveco share price is below the offer, but if it only reaches the 66.67% threshold it could complete the acquisition without delisting, leaving minority shareholders and preventing the planned demerger; the combined entity is projected to generate about €21 billion of revenue and sell over 590,000 vehicles annually.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 2,
+          "brief": "Tata Motors Commercial Vehicles (TMCV) is projected to post Q2FY27 revenue growth of about 44‑45% YoY, with JM Financial forecasting Rs 24,218.4 crore (up 43.6% YoY) and Motilal Oswal Financial Services (MOFSL) forecasting Rs 24,638.1 crore (up 45.4% YoY). Volume is expected to surge around 43% YoY to roughly 1,35,114 units (JM Financial, up 42.7% YoY and 24.5% QoQ) or 1,37,339 units (MOFSL, up 43% YoY and 26.3% sequentially), led by LCVs rising 53.1% YoY, while operating profit growth estimates diverge – JM Financial sees a 44.3% rise in adjusted PAT versus MOFSL’s 25.7% increase, with margins under pressure despite a net price hike of 2.5% since July. MOFSL maintains a Neutral rating with a target price of Rs 422 against a market price of Rs 415, implying approximately 2% upside, and analysts flag input‑cost inflation, pricing realisation and vehicle mix as key determinants of the upcoming results.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 3,
+          "brief": "Three investors – Davidson Kempner, Syquant Capital and Petrus Advisers – built stakes worth a combined €728 million in Iveco between July 2025 and September 2026 and now stand to gain about €63 million at Tata Motors’ revised offer price of €14.40 per share, plus an estimated €288 million in extraordinary dividends received in April. They collectively hold about 20.4% of Iveco’s common shares, and their tender decisions are critical as Tata needs to reach an 80% threshold; as of 21 October shareholders had tendered about 33.4% and the offer closes on 26 October. Petrus values Iveco at about €18 per share, roughly 25% above the offer, while Tata’s acquisition – announced in July 2025 for about €3.8 billion and contingent on the €1.7 billion defence business sale to Leonardo – would create a combined business with annual revenue of about €21 billion and sales of more than 590,000 vehicles.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 4,
+          "brief": "Swiggy reported a consolidated loss after tax of Rs 922 crore for the September quarter, narrowing from Rs 1,092 crore in the year‑ago period but widening sequentially from Rs 792 crore in the June quarter. The results keep the food‑delivery and quick‑commerce platform in focus as investors track September‑quarter earnings.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 5,
+          "brief": "On October 23, 2026, Tata Motors Ltd announced its Q2 FY27 consolidated profit rebounded to ₹1,257 crore, with revenue rising 36.3% year‑on‑year. The company reported the results in a regulatory filing, and the profit increase follows a prior quarter decline. Shares fell ahead of the announcement, with the stock down 3.97% to ₹397.80 on the NSE.",
+          "enough_text": true,
+          "hidden": false
+        }
+      ],
+      "key_points": [
+        {
+          "text": "Tata Motors' €3.9 billion acquisition of Iveco hinges on winning 80% acceptance; shareholders holding about 52.9% of Iveco’s common shares back the deal, but the company must still persuade owners of about 27% of common shares that did not vote, as opposition saw roughly 37.27 million votes (about 13.7% of 271.2 million shares) against the appointment of Natarajan Chandrasekaran as chair. Tata Motors has sweetened the offer by 2% from €14.10 per share to €14.40 per share, and the combined entity is projected to generate about €21 billion of revenue and sell over 590,000 vehicles annually.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Three investors – Davidson Kempner, Syquant Capital and Petrus Advisers – hold about 20.4% of Iveco’s common shares and stand to gain about €63 million at Tata Motors’ revised offer price of €14.40 per share, plus an estimated €288 million in extraordinary dividends received in April. As of 21 October shareholders had tendered about 33.4% and the offer closes on 26 October. Tata’s acquisition – announced in July 2025 for about €3.8 billion and contingent on the €1.7 billion defence business sale to Leonardo – would create a combined business with annual revenue of about €21 billion and sales of more than 590,000 vehicles.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "Tata Motors Ltd announced its Q2 FY27 consolidated profit rebounded to ₹1,257 crore, with revenue rising 36.3% year‑on‑year. The shares fell 3.97% to ₹397.80 on the NSE ahead of the announcement.",
+          "citations": [
+            5
+          ]
+        },
+        {
+          "text": "Analysts project Tata Motors Commercial Vehicles Q2FY27 revenue of Rs 24,218.4 crore (up 43.6% YoY) or Rs 24,638.1 crore (up 45.4% YoY). Volume is expected to be roughly 1,35,114 units (up 42.7% YoY and 24.5% QoQ) or 1,37,339 units (up 43% YoY and 26.3% sequentially), led by LCVs rising 53.1% YoY. Operating profit growth estimates diverge – a 44.3% rise in adjusted PAT versus a 25.7% increase – with margins under pressure despite a net price hike of 2.5% since July.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "industry_context": [],
+      "not_used": [
+        {
+          "id": 4,
+          "reason": "Brief pertains to Swiggy's financial performance, unrelated to Tata Motors or the automotive sector."
+        }
+      ]
+    },
+    "message": "",
+    "removed": [],
+    "attempts": 2,
+    "origin": "live",
+    "headlines": [
+      {
+        "id": 1,
+        "title": "Silent shareholders hold the key to Tata Motors' Iveco deal",
+        "source": "Livemint",
+        "published_at": "",
+        "url": "https://www.livemint.com/companies/news/tata-motors-iveco-deal-status-shareholder-approval-11792483781433.html"
+      },
+      {
+        "id": 2,
+        "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus",
+        "source": "The Times of India",
+        "published_at": "",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-q2-results-preview-profit-may-rise-up-to-44-yoy-revenue-45-margins-volume-growth-in-focus/articleshow/135116132.cms"
+      },
+      {
+        "id": 3,
+        "title": "Three Iveco investors stand to gain €63 million as Tata Motors races to secure buyout",
+        "source": "Livemint",
+        "published_at": "",
+        "url": "https://www.livemint.com/companies/tata-motors-iveco-acquisition-deal-status-shareholders-approval-11792650839298.html"
+      },
+      {
+        "id": 4,
+        "title": "Stocks in news: Swiggy, Infosys, HPCL, eMudhra, Adani Power, Shriram Finance, Tata Motors and NLC India",
+        "source": "The Times of India",
+        "published_at": "",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-swiggy-infosys-hpcl-emudhra-adani-power-shriram-finance-tata-motors-and-nlc-india/articleshow/135123918.cms"
+      },
+      {
+        "id": 5,
+        "title": "Q2 Results Today Live: Infosys, Adani Power, JSW Steel, Tata Motors, Shriram Fin, Torrent Pharma, CG Power, BPCL, Dr Reddys Lab Share to announce Q2 results",
+        "source": "BusinessLine",
+        "published_at": "",
+        "url": "https://www.thehindubusinessline.com/companies/q2-results-today-live-updates-infosys-adani-power-jsw-steel-tata-motors-shiram-fin-torrent-pharma-cg-power-bpcl-dr-reddys-lab-company-results-23-october-2026/article71611542.ece"
+      }
+    ],
+    "problems": {
+      "structural": [],
+      "numbers": []
+    },
+    "repairs": [],
+    "design": "brief_first",
+    "seconds": 252.0,
+    "usage": {
+      "calls": 7,
+      "input_tokens": 8354,
+      "output_tokens": 7702,
+      "reasoning_tokens": 5464,
+      "largest_call": 3515
+    },
+    "failures": [],
+    "prompt_chars": 32882
+  },
+  "meta": {
+    "model": "openai/gpt-oss-120b",
+    "prompt_version": "2-brief_first",
+    "k": 5,
+    "created_at": "2026-11-03T08:20:42+00:00"
+  }
+}

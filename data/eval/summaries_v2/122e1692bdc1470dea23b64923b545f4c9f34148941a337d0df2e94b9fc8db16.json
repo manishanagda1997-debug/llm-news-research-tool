@@ -1,0 +1,152 @@
+{
+  "result": {
+    "status": "ok",
+    "summary": {
+      "article_briefs": [
+        {
+          "id": 1,
+          "brief": "Tata Motors needs to win over silent shareholders—roughly three in four of those who stayed away from Friday’s special shareholder meeting—to reach the 80% acceptance required to complete its €3.9 billion acquisition and delist of Iveco. Shareholders holding about 52.9% of Iveco’s common shares, including promoter Exor with 27%, backed the deal, but about 27% of common shares owned by non‑voting investors must still be persuaded, and opposition remains with 37.27 million votes (≈13.7% of 271.2 million) cast against Chandrasekaran’s appointment versus 211.93 million in favour, plus 34.05 million against Balaji and 35.61 million against Wagh. Tata Motors sweetened the offer by 2% from €14.10 per share to €14.40 on 9 October, and a Tata executive said the current Iveco share price trades below the offer, making it fair, while noting that if the 66.67% threshold is met but not 80%, the acquisition could proceed without full control, complicating delisting and restructuring plans.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 2,
+          "brief": "Tata Motors CV is expected to post Q2FY27 revenue growth of roughly 44‑45% YoY, with JM Financial forecasting Rs 24,218.4 crore (up 43.6% YoY and 25.3% QoQ) and Motilal Oswal Financial Services projecting Rs 24,638.1 crore (up 45.4% YoY). The company recorded domestic commercial‑vehicle volume growth of about 43% YoY, with JM Financial estimating 1,35,114 units (up 42.7% YoY and 24.5% QoQ) and MOFSL projecting 1,37,339 units (up 43% YoY and around 26.3% sequentially over 1,08,700 units in Q1FY27), driven by a 53.1% YoY rise in LCVs and a 31% increase in MHCVs. While a net price hike of 2.5% has been in place since July, JM Financial expects EBITDA margins to improve sequentially whereas MOFSL anticipates a sharper decline, and MOFSL retains a Neutral rating with a target price of Rs 422 against a market price of Rs 415 (≈2% upside).",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 3,
+          "brief": "Tata Motors overtook Mahindra & Mahindra to become India’s second‑largest passenger vehicle manufacturer by domestic dispatches in the first half of FY27, with dispatches surging 43% to over 3.9 lakh units during April‑Sept 2026 versus Mahindra’s just under 3.6 lakh units, a growth of around 20%. Mahindra’s combined BE and XEV model dispatches jumped 82% to 42,338 units, raising their share of passenger vehicle volumes from 7.8% a year earlier to 11.8%. Tata’s utility vehicle dispatches rose 59%, while overall domestic passenger vehicle dispatches grew 28.3% to around 26.4 lakh units in the same period.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 4,
+          "brief": "Iveco Group shareholders at an extraordinary general meeting in Amsterdam approved all resolutions related to Tata Motors’ proposed €3.91 billion acquisition, reducing the minimum share acceptance threshold from 95 per cent to 80 per cent. The approval, which also authorises amendments to Iveco’s Articles of Association, delisting, appointment of new directors and a post‑offer demerger if at least 80 per cent of shares are secured, fulfills several conditions for Tata Motors’ subsidiary TML CV Holdings to declare its voluntary public tender offer unconditional. Tata Motors had raised its offer price on October 9 from €14.10 to €14.40 per share, and the tender offer is scheduled to close on October 26, unless extended, subject to remaining offer conditions.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 5,
+          "brief": "Iveco shareholders at an extraordinary general meeting in Amsterdam approved all resolutions linked to Tata Motors' voluntary public tender offer, including lowering the minimum acceptance threshold from 95 per cent to 80 per cent of Iveco's common shares. Tata Motors had raised its offer price by EUR 0.30 per share to EUR 14.40 (from an initial EUR 14.10 per share) for an acquisition valued at around EUR 3.8 billion (nearly Rs 38,240 crore), with the earlier offer valuing the transaction at approximately EUR 3.82 billion. The tender offer acceptance period runs from September 7 to October 26, 2026, and the approvals also cover amendments to the articles of association, board appointments, conversion of Iveco into a private limited liability company upon delisting, and conditions for a post‑offer demerger if at least 80 per cent of shares are owned.",
+          "enough_text": true,
+          "hidden": false
+        }
+      ],
+      "key_points": [
+        {
+          "text": "Tata Motors' €3.9 billion acquisition of Iveco requires at least 80% acceptance; shareholders holding about 52.9% of Iveco’s common shares have backed the deal, but roughly 27% of non‑voting shares still need to be persuaded, with 37.27 million votes (≈13.7% of 271.2 million) cast against the appointment of Chandrasekaran versus 211.93 million in favour, plus 34.05 million against Balaji and 35.61 million against Wagh.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The offer price was raised on 9 October from €14.10 per share to €14.40 per share, and the tender offer period runs from 7 September to 26 October 2026; the acquisition is valued at around €3.91 billion according to one brief and at around €3.8 billion (nearly Rs 38,240 crore) according to another, indicating a discrepancy in the reported valuation.",
+          "citations": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Iveco shareholders approved all resolutions related to the takeover, including lowering the minimum acceptance threshold from 95% to 80% and authorising delisting, board appointments and a post‑offer demerger if the 80% threshold is met, fulfilling conditions for Tata Motors’ subsidiary TML CV Holdings to declare its voluntary public tender offer unconditional.",
+          "citations": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Tata Motors CV is projected to post Q2FY27 revenue of Rs 24,218.4 crore (up 43.6% YoY) or Rs 24,638.1 crore (up 45.4% YoY) and domestic commercial‑vehicle volume of about 1,35,114–1,37,339 units (≈43% YoY growth), driven by a 53.1% YoY rise in LCVs and a 31% increase in MHCVs; a net price hike of 2.5% has been in place since July, with differing forecasts for EBITDA margin trends.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Tata Motors overtook Mahindra & Mahindra to become India’s second‑largest passenger‑vehicle manufacturer in the April‑September half of FY27, dispatching over 3.9 lakh units (up 43%) versus Mahindra’s just under 3.6 lakh units (up around 20%); utility‑vehicle dispatches rose 59% and overall domestic passenger‑vehicle dispatches grew 28.3% to around 26.4 lakh units.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "industry_context": [
+        {
+          "text": "The Indian commercial‑vehicle market is experiencing strong growth, with Tata Motors CV’s domestic volume expected to increase by roughly 43% YoY, reflecting broader sector demand for light‑commercial and medium‑heavy commercial vehicles.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Competition in the passenger‑vehicle segment is intensifying, highlighted by Mahindra’s 82% rise in BE and XEV model dispatches and its share of passenger‑vehicle volumes climbing to 11.8%, underscoring the shift toward electric models in the market.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "not_used": []
+    },
+    "message": "",
+    "removed": [],
+    "attempts": 1,
+    "origin": "live",
+    "headlines": [
+      {
+        "id": 1,
+        "title": "Silent shareholders hold the key to Tata Motors' Iveco deal",
+        "source": "Livemint",
+        "published_at": "",
+        "url": "https://www.livemint.com/companies/news/tata-motors-iveco-deal-status-shareholder-approval-11792483781433.html"
+      },
+      {
+        "id": 2,
+        "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus",
+        "source": "The Times of India",
+        "published_at": "",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-q2-results-preview-profit-may-rise-up-to-44-yoy-revenue-45-margins-volume-growth-in-focus/articleshow/135116132.cms"
+      },
+      {
+        "id": 3,
+        "title": "Tata Motors pips Mahindra to be No. 2 car company in April-September",
+        "source": "The Times of India",
+        "published_at": "",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/tata-motors-pips-mahindra-to-be-no-2-car-co-in-april-september/articleshow/134980266.cms"
+      },
+      {
+        "id": 4,
+        "title": "Iveco Group shareholders approve Tata Motors' takeover proposals",
+        "source": "Business Standard",
+        "published_at": "",
+        "url": "https://www.business-standard.com/industry/auto/iveco-group-shareholders-approve-tata-motors-takeover-proposals-126101600938_1.html"
+      },
+      {
+        "id": 5,
+        "title": "Iveco shareholders approve Tata Motors' takeover bid; acceptance threshold cut to 80 pc",
+        "source": "The Times of India",
+        "published_at": "",
+        "url": "https://economictimes.indiatimes.com/industry/auto/lcv-hcv/iveco-shareholders-approve-tata-motors-takeover-bid-acceptance-threshold-cut-to-80-pc/articleshow/134996938.cms"
+      }
+    ],
+    "problems": {
+      "structural": [],
+      "numbers": []
+    },
+    "repairs": [],
+    "design": "brief_first",
+    "seconds": 176.6,
+    "usage": {
+      "calls": 6,
+      "input_tokens": 5879,
+      "output_tokens": 4653,
+      "reasoning_tokens": 2733,
+      "largest_call": 2972
+    },
+    "failures": [],
+    "prompt_chars": 24634
+  },
+  "meta": {
+    "model": "openai/gpt-oss-120b",
+    "prompt_version": "2-brief_first",
+    "k": 5,
+    "created_at": "2026-11-03T08:16:29+00:00"
+  }
+}

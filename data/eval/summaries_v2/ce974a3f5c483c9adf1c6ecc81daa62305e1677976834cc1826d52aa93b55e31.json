@@ -1,0 +1,218 @@
+{
+  "result": {
+    "status": "ok",
+    "summary": {
+      "article_briefs": [
+        {
+          "id": 1,
+          "brief": "Tata Motors needs support from silent shareholders who hold about 27% of Iveco’s common shares to meet the 80% acceptance threshold for its €3.9 billion acquisition. The offer was sweetened to €14.40 per share (up 2% from €14.10) and the combined business would generate annual revenue of about €21 billion with sales of over 590,000 vehicles.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 2,
+          "brief": "Analysts expect Tata Motors CV’s Q2FY27 revenue to rise 44‑45% YoY to roughly Rs 24,218.4‑24,638.1 crore, driven by a 43% YoY volume surge to about 1,35,114‑1,37,339 units. Margins may stay under pressure due to input‑cost inflation despite a 2.5% price hike.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 3,
+          "brief": "Tata Motors overtook Mahindra to become India’s second‑largest passenger‑vehicle maker in Apr‑Sept FY27, with domestic dispatches jumping 43% to over 3.9 lakh units, while Mahindra posted just under 3.6 lakh units (≈20% growth). The overall passenger‑vehicle market grew 28.3% to around 26.4 lakh units.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 4,
+          "brief": "Iveco shareholders approved Tata Motors’ takeover proposals, lowering the minimum acceptance threshold from 95% to 80% and confirming the €14.40 per‑share offer that values the deal at approximately €3.91 billion. The resolutions also allow post‑offer demerger and conversion to a private company.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 5,
+          "brief": "Iveco shareholders endorsed Tata Motors’ bid, cutting the acceptance level to 80 per cent and confirming the raised offer price of EUR 14.40. The acquisition, announced in 2025 for around EUR 3.8 billion (nearly Rs 38,240 crore), has an acceptance window from September 7 to October 26, 2026.",
+          "enough_text": true,
+          "hidden": false
+        }
+      ],
+      "key_points": [
+        {
+          "text": "The minimum share acceptance threshold for Tata Motors’ acquisition of Iveco was reduced from 95% to 80%, easing the path to completion.",
+          "citations": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Tata Motors raised its offer price for Iveco to €14.40 per share, up from €14.10, valuing the transaction at roughly €3.91 billion.",
+          "citations": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Silent (non‑promoter) shareholders hold about 27% of Iveco’s common shares, and Tata Motors must persuade them to secure the required 80% acceptance.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The combined Tata‑Iveco business is projected to generate annual revenue of about €21 billion and sell over 590,000 vehicles.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Tata Motors’ commercial‑vehicle segment recorded Q2FY27 volume growth of roughly 43% YoY, underpinning an expected revenue increase of about 44‑45% YoY to Rs 24,218.4‑24,638.1 crore.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Tata Motors became India’s second‑largest passenger‑vehicle manufacturer in Apr‑Sept FY27, with dispatches rising 43% to over 3.9 lakh units, surpassing Mahindra.",
+          "citations": [
+            3
+          ]
+        }
+      ],
+      "industry_context": [
+        {
+          "text": "The Indian passenger‑vehicle market expanded 28.3% in Apr‑Sept FY27, reaching around 26.4 lakh domestic dispatches.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "Electric‑vehicle demand is accelerating, exemplified by Mahindra’s BE and XEV models growing 82% to 42,338 units and increasing EV share from 7.8% to 11.8% of passenger‑vehicle volumes.",
+          "citations": [
+            3
+          ]
+        },
+        {
+          "text": "Rising input‑cost inflation and pricing pressures are expected to keep margins under pressure for commercial‑vehicle makers, including Tata Motors.",
+          "citations": [
+            2
+          ]
+        }
+      ],
+      "not_used": []
+    },
+    "message": "",
+    "removed": [],
+    "attempts": 2,
+    "origin": "live",
+    "headlines": [
+      {
+        "id": 1,
+        "title": "Silent shareholders hold the key to Tata Motors' Iveco deal",
+        "source": "Livemint",
+        "published_at": "",
+        "url": "https://www.livemint.com/companies/news/tata-motors-iveco-deal-status-shareholder-approval-11792483781433.html"
+      },
+      {
+        "id": 2,
+        "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus",
+        "source": "The Times of India",
+        "published_at": "",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-q2-results-preview-profit-may-rise-up-to-44-yoy-revenue-45-margins-volume-growth-in-focus/articleshow/135116132.cms"
+      },
+      {
+        "id": 3,
+        "title": "Tata Motors pips Mahindra to be No. 2 car company in April-September",
+        "source": "The Times of India",
+        "published_at": "",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/tata-motors-pips-mahindra-to-be-no-2-car-co-in-april-september/articleshow/134980266.cms"
+      },
+      {
+        "id": 4,
+        "title": "Iveco Group shareholders approve Tata Motors' takeover proposals",
+        "source": "Business Standard",
+        "published_at": "",
+        "url": "https://www.business-standard.com/industry/auto/iveco-group-shareholders-approve-tata-motors-takeover-proposals-126101600938_1.html"
+      },
+      {
+        "id": 5,
+        "title": "Iveco shareholders approve Tata Motors' takeover bid; acceptance threshold cut to 80 pc",
+        "source": "The Times of India",
+        "published_at": "",
+        "url": "https://economictimes.indiatimes.com/industry/auto/lcv-hcv/iveco-shareholders-approve-tata-motors-takeover-bid-acceptance-threshold-cut-to-80-pc/articleshow/134996938.cms"
+      }
+    ],
+    "problems": {
+      "structural": [],
+      "numbers": [],
+      "sources": []
+    },
+    "repairs": [
+      {
+        "section": "article_briefs",
+        "index": 1,
+        "numbers": [
+          "1.35",
+          "1.37 million"
+        ],
+        "references": [],
+        "before": "Analysts expect Tata Motors CV’s Q2FY27 revenue to rise 44‑45% YoY to roughly Rs 24,218.4‑24,638.1 crore, driven by a 43% YoY volume surge to about 1.35‑1.37 million units. Margins may stay under pressure due to input‑cost inflation despite a 2.5% price hike.",
+        "after": "Analysts expect Tata Motors CV’s Q2FY27 revenue to rise 44‑45% YoY to roughly Rs 24,218.4‑24,638.1 crore, driven by a 43% YoY volume surge to about 1,35,114‑1,37,339 units. Margins may stay under pressure due to input‑cost inflation despite a 2.5% price hike.",
+        "ok": true
+      },
+      {
+        "section": "article_briefs",
+        "index": 4,
+        "numbers": [
+          "€0.30"
+        ],
+        "references": [],
+        "before": "Iveco shareholders endorsed Tata Motors’ bid, cutting the acceptance level to 80% and confirming the raised offer price of EUR 14.40 (up €0.30 from EUR 14.10). The acquisition, announced in 2025 for around EUR 3.8 billion (≈Rs 38,240 crore), has an acceptance window from 7 Sept to 26 Oct 2026.",
+        "after": "Iveco shareholders endorsed Tata Motors’ bid, cutting the acceptance level to 80 per cent and confirming the raised offer price of EUR 14.40. The acquisition, announced in 2025 for around EUR 3.8 billion (nearly Rs 38,240 crore), has an acceptance window from September 7 to October 26, 2026.",
+        "ok": true
+      }
+    ],
+    "design": "direct",
+    "seconds": 205.3,
+    "usage": {
+      "calls": 4,
+      "requests": [
+        {
+          "estimated": 7859,
+          "prompt_chars": 16475,
+          "outcome": "answered"
+        },
+        {
+          "estimated": 7949,
+          "prompt_chars": 16843,
+          "outcome": "answered"
+        },
+        {
+          "estimated": 4970,
+          "prompt_chars": 4629,
+          "outcome": "answered"
+        },
+        {
+          "estimated": 4879,
+          "prompt_chars": 4217,
+          "outcome": "answered"
+        }
+      ],
+      "finish_reasons": [
+        "stop",
+        "stop",
+        "stop",
+        "stop"
+      ],
+      "input_tokens": 9289,
+      "output_tokens": 6195,
+      "reasoning_tokens": 4115,
+      "largest_call": 6307
+    },
+    "failures": [],
+    "prompt_chars": 42164,
+    "bad_answers": []
+  },
+  "meta": {
+    "model": "openai/gpt-oss-120b",
+    "prompt_version": "2-direct",
+    "k": 5,
+    "created_at": "2026-11-03T09:10:09+00:00"
+  }
+}

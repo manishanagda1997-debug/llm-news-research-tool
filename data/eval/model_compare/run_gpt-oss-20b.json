@@ -1,0 +1,845 @@
+{
+ "configuration": "gpt-oss-20b",
+ "attempt": 1,
+ "settings": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b",
+  "generation": {
+   "temperature": 1.0,
+   "reasoning_effort": "medium"
+  }
+ },
+ "commit": "95fdf9dd664768a1ddcca711e9cc4c3a2afd5e60",
+ "started": "2026-10-30T18:12:44+0530",
+ "runs": {
+  "2026-10-14": {
+   "cached": false,
+   "wall_seconds": 241.9,
+   "answers": {
+    "A9b85d3cb27": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Mainly about AirConsole‑Zeekr partnership; Tata Motors is only mentioned as a platform customer, giving tech context.",
+     "source": "model"
+    },
+    "A33d2a07840": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Focuses on Tata Motors raising its offer to acquire Iveco.",
+     "source": "model"
+    },
+    "A59aa7b0222": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Details Tata Motors’ final bid for Iveco and shareholder dynamics.",
+     "source": "model"
+    },
+    "A1f7d47f39c": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Describes Tata Motors Passenger Vehicles partnering with Stellantis to develop vehicles.",
+     "source": "model"
+    },
+    "A947c84dec7": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Explains the expanded Tata Motors‑Stellantis partnership and its scope.",
+     "source": "model"
+    },
+    "A986c846cdc": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Acquisition offer and shareholder dynamics of Tata Motors’ purchase of Iveco.",
+     "source": "model"
+    },
+    "Ab5f09d2bd1": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "RBI policy affecting the auto sector, with Tata Motors mentioned as part of the market move.",
+     "source": "model"
+    },
+    "Afda0bbac4b": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Only a historical passing mention of Tata Motors; no current business info.",
+     "source": "model"
+    },
+    "A24e6d8662d": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Jaguar (Tata subsidiary) launching a new electric vehicle.",
+     "source": "model"
+    },
+    "A8619a7e886": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Expansion of Tata Motors’ partnership with Stellantis on product development and manufacturing.",
+     "source": "model"
+    },
+    "Ac20bce29ad": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Launch of Jaguar EV, a Tata Motors subsidiary, dominates the story.",
+     "source": "model"
+    },
+    "Adc9449a897": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "India’s manufacturing‑hub policy discussion directly impacts Tata Motors’ business environment.",
+     "source": "model"
+    },
+    "A5f2210687a": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Tata Motors’ updated takeover offer for Iveco is the core content.",
+     "source": "model"
+    },
+    "A8d5b4a5afc": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Stellantis‑Tata Motors partnership on tech and product development is the main focus.",
+     "source": "model"
+    },
+    "A289594c896": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Manufacturing pact with Stellantis for global markets centers on Tata Motors.",
+     "source": "model"
+    },
+    "Ab28c0c3a7a": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Mainly about Tata Motors’ partnership and vehicle development.",
+     "source": "model"
+    },
+    "A95a7eae323": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Only a passing historical mention, no current business connection.",
+     "source": "model"
+    },
+    "A86c03ba1b8": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Mentions a supplier JV that could affect Tata Motors’ seating supply chain.",
+     "source": "model"
+    },
+    "Ac6905343e4": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Focuses on Jaguar’s EV timeline, a Tata Motors subsidiary product.",
+     "source": "model"
+    },
+    "A02b25c8c80": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Only a brief list mention, no business detail about Tata Motors.",
+     "source": "model"
+    },
+    "Adfbc67b88f": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "No Tata Motors content.",
+     "source": "model"
+    },
+    "A7ba6e5020c": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Discusses Indian auto policy affecting Tata Motors.",
+     "source": "model"
+    },
+    "A639826ac02": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Trade policy impacting Indian auto sector relevant to Tata Motors.",
+     "source": "model"
+    },
+    "A515b87254e": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Only passing mention of Tata in a different context.",
+     "source": "model"
+    },
+    "Adb9ff93da2": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Details Jaguar Land Rover launch, a Tata Motors subsidiary.",
+     "source": "model"
+    }
+   },
+   "inputs": {
+    "A9b85d3cb27": "ac04928e6f5061bfefbb5d553532cd0e4f18ffd079757d83c3e29aff4191ec5e",
+    "A33d2a07840": "6c7ddc1940d00cf6c07f6e9d62cbe3a9b0040b26beb80b149b48bc05e6acc3fc",
+    "A59aa7b0222": "fbd60c6ac414ff04208f938c316b00ac6f3d445fcb77ffd9ec6e4d6587201848",
+    "A1f7d47f39c": "a635cf35884c6d57fab60d6d0b91046f013627a962c7fd7e579b02d1230487e2",
+    "A947c84dec7": "e7b4515622467326ec6aeb8087d2c38e2faa7db260f8a14052ebf5485ae72e26",
+    "A986c846cdc": "28c22c291322e2dbc6929ea147cd8c3f0a99453c264649b752930ef4453d152e",
+    "Ab5f09d2bd1": "1788144b82447ed43112bc8a697da70a177beb49100119b7100637ea245503da",
+    "Afda0bbac4b": "103ecee9798d5bb795d202a1dbe336fbf2c06a5e068e75d7d45b95f085d8a000",
+    "A24e6d8662d": "4a207ce219f8fb720474e0582e2eb3af5ba024373ce831bcc2f8d6f9d90fd969",
+    "A8619a7e886": "94ab93757f824ea6df1fdc4da2e83350e943f87ff0c9aa21bdf29a3146c5a792",
+    "Ac20bce29ad": "9bd557c9170fd595b2d7acf1dad7db0693d9860697e34ebbbd40995f1906bb55",
+    "Adc9449a897": "05a9f612703d9afdfa8a244d7bc8d5bfddd66712d129c22150e06dfc746dd4f5",
+    "A5f2210687a": "0ca8e3719788729c1cda7350cfa05e5c343b60aaadeca62b94429eb003904d4f",
+    "A8d5b4a5afc": "7943b64df2556a353bfc7611dce9e109974d01df08609ed977ceba1234dae644",
+    "A289594c896": "3a51629e1b0459645299f22162a9624f5431067a064c6af1cef4c1f67ad0c105",
+    "Ab28c0c3a7a": "da477ec4fd403274402105c1f056d201cb96ab474ac7d4c93f10fba752174dc0",
+    "A95a7eae323": "03bc2dd879b83803e23ec6e5a3f9afecd45dd72c93eb8ce1bdf3753bc0c14bb0",
+    "A86c03ba1b8": "57f8551ca952a7e4cd0eb5c1e8dae4aa85119d6a2d2cf63f964c168594a20a5a",
+    "Ac6905343e4": "8a68df491ff749432fc55e771e1c5da34059b7be9ea2131af7ce223848d2e7a5",
+    "A02b25c8c80": "41acc5722c7a2b06e9fa808949922ee8cb9e5e7bf9667bc637922139d6d995a3",
+    "Adfbc67b88f": "f2dc6804faa357d2e1379c6aef68079c34a5ad91456b2982b8ee063aca91b33f",
+    "A7ba6e5020c": "42f06fd5b79b9639dbab080d3466d2a270e541094ae4d959578186ba9a713e9a",
+    "A639826ac02": "fd4238a74d1b09923642b88a8dd4195a79b195e2adf1d53d9dc27e276dac388e",
+    "A515b87254e": "dadef0b5ceaa7a1311a4935d99a13bef34a0e96d6586cf36d2ba96f1759fd630",
+    "Adb9ff93da2": "2370360d6a530bc01ca0f1f8bcf71a3a58d7e7b966e2267645714d175c2aa166"
+   },
+   "llm_stats": {
+    "calls": 5,
+    "rate_limited": 0,
+    "retries": 0,
+    "failures": {},
+    "waits": [
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.578
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.485
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.485
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.985
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 58.203
+     }
+    ],
+    "waited_seconds": 415.736,
+    "header_updates": 5,
+    "splits": 2,
+    "input_tokens": 18518,
+    "output_tokens": 4790,
+    "reasoning_tokens": 3845,
+    "per_call": [
+     {
+      "input": 3599,
+      "output": 1009,
+      "reasoning": 807,
+      "cached": 0,
+      "estimated": 7373,
+      "prompt_chars": 17618
+     },
+     {
+      "input": 4086,
+      "output": 1086,
+      "reasoning": 921,
+      "cached": 0,
+      "estimated": 5430,
+      "prompt_chars": 19230
+     },
+     {
+      "input": 3449,
+      "output": 735,
+      "reasoning": 539,
+      "cached": 0,
+      "estimated": 5131,
+      "prompt_chars": 17082
+     },
+     {
+      "input": 4124,
+      "output": 863,
+      "reasoning": 668,
+      "cached": 0,
+      "estimated": 5889,
+      "prompt_chars": 20649
+     },
+     {
+      "input": 3260,
+      "output": 1097,
+      "reasoning": 910,
+      "cached": 0,
+      "estimated": 4834,
+      "prompt_chars": 15682
+     }
+    ]
+   }
+  },
+  "2026-10-23": {
+   "cached": false,
+   "wall_seconds": 150.0,
+   "answers": {
+    "A29c1a29e1d": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Focus on Tata Motors’ acquisition of Iveco and shareholder approval process.",
+     "source": "model"
+    },
+    "Af3ec3babc9": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Pre‑Q2 FY27 earnings forecast for Tata Motors Commercial Vehicles.",
+     "source": "model"
+    },
+    "Aa2665f4ad4": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Shows Tata Motors ranking and sales performance.",
+     "source": "model"
+    },
+    "Aee4703af04": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Provides information on competitors and a partnership affecting Tata's business.",
+     "source": "model"
+    },
+    "A391b491c75": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Details Tata Motors' acquisition of Iveco and board appointments.",
+     "source": "model"
+    },
+    "A3959810ae8": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Provides demand and sales data for the Indian car market, where Tata Motors operates.",
+     "source": "model"
+    },
+    "A4055c39453": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Describes Tata Motors’ acquisition of Iveco, a key business decision.",
+     "source": "model"
+    },
+    "A690a6ec804": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Focuses on a safety incident at Schaeffler, with no explicit impact on Tata Motors.",
+     "source": "model"
+    },
+    "Ab38652cb91": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Reports Tata Motors’ takeover of Iveco, central to its corporate strategy.",
+     "source": "model"
+    },
+    "Ad8f06500d4": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Shares Stellantis’ partnership with Tata Motors, giving insight into a supplier/partner development.",
+     "source": "model"
+    },
+    "Acd42aaa992": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Industry registration data includes Tata Motors performance.",
+     "source": "model"
+    },
+    "A269a74e91b": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Mentions supplier Mechatronics that supplies Tata Motors.",
+     "source": "model"
+    },
+    "A0ae8a2cfab": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Only a 52‑week‑low list, no company‑specific reason.",
+     "source": "model"
+    },
+    "A88c355a3b0": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Discusses power‑train shift; Tata Motors cited as early mover.",
+     "source": "model"
+    },
+    "Adea3a0907a": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Just a share‑price move list, no business detail.",
+     "source": "model"
+    },
+    "Ad74eeaf8f2": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Shows Navratri sales trends and Tata Motors delivery data.",
+     "source": "model"
+    },
+    "Aeea554d8db": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Auto retail sales report with Tata Motors performance.",
+     "source": "model"
+    }
+   },
+   "inputs": {
+    "A29c1a29e1d": "bc0007422eca88ffd73bb584fd4700c8bd60ca1bdd588a53f2fb1792571637df",
+    "Af3ec3babc9": "7c68cc024b397c957ab93bb5a1c1952b942d742317c92b2c7eda34147bd63004",
+    "Aa2665f4ad4": "a43aa5b87846d23b512ec934e4f9dbdb65ed8a6dd64db986f6b48c7bc7c02a72",
+    "Aee4703af04": "7a8bad19a363fed62792aa5b605a62d73fdbdc0b66ffbfd9d403bf571e648d26",
+    "A391b491c75": "db5107dc17f6d2496f7253e3fe752415b97923f91bce9793412bc56b13e59fbc",
+    "A3959810ae8": "1534652089c9331412b6d2b6ae88117308883de37c0c1c9c6b107e6d07b6a561",
+    "A4055c39453": "86185bd4dda4a584f1013671ef0c821f9ed8a84f6059e48516fa7de48e25501d",
+    "A690a6ec804": "e0b80c691d366af1993281bc8d22fba7dba3f9f2e1da1fc1881c045e93aa974b",
+    "Ab38652cb91": "cd5fe0549f541ae9cf9db9f9cb89cb7ccdb964a3507543a8abda81230184f350",
+    "Ad8f06500d4": "acd706c18e76dde302ecf79c24c9de23ab41d9620dc50e30a537755a7c6b0b78",
+    "Acd42aaa992": "938a8b7a0b2ad9d89778e656d90a9068c0ba2f4a3d85172710eaa0cdfdc57805",
+    "A269a74e91b": "a9d059a85c5477d1842a6c61bbae8b857a3b1af505a8fd836151066f53e83df9",
+    "A0ae8a2cfab": "22032d413827275f947c2e09e40356c5b7e914847eedbcf4510a07cb1e06898d",
+    "A88c355a3b0": "ad57fca87ddee2e797f5b076777e5e5da68246dba84ec8cf6836e7c364c5d3c5",
+    "Adea3a0907a": "e27a643b931adf8b520706057f39917272bdfb0e3c780a617a228841a58e9051",
+    "Ad74eeaf8f2": "7b27e3acc04872232b1b19f5060fd6e5f683685b7b4623f360c01c03b90ab613",
+    "Aeea554d8db": "895c670e910a1ed82c7b30728359216dd401ef5036edc3ae44bc0af31304261b"
+   },
+   "llm_stats": {
+    "calls": 4,
+    "rate_limited": 0,
+    "retries": 0,
+    "failures": {},
+    "waits": [
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 27.45
+     },
+     {
+      "kind": "pacing",
+      "seconds": 58.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.656
+     },
+     {
+      "kind": "pacing",
+      "seconds": 28.36
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.985
+     }
+    ],
+    "waited_seconds": 233.435,
+    "header_updates": 4,
+    "splits": 2,
+    "input_tokens": 15498,
+    "output_tokens": 3055,
+    "reasoning_tokens": 2413,
+    "per_call": [
+     {
+      "input": 2563,
+      "output": 250,
+      "reasoning": 164,
+      "cached": 0,
+      "estimated": 5404,
+      "prompt_chars": 11709
+     },
+     {
+      "input": 2850,
+      "output": 502,
+      "reasoning": 394,
+      "cached": 0,
+      "estimated": 4393,
+      "prompt_chars": 13208
+     },
+     {
+      "input": 6266,
+      "output": 1414,
+      "reasoning": 1166,
+      "cached": 0,
+      "estimated": 7646,
+      "prompt_chars": 28072
+     },
+     {
+      "input": 3819,
+      "output": 889,
+      "reasoning": 689,
+      "cached": 0,
+      "estimated": 5884,
+      "prompt_chars": 18435
+     }
+    ]
+   }
+  },
+  "2026-10-24": {
+   "cached": false,
+   "wall_seconds": 273.5,
+   "answers": {
+    "A29c1a29e1d": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article focuses on Tata Motors’ takeover of Iveco and its shareholder approval process, a core business decision.",
+     "source": "model"
+    },
+    "Af3ec3babc9": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The piece is a Q2 results preview for Tata Motors CV, detailing volumes, revenue and margins—direct business coverage.",
+     "source": "model"
+    },
+    "A81fc8ba892": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Article centers on Tata Motors’ planned acquisition of Iveco.",
+     "source": "model"
+    },
+    "A3959810ae8": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Main focus is festive demand; it includes Tata’s sales data in that context.",
+     "source": "model"
+    },
+    "A690a6ec804": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Supplier safety incident could impact Tata Motors’ supply chain.",
+     "source": "model"
+    },
+    "Aaa3d8d3035": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Only a stock news round‑up mentioning Tata Motors’ upcoming results, no business details.",
+     "source": "model"
+    },
+    "A62643cad78": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Main topic is Delhi vehicle curbs, but includes Tata Motors’ participation in the PARIVARTAN replacement scheme, relevant to its commercial‑vehicle market.",
+     "source": "model"
+    },
+    "Ad8f06500d4": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Primarily about Stellantis, but contains real information on its partnership and joint venture with Tata Motors Passenger Vehicles.",
+     "source": "model"
+    },
+    "Acd42aaa992": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Focuses on market demand and registration data, with Tata Motors’ sales figures and commentary, affecting its business.",
+     "source": "model"
+    },
+    "A79f20394bc": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "A results calendar and share‑price preview with no business details about Tata Motors.",
+     "source": "model"
+    },
+    "A269a74e91b": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Mentions Tata Motors as a customer of a deep‑tech supplier, providing supply‑chain insight.",
+     "source": "model"
+    },
+    "A0ae8a2cfab": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Only lists share price drop, no business context.",
+     "source": "model"
+    },
+    "A88c355a3b0": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Discusses power‑train shift affecting Tata Motors’ product mix.",
+     "source": "model"
+    },
+    "Aa3597011a3": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Only reports share price movement without context.",
+     "source": "model"
+    },
+    "Adea3a0907a": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Only shows share price change, no business detail.",
+     "source": "model"
+    },
+    "Ad74eeaf8f2": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Provides market sales and demand data relevant to Tata Motors",
+     "source": "model"
+    },
+    "Aad645eceb7": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Only a passing mention of Tata Motors in a results calendar",
+     "source": "model"
+    },
+    "Aeea554d8db": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Shares broader Navratri sales trend affecting Tata Motors",
+     "source": "model"
+    },
+    "A1f07d7f3d2": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "No reference to Tata Motors, about Waymo instead",
+     "source": "model"
+    },
+    "Aebbe4fd5d7": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Describes JLR Range Rover Electric, a Tata Motors product",
+     "source": "model"
+    },
+    "Ae689fc3060": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Article focuses on Jaguar Type 01 launch, a Tata Motors subsidiary product.",
+     "source": "model"
+    },
+    "A58b1377275": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Main topic is Chinese market share, but includes JLR cost‑cutting program affecting company operations.",
+     "source": "model"
+    },
+    "A43ea61cb65": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "JLR only mentioned as example, no business information about the company.",
+     "source": "model"
+    },
+    "Af6c1b429d2": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Describes JLR India's retail expansion, a Tata Motors subsidiary operation.",
+     "source": "model"
+    },
+    "Aac357bfe35": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Waymo article cites use of Jaguar I‑PACE vehicles, a supply‑chain development relevant to Tata Motors.",
+     "source": "model"
+    }
+   },
+   "inputs": {
+    "A29c1a29e1d": "bc0007422eca88ffd73bb584fd4700c8bd60ca1bdd588a53f2fb1792571637df",
+    "Af3ec3babc9": "7c68cc024b397c957ab93bb5a1c1952b942d742317c92b2c7eda34147bd63004",
+    "A81fc8ba892": "d9780134c4bd3b83bb0dbc328fd9b108fa6fb323e2cbbbaeb9ec7dffafec9b48",
+    "A3959810ae8": "1534652089c9331412b6d2b6ae88117308883de37c0c1c9c6b107e6d07b6a561",
+    "A690a6ec804": "e0b80c691d366af1993281bc8d22fba7dba3f9f2e1da1fc1881c045e93aa974b",
+    "Aaa3d8d3035": "0d78046b878405d068f4cc94f57178769ad42982aa68e8ea986576e846f7bec8",
+    "A62643cad78": "4e30e8b934048cc897cf04571a5eb305587d7ae01b235545779b7139d44e52e6",
+    "Ad8f06500d4": "acd706c18e76dde302ecf79c24c9de23ab41d9620dc50e30a537755a7c6b0b78",
+    "Acd42aaa992": "938a8b7a0b2ad9d89778e656d90a9068c0ba2f4a3d85172710eaa0cdfdc57805",
+    "A79f20394bc": "33c5200a819b3735b4440f9b27706994a66f4ed7f01a21fb22373af7392206ae",
+    "A269a74e91b": "a9d059a85c5477d1842a6c61bbae8b857a3b1af505a8fd836151066f53e83df9",
+    "A0ae8a2cfab": "22032d413827275f947c2e09e40356c5b7e914847eedbcf4510a07cb1e06898d",
+    "A88c355a3b0": "ad57fca87ddee2e797f5b076777e5e5da68246dba84ec8cf6836e7c364c5d3c5",
+    "Aa3597011a3": "d66ce8518d38b3d2241645131d4c8161333c682d506ae1bd8081e4210ceef2f8",
+    "Adea3a0907a": "e27a643b931adf8b520706057f39917272bdfb0e3c780a617a228841a58e9051",
+    "Ad74eeaf8f2": "7b27e3acc04872232b1b19f5060fd6e5f683685b7b4623f360c01c03b90ab613",
+    "Aad645eceb7": "31715bd77f56f2c0691db33c81f5bc183c55ae113e59bb25a2f026a38a8f961c",
+    "Aeea554d8db": "895c670e910a1ed82c7b30728359216dd401ef5036edc3ae44bc0af31304261b",
+    "A1f07d7f3d2": "97e89735873e7f89c63df7829ff77f0eed4794f2a064282d2962f0e2e33a9a98",
+    "Aebbe4fd5d7": "25ac9bb1df53dd28b76453892c98957cc28510eeb132c4cfefbae700ad14b073",
+    "Ae689fc3060": "244d683a986d88b6a834c37bd547ef1cbd36430bf9e9a3b49a78a3cde438fee5",
+    "A58b1377275": "24bd739e580e62f82a656799c0e6805cdf751b9bdb86e5044612f4fcd9ddf332",
+    "A43ea61cb65": "90a3906da2b7572fffa32745f8143946c25b663a2db14a6eceb366581e413b63",
+    "Af6c1b429d2": "f398864bcbcc843544d02976351c4a1dbf0db8f3262b8d08ebd9b609ba9d0e3c",
+    "Aac357bfe35": "167a5b6193eff3d0677abdeff63074277af33066ceac3c5540df9bcaa944e39f"
+   },
+   "llm_stats": {
+    "calls": 6,
+    "rate_limited": 0,
+    "retries": 0,
+    "failures": {},
+    "waits": [
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 29.827
+     },
+     {
+      "kind": "pacing",
+      "seconds": 58.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 58.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 58.781
+     },
+     {
+      "kind": "pacing",
+      "seconds": 31.281
+     },
+     {
+      "kind": "pacing",
+      "seconds": 31.281
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.734
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     }
+    ],
+    "waited_seconds": 628.856,
+    "header_updates": 6,
+    "splits": 3,
+    "input_tokens": 22578,
+    "output_tokens": 4746,
+    "reasoning_tokens": 3738,
+    "per_call": [
+     {
+      "input": 2563,
+      "output": 359,
+      "reasoning": 255,
+      "cached": 0,
+      "estimated": 5404,
+      "prompt_chars": 11709
+     },
+     {
+      "input": 2817,
+      "output": 445,
+      "reasoning": 330,
+      "cached": 0,
+      "estimated": 4400,
+      "prompt_chars": 13244
+     },
+     {
+      "input": 4391,
+      "output": 1131,
+      "reasoning": 948,
+      "cached": 0,
+      "estimated": 5980,
+      "prompt_chars": 20462
+     },
+     {
+      "input": 4085,
+      "output": 942,
+      "reasoning": 740,
+      "cached": 0,
+      "estimated": 5546,
+      "prompt_chars": 18475
+     },
+     {
+      "input": 4263,
+      "output": 806,
+      "reasoning": 629,
+      "cached": 0,
+      "estimated": 5517,
+      "prompt_chars": 18161
+     },
+     {
+      "input": 4459,
+      "output": 1063,
+      "reasoning": 836,
+      "cached": 768,
+      "estimated": 5975,
+      "prompt_chars": 19057
+     }
+    ]
+   }
+  }
+ }
+}

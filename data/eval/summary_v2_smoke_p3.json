@@ -1,0 +1,367 @@
+{
+ "version": "2",
+ "prompt_version": "3",
+ "model": "openai/gpt-oss-120b",
+ "generation": {
+  "temperature": 1.0,
+  "reasoning_effort": "medium"
+ },
+ "k": 5,
+ "purpose": "pipeline check only",
+ "records": [
+  {
+   "run": "2026-10-23",
+   "design": "direct",
+   "k": 5,
+   "articles": [
+    {
+     "id": 1,
+     "key": "A29c1a29e1d",
+     "title": "Silent shareholders hold the key to Tata Motors' Iveco deal"
+    },
+    {
+     "id": 2,
+     "key": "Af3ec3babc9",
+     "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus"
+    },
+    {
+     "id": 3,
+     "key": "Aa2665f4ad4",
+     "title": "Tata Motors pips Mahindra to be No. 2 car company in April-September"
+    },
+    {
+     "id": 4,
+     "key": "A4055c39453",
+     "title": "Iveco Group shareholders approve Tata Motors' takeover proposals"
+    },
+    {
+     "id": 5,
+     "key": "Ab38652cb91",
+     "title": "Iveco shareholders approve Tata Motors' takeover bid; acceptance threshold cut to 80 pc"
+    }
+   ],
+   "result": {
+    "status": "unavailable",
+    "summary": null,
+    "message": "Summary unavailable. Showing article headlines and available details instead.",
+    "removed": [],
+    "attempts": 2,
+    "origin": "live",
+    "headlines": [
+     {
+      "id": 1,
+      "title": "Silent shareholders hold the key to Tata Motors' Iveco deal",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/news/tata-motors-iveco-deal-status-shareholder-approval-11792483781433.html"
+     },
+     {
+      "id": 2,
+      "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-q2-results-preview-profit-may-rise-up-to-44-yoy-revenue-45-margins-volume-growth-in-focus/articleshow/135116132.cms"
+     },
+     {
+      "id": 3,
+      "title": "Tata Motors pips Mahindra to be No. 2 car company in April-September",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-motors-pips-mahindra-to-be-no-2-car-co-in-april-september/articleshow/134980266.cms"
+     },
+     {
+      "id": 4,
+      "title": "Iveco Group shareholders approve Tata Motors' takeover proposals",
+      "source": "Business Standard",
+      "published_at": "",
+      "url": "https://www.business-standard.com/industry/auto/iveco-group-shareholders-approve-tata-motors-takeover-proposals-126101600938_1.html"
+     },
+     {
+      "id": 5,
+      "title": "Iveco shareholders approve Tata Motors' takeover bid; acceptance threshold cut to 80 pc",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/industry/auto/lcv-hcv/iveco-shareholders-approve-tata-motors-takeover-bid-acceptance-threshold-cut-to-80-pc/articleshow/134996938.cms"
+     }
+    ],
+    "problems": {
+     "structural": [
+      {
+       "kind": "malformed_json",
+       "where": "answer"
+      }
+     ],
+     "numbers": [],
+     "sources": []
+    },
+    "repairs": [],
+    "design": "direct",
+    "seconds": 67.3,
+    "usage": {
+     "calls": 2,
+     "requests": [
+      {
+       "estimated": 6992,
+       "prompt_chars": 16475,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 5986,
+       "prompt_chars": 16843,
+       "outcome": "answered"
+      }
+     ],
+     "finish_reasons": [
+      "stop",
+      "length"
+     ],
+     "input_tokens": 7214,
+     "output_tokens": 4957,
+     "reasoning_tokens": 2779,
+     "largest_call": 6737
+    },
+    "failures": [],
+    "prompt_chars": 33318,
+    "bad_answers": [
+     {
+      "call": 2,
+      "length": 3340,
+      "error": "Unterminated string starting at",
+      "position": 3143,
+      "line": 39,
+      "column": 15,
+      "fenced": false,
+      "starts_with_brace": true,
+      "ends_with_brace": false,
+      "text_before_json": false,
+      "text_after_json": true,
+      "finish_reason": "length",
+      "excerpt_file": "09752ec58194ec28.txt"
+     }
+    ]
+   },
+   "checks": {
+    "summary_produced": false,
+    "no_source_wording": true,
+    "every_answer_valid_json": false,
+    "every_request_answered": true
+   }
+  },
+  {
+   "run": "2026-10-23",
+   "design": "brief_first",
+   "k": 5,
+   "articles": [
+    {
+     "id": 1,
+     "key": "A29c1a29e1d",
+     "title": "Silent shareholders hold the key to Tata Motors' Iveco deal"
+    },
+    {
+     "id": 2,
+     "key": "Af3ec3babc9",
+     "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus"
+    },
+    {
+     "id": 3,
+     "key": "Aa2665f4ad4",
+     "title": "Tata Motors pips Mahindra to be No. 2 car company in April-September"
+    },
+    {
+     "id": 4,
+     "key": "A4055c39453",
+     "title": "Iveco Group shareholders approve Tata Motors' takeover proposals"
+    },
+    {
+     "id": 5,
+     "key": "Ab38652cb91",
+     "title": "Iveco shareholders approve Tata Motors' takeover bid; acceptance threshold cut to 80 pc"
+    }
+   ],
+   "result": {
+    "status": "ok",
+    "summary": {
+     "article_briefs": [
+      {
+       "id": 1,
+       "brief": "Tata Motors must win over roughly three in four silent shareholders of Iveco to achieve the 80% acceptance required for its €3.9 billion acquisition and delisting, after about one in three non‑promoter votes were cast against the deal‑related resolutions at Friday’s special shareholder meeting. Shareholders holding about 52.9% of Iveco’s common shares, including promoter Exor with 27%, backed the resolutions, but the company still needs to persuade shareholders owning about 27% of common shares from among those who did not vote, assuming those voting against the resolution do not subscribe to the offer by the deadline. The offer was sweetened by 2% from €14.10 per share to €14.40 on 9 October, and the combined business is projected to generate annual revenue of about €21 billion and sell over 590,000 vehicles, according to the September offer documents.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 2,
+       "brief": "Tata Motors CV is expected to post Q2FY27 revenue growth of around 44‑45% YoY, with JM Financial forecasting Rs 24,218.4 crore (up 43.6% YoY and 25.3% QoQ) and Motilal Oswal Financial Services projecting Rs 24,638.1 crore (up 45.4% YoY). Volume is projected to jump about 43% YoY to 1,37,339 units (MOFSL) or 1,35,114 units (JM Financial), led by light commercial vehicles rising 53.1% YoY and medium‑heavy commercial vehicles up 31%. Adjusted profit after tax is estimated to increase 44.3% YoY per JM Financial and 25.7% YoY per MOFSL, while margins remain under pressure despite a net price hike of 2.5% since July, with divergent views on EBITDA margin trends.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 3,
+       "brief": "Tata Motors overtook Mahindra & Mahindra to become India's second‑largest passenger vehicle manufacturer by domestic dispatches in the April‑Sept 2026 period, the first half of FY27. Tata’s passenger vehicle dispatches surged 43% to over 3.9 lakh units, while Mahindra logged just under 3.6 lakh units, a growth of around 20%. Mahindra’s BE and XEV models jumped 82% to 42,338 units, raising their share of passenger volumes from 7.8% a year earlier to 11.8%, whereas Tata benefited from a 59% surge in utility vehicle dispatches; the overall industry saw domestic dispatches increase 28.3% to around 26.4 lakh units.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 4,
+       "brief": "Iveco Group shareholders at an extraordinary general meeting in Amsterdam approved all resolutions related to Tata Motors’ proposed €3.91 billion acquisition, reducing the minimum share acceptance threshold from 95 per cent to 80 per cent and approving amendments to the Articles of Association, delisting and post‑offer demerger provisions [source]. Tata Motors, via TML CV Holdings, raised its offer price on October 9 from €14.10 to €14.40 per share and aims to close the tender offer on October 26, subject to remaining conditions [source].",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 5,
+       "brief": "Iveco shareholders at an extraordinary general meeting in Amsterdam approved all board‑proposed resolutions linked to Tata Motors’ voluntary public tender offer, including cutting the minimum acceptance threshold from 95 per cent to 80 per cent of Iveco’s common shares. The tender offer, raised by TML CV Holdings to EUR 0.30 per share for a new price of EUR 14.40 (up from an initial EUR 14.10), targets a transaction of around EUR 3.8 billion (nearly Rs 38,240 crore) announced in 2025, with the acceptance period running from September 7 to October 26, 2026.",
+       "enough_text": true,
+       "hidden": false
+      }
+     ],
+     "key_points": [
+      {
+       "text": "Tata Motors must persuade roughly three‑in‑four silent shareholders of Iveco to reach the 80 % acceptance level for its €3.9 billion acquisition; about 52.9 % of Iveco’s common shares (including Exor’s 27 %) have voted in favour, leaving roughly 27 % of the common shares held by non‑voting shareholders that need to be convinced, assuming those who voted against do not subscribe. The offer price was increased on 9 October from €14.10 per share to €14.40 per share, and the combined business is projected to generate annual revenue of about €21 billion and sell over 590,000 vehicles.",
+       "citations": [
+        1
+       ]
+      },
+      {
+       "text": "Iveco Group shareholders approved all resolutions related to Tata Motors’ voluntary public tender offer, cutting the minimum acceptance threshold from 95 % to 80 % of Iveco’s common shares. The tender offer price was raised by TML CV Holdings to €14.40 per share (up from €14.10), and the tender is scheduled to close on 26 October, subject to remaining conditions.",
+       "citations": [
+        4,
+        5
+       ]
+      },
+      {
+       "text": "For Q2 FY27, analysts expect Tata Motors CV revenue of Rs 24,218.4 crore (up 43.6 % YoY and 25.3 % QoQ) per JM Financial or Rs 24,638.1 crore (up 45.4 % YoY) per Motilal Oswal, with volume of 1,35,114 units (JM) to 1,37,339 units (MOFSL), driven by a 53.1 % YoY rise in light commercial vehicles and a 31 % YoY rise in medium‑heavy commercial vehicles. Adjusted profit after tax is projected to increase 44.3 % YoY (JM) or 25.7 % YoY (MOFSL), while margins remain under pressure despite a 2.5 % net price hike since July.",
+       "citations": [
+        2
+       ]
+      },
+      {
+       "text": "Tata Motors overtook Mahindra & Mahindra to become India’s second‑largest passenger‑vehicle manufacturer in the April‑September 2026 period, with passenger‑vehicle dispatches rising 43 % to over 3.9 lakh units, while Mahindra logged just under 3.6 lakh units (≈20 % growth). The overall industry saw domestic dispatches increase 28.3 % to around 26.4 lakh units.",
+       "citations": [
+        3
+       ]
+      }
+     ],
+     "industry_context": [
+      {
+       "text": "The Indian passenger‑vehicle market expanded 28.3 % in domestic dispatches to about 26.4 lakh units in the April‑September 2026 period, indicating strong sector demand.",
+       "citations": [
+        3
+       ]
+      }
+     ],
+     "not_used": []
+    },
+    "message": "",
+    "removed": [],
+    "attempts": 2,
+    "origin": "live",
+    "headlines": [
+     {
+      "id": 1,
+      "title": "Silent shareholders hold the key to Tata Motors' Iveco deal",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/news/tata-motors-iveco-deal-status-shareholder-approval-11792483781433.html"
+     },
+     {
+      "id": 2,
+      "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-q2-results-preview-profit-may-rise-up-to-44-yoy-revenue-45-margins-volume-growth-in-focus/articleshow/135116132.cms"
+     },
+     {
+      "id": 3,
+      "title": "Tata Motors pips Mahindra to be No. 2 car company in April-September",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-motors-pips-mahindra-to-be-no-2-car-co-in-april-september/articleshow/134980266.cms"
+     },
+     {
+      "id": 4,
+      "title": "Iveco Group shareholders approve Tata Motors' takeover proposals",
+      "source": "Business Standard",
+      "published_at": "",
+      "url": "https://www.business-standard.com/industry/auto/iveco-group-shareholders-approve-tata-motors-takeover-proposals-126101600938_1.html"
+     },
+     {
+      "id": 5,
+      "title": "Iveco shareholders approve Tata Motors' takeover bid; acceptance threshold cut to 80 pc",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/industry/auto/lcv-hcv/iveco-shareholders-approve-tata-motors-takeover-bid-acceptance-threshold-cut-to-80-pc/articleshow/134996938.cms"
+     }
+    ],
+    "problems": {
+     "structural": [],
+     "numbers": [],
+     "sources": []
+    },
+    "repairs": [],
+    "design": "brief_first",
+    "seconds": 210.7,
+    "usage": {
+     "calls": 7,
+     "requests": [
+      {
+       "estimated": 4829,
+       "prompt_chars": 4536,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 4905,
+       "prompt_chars": 4594,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 4457,
+       "prompt_chars": 2563,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 4749,
+       "prompt_chars": 3674,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 4869,
+       "prompt_chars": 4160,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 5100,
+       "prompt_chars": 5096,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 5215,
+       "prompt_chars": 5316,
+       "outcome": "answered"
+      }
+     ],
+     "finish_reasons": [
+      "stop",
+      "stop",
+      "stop",
+      "stop",
+      "stop",
+      "stop",
+      "stop"
+     ],
+     "input_tokens": 7199,
+     "output_tokens": 7862,
+     "reasoning_tokens": 5571,
+     "largest_call": 3792
+    },
+    "failures": [],
+    "prompt_chars": 29939,
+    "bad_answers": []
+   },
+   "checks": {
+    "summary_produced": true,
+    "no_source_wording": true,
+    "every_answer_valid_json": true,
+    "every_request_answered": true
+   }
+  }
+ ]
+}

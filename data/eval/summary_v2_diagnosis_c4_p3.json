@@ -1,0 +1,315 @@
+{
+ "version": "4",
+ "prompt_version": "3",
+ "number_check": "1",
+ "model": "openai/gpt-oss-120b",
+ "generation": {
+  "temperature": 1.0,
+  "reasoning_effort": "medium",
+  "max_completion_tokens": 4096
+ },
+ "output_limit_sent": 4096,
+ "k": 5,
+ "records": [
+  {
+   "run": "2026-10-14",
+   "design": "direct",
+   "k": 5,
+   "articles": [
+    {
+     "id": 1,
+     "key": "A33d2a07840",
+     "title": "Tata Motors raises Iveco takeover offer price to 14.40 euro per share"
+    },
+    {
+     "id": 2,
+     "key": "A59aa7b0222",
+     "title": "No higher bid: Tata Motors’ final price faces crucial test as Iveco shareholders hold the key"
+    },
+    {
+     "id": 3,
+     "key": "A1f7d47f39c",
+     "title": "Stellantis and Tata Motors Passenger Vehicles broaden partnership to develop vehicles in Pune"
+    },
+    {
+     "id": 4,
+     "key": "A947c84dec7",
+     "title": "Tata Motors, Stellantis expand partnership: New deal details explained"
+    },
+    {
+     "id": 5,
+     "key": "A986c846cdc",
+     "title": "Tata Motors sweetens Iveco offer as key investors hold out"
+    }
+   ],
+   "result": {
+    "status": "partial",
+    "summary": {
+     "article_briefs": [
+      {
+       "id": 1,
+       "brief": "",
+       "enough_text": true,
+       "hidden": true
+      },
+      {
+       "id": 2,
+       "brief": "Tata Motors’ €3.91‑billion, \"best and final\" offer of €14.40 a share for Iveco Group has entered a decisive phase, with a key shareholder vote that could lower the minimum acceptance threshold from 95% to 80%. Exor, Iveco’s largest shareholder, holds a 27.06% stake (43% of voting rights) and supports the deal. Around 20% of shares are held by Davidson Kempner, Syquant Capital and Petrus Advisers, whose participation is critical. Analysts note that a failed transaction would hit Iveco harder than Tata Motors.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 3,
+       "brief": "Stellantis India, Tata Motors Passenger Vehicles (TMPV) and its subsidiary Tata Passenger Electric Mobility signed a definitive agreement expanding their long‑standing partnership into advanced vehicle technology and product collaboration. TMPV will give Stellantis access to its product technology and vehicle architecture; vehicles will be manufactured in India at Fiat India Automobiles Private Limited (FIAPL), the 50:50 joint venture between TMPV and Stellantis, targeting more than 50 global markets.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 4,
+       "brief": "Tata Motors Passenger Vehicles and Stellantis have formalised an expanded partnership that combines Tata’s vehicle architecture with Stellantis’ global product development expertise. Building on a February 2026 MoU, the definitive agreement focuses on developing vehicles in India for over 50 markets, with manufacturing at the FIAPL 50:50 joint venture, aiming to boost India’s export capacity in the automotive sector.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 5,
+       "brief": "Tata Motors raised its offer for Iveco to €14.40 per share (a 2% increase) on 9 October, calling it its \"best and final\" price. Three large shareholders – Davidson Kempner, Syquant Capital and Petrus Advisers – holding about 20.4% of Iveco’s common shares have not tendered, leaving overall acceptance at only 28.4% of shares. Exor has tendered its 27.06% stake. The deal, announced on 30 July 2025 at €3.8 billion (excluding defence), aims to create a global commercial‑vehicle business with roughly €21 billion revenue.",
+       "enough_text": true,
+       "hidden": false
+      }
+     ],
+     "key_points": [
+      {
+       "text": "The €14.40 per share offer is final and the deal now depends on shareholder approvals, with a possible reduction of the acceptance threshold from 95% to 80%; Exor holds 27.06% of Iveco shares (43% voting rights) and backs the transaction.",
+       "citations": [
+        2
+       ]
+      },
+      {
+       "text": "If completed, the acquisition would create a global commercial‑vehicle group with roughly €21 billion in annual revenue and about 5,90,000 vehicles sold each year.",
+       "citations": [
+        2,
+        5
+       ]
+      },
+      {
+       "text": "Tata Motors seeks the deal to gain a foothold in Europe and Latin America, broaden its truck and bus portfolio, and support its electric‑vehicle expansion.",
+       "citations": [
+        2,
+        5
+       ]
+      },
+      {
+       "text": "Tata Motors Passenger Vehicles and Stellantis have expanded their partnership to co‑develop vehicles using Tata’s architecture and Stellantis’ engineering, with manufacturing in India at the 50:50 FIAPL joint venture for more than 50 global markets.",
+       "citations": [
+        3,
+        4
+       ]
+      }
+     ],
+     "industry_context": [
+      {
+       "text": "Europe’s commercial‑vehicle market is undergoing a costly transition to cleaner vehicles, making a larger, integrated group strategically valuable for meeting emission targets.",
+       "citations": [
+        2
+       ]
+      },
+      {
+       "text": "The Tata‑Stellantis collaboration reflects a broader industry trend of global automotive partnerships that share technology platforms and leverage India’s manufacturing capacity for export to multiple markets.",
+       "citations": [
+        3,
+        4
+       ]
+      }
+     ],
+     "not_used": [
+      {
+       "id": 1,
+       "reason": "Point omitted: its numerical information cannot be confirmed from the available article excerpts."
+      }
+     ]
+    },
+    "message": "3 summary points are omitted because their numerical information cannot be confirmed from the available article excerpts.",
+    "removed": [
+     {
+      "section": "key_points",
+      "text": "Tata Motors increased its offer for Iveco to €14.40 per share, valuing the transaction at €3.91 billion, a 33.47% premium over 17 July 2025 and a 6.77% premium over 29 July 2025; the increase is funded partly by an €85 million credit facility.",
+      "reason": "numbers"
+     },
+     {
+      "section": "key_points",
+      "text": "Approximately 20% of Iveco’s shares are held by Davidson Kempner, Syquant Capital and Petrus Advisers, whose lack of tendering puts the acquisition at risk; overall acceptance is only 28.4% of shares.",
+      "reason": "numbers"
+     },
+     {
+      "section": "article_briefs",
+      "id": 1,
+      "text": "Tata Motors increased its all‑cash voluntary tender offer for Iveco to €14.40 per share, valuing the transaction at €3.91 billion (up from €3.82 billion). The revised price represents a 33.47% premium over Iveco's share price on 17 July 2025 and a 6.77% premium over the price on 29 July 2025. The acceptance period runs from 7 September to 26 October 2026, with an extraordinary general meeting on 16 October. Funding includes an €85 million credit facility with MUFG Bank. Tata Motors said the price will not be increased further.",
+      "reason": "numbers"
+     }
+    ],
+    "attempts": 1,
+    "origin": "live",
+    "headlines": [
+     {
+      "id": 1,
+      "title": "Tata Motors raises Iveco takeover offer price to 14.40 euro per share",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-raises-iveco-takeover-offer-price-to-14-40-euro-per-share/articleshow/134848656.cms"
+     },
+     {
+      "id": 2,
+      "title": "No higher bid: Tata Motors’ final price faces crucial test as Iveco shareholders hold the key",
+      "source": "BusinessLine",
+      "published_at": "",
+      "url": "https://www.thehindubusinessline.com/companies/no-higher-bid-tata-motors-final-price-faces-crucial-test-as-iveco-shareholders-hold-the-key/article71575128.ece"
+     },
+     {
+      "id": 3,
+      "title": "Stellantis and Tata Motors Passenger Vehicles broaden partnership to develop vehicles in Pune",
+      "source": "BusinessLine",
+      "published_at": "",
+      "url": "https://www.thehindubusinessline.com/companies/stellantis-and-tata-motors-passenger-vehicles-broaden-partnership-to-develop-vehicles-in-pune/article71574881.ece"
+     },
+     {
+      "id": 4,
+      "title": "Tata Motors, Stellantis expand partnership: New deal details explained",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://timesofindia.indiatimes.com/auto/cars/tata-motors-stellantis-expand-partnership-new-deal-details-explained/articleshow/134911814.cms"
+     },
+     {
+      "id": 5,
+      "title": "Tata Motors sweetens Iveco offer as key investors hold out",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/tata-motors-iveco-acquisition-deal-status-11791713827262.html"
+     }
+    ],
+    "problems": {
+     "structural": [],
+     "numbers": [
+      {
+       "section": "article_briefs",
+       "index": 0,
+       "numbers": [
+        "€14.40",
+        "€3.91 billion",
+        "€3.82 billion",
+        "€85 million"
+       ]
+      },
+      {
+       "section": "key_points",
+       "index": 0,
+       "numbers": [
+        "€14.40",
+        "€3.91 billion",
+        "€85 million"
+       ]
+      },
+      {
+       "section": "key_points",
+       "index": 2,
+       "numbers": [
+        "20%"
+       ]
+      }
+     ],
+     "sources": []
+    },
+    "repairs": [
+     {
+      "section": "article_briefs",
+      "index": 0,
+      "numbers": [
+       "€14.40",
+       "€3.91 billion",
+       "€3.82 billion",
+       "€85 million"
+      ],
+      "references": [],
+      "before": "Tata Motors increased its all‑cash voluntary tender offer for Iveco to €14.40 per share, valuing the transaction at €3.91 billion (up from €3.82 billion). The revised price represents a 33.47% premium over Iveco's share price on 17 July 2025 and a 6.77% premium over the price on 29 July 2025. The acceptance period runs from 7 September to 26 October 2026, with an extraordinary general meeting on 16 October. Funding includes an €85 million credit facility with MUFG Bank. Tata Motors said the price will not be increased further.",
+      "after": null,
+      "ok": false,
+      "tries": 1
+     }
+    ],
+    "attempt_log": [
+     {
+      "attempt": 1,
+      "valid_json": true,
+      "structural": [],
+      "numbers": [
+       {
+        "section": "article_briefs",
+        "index": 0
+       },
+       {
+        "section": "key_points",
+        "index": 0
+       },
+       {
+        "section": "key_points",
+        "index": 2
+       }
+      ],
+      "sources": []
+     }
+    ],
+    "correction": "targeted",
+    "design": "direct",
+    "seconds": 60.2,
+    "usage": {
+     "calls": 1,
+     "requests": [
+      {
+       "estimated": 9276,
+       "prompt_chars": 15537,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 4860,
+       "prompt_chars": 3718,
+       "outcome": "provider_daily_limit"
+      }
+     ],
+     "per_call": [
+      {
+       "input": 3186,
+       "output": 2828,
+       "reasoning": 1580,
+       "cached": 0,
+       "estimated": 9276,
+       "prompt_chars": 15537,
+       "finish_reason": "stop",
+       "sent_at": 0.031,
+       "window_used": 0,
+       "provider_remaining": null,
+       "header_age": null,
+       "answered_at": 7.141
+      }
+     ],
+     "finish_reasons": [
+      "stop"
+     ],
+     "input_tokens": 3186,
+     "output_tokens": 2828,
+     "reasoning_tokens": 1580,
+     "largest_call": 6014
+    },
+    "failures": [
+     "daily_limit"
+    ],
+    "failure_waits": [
+     {
+      "kind": "daily_limit",
+      "wait_seconds": 1561.68
+     }
+    ],
+    "prompt_chars": 19255,
+    "bad_answers": []
+   }
+  }
+ ]
+}

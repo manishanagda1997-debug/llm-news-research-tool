@@ -1,0 +1,45 @@
+{
+ "stage": "Stage 1 on full text, broad",
+ "records": [
+  {
+   "label_file": "v3_dev_tata_motors.csv",
+   "guide_version": "3",
+   "relevant_articles": 48,
+   "relevant_kept": 45,
+   "relevant_missed": 3,
+   "kept": 63,
+   "kept_not_relevant": 18,
+   "precision": 0.7142857142857143,
+   "recall": 0.9375,
+   "f1": 0.8108108108108109,
+   "stories_relevant": 43,
+   "stories_covered": 42,
+   "definitions": {
+    "recall": "relevant articles Stage 1 keeps / all relevant articles (direct or indirect)",
+    "precision": "relevant articles Stage 1 keeps / all articles Stage 1 keeps",
+    "f1": "the harmonic mean of precision and recall",
+    "stories": "relevant stories (copies of one headline counted once) with at least one copy kept"
+   }
+  },
+  {
+   "label_file": "v3_dev_tata_motors_checked.csv",
+   "guide_version": "3",
+   "relevant_articles": 47,
+   "relevant_kept": 45,
+   "relevant_missed": 2,
+   "kept": 63,
+   "kept_not_relevant": 18,
+   "precision": 0.7142857142857143,
+   "recall": 0.9574468085106383,
+   "f1": 0.8181818181818182,
+   "stories_relevant": 42,
+   "stories_covered": 42,
+   "definitions": {
+    "recall": "relevant articles Stage 1 keeps / all relevant articles (direct or indirect)",
+    "precision": "relevant articles Stage 1 keeps / all articles Stage 1 keeps",
+    "f1": "the harmonic mean of precision and recall",
+    "stories": "relevant stories (copies of one headline counted once) with at least one copy kept"
+   }
+  }
+ ]
+}

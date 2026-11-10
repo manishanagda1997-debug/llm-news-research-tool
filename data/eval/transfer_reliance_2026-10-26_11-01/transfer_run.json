@@ -1,0 +1,1455 @@
+{
+ "run_id": "transfer_reliance_2026-10-26_11-01",
+ "company": "Reliance Industries",
+ "attempt_id": "328574c0823b4584846ac48ff8ba587f",
+ "source_commit": "ddbf013de967b74bafab0db2191dcecf72e7031c",
+ "confirmation": "The user confirms no Groq use in the 24 hours before the run. The program cannot see the Groq usage; this is the user's statement, not a check made by the code.",
+ "order": [
+  "summary",
+  "pause 61 s",
+  "relevance"
+ ],
+ "candidates": [
+  {
+   "key": "A6327d7dcd9",
+   "title": "India's largest share sale could end cheap mobile internet for millions",
+   "url": "https://www.bbc.co.uk/news/articles/cw78pe7vlej5o"
+  },
+  {
+   "key": "Abc6b4e151b",
+   "title": "How Ambani’s Jio became India’s second-largest company",
+   "url": "https://www.aljazeera.com/news/2026/10/31/how-ambanis-jio-became-indias-second-largest-company"
+  },
+  {
+   "key": "Acd4e761cac",
+   "title": "Reliance Industries to dissolve Hamleys Franchising subsidiary in UK",
+   "url": "https://www.thehindubusinessline.com/companies/reliance-industries-to-dissolve-hamleys-franchising-subsidiary-in-uk/article71639422.ece"
+  },
+  {
+   "key": "A91d38e992b",
+   "title": "Ambani's Jio to make Mumbai trading debut after record US$3.2 billion India IPO",
+   "url": "https://www.channelnewsasia.com/asia/ambani-jio-mumbai-trading-debut-record-32-billion-india-ipo-6498426"
+  },
+  {
+   "key": "A93923b4582",
+   "title": "Indian billionaire eyes Dutch energy storage firm – media",
+   "url": "https://rt-english.com/india/648037-indian-billionaire-dutch-acquisition/"
+  },
+  {
+   "key": "A48f751040f",
+   "title": "Reliance Industries seen posting double-digit Q2FY27 EBITDA growth on strong O2C, Jio performance",
+   "url": "https://www.thehindubusinessline.com/companies/reliance-industries-seen-posting-double-digit-q2fy27-ebitda-growth-on-strong-o2c-jio-performance/article71635601.ece"
+  },
+  {
+   "key": "A6b45552a81",
+   "title": "Sensex today | Stock Market Highlights: Sensex declines 353 points dragged by Reliance, IT stocks, rising crude oil prices",
+   "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-28-october-2026/article71631075.ece"
+  },
+  {
+   "key": "A24aa7be32c",
+   "title": "Reliance Industries Q2 Results: Profit shoots up 41% YoY to Rs 25,548 crore, revenue surges 29%",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-industries-q2-results-profit-shoots-up-41-yoy-to-rs-25548-crore-revenue-up-12/articleshow/135361960.cms"
+  },
+  {
+   "key": "Ad38c658ab4",
+   "title": "Reliance Industries Q2 net rises 34% to Rs 29,550 crore",
+   "url": "https://timesofindia.indiatimes.com/business/india-business/reliance-industries-q2-net-rises-34-to-rs-29550-crore/articleshow/135378733.cms"
+  },
+  {
+   "key": "Af4cd4942da",
+   "title": "Reliance Industries shares down 26% in 2026: Here’s how to trade RIL stocks on results day",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/reliance-industries-shares-down-26-in-2026-heres-how-to-trade-ril-stocks-on-results-day/articleshow/135342949.cms"
+  },
+  {
+   "key": "A6859a0fafd",
+   "title": "Reliance Industries announces fundraising, to raise Rs 15,000 crore through NCDs",
+   "url": "https://economictimes.indiatimes.com/markets/bonds/reliance-industries-to-raise-rs-15000-crore-via-ncds/articleshow/135366327.cms"
+  },
+  {
+   "key": "Ae0b5e75023",
+   "title": "Negative bias seen amid global headwinds",
+   "url": "https://www.thehindubusinessline.com/markets/negative-bias-seen-amid-global-headwinds/article71643399.ece"
+  },
+  {
+   "key": "Afeb3fc625f",
+   "title": "Jio Platforms closes 26% above IPO price on debut",
+   "url": "https://biztoc.com/x/34cd688e03b9561f"
+  },
+  {
+   "key": "A5d104bab89",
+   "title": "Jio Platforms jumps over 21% in market debut",
+   "url": "https://biztoc.com/x/ec2f1db0d4c08fa7"
+  },
+  {
+   "key": "Abeec2427db",
+   "title": "On debut, Jio 2nd most valuable company, behind only parent Reliance Industries",
+   "url": "https://timesofindia.indiatimes.com/business/india-business/on-debut-jio-2nd-most-valuable-company-behind-only-parent-reliance-industries/articleshow/135283604.cms"
+  },
+  {
+   "key": "A8d1bf9aa61",
+   "title": "Powered by fuel earnings, Reliance Industries tops Sep quarter estimates",
+   "url": "https://www.business-standard.com/companies/news/powered-by-fuel-earnings-reliance-industries-tops-sep-quarter-estimates-126103001999_1.html"
+  },
+  {
+   "key": "A679c6b9357",
+   "title": "Jio makes its D-Street debut: What it means for Reliance Industries investors and the road ahead",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/jio-makes-its-d-street-debut-what-it-means-for-reliance-industries-investors-and-the-road-ahead/articleshow/135252754.cms"
+  },
+  {
+   "key": "A1d192a0338",
+   "title": "Where are mutual funds investing your money? These stocks saw the biggest buying in September 2026. Check full list",
+   "url": "https://www.livemint.com/money/personal-finance/where-are-mutual-funds-investing-your-money-these-stocks-saw-the-biggest-buying-in-september-2026-check-full-list-11793106475931.html"
+  },
+  {
+   "key": "A776a2efbe7",
+   "title": "Jio’s Blockbuster I.P.O. Gives India’s Investors a Lift",
+   "url": "https://biztoc.com/x/9a76be011b2a5bcf"
+  },
+  {
+   "key": "A13f2690a9c",
+   "title": "Reliance Industries board to consider fund-raise on Oct 30",
+   "url": "https://timesofindia.indiatimes.com/business/india-business/reliance-industries-board-to-consider-fund-raise-on-oct-30/articleshow/135249463.cms"
+  },
+  {
+   "key": "Ac9f5d2dea1",
+   "title": "Isha Ambani says Jio IPO marks a promise, renews Dhirubhai Ambani’s trust with investors",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/isha-ambani-says-jio-ipo-marks-a-promise-renews-dhirubhai-ambanis-trust-with-investors/articleshow/135253885.cms"
+  },
+  {
+   "key": "A83ee698971",
+   "title": "Potential LTCG tax cut could revive FIIs’ India bet, says Jefferies: Which stocks may benefit most?",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/potential-ltcg-tax-cut-could-revive-fiis-india-bet-says-jefferies-which-stocks-may-benefit-most/articleshow/135290083.cms"
+  },
+  {
+   "key": "Aaddc2e4810",
+   "title": "From 104 shareholders to nearly 80 lakh! Jio becomes India's most widely owned stock on listing day",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/from-104-shareholders-to-nearly-80-lakh-jio-becomes-indias-most-widely-owned-stock-on-listing-day/articleshow/135262546.cms"
+  },
+  {
+   "key": "Acd5365899b",
+   "title": "RIL shares in focus ahead of Oct 30 earnings, fundraising decision; all eyes on Jio’s mega listing",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/ril-shares-in-focus-ahead-of-oct-30-earnings-fundraising-decision-all-eyes-on-jios-mega-listing/articleshow/135251085.cms"
+  },
+  {
+   "key": "A2f41a6dbf2",
+   "title": "Reliance Jio Platforms: Should mutual fund investors watch for overlapping exposure to RIL or Bharti Airtel? Decoded",
+   "url": "https://www.livemint.com/money/personal-finance/reliance-jio-platforms-should-mutual-fund-investors-watch-for-overlapping-exposure-to-ril-or-bharti-airtel-decoded-11793267580865.html"
+  },
+  {
+   "key": "Ae8f3172b06",
+   "title": "JioStar Q2 PAT falls 13.2% to ₹1,147 crore; revenue rises 9.8%",
+   "url": "https://www.thehindubusinessline.com/companies/jiostar-q2-pat-falls-132-to-1147-crore-revenue-rises-98/article71648181.ece"
+  },
+  {
+   "key": "A0b97063342",
+   "title": "SC appoints ex-judge Ranjana Desai as mediator in Reliance gas dispute",
+   "url": "https://economictimes.indiatimes.com/news/india/supreme-court-appoints-ranjana-desai-as-mediator-in-reliance-ongc-gas-dispute/articleshow/135348853.cms"
+  },
+  {
+   "key": "Ade9b2247fb",
+   "title": "Reliance Industries Q2 Results 2026 Live: Jio Platforms, RIL set to announce Q2 results today. Check brokerage estimates",
+   "url": "https://m.economictimes.com/markets/stocks/live-blog/ril-jio-platforms-q2-results-2026-live-updates-reliance-industries-jpl-quarter-2-earnings-result-fy27-revenue-dividend-share-price/liveblog/135351601.cms"
+  },
+  {
+   "key": "A4be4241ad3",
+   "title": "Jio Platforms IPO draws record ₹7 lakh crore in bids, subscribed 22.2 times",
+   "url": "https://www.thehindubusinessline.com/markets/jio-platforms-ipo-draws-record-7-lakh-crore-in-bids-subscribed-222-times/article71625744.ece"
+  },
+  {
+   "key": "Acf9057274d",
+   "title": "Jio Platforms shares surge 21% on debut, overtake Airtel in market cap",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/jio-platforms-surges-21-on-debut-overtakes-bharti-airtel/articleshow/135285038.cms"
+  },
+  {
+   "key": "Ae206e22d4f",
+   "title": "Reliance Retail Q2 profit falls 24.3%, revenue rises 5.8% to ₹80,220 cr",
+   "url": "https://www.business-standard.com/companies/quarterly-results/reliance-retail-q2-profit-falls-24-3-revenue-rises-5-8-to-80-220-cr-126103001716_1.html"
+  },
+  {
+   "key": "A102f553372",
+   "title": "Jio Platforms shares to list on BSE, NSE tomorrow; GMP signals 22% premium",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/jio-platforms-shares-to-list-on-bse-nse-tomorrow-gmp-signals-22-premium/articleshow/135226292.cms"
+  },
+  {
+   "key": "A4aaa16a4c3",
+   "title": "Jio Platforms set for steady Q2 growth; tariff hikes remain in focus",
+   "url": "https://www.livemint.com/companies/news/jio-platforms-q2-results-arpu-revenue-tariff-hike-11793245045087.html"
+  },
+  {
+   "key": "A67b965f9cc",
+   "title": "Jio Platforms Q2FY27 profit rises 14% in first post-listing results",
+   "url": "https://www.livemint.com/companies/company-results/jio-platforms-reliance-industries-q2fy27-results-quarterly-earnings-stock-market-debut-subscriber-additions-11793345497424.html"
+  },
+  {
+   "key": "Aec9c9fa25c",
+   "title": "Jio Platforms Listing Today: Rs 30,213 crore IPO eyes strong debut on Dalal Street",
+   "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/indias-biggest-listing-jio-shares-to-debut-today-what-to-expect-from-gmp-and-analysts/articleshow/135245742.cms"
+  },
+  {
+   "key": "A49466e8bb5",
+   "title": "Jio IPO allotment likely today: GMP signals 22% listing gains — Here’s how to check status",
+   "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-allotment-likely-today-gmp-signals-22-listing-gains-heres-how-to-check-status/articleshow/135201263.cms"
+  },
+  {
+   "key": "Ab9292b5e5c",
+   "title": "Jio IPO listing ceremony: Response surpassed our expectations, says Akash Ambani, MD of Jio Platforms Limited",
+   "url": "https://www.livemint.com/companies/people/jio-ipo-listing-ceremony-response-surpassed-our-expectations-says-akash-ambani-md-of-jio-platforms-limited-11793162060351.html"
+  },
+  {
+   "key": "A37950893f8",
+   "title": "Jio Platforms IPO allotment out; shares set to list tomorrow",
+   "url": "https://www.thehindubusinessline.com/markets/stock-markets/jio-platforms-ipo-allotment-out-shares-set-to-list-tomorrow/article71630048.ece"
+  },
+  {
+   "key": "Ae6a826edf9",
+   "title": "Jio & let Jio, India’s crackling telco space",
+   "url": "https://economictimes.indiatimes.com/opinion/et-editorial/jio-let-jio-indias-crackling-telco-space/articleshow/135327295.cms"
+  },
+  {
+   "key": "A2e297acdc0",
+   "title": "Jio Platforms Share Price & IPO Listing Live: Mukesh Ambani's Jio set for trading debut after record IPO",
+   "url": "https://www.thehindubusinessline.com/markets/jio-platforms-share-price-jio-platforms-ipo-listing-live-updates/article71630928.ece"
+  },
+  {
+   "key": "A09ef9a03c8",
+   "title": "Ambani pulls off a blockbuster: Jio IPO makes 13 records, rewrites Dalal Street history",
+   "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ambani-pulls-off-a-blockbuster-jio-ipo-makes-13-records-rewrites-dalal-street-history/articleshow/135251207.cms"
+  },
+  {
+   "key": "Ae2b548c66d",
+   "title": "Jio after listing: 5 factors that could drive big returns for long-term investors",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/jio-after-listing-5-factors-that-could-drive-big-returns-for-long-term-investors/articleshow/135252625.cms"
+  },
+  {
+   "key": "A12d409b786",
+   "title": "Ambani's Jio surges 21% in Mumbai debut after record $3.2 billion India IPO",
+   "url": "https://biztoc.com/x/81f5ddc1ff71cfb5"
+  },
+  {
+   "key": "Aadbe12435e",
+   "title": "Jio’s halo brightens momentum for mega deals in India pipeline",
+   "url": "https://www.thehindubusinessline.com/markets/jios-halo-brightens-momentum-for-mega-deals-in-india-pipeline/article71643590.ece"
+  },
+  {
+   "key": "A34cc1f07ea",
+   "title": "Reliance Retail Q2 profit takes a hit on Qcomm push",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-retail-q2-profit-takes-a-hit-on-qcomm-push/articleshow/135387788.cms"
+  },
+  {
+   "key": "A3c98187b3c",
+   "title": "Reliance Retail profit falls 24% in Q2; FMCG revenue rises 60%",
+   "url": "https://www.thehindubusinessline.com/companies/reliance-retail-profit-falls-24-in-q2-fmcg-revenue-rises-60/article71646330.ece"
+  },
+  {
+   "key": "A5325027e0c",
+   "title": "Jio vs Starlink makes for a billionaire clash, but India’s satcom race is a minefield in the skies",
+   "url": "https://economictimes.indiatimes.com/opinion/et-commentary/jio-vs-starlink-makes-for-a-billionaire-clash-but-indias-satcom-race-is-a-minefield-in-the-skies/articleshow/135216501.cms"
+  },
+  {
+   "key": "Ae94d963f4d",
+   "title": "Will Rs 5 lakh crore bet on Jio open floodgates for India's mega IPOs?",
+   "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/will-rs-5-lakh-crore-bet-on-jio-open-floodgates-for-indias-mega-ipos/articleshow/135224079.cms"
+  },
+  {
+   "key": "A7d36501ae2",
+   "title": "Jio Platforms and RPower: A tale of two blockbuster IPOs",
+   "url": "https://www.thehindubusinessline.com/markets/jio-platforms-and-rpower-a-tale-of-two-blockbuster-ipos/article71645085.ece"
+  },
+  {
+   "key": "A30c4939733",
+   "title": "Jio nears global telecom top five by market cap; monetization in focus",
+   "url": "https://www.livemint.com/companies/news/jio-nears-global-telecom-top-five-by-market-cap-monetization-in-focus-11793183311157.html"
+  },
+  {
+   "key": "A05f2dccc6e",
+   "title": "From AI to cloud and connectivity from space: Akash Ambani announces Jio's plans to expand beyond affordable data",
+   "url": "https://www.livemint.com/companies/news/from-ai-to-cloud-and-connectivity-from-space-akash-ambani-announces-jios-plans-to-expand-beyond-affordable-data-11793179524098.html"
+  },
+  {
+   "key": "A29f385d64b",
+   "title": "Everything you need to know about Jio Platforms IPO, from issue to listing",
+   "url": "https://www.thehindubusinessline.com/Package/everything-you-need-to-know-about-jio-platforms-ipo-from-issue-to-listing/article71634461.ece"
+  },
+  {
+   "key": "A14d0023fe8",
+   "title": "Just Dial wants more paying merchants. Software is its next big bet",
+   "url": "https://www.livemint.com/companies/news/just-dial-wants-more-paying-merchants-software-is-its-next-big-bet-11793102253210.html"
+  }
+ ],
+ "selections": {
+  "retrieval_order": {
+   "5": [
+    "A6327d7dcd9",
+    "Abc6b4e151b",
+    "Acd4e761cac",
+    "A91d38e992b",
+    "A93923b4582"
+   ],
+   "10": [
+    "A6327d7dcd9",
+    "Abc6b4e151b",
+    "Acd4e761cac",
+    "A91d38e992b",
+    "A93923b4582",
+    "A48f751040f",
+    "A6b45552a81",
+    "A24aa7be32c",
+    "Ad38c658ab4",
+    "Af4cd4942da"
+   ],
+   "15": [
+    "A6327d7dcd9",
+    "Abc6b4e151b",
+    "Acd4e761cac",
+    "A91d38e992b",
+    "A93923b4582",
+    "A48f751040f",
+    "A6b45552a81",
+    "A24aa7be32c",
+    "Ad38c658ab4",
+    "Af4cd4942da",
+    "A6859a0fafd",
+    "Ae0b5e75023",
+    "Afeb3fc625f",
+    "A5d104bab89",
+    "Abeec2427db"
+   ]
+  },
+  "O1+S1": {
+   "5": [
+    "Acd4e761cac",
+    "A48f751040f",
+    "A24aa7be32c",
+    "Ad38c658ab4",
+    "Af4cd4942da"
+   ],
+   "10": [
+    "Acd4e761cac",
+    "A48f751040f",
+    "A24aa7be32c",
+    "Ad38c658ab4",
+    "Af4cd4942da",
+    "A6859a0fafd",
+    "Afeb3fc625f",
+    "A5d104bab89",
+    "Abeec2427db",
+    "A8d1bf9aa61"
+   ],
+   "15": [
+    "Acd4e761cac",
+    "A48f751040f",
+    "A24aa7be32c",
+    "Ad38c658ab4",
+    "Af4cd4942da",
+    "A6859a0fafd",
+    "Afeb3fc625f",
+    "A5d104bab89",
+    "Abeec2427db",
+    "A8d1bf9aa61",
+    "A679c6b9357",
+    "A13f2690a9c",
+    "Acd5365899b",
+    "A2f41a6dbf2",
+    "Ade9b2247fb"
+   ]
+  }
+ },
+ "relevance": {
+  "answers": {
+   "A6327d7dcd9": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "The article primarily discusses Jio Platforms' IPO, pricing strategy and market impact, which are core business developments of a Reliance subsidiary.",
+    "source": "model"
+   },
+   "Abc6b4e151b": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "The piece focuses on Jio's growth, IPO valuation and its relationship to Reliance Industries, constituting a direct business development of the group.",
+    "source": "model"
+   },
+   "Acd4e761cac": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Main focus is the dissolution of a Reliance step‑down subsidiary.",
+    "source": "model"
+   },
+   "A91d38e992b": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Article centers on Jio Platforms’ IPO, a Reliance‑controlled business.",
+    "source": "model"
+   },
+   "A93923b4582": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Primary subject is Adani’s potential deal, but it includes a concrete update on Reliance’s US refinery project.",
+    "source": "model"
+   },
+   "A48f751040f": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Mainly discusses RIL's upcoming earnings and segment performance.",
+    "source": "model"
+   },
+   "A6b45552a81": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Market round‑up that reports Jio Platforms' IPO debut, a real business development for Reliance.",
+    "source": "model"
+   },
+   "A24aa7be32c": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Focused on RIL's quarterly results and detailed segment data.",
+    "source": "model"
+   },
+   "Ad38c658ab4": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Centered on RIL's Q2 profit rise and related operational details.",
+    "source": "model"
+   },
+   "Af4cd4942da": {
+    "label": "not",
+    "certainty": "sure",
+    "reason": "Only provides technical trading advice; no substantive business information about Reliance.",
+    "source": "model"
+   },
+   "A6859a0fafd": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Mainly discusses Reliance's fundraising and Q2 results.",
+    "source": "model"
+   },
+   "Ae0b5e75023": {
+    "label": "not",
+    "certainty": "sure",
+    "reason": "Only a market commentary mentioning Reliance in passing.",
+    "source": "model"
+   },
+   "Afeb3fc625f": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Focuses on Jio Platforms' debut performance, a Reliance subsidiary.",
+    "source": "model"
+   },
+   "A5d104bab89": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Centers on Jio Platforms' market debut.",
+    "source": "model"
+   },
+   "Abeec2427db": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Details Jio's debut and its ranking relative to Reliance.",
+    "source": "model"
+   },
+   "A8d1bf9aa61": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Reports Reliance Industries' quarterly earnings and performance.",
+    "source": "model"
+   },
+   "A679c6b9357": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Analyzes Jio's listing and its direct impact on Reliance investors.",
+    "source": "model"
+   },
+   "A1d192a0338": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Provides mutual‑fund buying data for Reliance, a market‑demand development.",
+    "source": "model"
+   },
+   "A776a2efbe7": {
+    "label": "not",
+    "certainty": "sure",
+    "reason": "Only a photo caption with no substantive business information.",
+    "source": "model"
+   },
+   "A13f2690a9c": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Announces Reliance's upcoming board consideration of a fund‑raise.",
+    "source": "model"
+   },
+   "Ac9f5d2dea1": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Mainly discusses Jio Platforms IPO, a Reliance subsidiary, and its business strategy.",
+    "source": "model"
+   },
+   "A83ee698971": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Focuses on LTCG tax policy but mentions Reliance as a potential beneficiary, linking policy to the company.",
+    "source": "model"
+   },
+   "Aaddc2e4810": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Centers on Jio's shareholder base after its listing, directly related to Reliance's subsidiary.",
+    "source": "model"
+   },
+   "Acd5365899b": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Primarily about Reliance Industries' upcoming earnings, fundraise and Jio listing.",
+    "source": "model"
+   },
+   "A2f41a6dbf2": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Discusses mutual‑fund overlap involving Jio and Reliance, providing market‑exposure information.",
+    "source": "model"
+   },
+   "Ae8f3172b06": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Article focuses on JioStar, a Reliance joint venture, reporting its financial and operational performance.",
+    "source": "model"
+   },
+   "A0b97063342": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Article centers on a Supreme Court‑mediated gas dispute involving Reliance Industries' KG‑D6 block.",
+    "source": "model"
+   },
+   "Ade9b2247fb": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Live blog details Reliance Industries' Q2 results and related segment performances.",
+    "source": "model"
+   },
+   "A4be4241ad3": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Article discusses the Jio Platforms IPO, a key Reliance subsidiary, including subscription and proceeds.",
+    "source": "model"
+   },
+   "Acf9057274d": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Article reports on Jio Platforms' share debut and market impact, directly related to Reliance's telecom arm.",
+    "source": "model"
+   },
+   "Ae206e22d4f": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "The article primarily reports Reliance Retail's quarterly financial performance, a subsidiary of Reliance Industries.",
+    "source": "model"
+   },
+   "A102f553372": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "The piece focuses on Jio Platforms' IPO pricing and listing details, a core Reliance Industries subsidiary.",
+    "source": "model"
+   },
+   "A4aaa16a4c3": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "It centers on Jio Platforms' expected Q2 results and tariff‑related analysis, directly concerning the Reliance telecom arm.",
+    "source": "model"
+   },
+   "A67b965f9cc": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "The article details Jio Platforms' Q2FY27 earnings and operational highlights, a direct business unit of Reliance.",
+    "source": "model"
+   },
+   "Aec9c9fa25c": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "The story is about Jio Platforms' IPO listing and market reaction, directly involving Reliance Industries' digital subsidiary.",
+    "source": "model"
+   },
+   "A49466e8bb5": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Mainly about Jio Platforms' IPO allotment, pricing and use of proceeds.",
+    "source": "model"
+   },
+   "Ab9292b5e5c": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Focuses on the Jio IPO listing ceremony and immediate market response.",
+    "source": "model"
+   },
+   "A37950893f8": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Discusses Jio Platforms' IPO allotment results and listing details.",
+    "source": "model"
+   },
+   "Ae6a826edf9": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Analyzes telecom industry trends and AI integration, mentioning Jio as a key player.",
+    "source": "model"
+   },
+   "A2e297acdc0": {
+    "label": "not",
+    "certainty": "sure",
+    "reason": "Provides live share‑price updates without substantive company or sector developments.",
+    "source": "model"
+   },
+   "A09ef9a03c8": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Main focus is Jio Platforms IPO, a Reliance subsidiary, detailing its subscription, proceeds and share allocation.",
+    "source": "model"
+   },
+   "Ae2b548c66d": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Article analyzes Jio's post‑listing growth prospects, subscriber base and financial outlook, directly covering a Reliance business.",
+    "source": "model"
+   },
+   "A12d409b786": {
+    "label": "not",
+    "certainty": "sure",
+    "reason": "Only reports Jio's share price surge on debut without any operational or strategic information.",
+    "source": "model"
+   },
+   "Aadbe12435e": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Discusses how Jio's IPO impacts broader market sentiment and future listings, a sector‑wide effect relevant to Reliance.",
+    "source": "model"
+   },
+   "A34cc1f07ea": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Focuses on Reliance Retail's quarterly earnings, profit hit and strategic investments, directly about a Reliance subsidiary.",
+    "source": "model"
+   },
+   "A3c98187b3c": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Mainly reports Reliance Retail’s quarterly financial performance and related business updates.",
+    "source": "model"
+   },
+   "A5325027e0c": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Focuses on Jio Platforms’ planned satellite LEO network and its competitive context.",
+    "source": "model"
+   },
+   "Ae94d963f4d": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Centers on the Jio Platforms IPO demand, pricing and its implications.",
+    "source": "model"
+   },
+   "A7d36501ae2": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Discusses Jio Platforms’ blockbuster IPO together with RPower, highlighting its market impact.",
+    "source": "model"
+   },
+   "A30c4939733": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Analyzes Jio Platforms’ market‑cap, valuation and future monetisation strategy.",
+    "source": "model"
+   },
+   "A05f2dccc6e": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Mainly discusses Jio Platforms' expansion plans and IPO, a Reliance subsidiary.",
+    "source": "model"
+   },
+   "A29f385d64b": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Focuses on the Jio Platforms IPO details, a core Reliance subsidiary.",
+    "source": "model"
+   },
+   "A14d0023fe8": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Centers on Just Dial's business and performance, owned by Reliance Retail Ventures.",
+    "source": "model"
+   }
+  },
+  "coverage": 1.0,
+  "seconds": 549.2,
+  "runtime": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "llm_stats": {
+    "calls": 11,
+    "rate_limited": 0,
+    "retries": 0,
+    "failures": {},
+    "waits": [
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.765
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.765
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.781
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 56.921
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 58.109
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 56.578
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.968
+     },
+     {
+      "kind": "pacing",
+      "seconds": 55.359
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.047
+     },
+     {
+      "kind": "pacing",
+      "seconds": 3.61
+     },
+     {
+      "kind": "pacing",
+      "seconds": 3.61
+     },
+     {
+      "kind": "pacing",
+      "seconds": 0.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 0.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 0.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 0.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 0.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 0.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 0.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 0.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 0.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.218
+     }
+    ],
+    "waited_seconds": 1313.635,
+    "header_updates": 11,
+    "splits": 5,
+    "input_tokens": 46539,
+    "output_tokens": 8825,
+    "reasoning_tokens": 5851,
+    "per_call": [
+     {
+      "input": 2544,
+      "output": 354,
+      "reasoning": 206,
+      "cached": 0,
+      "estimated": 5476,
+      "prompt_chars": 11926,
+      "finish_reason": "stop",
+      "sent_at": 123.766,
+      "window_used": 0,
+      "provider_remaining": null,
+      "header_age": null,
+      "answered_at": 126.531
+     },
+     {
+      "input": 2878,
+      "output": 548,
+      "reasoning": 370,
+      "cached": 0,
+      "estimated": 4290,
+      "prompt_chars": 13074,
+      "finish_reason": "stop",
+      "sent_at": 126.531,
+      "window_used": 2898,
+      "provider_remaining": 5048,
+      "header_age": 0.0,
+      "answered_at": 128.75
+     },
+     {
+      "input": 4785,
+      "output": 732,
+      "reasoning": 463,
+      "cached": 0,
+      "estimated": 6047,
+      "prompt_chars": 20647,
+      "finish_reason": "stop",
+      "sent_at": 186.531,
+      "window_used": 0,
+      "provider_remaining": 2178,
+      "header_age": 57.796,
+      "answered_at": 189.61
+     },
+     {
+      "input": 4871,
+      "output": 605,
+      "reasoning": 295,
+      "cached": 0,
+      "estimated": 6609,
+      "prompt_chars": 22037,
+      "finish_reason": "stop",
+      "sent_at": 246.531,
+      "window_used": 0,
+      "provider_remaining": 2764,
+      "header_age": 56.921,
+      "answered_at": 248.422
+     },
+     {
+      "input": 4665,
+      "output": 1113,
+      "reasoning": 840,
+      "cached": 0,
+      "estimated": 6197,
+      "prompt_chars": 20260,
+      "finish_reason": "stop",
+      "sent_at": 306.531,
+      "window_used": 0,
+      "provider_remaining": 2397,
+      "header_age": 58.125,
+      "answered_at": 309.953
+     },
+     {
+      "input": 6138,
+      "output": 1504,
+      "reasoning": 1061,
+      "cached": 1024,
+      "estimated": 7891,
+      "prompt_chars": 27572,
+      "finish_reason": "stop",
+      "sent_at": 366.531,
+      "window_used": 0,
+      "provider_remaining": 495,
+      "header_age": 56.578,
+      "answered_at": 371.172
+     },
+     {
+      "input": 5033,
+      "output": 1080,
+      "reasoning": 784,
+      "cached": 0,
+      "estimated": 7195,
+      "prompt_chars": 22927,
+      "finish_reason": "stop",
+      "sent_at": 426.531,
+      "window_used": 0,
+      "provider_remaining": 1466,
+      "header_age": 55.359,
+      "answered_at": 431.094
+     },
+     {
+      "input": 4240,
+      "output": 569,
+      "reasoning": 276,
+      "cached": 1024,
+      "estimated": 6173,
+      "prompt_chars": 18519,
+      "finish_reason": "stop",
+      "sent_at": 490.156,
+      "window_used": 0,
+      "provider_remaining": 127,
+      "header_age": 59.062,
+      "answered_at": 492.594
+     },
+     {
+      "input": 2595,
+      "output": 523,
+      "reasoning": 347,
+      "cached": 1024,
+      "estimated": 4602,
+      "prompt_chars": 11738,
+      "finish_reason": "stop",
+      "sent_at": 550.156,
+      "window_used": 0,
+      "provider_remaining": 2256,
+      "header_age": 57.562,
+      "answered_at": 551.891
+     },
+     {
+      "input": 3967,
+      "output": 938,
+      "reasoning": 629,
+      "cached": 0,
+      "estimated": 6171,
+      "prompt_chars": 18508,
+      "finish_reason": "stop",
+      "sent_at": 610.156,
+      "window_used": 0,
+      "provider_remaining": 2565,
+      "header_age": 58.265,
+      "answered_at": 612.938
+     },
+     {
+      "input": 4823,
+      "output": 859,
+      "reasoning": 580,
+      "cached": 1024,
+      "estimated": 7017,
+      "prompt_chars": 22161,
+      "finish_reason": "stop",
+      "sent_at": 670.156,
+      "window_used": 0,
+      "provider_remaining": 2529,
+      "header_age": 57.218,
+      "answered_at": 672.906
+     }
+    ],
+    "requests": [
+     {
+      "estimated": 13523,
+      "prompt_chars": 36067,
+      "outcome": "preflight_too_large"
+     },
+     {
+      "estimated": 8237,
+      "prompt_chars": 20210,
+      "outcome": "preflight_too_large"
+     },
+     {
+      "estimated": 5476,
+      "prompt_chars": 11926,
+      "outcome": "answered",
+      "admission": "paced",
+      "input_estimate": 3976
+     },
+     {
+      "estimated": 9321,
+      "prompt_chars": 36656,
+      "outcome": "preflight_too_large"
+     },
+     {
+      "estimated": 4290,
+      "prompt_chars": 13074,
+      "outcome": "answered",
+      "admission": "paced",
+      "input_estimate": 2790
+     },
+     {
+      "estimated": 6047,
+      "prompt_chars": 20647,
+      "outcome": "answered",
+      "admission": "paced",
+      "input_estimate": 4547
+     },
+     {
+      "estimated": 10194,
+      "prompt_chars": 37507,
+      "outcome": "preflight_too_large"
+     },
+     {
+      "estimated": 6609,
+      "prompt_chars": 22037,
+      "outcome": "answered",
+      "admission": "paced",
+      "input_estimate": 5109
+     },
+     {
+      "estimated": 6197,
+      "prompt_chars": 20260,
+      "outcome": "answered",
+      "admission": "paced",
+      "input_estimate": 4697
+     },
+     {
+      "estimated": 9817,
+      "prompt_chars": 35879,
+      "outcome": "preflight_too_large"
+     },
+     {
+      "estimated": 7891,
+      "prompt_chars": 27572,
+      "outcome": "answered",
+      "admission": "paced",
+      "input_estimate": 6391
+     },
+     {
+      "estimated": 7195,
+      "prompt_chars": 22927,
+      "outcome": "answered",
+      "admission": "paced",
+      "input_estimate": 5315
+     },
+     {
+      "estimated": 6173,
+      "prompt_chars": 18519,
+      "outcome": "answered",
+      "admission": "paced",
+      "input_estimate": 4293
+     },
+     {
+      "estimated": 4602,
+      "prompt_chars": 11738,
+      "outcome": "answered",
+      "admission": "paced",
+      "input_estimate": 2722
+     },
+     {
+      "estimated": 6171,
+      "prompt_chars": 18508,
+      "outcome": "answered",
+      "admission": "paced",
+      "input_estimate": 4291
+     },
+     {
+      "estimated": 7017,
+      "prompt_chars": 22161,
+      "outcome": "answered",
+      "admission": "paced",
+      "input_estimate": 5137
+     }
+    ]
+   },
+   "candidates": 53,
+   "batches_asked": 6,
+   "workers": 3,
+   "batch_seconds": [
+    65.8,
+    120.4,
+    247.4,
+    368.8,
+    180.7,
+    362.9
+   ],
+   "seconds_total": 549.2,
+   "fallbacks": 0,
+   "from_cache": 0,
+   "kind": "live"
+  }
+ },
+ "summary_record": {
+  "records": [
+   {
+    "run": "transfer_reliance_2026-10-26_11-01",
+    "design": "direct",
+    "k": 5,
+    "articles": [
+     {
+      "id": 1,
+      "key": "Acd4e761cac",
+      "title": "Reliance Industries to dissolve Hamleys Franchising subsidiary in UK"
+     },
+     {
+      "id": 2,
+      "key": "A48f751040f",
+      "title": "Reliance Industries seen posting double-digit Q2FY27 EBITDA growth on strong O2C, Jio performance"
+     },
+     {
+      "id": 3,
+      "key": "A24aa7be32c",
+      "title": "Reliance Industries Q2 Results: Profit shoots up 41% YoY to Rs 25,548 crore, revenue surges 29%"
+     },
+     {
+      "id": 4,
+      "key": "Ad38c658ab4",
+      "title": "Reliance Industries Q2 net rises 34% to Rs 29,550 crore"
+     },
+     {
+      "id": 5,
+      "key": "Af4cd4942da",
+      "title": "Reliance Industries shares down 26% in 2026: Here’s how to trade RIL stocks on results day"
+     }
+    ],
+    "result": {
+     "status": "ok",
+     "summary": {
+      "article_briefs": [
+       {
+        "id": 1,
+        "brief": "Reliance announced the voluntary strike‑off and dissolution of its step‑down subsidiary Hamleys (Franchising) Ltd in the UK, which had a turnover of Rs 56.08 crore in FY 2025 and zero net worth as of 31 Dec 2025. It will be struck off not less than two months from 27 Oct 2026.",
+        "enough_text": true,
+        "hidden": false
+       },
+       {
+        "id": 2,
+        "brief": "Brokerage estimates project Reliance Industries to deliver double‑digit EBITDA growth in Q2 FY27, with O2C EBITDA expected to rise 12 % qoq and 38 % yoy, supported by strong Singapore gross refining margins, while retail is forecast to lag and Jio Platforms is slated for steady growth after its recent IPO.",
+        "enough_text": true,
+        "hidden": false
+       },
+       {
+        "id": 3,
+        "brief": "In Q2 FY27 Reliance posted a 41 % YoY profit increase to Rs 25,548 crore, revenue up 29 % to Rs 3.32 lakh crore, O2C EBITDA surged 68 % YoY to Rs 25,203 crore, and the board authorised up to Rs 15,000 crore of non‑convertible debentures.",
+        "enough_text": true,
+        "hidden": false
+       },
+       {
+        "id": 4,
+        "brief": "Reliance’s Q2 FY27 net profit rose 34 % to Rs 29,550 crore, revenue exceeded Rs 3.3 lakh crore, O2C EBITDA jumped 68 % YoY to Rs 25,203 crore, Jio Platforms EBITDA grew 18 % to Rs 22,223 crore, retail EBITDA fell 10 %, capex was Rs 38,153 crore, and the board approved a Rs 15,000 crore NCD issue.",
+        "enough_text": true,
+        "hidden": false
+       },
+       {
+        "id": 5,
+        "brief": "The article provides technical analysis of Reliance’s share price ahead of the Q2 results, highlighting support and resistance levels and recent trading patterns, without reporting new corporate or sector developments.",
+        "enough_text": true,
+        "hidden": false
+       }
+      ],
+      "key_points": [
+       {
+        "text": "Reliance is dissolving its step‑down subsidiary Hamleys (Franchising) Ltd in the UK following a voluntary strike‑off application; the entity reported a turnover of Rs 56.08 crore in FY 2025 and had nil net worth as of 31 Dec 2025.",
+        "citations": [
+         1
+        ]
+       },
+       {
+        "text": "Brokerages expect Reliance to post double‑digit Q2 FY27 EBITDA growth, with O2C EBITDA projected to rise 12 % quarter‑on‑quarter and 38 % year‑on‑year, driven by strong Singapore gross refining margins, while retail is forecast to be muted and Jio Platforms to deliver steady growth after its IPO.",
+        "citations": [
+         2
+        ]
+       },
+       {
+        "text": "Reliance reported Q2 FY27 profit up 41 % YoY to Rs 25,548 crore and revenue up 29 % to Rs 3.32 lakh crore; O2C EBITDA increased 68 % YoY to Rs 25,203 crore; the board authorized issuance of non‑convertible debentures up to Rs 15,000 crore.",
+        "citations": [
+         3
+        ]
+       },
+       {
+        "text": "Reliance reported Q2 FY27 net profit up 34 % to Rs 29,550 crore and revenue over Rs 3.3 lakh crore; O2C EBITDA rose 68 % YoY to Rs 25,203 crore; Jio Platforms EBITDA grew 18 % YoY to Rs 22,223 crore; retail EBITDA fell 10 %; capex totaled Rs 38,153 crore; board approved Rs 15,000 crore NCD raise.",
+        "citations": [
+         4
+        ]
+       },
+       {
+        "text": "The profit figures for Q2 FY27 differ between reports: one cites profit of Rs 25,548 crore, whereas another cites net profit of Rs 29,550 crore.",
+        "citations": [
+         3,
+         4
+        ]
+       }
+      ],
+      "industry_context": [
+       {
+        "text": "Global refining margins have strengthened sharply amid supply disruptions in the Middle East and Russia, boosting O2C margins and contributing to higher earnings for integrated refiners.",
+        "citations": [
+         3
+        ]
+       }
+      ],
+      "not_used": [
+       {
+        "id": 5,
+        "reason": "Provides only technical analysis of share price movements and trading guidance; no new corporate development or sector‑wide news."
+       }
+      ]
+     },
+     "message": "",
+     "removed": [],
+     "attempts": 1,
+     "origin": "live",
+     "headlines": [
+      {
+       "id": 1,
+       "title": "Reliance Industries to dissolve Hamleys Franchising subsidiary in UK",
+       "source": "BusinessLine",
+       "published_at": "",
+       "url": "https://www.thehindubusinessline.com/companies/reliance-industries-to-dissolve-hamleys-franchising-subsidiary-in-uk/article71639422.ece"
+      },
+      {
+       "id": 2,
+       "title": "Reliance Industries seen posting double-digit Q2FY27 EBITDA growth on strong O2C, Jio performance",
+       "source": "BusinessLine",
+       "published_at": "",
+       "url": "https://www.thehindubusinessline.com/companies/reliance-industries-seen-posting-double-digit-q2fy27-ebitda-growth-on-strong-o2c-jio-performance/article71635601.ece"
+      },
+      {
+       "id": 3,
+       "title": "Reliance Industries Q2 Results: Profit shoots up 41% YoY to Rs 25,548 crore, revenue surges 29%",
+       "source": "The Times of India",
+       "published_at": "",
+       "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-industries-q2-results-profit-shoots-up-41-yoy-to-rs-25548-crore-revenue-up-12/articleshow/135361960.cms"
+      },
+      {
+       "id": 4,
+       "title": "Reliance Industries Q2 net rises 34% to Rs 29,550 crore",
+       "source": "The Times of India",
+       "published_at": "",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/reliance-industries-q2-net-rises-34-to-rs-29550-crore/articleshow/135378733.cms"
+      },
+      {
+       "id": 5,
+       "title": "Reliance Industries shares down 26% in 2026: Here’s how to trade RIL stocks on results day",
+       "source": "The Times of India",
+       "published_at": "",
+       "url": "https://economictimes.indiatimes.com/markets/stocks/news/reliance-industries-shares-down-26-in-2026-heres-how-to-trade-ril-stocks-on-results-day/articleshow/135342949.cms"
+      }
+     ],
+     "problems": {
+      "structural": [],
+      "numbers": [],
+      "sources": []
+     },
+     "repairs": [
+      {
+       "section": "key_points",
+       "index": 4,
+       "numbers": [],
+       "references": [
+        "article 3",
+        "article 4"
+       ],
+       "before": "The profit figures for Q2 FY27 differ between reports: article 3 cites profit of Rs 25,548 crore, whereas article 4 cites net profit of Rs 29,550 crore.",
+       "after": "The profit figures for Q2 FY27 differ between reports: one cites profit of Rs 25,548 crore, whereas another cites net profit of Rs 29,550 crore.",
+       "ok": true,
+       "requests": 1,
+       "responses": 1,
+       "stopped": null
+      }
+     ],
+     "attempt_log": [
+      {
+       "attempt": 1,
+       "valid_json": true,
+       "structural": [],
+       "numbers": [],
+       "sources": [
+        {
+         "section": "key_points",
+         "index": 4
+        }
+       ]
+      }
+     ],
+     "correction": "targeted",
+     "design": "direct",
+     "seconds": 62.0,
+     "usage": {
+      "calls": 2,
+      "requests": [
+       {
+        "estimated": 6048,
+        "prompt_chars": 16341,
+        "outcome": "answered",
+        "admission": "paced",
+        "input_estimate": 5448
+       },
+       {
+        "estimated": 2315,
+        "prompt_chars": 7253,
+        "outcome": "answered",
+        "admission": "paced",
+        "input_estimate": 1715
+       }
+      ],
+      "per_call": [
+       {
+        "input": 3861,
+        "output": 2840,
+        "reasoning": 1727,
+        "cached": 0,
+        "estimated": 6048,
+        "prompt_chars": 16341,
+        "finish_reason": "stop",
+        "sent_at": 0.188,
+        "window_used": 0,
+        "provider_remaining": null,
+        "header_age": null,
+        "answered_at": 8.031
+       },
+       {
+        "input": 1823,
+        "output": 408,
+        "reasoning": 354,
+        "cached": 0,
+        "estimated": 2315,
+        "prompt_chars": 7253,
+        "finish_reason": "stop",
+        "sent_at": 60.203,
+        "window_used": 0,
+        "provider_remaining": 3644,
+        "header_age": 52.219,
+        "answered_at": 62.125
+       }
+      ],
+      "finish_reasons": [
+       "stop",
+       "stop"
+      ],
+      "input_tokens": 5684,
+      "output_tokens": 3248,
+      "reasoning_tokens": 2081,
+      "largest_call": 6701
+     },
+     "failures": [],
+     "failure_waits": [],
+     "prompt_chars": 23594,
+     "bad_answers": []
+    }
+   }
+  ]
+ },
+ "passage_fingerprints": [
+  {
+   "id": 1,
+   "key": "Acd4e761cac",
+   "sha256": "bdf9806c6e1cc30d5d90e3221dfd5799c0ad2c1e2dfe8319e55a849ee340d9b6"
+  },
+  {
+   "id": 2,
+   "key": "A48f751040f",
+   "sha256": "ac7dc657405af9ff957954e904c017d877e0886a5a600b4496c1b88bdb817900"
+  },
+  {
+   "id": 3,
+   "key": "A24aa7be32c",
+   "sha256": "ab1725f329c875f072231cee5a2f0256f270b67f66bab596ec032d8241ff123b"
+  },
+  {
+   "id": 4,
+   "key": "Ad38c658ab4",
+   "sha256": "ffd53434850e0bea914693b01e208d1199fcea9952b784465e675f1e08cb4806"
+  },
+  {
+   "id": 5,
+   "key": "Af4cd4942da",
+   "sha256": "6675bd030eb028d45bdc1d21066cae96a8e73e75ae935fb20ecb157955b913f6"
+  }
+ ],
+ "passages_file": "data/fulltext/transfer_passages_transfer_reliance_2026-10-26_11-01.json",
+ "attempt_file": "transfer_run_attempt.json",
+ "cache": "No answer cache is read or written; the run result is saved in this record.",
+ "fingerprints": {
+  "protocol": "628149ed39d68bc43ce5dee866ae1f1f81bb5ee0025f93b30867048b97e08410",
+  "amendment": "1e392122453e6e4c2109bb883e51355da55dd26819ecd8bd8fedb8f7429203ea",
+  "amendment2": "dbec021267dcd340c347317eb117d2de5312aaf9d570a8449d662d8f343f52ca",
+  "seal": "a98033294d5dd17d797e49fc5ef454797ca63c49a0c8bd419821c26cc5725738",
+  "freeze": "6810217961e5b1e6e7bb8d76bfa898ef6d90903329f805bbfe59f8defdf4f3b1",
+  "budget": "856eaed8fdd25c1b9a1ac63f48ac84a6647de800c005ed035c1656beb8ecdf14"
+ },
+ "pacer_version": "3",
+ "created": "2026-11-06T11:27:04+00:00"
+}

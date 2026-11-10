@@ -1,0 +1,249 @@
+{
+ "choice": {
+  "comparison_made": true,
+  "conditions": {
+   "at_least_2_kept_pairs": true,
+   "failures_not_more": true,
+   "pair_total_higher": true,
+   "pair_not_lower_on_each_day": true,
+   "overreach_not_higher": true,
+   "events_not_lower_each_day": true,
+   "prompt6_evidence_every_day": true,
+   "no_unsupported_industry_point": true,
+   "no_unsupported_key_point_or_brief": true,
+   "no_contradicted_item": true,
+   "supported_share_at_least_0_75": true,
+   "no_industry_points_without_evidence": false,
+   "empty_with_evidence_not_more": true
+  },
+  "supported_share": 0.8292682926829268,
+  "full_item_evidence": {
+   "prompt4": {
+    "2026-10-14": "pair2_p4",
+    "2026-10-23": "pair2_p4",
+    "2026-10-24": "pair2_p4"
+   },
+   "prompt6": {
+    "2026-10-14": "pair3_p6",
+    "2026-10-23": "pair3_p6",
+    "2026-10-24": "pair3_p6"
+   }
+  },
+  "days_with_both_evidence": [
+   "2026-10-14",
+   "2026-10-23",
+   "2026-10-24"
+  ],
+  "days_left_out_of_the_empty_section_comparison": [],
+  "conclusion": "prompt 6 does not meet every condition; prompt 4 remains",
+  "prompt": "4"
+ },
+ "all_runs": {
+  "4": {
+   "failed_run_days": 0,
+   "run_days": 9,
+   "partial_run_days": 0,
+   "pair_score": {
+    "2026-10-23": 3,
+    "2026-10-24": 5
+   },
+   "pair_total": 8,
+   "pair_scores_count": 6,
+   "events": {
+    "2026-10-14": {
+     "covered": 8,
+     "total": 9
+    },
+    "2026-10-23": {
+     "covered": 12,
+     "total": 12
+    },
+    "2026-10-24": {
+     "covered": 11,
+     "total": 12
+    }
+   },
+   "overreach": 2,
+   "industry_points": 7
+  },
+  "6": {
+   "failed_run_days": 0,
+   "run_days": 9,
+   "partial_run_days": 0,
+   "pair_score": {
+    "2026-10-23": 3,
+    "2026-10-24": 6
+   },
+   "pair_total": 9,
+   "pair_scores_count": 6,
+   "events": {
+    "2026-10-14": {
+     "covered": 9,
+     "total": 9
+    },
+    "2026-10-23": {
+     "covered": 12,
+     "total": 12
+    },
+    "2026-10-24": {
+     "covered": 12,
+     "total": 12
+    }
+   },
+   "overreach": 0,
+   "industry_points": 4
+  }
+ },
+ "full_item": {
+  "4": {
+   "evidence": {
+    "2026-10-14": "pair2_p4",
+    "2026-10-23": "pair2_p4",
+    "2026-10-24": "pair2_p4"
+   },
+   "unavailable_days": [],
+   "core": {
+    "total": 40,
+    "supported": 33,
+    "not_supported": 0,
+    "contradicted": 1
+   },
+   "industry": {
+    "total": 3,
+    "not_supported": 0,
+    "contradicted": 0
+   },
+   "empty_with_evidence_days": [
+    "2026-10-24"
+   ],
+   "points_without_evidence_days": [
+    "2026-10-14"
+   ]
+  },
+  "6": {
+   "evidence": {
+    "2026-10-14": "pair3_p6",
+    "2026-10-23": "pair3_p6",
+    "2026-10-24": "pair3_p6"
+   },
+   "unavailable_days": [],
+   "core": {
+    "total": 41,
+    "supported": 34,
+    "not_supported": 0,
+    "contradicted": 0
+   },
+   "industry": {
+    "total": 2,
+    "not_supported": 0,
+    "contradicted": 0
+   },
+   "empty_with_evidence_days": [
+    "2026-10-24"
+   ],
+   "points_without_evidence_days": [
+    "2026-10-14"
+   ]
+  }
+ },
+ "outcomes": {
+  "4": {
+   "pair1_p4": {
+    "2026-10-14": "usable",
+    "2026-10-23": "usable",
+    "2026-10-24": "usable"
+   },
+   "pair2_p4": {
+    "2026-10-14": "usable",
+    "2026-10-23": "usable",
+    "2026-10-24": "usable"
+   },
+   "pair3_p4": {
+    "2026-10-14": "usable",
+    "2026-10-23": "usable",
+    "2026-10-24": "usable"
+   }
+  },
+  "6": {
+   "pair1_p6": {
+    "2026-10-14": "usable",
+    "2026-10-23": "usable",
+    "2026-10-24": "usable"
+   },
+   "pair2_p6": {
+    "2026-10-14": "usable",
+    "2026-10-23": "usable",
+    "2026-10-24": "usable"
+   },
+   "pair3_p6": {
+    "2026-10-14": "usable",
+    "2026-10-23": "usable",
+    "2026-10-24": "usable"
+   }
+  }
+ },
+ "kept": [
+  1,
+  2,
+  3
+ ],
+ "stopped_at": null,
+ "decoys": {
+  "decoys": 10,
+  "same_judgement": 8,
+  "same_contradicted": 10,
+  "note": "consistency only; decoys are never used in the choice"
+ },
+ "rule": {
+  "scope": "only these three development days, these articles and these settings",
+  "pairs": {
+   "2026-10-24": [
+    "tata_motors_cv_q2_preview",
+    "tata_motors_q2_actual_results"
+   ],
+   "2026-10-23": [
+    "iveco_shareholder_acceptance",
+    "iveco_shareholders_approve"
+   ]
+  },
+  "outcomes": {
+   "usable": "status ok",
+   "partial": "status partial; the remaining content is judged",
+   "failed": "no usable summary because of the model's answer; 0 for the pair score and every event",
+   "provider_stop": "no usable summary because a call was refused or failed; the round stops",
+   "dropped": "a run-day of a dropped pair; out of every denominator for both prompts",
+   "interrupted": "a started run without a record counts as a provider stop"
+  },
+  "provider_stop": "the round stops at once with no retry; the pair is dropped for both prompts, and so is every later pair; completed earlier pairs are kept; fewer than 2 kept pairs: no selection, prompt 4",
+  "run_allowance": "an estimated guard, not a guaranteed maximum: before every call, the run's real tokens so far + the call's estimated worst case (careful input estimate + the output limit) <= 45,000, or the call is not sent and the run ends as a provider stop; after every call, real tokens over 45,000 stop the run's further calls and the round",
+  "tokens": "before a pair: logged tokens inside the last 24 hours + stated other use + 2 x 45,000 <= the daily limit; if the second run of a started pair would not fit, it is not sent, the pair is dropped and the round stops",
+  "full_item_evidence": "for each day, the first run in the seeded order, among runs of kept pairs, with a usable or partial summary; none gives unavailable; nothing is substituted",
+  "denominators": {
+   "failed_run_days": "3 x kept pairs",
+   "pair_scores": "2 x kept pairs",
+   "events_per_day": "the day's events x kept pairs",
+   "overreach": "all industry points produced"
+  },
+  "replace": "prompt 6 replaces prompt 4 only if every condition holds; a tie keeps prompt 4",
+  "conditions": [
+   "at least 2 kept pairs",
+   "prompt 6 failed run-days not more than prompt 4's",
+   "prompt 6 total pair score higher than prompt 4's, and not lower on either paired day",
+   "prompt 6 overreach count over all runs not higher than prompt 4's",
+   "events covered per day over all runs not lower than prompt 4's (same denominators)",
+   "prompt 6 full-item evidence available for every day",
+   "no unsupported industry point",
+   "no unsupported key point or brief",
+   "no contradicted item",
+   "key points and briefs supported share at least 0.75, unrounded",
+   "no industry points without evidence",
+   "days with an empty industry section despite evidence not more than prompt 4's, over the days where both prompts have evidence (a count, not which days)"
+  ],
+  "guardrail_scope": "the full-item guardrails cover only the full-item evidence, named run by run for each day; they do not show that every point of all six runs is supported",
+  "decoys": "10 locked prompt 4 items, fixed seed, unmarked; consistency only, never in the choice",
+  "daily_window": "the budget counts a rolling 24 hours; this is at least as strict as any daily limit whose window is not longer than 24 hours, rolling or reset at a fixed time",
+  "insufficient_data": "with fewer than 2 kept pairs no comparison is made: prompt 4 remains because it is the frozen design, not because it won",
+  "recognition": "outputs are new, so recognition of earlier summaries is less likely; the judge does not open earlier sheets"
+ },
+ "scored": "2026-11-10T08:36:30+00:00"
+}

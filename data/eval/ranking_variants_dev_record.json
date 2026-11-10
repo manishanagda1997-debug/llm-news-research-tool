@@ -1,0 +1,1962 @@
+{
+ "plan_fingerprint": "5df77d5b07489ac482964809998ee38f950d8c6966cf722bd98a773883071f88",
+ "fingerprints": {
+  "labels": "c40b1343c920b41e410a4d9b0f17c1a81f71956de9e729309b7073d07fbecab6",
+  "events": "430eac9c8a0a8658bab3f5ad2064451df89304201949726efc9309a7045fbcaa",
+  "aliases": "7736ef3fa58b7fa4a303db58397cdb1e0e5719e03151f4342fd1f03a027c079d",
+  "raw_files": {
+   "20261014_182548_tata-motors.json": "f4d01ced17d7cdd0ed48e9c4b1e6b37b95b3f08e104ab85de392aae9441e2995",
+   "20261023_161430_tata-motors.json": "73d99ffabee3e74f5b06a43ec899f3fdecb46268a621ab7d541fde06db15a36e",
+   "20261024_111739_tata-motors.json": "10b8f586f647b991790ebac6e869fde27ca38261d5bd292f5752ac029c5a09f5",
+   "20261024_111739_tata-motors_2.json": "32ce41f65c21f0b04b63ce7cccf67213fe7f18aa3df56d9e4eeac03f9c56077a"
+  },
+  "candidates": "fae4307e260fe02706bbe095e0cc288fde83545a17a23e8b9ec914abfac3a211",
+  "code": "b309c41f8b943bf0b89ccf4c28f2ba1555c667174496f3df8031dda842e6626b"
+ },
+ "days": {
+  "2026-10-14": {
+   "candidates": 25,
+   "measures": {
+    "O1": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 5,
+      "precision": 1.0,
+      "article_recall": 0.23809523809523808,
+      "relevant_events": 9,
+      "events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.3333333333333333,
+      "slot_use": 0.6,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 0.75,
+      "selected_keys": [
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7",
+       "A986c846cdc"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 10,
+      "precision": 1.0,
+      "article_recall": 0.47619047619047616,
+      "relevant_events": 9,
+      "events_covered": [
+       "auto_stocks_rbi_impact",
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.5555555555555556,
+      "slot_use": 0.5555555555555556,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7",
+       "A986c846cdc",
+       "Ab5f09d2bd1",
+       "A24e6d8662d",
+       "A8619a7e886",
+       "Ac20bce29ad",
+       "A5f2210687a"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 15,
+      "precision": 1.0,
+      "article_recall": 0.7142857142857143,
+      "relevant_events": 9,
+      "events_covered": [
+       "auto_stocks_rbi_impact",
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.5555555555555556,
+      "slot_use": 0.5555555555555556,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7",
+       "A986c846cdc",
+       "Ab5f09d2bd1",
+       "A24e6d8662d",
+       "A8619a7e886",
+       "Ac20bce29ad",
+       "A5f2210687a",
+       "A8d5b4a5afc",
+       "A289594c896",
+       "Ab28c0c3a7a",
+       "Ac6905343e4",
+       "Adb9ff93da2"
+      ]
+     }
+    },
+    "O1R1": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 4,
+      "precision": 0.8,
+      "article_recall": 0.19047619047619047,
+      "relevant_events": 9,
+      "events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.3333333333333333,
+      "slot_use": 0.6,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 0.75,
+      "selected_keys": [
+       "A9b85d3cb27",
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 9,
+      "precision": 0.9,
+      "article_recall": 0.42857142857142855,
+      "relevant_events": 9,
+      "events_covered": [
+       "auto_stocks_rbi_impact",
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.5555555555555556,
+      "slot_use": 0.5555555555555556,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A9b85d3cb27",
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7",
+       "A986c846cdc",
+       "Ab5f09d2bd1",
+       "A24e6d8662d",
+       "A8619a7e886",
+       "Ac20bce29ad"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 14,
+      "precision": 0.9333333333333333,
+      "article_recall": 0.6666666666666666,
+      "relevant_events": 9,
+      "events_covered": [
+       "auto_stocks_rbi_impact",
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.5555555555555556,
+      "slot_use": 0.5555555555555556,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A9b85d3cb27",
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7",
+       "A986c846cdc",
+       "Ab5f09d2bd1",
+       "A24e6d8662d",
+       "A8619a7e886",
+       "Ac20bce29ad",
+       "A5f2210687a",
+       "A8d5b4a5afc",
+       "A289594c896",
+       "Ab28c0c3a7a",
+       "Ac6905343e4"
+      ]
+     }
+    },
+    "O1R2": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 4,
+      "precision": 0.8,
+      "article_recall": 0.19047619047619047,
+      "relevant_events": 9,
+      "events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.3333333333333333,
+      "slot_use": 0.6,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 0.75,
+      "selected_keys": [
+       "A9b85d3cb27",
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 9,
+      "precision": 0.9,
+      "article_recall": 0.42857142857142855,
+      "relevant_events": 9,
+      "events_covered": [
+       "auto_stocks_rbi_impact",
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.5555555555555556,
+      "slot_use": 0.5555555555555556,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A9b85d3cb27",
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7",
+       "A986c846cdc",
+       "Ab5f09d2bd1",
+       "A24e6d8662d",
+       "A8619a7e886",
+       "Ac20bce29ad"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 14,
+      "precision": 0.9333333333333333,
+      "article_recall": 0.6666666666666666,
+      "relevant_events": 9,
+      "events_covered": [
+       "auto_stocks_rbi_impact",
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.5555555555555556,
+      "slot_use": 0.5555555555555556,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A9b85d3cb27",
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7",
+       "A986c846cdc",
+       "Ab5f09d2bd1",
+       "A24e6d8662d",
+       "A8619a7e886",
+       "Ac20bce29ad",
+       "A5f2210687a",
+       "A8d5b4a5afc",
+       "A289594c896",
+       "Ab28c0c3a7a",
+       "Ac6905343e4"
+      ]
+     }
+    },
+    "O1M3": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 5,
+      "precision": 1.0,
+      "article_recall": 0.23809523809523808,
+      "relevant_events": 9,
+      "events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.3333333333333333,
+      "slot_use": 0.6,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 0.75,
+      "selected_keys": [
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7",
+       "A986c846cdc"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 10,
+      "precision": 1.0,
+      "article_recall": 0.47619047619047616,
+      "relevant_events": 9,
+      "events_covered": [
+       "auto_stocks_rbi_impact",
+       "goyal_india_car_hub",
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.6666666666666666,
+      "slot_use": 0.6666666666666666,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7",
+       "A986c846cdc",
+       "Ab5f09d2bd1",
+       "A24e6d8662d",
+       "A8619a7e886",
+       "Ac20bce29ad",
+       "Adc9449a897"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 15,
+      "precision": 1.0,
+      "article_recall": 0.7142857142857143,
+      "relevant_events": 9,
+      "events_covered": [
+       "auto_stocks_rbi_impact",
+       "goyal_india_car_hub",
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.6666666666666666,
+      "slot_use": 0.6666666666666666,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7",
+       "A986c846cdc",
+       "Ab5f09d2bd1",
+       "A24e6d8662d",
+       "A8619a7e886",
+       "Ac20bce29ad",
+       "Adc9449a897",
+       "A5f2210687a",
+       "A8d5b4a5afc",
+       "A289594c896",
+       "Ab28c0c3a7a",
+       "Ac6905343e4"
+      ]
+     }
+    },
+    "O1M5": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 5,
+      "precision": 1.0,
+      "article_recall": 0.23809523809523808,
+      "relevant_events": 9,
+      "events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.3333333333333333,
+      "slot_use": 0.6,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 0.75,
+      "selected_keys": [
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7",
+       "A986c846cdc"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 10,
+      "precision": 1.0,
+      "article_recall": 0.47619047619047616,
+      "relevant_events": 9,
+      "events_covered": [
+       "auto_stocks_rbi_impact",
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.5555555555555556,
+      "slot_use": 0.5555555555555556,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7",
+       "A986c846cdc",
+       "Ab5f09d2bd1",
+       "A24e6d8662d",
+       "A8619a7e886",
+       "Ac20bce29ad",
+       "A5f2210687a"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 15,
+      "precision": 1.0,
+      "article_recall": 0.7142857142857143,
+      "relevant_events": 9,
+      "events_covered": [
+       "auto_stocks_rbi_impact",
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "event_recall": 0.5555555555555556,
+      "slot_use": 0.5555555555555556,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_offer_raised",
+       "iveco_shareholder_acceptance",
+       "jaguar_type_01_unveil",
+       "tata_stellantis_partnership"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A33d2a07840",
+       "A59aa7b0222",
+       "A1f7d47f39c",
+       "A947c84dec7",
+       "A986c846cdc",
+       "Ab5f09d2bd1",
+       "A24e6d8662d",
+       "A8619a7e886",
+       "Ac20bce29ad",
+       "A5f2210687a",
+       "A8d5b4a5afc",
+       "A289594c896",
+       "Ab28c0c3a7a",
+       "Ac6905343e4",
+       "Adb9ff93da2"
+      ]
+     }
+    }
+   },
+   "checks": {
+    "O1R1": {
+     "no_direct_event_lost": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": false,
+     "events": {
+      "gained": [],
+      "lost": [],
+      "net": 0,
+      "direct_gained": [],
+      "direct_lost": [],
+      "direct_net": 0
+     },
+     "passed": false
+    },
+    "O1R2": {
+     "no_direct_event_lost": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": false,
+     "events": {
+      "gained": [],
+      "lost": [],
+      "net": 0,
+      "direct_gained": [],
+      "direct_lost": [],
+      "direct_net": 0
+     },
+     "passed": false
+    },
+    "O1M3": {
+     "no_direct_event_lost": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": true,
+     "events": {
+      "gained": [
+       "goyal_india_car_hub"
+      ],
+      "lost": [],
+      "net": 1,
+      "direct_gained": [],
+      "direct_lost": [],
+      "direct_net": 0
+     },
+     "passed": true
+    },
+    "O1M5": {
+     "no_direct_event_lost": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": true,
+     "events": {
+      "gained": [],
+      "lost": [],
+      "net": 0,
+      "direct_gained": [],
+      "direct_lost": [],
+      "direct_net": 0
+     },
+     "passed": true
+    }
+   }
+  },
+  "2026-10-23": {
+   "candidates": 17,
+   "measures": {
+    "O1": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 5,
+      "precision": 1.0,
+      "article_recall": 0.38461538461538464,
+      "relevant_events": 9,
+      "events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 0.4444444444444444,
+      "slot_use": 0.8,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "A4055c39453",
+       "Ab38652cb91"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 8,
+      "precision": 0.8,
+      "article_recall": 0.6153846153846154,
+      "relevant_events": 9,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "global_carmakers_india_investment",
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 0.6666666666666666,
+      "slot_use": 0.6666666666666666,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "A4055c39453",
+       "Ab38652cb91",
+       "A0ae8a2cfab",
+       "Aee4703af04",
+       "A3959810ae8",
+       "A391b491c75",
+       "A690a6ec804"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 11,
+      "precision": 0.7333333333333333,
+      "article_recall": 0.8461538461538461,
+      "relevant_events": 9,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "global_carmakers_india_investment",
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "multi_powertrain_model_trend",
+       "navratri_sales_fada",
+       "stellantis_india_development_target",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 1.0,
+      "slot_use": 1.0,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "A4055c39453",
+       "Ab38652cb91",
+       "A0ae8a2cfab",
+       "Aee4703af04",
+       "A3959810ae8",
+       "A391b491c75",
+       "A690a6ec804",
+       "Ad8f06500d4",
+       "Acd42aaa992",
+       "A269a74e91b",
+       "A88c355a3b0",
+       "Adea3a0907a"
+      ]
+     }
+    },
+    "O1R1": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 5,
+      "precision": 1.0,
+      "article_recall": 0.38461538461538464,
+      "relevant_events": 9,
+      "events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 0.4444444444444444,
+      "slot_use": 0.8,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "A4055c39453",
+       "Ab38652cb91"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 8,
+      "precision": 0.8,
+      "article_recall": 0.6153846153846154,
+      "relevant_events": 9,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "global_carmakers_india_investment",
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 0.6666666666666666,
+      "slot_use": 0.6666666666666666,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "A4055c39453",
+       "Ab38652cb91",
+       "A0ae8a2cfab",
+       "Aee4703af04",
+       "A3959810ae8",
+       "A391b491c75",
+       "A690a6ec804"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 11,
+      "precision": 0.7333333333333333,
+      "article_recall": 0.8461538461538461,
+      "relevant_events": 9,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "global_carmakers_india_investment",
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "multi_powertrain_model_trend",
+       "navratri_sales_fada",
+       "stellantis_india_development_target",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 1.0,
+      "slot_use": 1.0,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "A4055c39453",
+       "Ab38652cb91",
+       "A0ae8a2cfab",
+       "Aee4703af04",
+       "A3959810ae8",
+       "A391b491c75",
+       "A690a6ec804",
+       "Ad8f06500d4",
+       "Acd42aaa992",
+       "A269a74e91b",
+       "A88c355a3b0",
+       "Adea3a0907a"
+      ]
+     }
+    },
+    "O1R2": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 5,
+      "precision": 1.0,
+      "article_recall": 0.38461538461538464,
+      "relevant_events": 9,
+      "events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 0.4444444444444444,
+      "slot_use": 0.8,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "A4055c39453",
+       "Ab38652cb91"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 8,
+      "precision": 0.8,
+      "article_recall": 0.6153846153846154,
+      "relevant_events": 9,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "global_carmakers_india_investment",
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 0.6666666666666666,
+      "slot_use": 0.6666666666666666,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "A4055c39453",
+       "Ab38652cb91",
+       "A0ae8a2cfab",
+       "Aee4703af04",
+       "A3959810ae8",
+       "A391b491c75",
+       "A690a6ec804"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 11,
+      "precision": 0.7333333333333333,
+      "article_recall": 0.8461538461538461,
+      "relevant_events": 9,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "global_carmakers_india_investment",
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "multi_powertrain_model_trend",
+       "navratri_sales_fada",
+       "stellantis_india_development_target",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 1.0,
+      "slot_use": 1.0,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "A4055c39453",
+       "Ab38652cb91",
+       "A0ae8a2cfab",
+       "Aee4703af04",
+       "A3959810ae8",
+       "A391b491c75",
+       "A690a6ec804",
+       "Ad8f06500d4",
+       "Acd42aaa992",
+       "A269a74e91b",
+       "A88c355a3b0",
+       "Adea3a0907a"
+      ]
+     }
+    },
+    "O1M3": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 5,
+      "precision": 1.0,
+      "article_recall": 0.38461538461538464,
+      "relevant_events": 9,
+      "events_covered": [
+       "global_carmakers_india_investment",
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 0.5555555555555556,
+      "slot_use": 1.0,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "Aee4703af04",
+       "A391b491c75"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 9,
+      "precision": 0.9,
+      "article_recall": 0.6923076923076923,
+      "relevant_events": 9,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "global_carmakers_india_investment",
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "navratri_sales_fada",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 0.7777777777777778,
+      "slot_use": 0.7777777777777778,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "Aee4703af04",
+       "A391b491c75",
+       "A4055c39453",
+       "Ab38652cb91",
+       "Acd42aaa992",
+       "A0ae8a2cfab",
+       "A3959810ae8"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 11,
+      "precision": 0.7333333333333333,
+      "article_recall": 0.8461538461538461,
+      "relevant_events": 9,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "global_carmakers_india_investment",
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "multi_powertrain_model_trend",
+       "navratri_sales_fada",
+       "stellantis_india_development_target",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 1.0,
+      "slot_use": 1.0,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "Aee4703af04",
+       "A391b491c75",
+       "A4055c39453",
+       "Ab38652cb91",
+       "Acd42aaa992",
+       "A0ae8a2cfab",
+       "A3959810ae8",
+       "A690a6ec804",
+       "Ad8f06500d4",
+       "A269a74e91b",
+       "A88c355a3b0",
+       "Adea3a0907a"
+      ]
+     }
+    },
+    "O1M5": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 5,
+      "precision": 1.0,
+      "article_recall": 0.38461538461538464,
+      "relevant_events": 9,
+      "events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 0.4444444444444444,
+      "slot_use": 0.8,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "A391b491c75",
+       "A4055c39453"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 8,
+      "precision": 0.8,
+      "article_recall": 0.6153846153846154,
+      "relevant_events": 9,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "global_carmakers_india_investment",
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 0.6666666666666666,
+      "slot_use": 0.6666666666666666,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "A391b491c75",
+       "A4055c39453",
+       "Ab38652cb91",
+       "A0ae8a2cfab",
+       "Aee4703af04",
+       "A3959810ae8",
+       "A690a6ec804"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 11,
+      "precision": 0.7333333333333333,
+      "article_recall": 0.8461538461538461,
+      "relevant_events": 9,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "global_carmakers_india_investment",
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "multi_powertrain_model_trend",
+       "navratri_sales_fada",
+       "stellantis_india_development_target",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "event_recall": 1.0,
+      "slot_use": 1.0,
+      "direct_events": 4,
+      "direct_events_covered": [
+       "iveco_shareholder_acceptance",
+       "iveco_shareholders_approve",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_market_ranking"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "Aa2665f4ad4",
+       "A391b491c75",
+       "A4055c39453",
+       "Ab38652cb91",
+       "A0ae8a2cfab",
+       "Aee4703af04",
+       "A3959810ae8",
+       "A690a6ec804",
+       "Ad8f06500d4",
+       "Acd42aaa992",
+       "A269a74e91b",
+       "A88c355a3b0",
+       "Adea3a0907a"
+      ]
+     }
+    }
+   },
+   "checks": {
+    "O1R1": {
+     "no_direct_event_lost": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": true,
+     "events": {
+      "gained": [],
+      "lost": [],
+      "net": 0,
+      "direct_gained": [],
+      "direct_lost": [],
+      "direct_net": 0
+     },
+     "passed": true
+    },
+    "O1R2": {
+     "no_direct_event_lost": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": true,
+     "events": {
+      "gained": [],
+      "lost": [],
+      "net": 0,
+      "direct_gained": [],
+      "direct_lost": [],
+      "direct_net": 0
+     },
+     "passed": true
+    },
+    "O1M3": {
+     "no_direct_event_lost": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": true,
+     "events": {
+      "gained": [
+       "navratri_sales_fada"
+      ],
+      "lost": [],
+      "net": 1,
+      "direct_gained": [],
+      "direct_lost": [],
+      "direct_net": 0
+     },
+     "passed": true
+    },
+    "O1M5": {
+     "no_direct_event_lost": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": true,
+     "events": {
+      "gained": [],
+      "lost": [],
+      "net": 0,
+      "direct_gained": [],
+      "direct_lost": [],
+      "direct_net": 0
+     },
+     "passed": true
+    }
+   }
+  },
+  "2026-10-24": {
+   "candidates": 25,
+   "measures": {
+    "O1": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 4,
+      "precision": 0.8,
+      "article_recall": 0.26666666666666666,
+      "relevant_events": 13,
+      "events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.3076923076923077,
+      "slot_use": 0.8,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 0.5,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "A79f20394bc"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 7,
+      "precision": 0.7,
+      "article_recall": 0.4666666666666667,
+      "relevant_events": 13,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "range_rover_electric_test",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.5384615384615384,
+      "slot_use": 0.7,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "range_rover_electric_test",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 0.8333333333333334,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "A79f20394bc",
+       "A0ae8a2cfab",
+       "Af6c1b429d2",
+       "A3959810ae8",
+       "Aebbe4fd5d7",
+       "Aac357bfe35"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 10,
+      "precision": 0.6666666666666666,
+      "article_recall": 0.6666666666666666,
+      "relevant_events": 13,
+      "events_covered": [
+       "delhi_old_truck_replacement_curb",
+       "diwali_sales_outlook",
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "navratri_sales_fada",
+       "range_rover_electric_test",
+       "stellantis_india_development_target",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.7692307692307693,
+      "slot_use": 0.7692307692307693,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "range_rover_electric_test",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 0.8333333333333334,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "A79f20394bc",
+       "A0ae8a2cfab",
+       "Af6c1b429d2",
+       "A3959810ae8",
+       "Aebbe4fd5d7",
+       "Aac357bfe35",
+       "A690a6ec804",
+       "A62643cad78",
+       "Ad8f06500d4",
+       "Acd42aaa992",
+       "A269a74e91b"
+      ]
+     }
+    },
+    "O1R1": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 4,
+      "precision": 0.8,
+      "article_recall": 0.26666666666666666,
+      "relevant_events": 13,
+      "events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.3076923076923077,
+      "slot_use": 0.8,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 0.5,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "A79f20394bc"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 7,
+      "precision": 0.7,
+      "article_recall": 0.4666666666666667,
+      "relevant_events": 13,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "range_rover_electric_test",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.5384615384615384,
+      "slot_use": 0.7,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "range_rover_electric_test",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 0.8333333333333334,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "A79f20394bc",
+       "A0ae8a2cfab",
+       "Af6c1b429d2",
+       "A3959810ae8",
+       "Aebbe4fd5d7",
+       "Aac357bfe35"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 10,
+      "precision": 0.6666666666666666,
+      "article_recall": 0.6666666666666666,
+      "relevant_events": 13,
+      "events_covered": [
+       "delhi_old_truck_replacement_curb",
+       "diwali_sales_outlook",
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "navratri_sales_fada",
+       "range_rover_electric_test",
+       "stellantis_india_development_target",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.7692307692307693,
+      "slot_use": 0.7692307692307693,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "range_rover_electric_test",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 0.8333333333333334,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "A79f20394bc",
+       "A0ae8a2cfab",
+       "Af6c1b429d2",
+       "A3959810ae8",
+       "Aebbe4fd5d7",
+       "Aac357bfe35",
+       "A690a6ec804",
+       "A62643cad78",
+       "Ad8f06500d4",
+       "Acd42aaa992",
+       "A269a74e91b"
+      ]
+     }
+    },
+    "O1R2": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 4,
+      "precision": 0.8,
+      "article_recall": 0.26666666666666666,
+      "relevant_events": 13,
+      "events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.3076923076923077,
+      "slot_use": 0.8,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 0.5,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "A79f20394bc"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 7,
+      "precision": 0.7,
+      "article_recall": 0.4666666666666667,
+      "relevant_events": 13,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "range_rover_electric_test",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.5384615384615384,
+      "slot_use": 0.7,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "range_rover_electric_test",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 0.8333333333333334,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "A79f20394bc",
+       "A0ae8a2cfab",
+       "Af6c1b429d2",
+       "A3959810ae8",
+       "Aebbe4fd5d7",
+       "Aac357bfe35"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 10,
+      "precision": 0.6666666666666666,
+      "article_recall": 0.6666666666666666,
+      "relevant_events": 13,
+      "events_covered": [
+       "delhi_old_truck_replacement_curb",
+       "diwali_sales_outlook",
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "navratri_sales_fada",
+       "range_rover_electric_test",
+       "stellantis_india_development_target",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.7692307692307693,
+      "slot_use": 0.7692307692307693,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "range_rover_electric_test",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 0.8333333333333334,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "A79f20394bc",
+       "A0ae8a2cfab",
+       "Af6c1b429d2",
+       "A3959810ae8",
+       "Aebbe4fd5d7",
+       "Aac357bfe35",
+       "A690a6ec804",
+       "A62643cad78",
+       "Ad8f06500d4",
+       "Acd42aaa992",
+       "A269a74e91b"
+      ]
+     }
+    },
+    "O1M3": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 4,
+      "precision": 0.8,
+      "article_recall": 0.26666666666666666,
+      "relevant_events": 13,
+      "events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "navratri_sales_fada",
+       "tata_motors_cv_q2_preview"
+      ],
+      "event_recall": 0.3076923076923077,
+      "slot_use": 0.8,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 0.5,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "Acd42aaa992"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 8,
+      "precision": 0.8,
+      "article_recall": 0.5333333333333333,
+      "relevant_events": 13,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "jlr_rebrand_narrative",
+       "navratri_sales_fada",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.6153846153846154,
+      "slot_use": 0.8,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "jlr_rebrand_narrative",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 0.8333333333333334,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "Acd42aaa992",
+       "A79f20394bc",
+       "A0ae8a2cfab",
+       "Ae689fc3060",
+       "Af6c1b429d2",
+       "A3959810ae8"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 11,
+      "precision": 0.7333333333333333,
+      "article_recall": 0.7333333333333333,
+      "relevant_events": 13,
+      "events_covered": [
+       "delhi_old_truck_replacement_curb",
+       "diwali_sales_outlook",
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "jlr_rebrand_narrative",
+       "navratri_sales_fada",
+       "range_rover_electric_test",
+       "stellantis_india_development_target",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.8461538461538461,
+      "slot_use": 0.8461538461538461,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "jlr_rebrand_narrative",
+       "range_rover_electric_test",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "Acd42aaa992",
+       "A79f20394bc",
+       "A0ae8a2cfab",
+       "Ae689fc3060",
+       "Af6c1b429d2",
+       "A3959810ae8",
+       "Aebbe4fd5d7",
+       "Aac357bfe35",
+       "A690a6ec804",
+       "A62643cad78",
+       "Ad8f06500d4"
+      ]
+     }
+    },
+    "O1M5": {
+     "5": {
+      "selected": 5,
+      "relevant_selected": 4,
+      "precision": 0.8,
+      "article_recall": 0.26666666666666666,
+      "relevant_events": 13,
+      "events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.3076923076923077,
+      "slot_use": 0.8,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 0.5,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "A79f20394bc"
+      ]
+     },
+     "10": {
+      "selected": 10,
+      "relevant_selected": 8,
+      "precision": 0.8,
+      "article_recall": 0.5333333333333333,
+      "relevant_events": 13,
+      "events_covered": [
+       "diwali_sales_outlook",
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "jlr_rebrand_narrative",
+       "range_rover_electric_test",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.6153846153846154,
+      "slot_use": 0.8,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "jlr_rebrand_narrative",
+       "range_rover_electric_test",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "A79f20394bc",
+       "A0ae8a2cfab",
+       "Ae689fc3060",
+       "Af6c1b429d2",
+       "A3959810ae8",
+       "Aebbe4fd5d7"
+      ]
+     },
+     "15": {
+      "selected": 15,
+      "relevant_selected": 11,
+      "precision": 0.7333333333333333,
+      "article_recall": 0.7333333333333333,
+      "relevant_events": 13,
+      "events_covered": [
+       "delhi_old_truck_replacement_curb",
+       "diwali_sales_outlook",
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "jlr_rebrand_narrative",
+       "navratri_sales_fada",
+       "range_rover_electric_test",
+       "stellantis_india_development_target",
+       "tata_motors_cv_q2_preview",
+       "tata_motors_q2_actual_results"
+      ],
+      "event_recall": 0.8461538461538461,
+      "slot_use": 0.8461538461538461,
+      "direct_events": 6,
+      "direct_events_covered": [
+       "iveco_investor_gains",
+       "iveco_shareholder_acceptance",
+       "jlr_delhi_gurugram_expansion",
+       "jlr_rebrand_narrative",
+       "range_rover_electric_test",
+       "tata_motors_cv_q2_preview"
+      ],
+      "direct_event_recall": 1.0,
+      "selected_keys": [
+       "A29c1a29e1d",
+       "Af3ec3babc9",
+       "A81fc8ba892",
+       "Aaa3d8d3035",
+       "A79f20394bc",
+       "A0ae8a2cfab",
+       "Ae689fc3060",
+       "Af6c1b429d2",
+       "A3959810ae8",
+       "Aebbe4fd5d7",
+       "Aac357bfe35",
+       "A690a6ec804",
+       "A62643cad78",
+       "Ad8f06500d4",
+       "Acd42aaa992"
+      ]
+     }
+    }
+   },
+   "checks": {
+    "O1R1": {
+     "no_direct_event_lost": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": true,
+     "events": {
+      "gained": [],
+      "lost": [],
+      "net": 0,
+      "direct_gained": [],
+      "direct_lost": [],
+      "direct_net": 0
+     },
+     "passed": true
+    },
+    "O1R2": {
+     "no_direct_event_lost": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": true,
+     "events": {
+      "gained": [],
+      "lost": [],
+      "net": 0,
+      "direct_gained": [],
+      "direct_lost": [],
+      "direct_net": 0
+     },
+     "passed": true
+    },
+    "O1M3": {
+     "no_direct_event_lost": false,
+     "event_recall_not_lower": true,
+     "precision_not_lower": true,
+     "events": {
+      "gained": [
+       "jlr_rebrand_narrative",
+       "navratri_sales_fada"
+      ],
+      "lost": [
+       "range_rover_electric_test"
+      ],
+      "net": 1,
+      "direct_gained": [
+       "jlr_rebrand_narrative"
+      ],
+      "direct_lost": [
+       "range_rover_electric_test"
+      ],
+      "direct_net": 0
+     },
+     "passed": false
+    },
+    "O1M5": {
+     "no_direct_event_lost": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": true,
+     "events": {
+      "gained": [
+       "jlr_rebrand_narrative"
+      ],
+      "lost": [],
+      "net": 1,
+      "direct_gained": [
+       "jlr_rebrand_narrative"
+      ],
+      "direct_lost": [],
+      "direct_net": 1
+     },
+     "passed": true
+    }
+   }
+  }
+ },
+ "choice": {
+  "passing": [
+   "O1M5"
+  ],
+  "pooled": {
+   "O1": {
+    "direct_events_covered": 13,
+    "events_covered": 18,
+    "pooled_precision": 0.8333333333333334
+   },
+   "O1R1": {
+    "direct_events_covered": 13,
+    "events_covered": 18,
+    "pooled_precision": 0.8
+   },
+   "O1R2": {
+    "direct_events_covered": 13,
+    "events_covered": 18,
+    "pooled_precision": 0.8
+   },
+   "O1M3": {
+    "direct_events_covered": 13,
+    "events_covered": 21,
+    "pooled_precision": 0.9
+   },
+   "O1M5": {
+    "direct_events_covered": 14,
+    "events_covered": 19,
+    "pooled_precision": 0.8666666666666667
+   }
+  },
+  "ranked": [
+   "O1M5"
+  ],
+  "chosen": "O1M5"
+ },
+ "created": "2026-11-07T07:03:20+00:00"
+}

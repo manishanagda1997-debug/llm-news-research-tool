@@ -1,0 +1,76 @@
+{
+ "variants": {
+  "O1R1": {
+   "kind": "retrieval",
+   "value": 1
+  },
+  "O1R2": {
+   "kind": "retrieval",
+   "value": 2
+  },
+  "O1M3": {
+   "kind": "mentions",
+   "value": 3
+  },
+  "O1M5": {
+   "kind": "mentions",
+   "value": 5
+  }
+ },
+ "rule": {
+  "primary_k": 10,
+  "baseline": "O1+S1",
+  "no_harm": "on each development day at k = 10: no direct event lost against O1 + S1 (compared by event name), event recall not lower and precision not lower (a tie is not lower); a variant passes only on all three days",
+  "ranking": "the most direct events covered, summed over the days; then the most events covered, summed; then pooled precision (relevant selected over all days / selected over all days); then simplicity",
+  "simplicity": [
+   "O1R1",
+   "O1R2",
+   "O1M3",
+   "O1M5"
+  ],
+  "none_passes": "O1 + S1 stays",
+  "reported_only": "k = 5 and k = 15",
+  "week1": "after the choice, for the chosen variant only; information only, never a reason to change the choice"
+ },
+ "label_file": "v3_dev_tata_motors_checked.csv",
+ "dev_runs": {
+  "2026-10-14": [
+   "20261014_182548_tata-motors.json"
+  ],
+  "2026-10-23": [
+   "20261023_161430_tata-motors.json"
+  ],
+  "2026-10-24": [
+   "20261024_111739_tata-motors.json",
+   "20261024_111739_tata-motors_2.json"
+  ]
+ },
+ "code_files": [
+  "src/ranking_variants.py",
+  "src/ranking.py",
+  "src/ranking_eval.py",
+  "src/preprocess.py",
+  "src/query.py",
+  "src/fulltext.py",
+  "src/fulltext_eval.py",
+  "src/evaluate.py",
+  "src/summary_run.py",
+  "src/config.py"
+ ],
+ "fingerprints": {
+  "labels": "c40b1343c920b41e410a4d9b0f17c1a81f71956de9e729309b7073d07fbecab6",
+  "events": "430eac9c8a0a8658bab3f5ad2064451df89304201949726efc9309a7045fbcaa",
+  "aliases": "7736ef3fa58b7fa4a303db58397cdb1e0e5719e03151f4342fd1f03a027c079d",
+  "raw_files": {
+   "20261014_182548_tata-motors.json": "f4d01ced17d7cdd0ed48e9c4b1e6b37b95b3f08e104ab85de392aae9441e2995",
+   "20261023_161430_tata-motors.json": "73d99ffabee3e74f5b06a43ec899f3fdecb46268a621ab7d541fde06db15a36e",
+   "20261024_111739_tata-motors.json": "10b8f586f647b991790ebac6e869fde27ca38261d5bd292f5752ac029c5a09f5",
+   "20261024_111739_tata-motors_2.json": "32ce41f65c21f0b04b63ce7cccf67213fe7f18aa3df56d9e4eeac03f9c56077a"
+  },
+  "candidates": "fae4307e260fe02706bbe095e0cc288fde83545a17a23e8b9ec914abfac3a211",
+  "code": "b309c41f8b943bf0b89ccf4c28f2ba1555c667174496f3df8031dda842e6626b"
+ },
+ "source_commit": "42a805782eefaeeb18080dde86b7b7ec4dfa4bf5",
+ "tag": "freeze-ranking-variants-plan",
+ "created": "2026-11-07T07:00:44+00:00"
+}

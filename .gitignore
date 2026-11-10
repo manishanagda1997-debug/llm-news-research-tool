@@ -1,0 +1,35 @@
+# Secret keys - never upload
+.env
+.streamlit/secrets.toml
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Processed news files (rebuilt from the raw files any time)
+data/processed/*.json
+!data/**/.gitkeep
+
+# data/raw/*.json is kept on purpose: these saved NewsAPI searches are the
+# evidence behind every evaluation number and cannot be fetched again.
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Full article text fetched from publishers' pages (their content: never uploaded)
+data/fulltext/
+data/diagnostics/
+
+# The app's saved summaries and model answers (made while using the app, rebuilt any time)
+data/app_summaries/
+data/app_checks/

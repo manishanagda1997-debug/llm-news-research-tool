@@ -1,0 +1,65 @@
+{
+ "design": "direct",
+ "ks": [
+  5
+ ],
+ "settings": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "generation": {
+   "temperature": 1.0,
+   "reasoning_effort": "medium",
+   "max_completion_tokens": 4096
+  },
+  "prompt_version": "4",
+  "configuration_version": "7",
+  "correction": "targeted",
+  "repair_tries": 2,
+  "max_attempts": 2,
+  "number_check": "2",
+  "source_check": "1",
+  "passage_version": "3",
+  "pacer_version": "3"
+ },
+ "code": {
+  "src/summarizer.py": "d7b05adb64c1bc76a6d798297ae8ae1faa123105559359b6a95a7906adef65b4",
+  "src/summary_v2.py": "48c10c2bdccf0e551ca849b47cc6ab3b597c97b370e8cb8e4064cffa4c551fc8",
+  "src/llm.py": "70df658607b9ef626b4c71f8e1cb9a9fcd5759602a8a897c21edac33ddcdd508",
+  "src/relevance_check.py": "394cafb8db3932be3f82ff5b3db6c921093ce67651f00a0caca4969fb1cb9622",
+  "src/ranking.py": "cfa94b8c5b5057f08ac289cea092fbb67268473625c3a72aa2b8263db3fb21ad",
+  "src/summary_passage.py": "c7278aca7e9a775d48c8a7b81aae5729f8f04e26dff2f2b7760e7d2611ba218d",
+  "src/boilerplate.py": "42524395a0fb70195f74bac4842ccb863515cd46c6a15abed1ee1d6f1b3e83e8",
+  "requirements.txt": "7605a0e2049c42e43621e1a2e4d80cef508352f1f05d2daac7a7020fd6590dfc"
+ },
+ "packages": {
+  "streamlit": "1.66.1",
+  "langchain": "1.4.7",
+  "langchain-core": "1.7.3",
+  "langchain-google-genai": "4.4.2",
+  "langchain-groq": "1.1.3",
+  "groq": "0.37.1",
+  "newsapi-python": "0.2.7",
+  "trafilatura": "2.3.1",
+  "pandas": "3.1.0",
+  "python-dotenv": "1.2.4"
+ },
+ "evidence": {
+  "data/eval/summary_v2_dev_k5_c7_p3_run2.json": "87ee4d5a2b444417e21f9d12480fc008399652be174ea6df070a10ac6d1157e2",
+  "data/eval/summary_v2_judging_lock.json": "6c116e999b43fbcc8fc8737f7b5073b79f8969a8c9a2a74d6a778c7f4ee24eee",
+  "data/eval/summary_v2_judging_score.json": "641e320d7556eba363db19a415869926c53b7563e26a07038634fe9125f13373",
+  "data/eval/summary_v2_rejudge_score.json": "e57fbdc5ad64ed9cbfbf87bf7643a15b2f63b862539cc0de0a22d5f6cf061570",
+  "data/eval/summary_v2_dev_k5_c7_p4.json": "82be45a93869260e223b4742a72932a788bdb5e57271a5692e2b473f97851bb4",
+  "data/eval/summary_v2_p4_judging_lock.json": "3dfa885a6e088bb844592e9700bab6ddbd3f3dc4f65b209a974d605ad259ce43",
+  "data/eval/summary_v2_p4_judging_score.json": "2648ffce20b9ad119c539c7f220e6cc80f420267786c22208922d7e61547c724",
+  "data/eval/summary_v2_dev_k5_c7_p5.json": "31e709d18dd7f1bccf25b020396763f54f4e908282d2f2a7edda16304543088c",
+  "data/eval/summary_v2_p5_judging_lock.json": "b0ca4c1df5e20fc4908f71c35c8c5732dd49b600fd012a49fac2fbe66cd7e5ff",
+  "data/eval/summary_v2_p5_judging_score.json": "09e896ffda136acc1ea449cfd8049be0f46b9bf55a4776d9bde4ac2ffe3342e0",
+  "data/eval/summary_v2_dev_k10_c7_p4.json": "3ddef0b265266a6d377fcfd05837b3ef15b15eb851989d4cca32b062d56aa06f",
+  "data/eval/summary_v2_dev_k10_c7_p4_run2.json": "b8463d2a322976e05d385fa856a3304c5d6772967e0c1eaf0dd071889edcfe84",
+  "data/eval/summary_freeze_decision.md": "9dfda5634c10be7ada84c6443cd0e646b95928f0d2c3e0028c9670f6e1bc4dca"
+ },
+ "decision": "# Stage 4 summary freeze: decision\n\nDesign: direct. Articles per summary (k): 5. Prompt version 4. Configuration 7 (targeted correction, number check 2, summary passage 3). Pacer version 3.\n\n**Design.** Direct and brief-first are compared on the three development runs with blind judging. Both meet every acceptance rule. Direct has the higher supported share (31 of 45, 68.9%, against 18 of 30, 60.0%), full event coverage and fewer calls per summary, and it is higher on two of the three runs.\n\n**Industry context.** In that comparison, all four unsupported direct points are industry points that present a Tata Motors fact as a sector trend. Prompt version 4 adds a rule against this; prompt version 5 also tells the model to include facts about the sector and about other companies in it. Neither passes every check of the industry-context test (Parts 4 and 5 of the judging guide). Prompt 4 leaves out one relevant fact about another automotive company (one case in the three runs). Prompt 5 adds industry points in a run whose articles hold no wider-industry evidence. Neither version has an unsupported industry point, key point or brief.\n\n**Selection.** Prompt 4 is selected because it has fewer industry points that are not fully supported (0 of 1, against 3 of 5 for prompt 5). This rule is stated after the prompt 4 and prompt 5 results, not in advance. The selection does not show that prompt 4 is better on unseen news; the fresh-week test checks that.\n\n**Articles per summary.** k = 10 does not qualify under the project's free-plan headroom rule. The condition is at least 10% headroom under the limit of 8,000 tokens a minute, so at most 7,200 tokens per request. On 24 October, Groq reports 6,900 input tokens for the k = 10 request. Earlier Groq refusal messages show 276\u2013551 requested tokens above the input count. Using the largest observed difference gives a conservative estimate of 7,451 tokens, above 7,200; using the smallest gives 7,176. The 23 October request has a longer input and is not sent because the project's own estimate exceeds the limit; Groq does not refuse it. The quality of k = 10 summaries is not judged.\n\n**Judging consistency.** A second judgement of 15 items by the same judge matches the first in 13 (86.7%; approximate 95% interval 62% to 96%), and all 15 contradiction decisions match.\n",
+ "source_commit": "209fdc2d2aaefb8026bc45505fbfe0370810051f",
+ "tag": "freeze-summary",
+ "created": "2026-11-05T07:39:05+00:00"
+}

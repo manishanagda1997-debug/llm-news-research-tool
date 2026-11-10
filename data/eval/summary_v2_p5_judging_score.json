@@ -1,0 +1,268 @@
+{
+ "lock": {
+  "items_fingerprint": "382b50c0979a6c29504bb617f8ef446ab935097558235548f04a855fc4ecf03b",
+  "events_fingerprint": "5de5ac94d106e93f410cf36b8900a581bffe18482ba0c8fcb2988b76deae18fc",
+  "key_fingerprint": "cc0b8ecfda2a596202b92983079636c6d3250758e2d81a5e6341b39c26d483a0",
+  "guide_fingerprints": [
+   "a4d77910dad06f0be11d135684d6931306b2f085b348327ea9ff72ad3210feb3",
+   "bd073b40f85f50f25718317f99685b60209a4c5347157f5a9269b849efd832c2"
+  ],
+  "record_fingerprint": "c888a95158aff6e4188f7e94fd39614e09d9a5433ce06650ece554a12fe2da56",
+  "code_fingerprint": "1aac655ec1095f59a03b28545780885a88d975c3481eb580183456a98026968a",
+  "scoring_version": "1",
+  "record_file": "summary_v2_dev_k5_c7_p5.json",
+  "locked_at": "2026-11-04T19:09:18+00:00"
+ },
+ "record_file": "summary_v2_dev_k5_c7_p5.json",
+ "total": {
+  "industry": {
+   "produced": 5,
+   "total": 5,
+   "supported": 2,
+   "partly_supported": 3,
+   "not_supported": 0,
+   "supported_share": 0.4,
+   "contradicted": 0
+  },
+  "sections": {
+   "key_points": {
+    "total": 21,
+    "supported": 19,
+    "partly_supported": 2,
+    "not_supported": 0,
+    "supported_share": 0.9048,
+    "contradicted": 0
+   },
+   "article_briefs": {
+    "total": 15,
+    "supported": 10,
+    "partly_supported": 5,
+    "not_supported": 0,
+    "supported_share": 0.6667,
+    "contradicted": 0
+   }
+  },
+  "core": {
+   "total": 36,
+   "supported": 29,
+   "partly_supported": 7,
+   "not_supported": 0,
+   "supported_share": 0.8056,
+   "contradicted": 0,
+   "supported_count": 29
+  },
+  "events": {
+   "covered": 11,
+   "total": 11,
+   "coverage": 1.0
+  },
+  "carried": 1,
+  "repaired": {
+   "total": 2,
+   "supported": 2,
+   "partly_supported": 0,
+   "not_supported": 0,
+   "supported_share": 1.0,
+   "contradicted": 0
+  }
+ },
+ "per_run": {
+  "2026-10-14": {
+   "industry": {
+    "produced": 2,
+    "total": 2,
+    "supported": 1,
+    "partly_supported": 1,
+    "not_supported": 0,
+    "supported_share": 0.5,
+    "contradicted": 0
+   },
+   "sections": {
+    "key_points": {
+     "total": 5,
+     "supported": 4,
+     "partly_supported": 1,
+     "not_supported": 0,
+     "supported_share": 0.8,
+     "contradicted": 0
+    },
+    "article_briefs": {
+     "total": 5,
+     "supported": 5,
+     "partly_supported": 0,
+     "not_supported": 0,
+     "supported_share": 1.0,
+     "contradicted": 0
+    }
+   },
+   "core": {
+    "total": 10,
+    "supported": 9,
+    "partly_supported": 1,
+    "not_supported": 0,
+    "supported_share": 0.9,
+    "contradicted": 0,
+    "supported_count": 9
+   },
+   "events": {
+    "covered": 3,
+    "total": 3,
+    "coverage": 1.0
+   },
+   "carried": 0,
+   "repaired": {
+    "total": 0,
+    "supported": 0,
+    "partly_supported": 0,
+    "not_supported": 0,
+    "supported_share": null,
+    "contradicted": 0
+   },
+   "industry_evidence": "no",
+   "industry_empty": false
+  },
+  "2026-10-23": {
+   "industry": {
+    "produced": 1,
+    "total": 1,
+    "supported": 1,
+    "partly_supported": 0,
+    "not_supported": 0,
+    "supported_share": 1.0,
+    "contradicted": 0
+   },
+   "sections": {
+    "key_points": {
+     "total": 6,
+     "supported": 6,
+     "partly_supported": 0,
+     "not_supported": 0,
+     "supported_share": 1.0,
+     "contradicted": 0
+    },
+    "article_briefs": {
+     "total": 5,
+     "supported": 2,
+     "partly_supported": 3,
+     "not_supported": 0,
+     "supported_share": 0.4,
+     "contradicted": 0
+    }
+   },
+   "core": {
+    "total": 11,
+    "supported": 8,
+    "partly_supported": 3,
+    "not_supported": 0,
+    "supported_share": 0.7273,
+    "contradicted": 0,
+    "supported_count": 8
+   },
+   "events": {
+    "covered": 4,
+    "total": 4,
+    "coverage": 1.0
+   },
+   "carried": 0,
+   "repaired": {
+    "total": 1,
+    "supported": 1,
+    "partly_supported": 0,
+    "not_supported": 0,
+    "supported_share": 1.0,
+    "contradicted": 0
+   },
+   "industry_evidence": "yes",
+   "industry_empty": false
+  },
+  "2026-10-24": {
+   "industry": {
+    "produced": 2,
+    "total": 2,
+    "supported": 0,
+    "partly_supported": 2,
+    "not_supported": 0,
+    "supported_share": 0.0,
+    "contradicted": 0
+   },
+   "sections": {
+    "key_points": {
+     "total": 10,
+     "supported": 9,
+     "partly_supported": 1,
+     "not_supported": 0,
+     "supported_share": 0.9,
+     "contradicted": 0
+    },
+    "article_briefs": {
+     "total": 5,
+     "supported": 3,
+     "partly_supported": 2,
+     "not_supported": 0,
+     "supported_share": 0.6,
+     "contradicted": 0
+    }
+   },
+   "core": {
+    "total": 15,
+    "supported": 12,
+    "partly_supported": 3,
+    "not_supported": 0,
+    "supported_share": 0.8,
+    "contradicted": 0,
+    "supported_count": 12
+   },
+   "events": {
+    "covered": 4,
+    "total": 4,
+    "coverage": 1.0
+   },
+   "carried": 1,
+   "repaired": {
+    "total": 1,
+    "supported": 1,
+    "partly_supported": 0,
+    "not_supported": 0,
+    "supported_share": 1.0,
+    "contradicted": 0
+   },
+   "industry_evidence": "yes",
+   "industry_empty": false
+  }
+ },
+ "key_points_and_briefs": {
+  "supported": 29,
+  "total": 36,
+  "share": 0.8055555555555556,
+  "locked_supported": 29,
+  "locked_total": 38,
+  "locked_share": 0.7631578947368421,
+  "threshold": 0.7131578947368421
+ },
+ "empty_section_with_evidence": [],
+ "points_without_evidence": [
+  "2026-10-14"
+ ],
+ "expected_runs": [
+  "2026-10-14",
+  "2026-10-23",
+  "2026-10-24"
+ ],
+ "checks": {
+  "no_unsupported_industry_point": true,
+  "empty_section_only_without_evidence": true,
+  "industry_points_only_with_evidence": false,
+  "a_supported_industry_point_or_all_empty_without_evidence": true,
+  "no_unsupported_key_point_or_brief": true,
+  "key_points_and_briefs_within_tolerance": true,
+  "event_coverage": true,
+  "every_development_run_has_one_summary": true
+ },
+ "passes": false,
+ "rule": {
+  "tolerance": 0.05,
+  "min_event_coverage": 0.8,
+  "threshold": "locked supported share minus the tolerance, unrounded; compared unrounded"
+ },
+ "industry_evidence": "carried from the locked Part 4 sheet"
+}

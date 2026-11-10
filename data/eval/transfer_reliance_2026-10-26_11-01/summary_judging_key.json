@@ -1,0 +1,170 @@
+{
+ "record_fingerprint": "4aa5652ddf1b59f53365129a811acaabac700db69eb24d181c2d8c45bfc8174b",
+ "seed": 47,
+ "items": {
+  "1": {
+   "design": "direct",
+   "run": "transfer_reliance_2026-10-26_11-01",
+   "section": "article_briefs",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "26f141b43f1f618694a51a5ae78f0b1c232d2f13c9b38fa3cfc8b7418d9d5132"
+  },
+  "2": {
+   "design": "direct",
+   "run": "transfer_reliance_2026-10-26_11-01",
+   "section": "key_points",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "5223108987541857817627956ff4a6fdbd80b79641244f542effde1fc2d11883"
+  },
+  "3": {
+   "design": "direct",
+   "run": "transfer_reliance_2026-10-26_11-01",
+   "section": "article_briefs",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "0fe4b9e5e7e08aa600d902bcf5ceae6681590bce5182f6df26471a7635ff42a4"
+  },
+  "4": {
+   "design": "direct",
+   "run": "transfer_reliance_2026-10-26_11-01",
+   "section": "key_points",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "da0a864eaa01692e16032fdadfb5e04d1c29c50c93737a695ce854cc17475b62"
+  },
+  "5": {
+   "design": "direct",
+   "run": "transfer_reliance_2026-10-26_11-01",
+   "section": "article_briefs",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "3e7336ffe1ea0303b48b9332d34f13a66b39e1486054f6ef3476947e78d37245"
+  },
+  "6": {
+   "design": "direct",
+   "run": "transfer_reliance_2026-10-26_11-01",
+   "section": "key_points",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "1b170dbb55a35e761864c414062c23a207649a82de2bf1d86dcef07bc1f3bf6f"
+  },
+  "7": {
+   "design": "direct",
+   "run": "transfer_reliance_2026-10-26_11-01",
+   "section": "key_points",
+   "index": 4,
+   "ids": [
+    3,
+    4
+   ],
+   "repaired": true,
+   "fingerprint": "35c208b9ae1544722fe4c36df7f0102d7b4407f7af21274c53eaea1ce66d17e9"
+  },
+  "8": {
+   "design": "direct",
+   "run": "transfer_reliance_2026-10-26_11-01",
+   "section": "article_briefs",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "ec819dae7891922275a48a4cd248b80b22495a9923e4f7362f989058ff303351"
+  },
+  "9": {
+   "design": "direct",
+   "run": "transfer_reliance_2026-10-26_11-01",
+   "section": "article_briefs",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "ce4df290c654fa9ab476f81990ac5af4fa85b6bb55cebb44569b3d4863575627"
+  },
+  "10": {
+   "design": "direct",
+   "run": "transfer_reliance_2026-10-26_11-01",
+   "section": "key_points",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "ebd134b9214325bcd212c85b7bb0ee594bab5a9a0807fd8d30eaf29f200fcce6"
+  },
+  "11": {
+   "design": "direct",
+   "run": "transfer_reliance_2026-10-26_11-01",
+   "section": "industry_context",
+   "index": 0,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "81c067ac06ca1443b3251771a25372956919207a4b538a646c627a2fd2e2fb49"
+  }
+ },
+ "carried": [],
+ "summaries": {
+  "A": {
+   "design": "direct",
+   "run": "transfer_reliance_2026-10-26_11-01"
+  }
+ },
+ "events": {
+  "1": {
+   "letter": "A",
+   "event": "hamleys_uk_subsidiary_dissolution",
+   "ids": [
+    1
+   ],
+   "fingerprint": "506fd7dbd172441e7a94ba1cf4d5ee13cc9e1c51ae9278e7e91c643e9d48b73c"
+  },
+  "2": {
+   "letter": "A",
+   "event": "ril_q2_results",
+   "ids": [
+    3,
+    4
+   ],
+   "fingerprint": "0260315ad4ed17a2e61d36139b991ed6ff07541e08387c18278cf009bcf53ccf"
+  },
+  "3": {
+   "letter": "A",
+   "event": "ril_q2_results_preview",
+   "ids": [
+    2,
+    5
+   ],
+   "fingerprint": "02c14fe6f9c74b612dca76e207bb723f7a5b7c0175fa7a2676f2c7fc622f7a4f"
+  }
+ },
+ "industry": {
+  "1": {
+   "letter": "A",
+   "fingerprint": "d2a4b37cac0a57e42b1fe002a68c2449a7e41646eec1a92a0f0acd39fae589ce"
+  }
+ },
+ "record_file": "transfer_run.json"
+}

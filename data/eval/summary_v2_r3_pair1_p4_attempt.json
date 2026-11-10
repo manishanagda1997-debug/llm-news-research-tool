@@ -1,0 +1,21 @@
+{
+ "run": "pair1_p4",
+ "started_at": "2026-11-09T07:30:37+00:00",
+ "clock_start": "2026-11-09T07:30:37+00:00",
+ "prompt_fingerprint": "b4a54ee1a3a9ab340e0372e11ba897139e6d9a1f28cb564b459af83aefbc2db6",
+ "other_tokens": 0,
+ "budget": {
+  "window_start_utc": "2026-11-08T07:30:32+00:00",
+  "window_start_ist": "2026-11-08T13:00:32+05:30",
+  "now_utc": "2026-11-09T07:30:32+00:00",
+  "now_ist": "2026-11-09T13:00:32+05:30",
+  "logged_tokens": 0,
+  "other_tokens": 0,
+  "need": 90000,
+  "limit": 200000,
+  "fits": true,
+  "fits_later_from_the_log": false,
+  "earliest_utc": null,
+  "earliest_ist": null
+ }
+}

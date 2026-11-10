@@ -1,0 +1,26 @@
+{
+ "items": 17,
+ "judgement_agreement": 0.9412,
+ "contradicted_agreement": 1.0,
+ "table": {
+  "supported": {
+   "supported": 15,
+   "partly_supported": 0,
+   "not_supported": 0
+  },
+  "partly_supported": {
+   "supported": 1,
+   "partly_supported": 1,
+   "not_supported": 0
+  },
+  "not_supported": {
+   "supported": 0,
+   "partly_supported": 0,
+   "not_supported": 0
+  }
+ },
+ "note": "rows of the table: first judgement; columns: second judgement",
+ "seed": 83,
+ "share": 0.2,
+ "scope": "Round 3 items without the decoys; the same judge; reported only"
+}

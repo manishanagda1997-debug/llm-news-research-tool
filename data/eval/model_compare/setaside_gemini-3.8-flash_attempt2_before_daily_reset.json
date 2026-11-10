@@ -1,0 +1,699 @@
+{
+ "configuration": "gemini-3.8-flash",
+ "attempt": 2,
+ "settings": {
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "generation": {
+   "temperature": 1.0,
+   "thinking_level": "medium"
+  }
+ },
+ "commit": "8d84ac7ee2c5f97f20c10eff49b72b23a5818b80",
+ "started": "2026-10-31T11:37:53+0530",
+ "runs": {
+  "2026-10-14": {
+   "cached": false,
+   "batch_size": 10,
+   "wall_seconds": 37.2,
+   "answers": {
+    "A9b85d3cb27": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A33d2a07840": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A59aa7b0222": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A1f7d47f39c": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A947c84dec7": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A986c846cdc": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Ab5f09d2bd1": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Afda0bbac4b": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A24e6d8662d": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A8619a7e886": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Ac20bce29ad": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Adc9449a897": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A5f2210687a": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A8d5b4a5afc": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A289594c896": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Ab28c0c3a7a": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A95a7eae323": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A86c03ba1b8": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Ac6905343e4": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A02b25c8c80": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Adfbc67b88f": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A7ba6e5020c": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A639826ac02": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A515b87254e": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Adb9ff93da2": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    }
+   },
+   "inputs": {
+    "A9b85d3cb27": "ac04928e6f5061bfefbb5d553532cd0e4f18ffd079757d83c3e29aff4191ec5e",
+    "A33d2a07840": "6c7ddc1940d00cf6c07f6e9d62cbe3a9b0040b26beb80b149b48bc05e6acc3fc",
+    "A59aa7b0222": "fbd60c6ac414ff04208f938c316b00ac6f3d445fcb77ffd9ec6e4d6587201848",
+    "A1f7d47f39c": "a635cf35884c6d57fab60d6d0b91046f013627a962c7fd7e579b02d1230487e2",
+    "A947c84dec7": "e7b4515622467326ec6aeb8087d2c38e2faa7db260f8a14052ebf5485ae72e26",
+    "A986c846cdc": "28c22c291322e2dbc6929ea147cd8c3f0a99453c264649b752930ef4453d152e",
+    "Ab5f09d2bd1": "1788144b82447ed43112bc8a697da70a177beb49100119b7100637ea245503da",
+    "Afda0bbac4b": "103ecee9798d5bb795d202a1dbe336fbf2c06a5e068e75d7d45b95f085d8a000",
+    "A24e6d8662d": "4a207ce219f8fb720474e0582e2eb3af5ba024373ce831bcc2f8d6f9d90fd969",
+    "A8619a7e886": "94ab93757f824ea6df1fdc4da2e83350e943f87ff0c9aa21bdf29a3146c5a792",
+    "Ac20bce29ad": "9bd557c9170fd595b2d7acf1dad7db0693d9860697e34ebbbd40995f1906bb55",
+    "Adc9449a897": "05a9f612703d9afdfa8a244d7bc8d5bfddd66712d129c22150e06dfc746dd4f5",
+    "A5f2210687a": "0ca8e3719788729c1cda7350cfa05e5c343b60aaadeca62b94429eb003904d4f",
+    "A8d5b4a5afc": "7943b64df2556a353bfc7611dce9e109974d01df08609ed977ceba1234dae644",
+    "A289594c896": "3a51629e1b0459645299f22162a9624f5431067a064c6af1cef4c1f67ad0c105",
+    "Ab28c0c3a7a": "da477ec4fd403274402105c1f056d201cb96ab474ac7d4c93f10fba752174dc0",
+    "A95a7eae323": "03bc2dd879b83803e23ec6e5a3f9afecd45dd72c93eb8ce1bdf3753bc0c14bb0",
+    "A86c03ba1b8": "57f8551ca952a7e4cd0eb5c1e8dae4aa85119d6a2d2cf63f964c168594a20a5a",
+    "Ac6905343e4": "8a68df491ff749432fc55e771e1c5da34059b7be9ea2131af7ce223848d2e7a5",
+    "A02b25c8c80": "41acc5722c7a2b06e9fa808949922ee8cb9e5e7bf9667bc637922139d6d995a3",
+    "Adfbc67b88f": "f2dc6804faa357d2e1379c6aef68079c34a5ad91456b2982b8ee063aca91b33f",
+    "A7ba6e5020c": "42f06fd5b79b9639dbab080d3466d2a270e541094ae4d959578186ba9a713e9a",
+    "A639826ac02": "fd4238a74d1b09923642b88a8dd4195a79b195e2adf1d53d9dc27e276dac388e",
+    "A515b87254e": "dadef0b5ceaa7a1311a4935d99a13bef34a0e96d6586cf36d2ba96f1759fd630",
+    "Adb9ff93da2": "2370360d6a530bc01ca0f1f8bcf71a3a58d7e7b966e2267645714d175c2aa166"
+   },
+   "llm_stats": {
+    "calls": 4,
+    "rate_limited": 0,
+    "retries": 1,
+    "failures": {
+     "daily_limit": 3
+    },
+    "waits": [
+     {
+      "kind": "server",
+      "seconds": 2.0
+     }
+    ],
+    "waited_seconds": 2.0,
+    "header_updates": 0,
+    "splits": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "reasoning_tokens": 0,
+    "per_call": []
+   }
+  },
+  "2026-10-23": {
+   "cached": false,
+   "batch_size": 10,
+   "wall_seconds": 0.4,
+   "answers": {
+    "A29c1a29e1d": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Af3ec3babc9": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Aa2665f4ad4": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Aee4703af04": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A391b491c75": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A3959810ae8": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A4055c39453": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A690a6ec804": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Ab38652cb91": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Ad8f06500d4": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Acd42aaa992": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A269a74e91b": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A0ae8a2cfab": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A88c355a3b0": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Adea3a0907a": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Ad74eeaf8f2": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Aeea554d8db": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    }
+   },
+   "inputs": {
+    "A29c1a29e1d": "bc0007422eca88ffd73bb584fd4700c8bd60ca1bdd588a53f2fb1792571637df",
+    "Af3ec3babc9": "7c68cc024b397c957ab93bb5a1c1952b942d742317c92b2c7eda34147bd63004",
+    "Aa2665f4ad4": "a43aa5b87846d23b512ec934e4f9dbdb65ed8a6dd64db986f6b48c7bc7c02a72",
+    "Aee4703af04": "7a8bad19a363fed62792aa5b605a62d73fdbdc0b66ffbfd9d403bf571e648d26",
+    "A391b491c75": "db5107dc17f6d2496f7253e3fe752415b97923f91bce9793412bc56b13e59fbc",
+    "A3959810ae8": "1534652089c9331412b6d2b6ae88117308883de37c0c1c9c6b107e6d07b6a561",
+    "A4055c39453": "86185bd4dda4a584f1013671ef0c821f9ed8a84f6059e48516fa7de48e25501d",
+    "A690a6ec804": "e0b80c691d366af1993281bc8d22fba7dba3f9f2e1da1fc1881c045e93aa974b",
+    "Ab38652cb91": "cd5fe0549f541ae9cf9db9f9cb89cb7ccdb964a3507543a8abda81230184f350",
+    "Ad8f06500d4": "acd706c18e76dde302ecf79c24c9de23ab41d9620dc50e30a537755a7c6b0b78",
+    "Acd42aaa992": "938a8b7a0b2ad9d89778e656d90a9068c0ba2f4a3d85172710eaa0cdfdc57805",
+    "A269a74e91b": "a9d059a85c5477d1842a6c61bbae8b857a3b1af505a8fd836151066f53e83df9",
+    "A0ae8a2cfab": "22032d413827275f947c2e09e40356c5b7e914847eedbcf4510a07cb1e06898d",
+    "A88c355a3b0": "ad57fca87ddee2e797f5b076777e5e5da68246dba84ec8cf6836e7c364c5d3c5",
+    "Adea3a0907a": "e27a643b931adf8b520706057f39917272bdfb0e3c780a617a228841a58e9051",
+    "Ad74eeaf8f2": "7b27e3acc04872232b1b19f5060fd6e5f683685b7b4623f360c01c03b90ab613",
+    "Aeea554d8db": "895c670e910a1ed82c7b30728359216dd401ef5036edc3ae44bc0af31304261b"
+   },
+   "llm_stats": {
+    "calls": 2,
+    "rate_limited": 0,
+    "retries": 0,
+    "failures": {
+     "daily_limit": 2
+    },
+    "waits": [],
+    "waited_seconds": 0.0,
+    "header_updates": 0,
+    "splits": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "reasoning_tokens": 0,
+    "per_call": []
+   }
+  },
+  "2026-10-24": {
+   "cached": false,
+   "batch_size": 10,
+   "wall_seconds": 0.9,
+   "answers": {
+    "A29c1a29e1d": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Af3ec3babc9": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A81fc8ba892": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A3959810ae8": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A690a6ec804": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Aaa3d8d3035": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A62643cad78": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Ad8f06500d4": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Acd42aaa992": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A79f20394bc": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A269a74e91b": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A0ae8a2cfab": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A88c355a3b0": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Aa3597011a3": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Adea3a0907a": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Ad74eeaf8f2": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Aad645eceb7": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Aeea554d8db": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A1f07d7f3d2": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Aebbe4fd5d7": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Ae689fc3060": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A58b1377275": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "A43ea61cb65": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Af6c1b429d2": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    },
+    "Aac357bfe35": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "LLMUnavailable",
+     "kind": "daily_limit"
+    }
+   },
+   "inputs": {
+    "A29c1a29e1d": "bc0007422eca88ffd73bb584fd4700c8bd60ca1bdd588a53f2fb1792571637df",
+    "Af3ec3babc9": "7c68cc024b397c957ab93bb5a1c1952b942d742317c92b2c7eda34147bd63004",
+    "A81fc8ba892": "d9780134c4bd3b83bb0dbc328fd9b108fa6fb323e2cbbbaeb9ec7dffafec9b48",
+    "A3959810ae8": "1534652089c9331412b6d2b6ae88117308883de37c0c1c9c6b107e6d07b6a561",
+    "A690a6ec804": "e0b80c691d366af1993281bc8d22fba7dba3f9f2e1da1fc1881c045e93aa974b",
+    "Aaa3d8d3035": "0d78046b878405d068f4cc94f57178769ad42982aa68e8ea986576e846f7bec8",
+    "A62643cad78": "4e30e8b934048cc897cf04571a5eb305587d7ae01b235545779b7139d44e52e6",
+    "Ad8f06500d4": "acd706c18e76dde302ecf79c24c9de23ab41d9620dc50e30a537755a7c6b0b78",
+    "Acd42aaa992": "938a8b7a0b2ad9d89778e656d90a9068c0ba2f4a3d85172710eaa0cdfdc57805",
+    "A79f20394bc": "33c5200a819b3735b4440f9b27706994a66f4ed7f01a21fb22373af7392206ae",
+    "A269a74e91b": "a9d059a85c5477d1842a6c61bbae8b857a3b1af505a8fd836151066f53e83df9",
+    "A0ae8a2cfab": "22032d413827275f947c2e09e40356c5b7e914847eedbcf4510a07cb1e06898d",
+    "A88c355a3b0": "ad57fca87ddee2e797f5b076777e5e5da68246dba84ec8cf6836e7c364c5d3c5",
+    "Aa3597011a3": "d66ce8518d38b3d2241645131d4c8161333c682d506ae1bd8081e4210ceef2f8",
+    "Adea3a0907a": "e27a643b931adf8b520706057f39917272bdfb0e3c780a617a228841a58e9051",
+    "Ad74eeaf8f2": "7b27e3acc04872232b1b19f5060fd6e5f683685b7b4623f360c01c03b90ab613",
+    "Aad645eceb7": "31715bd77f56f2c0691db33c81f5bc183c55ae113e59bb25a2f026a38a8f961c",
+    "Aeea554d8db": "895c670e910a1ed82c7b30728359216dd401ef5036edc3ae44bc0af31304261b",
+    "A1f07d7f3d2": "97e89735873e7f89c63df7829ff77f0eed4794f2a064282d2962f0e2e33a9a98",
+    "Aebbe4fd5d7": "25ac9bb1df53dd28b76453892c98957cc28510eeb132c4cfefbae700ad14b073",
+    "Ae689fc3060": "244d683a986d88b6a834c37bd547ef1cbd36430bf9e9a3b49a78a3cde438fee5",
+    "A58b1377275": "24bd739e580e62f82a656799c0e6805cdf751b9bdb86e5044612f4fcd9ddf332",
+    "A43ea61cb65": "90a3906da2b7572fffa32745f8143946c25b663a2db14a6eceb366581e413b63",
+    "Af6c1b429d2": "f398864bcbcc843544d02976351c4a1dbf0db8f3262b8d08ebd9b609ba9d0e3c",
+    "Aac357bfe35": "167a5b6193eff3d0677abdeff63074277af33066ceac3c5540df9bcaa944e39f"
+   },
+   "llm_stats": {
+    "calls": 3,
+    "rate_limited": 0,
+    "retries": 0,
+    "failures": {
+     "daily_limit": 3
+    },
+    "waits": [],
+    "waited_seconds": 0.0,
+    "header_updates": 0,
+    "splits": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "reasoning_tokens": 0,
+    "per_call": []
+   }
+  }
+ }
+}

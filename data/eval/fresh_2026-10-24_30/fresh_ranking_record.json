@@ -1,0 +1,1298 @@
+{
+ "run_id": "fresh_2026-10-24_30",
+ "window": [
+  "2026-10-24T00:00:00Z",
+  "2026-10-30T23:59:59Z"
+ ],
+ "freeze": {
+  "ok": true,
+  "problems": [],
+  "head": "4294bb26e9ec087e28bcd73be422551a0d9d44b1",
+  "tag_commit": "9126f03fb58478281119b77f28ea2382c5b94f23"
+ },
+ "protocol_sha256": "06e248f42d43ce31e683037e1dfc5237a6e9ec140493522f7dd6dc8730fc936f",
+ "default": "O1+S1",
+ "dev_winner": "O1+S1",
+ "eligible": [
+  "O1+S1"
+ ],
+ "experimental": [
+  "O1+S2",
+  "O3+S1",
+  "O3+S2",
+  "O2+S1",
+  "O2+S2"
+ ],
+ "answers": {
+  "candidates": 36,
+  "model_answers": 36,
+  "fallbacks": 0,
+  "saved_before_collection": 0,
+  "collected_by_pass": [
+   36
+  ]
+ },
+ "reliability": {
+  "passes": [
+   {
+    "pass": 1,
+    "status": "done",
+    "started": "2026-11-02T13:19:28+00:00",
+    "asked": 36,
+    "answered": 36,
+    "missing_after": 0,
+    "failures": {},
+    "failed_keys": {},
+    "seconds": 242.1,
+    "tokens": null,
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "llm_stats": {
+     "calls": 5,
+     "rate_limited": 0,
+     "retries": 0,
+     "failures": {},
+     "waits": [
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "learning",
+       "seconds": 0.5
+      },
+      {
+       "kind": "pacing",
+       "seconds": 56.235
+      },
+      {
+       "kind": "pacing",
+       "seconds": 55.985
+      },
+      {
+       "kind": "pacing",
+       "seconds": 55.985
+      },
+      {
+       "kind": "pacing",
+       "seconds": 60.0
+      },
+      {
+       "kind": "pacing",
+       "seconds": 59.985
+      },
+      {
+       "kind": "pacing",
+       "seconds": 55.25
+      },
+      {
+       "kind": "pacing",
+       "seconds": 59.985
+      },
+      {
+       "kind": "pacing",
+       "seconds": 59.985
+      },
+      {
+       "kind": "pacing",
+       "seconds": 60.0
+      }
+     ],
+     "waited_seconds": 531.41,
+     "header_updates": 5,
+     "splits": 1,
+     "input_tokens": 22159,
+     "output_tokens": 4766,
+     "reasoning_tokens": 2868
+    },
+    "finished": "2026-11-02T13:23:31+00:00"
+   }
+  ],
+  "failures_all_passes": {}
+ },
+ "first_pass_runtime": {
+  "kind": "live",
+  "status": "done",
+  "seconds": 242.1,
+  "coverage": 1.0,
+  "seconds_for_rule": 242.1,
+  "reason": "counts"
+ },
+ "evidence": {
+  "A0e104f6834": "full text",
+  "A2c1997b5bd": "short text: page not fetched",
+  "Ab34338b34c": "full text",
+  "A0c2176d8e7": "full text",
+  "A1b5cf245a6": "short text: page not fetched",
+  "A24663871a5": "full text",
+  "Ab1fa08983d": "full text",
+  "A3896ecaf4f": "full text",
+  "A66704ee612": "full text",
+  "Aa48c5bc764": "short text: page not fetched",
+  "A5d09a10230": "full text",
+  "Ac69c771db7": "full text",
+  "Aef40a17de7": "full text",
+  "A6f2a00c304": "short text: page not fetched",
+  "A68c3530e1c": "full text",
+  "A5ba1fad383": "full text",
+  "A634281d41e": "full text",
+  "Ab1e656bc1b": "full text",
+  "A8847bd8a89": "full text",
+  "Ab3632d3883": "full text",
+  "Af80d4b144e": "full text",
+  "A66dd6cf637": "full text",
+  "A42d243196f": "full text",
+  "A363990ea5f": "full text",
+  "Afcec892819": "full text",
+  "Ab7856e37c7": "full text",
+  "A93923b4582": "full text",
+  "Ae9310d6959": "full text",
+  "A95d9ce85c5": "full text",
+  "A1defb27795": "full text",
+  "A314883433a": "short text: page not fetched",
+  "A67ca6f4610": "full text",
+  "A5b3c15c9fe": "short text: page not fetched",
+  "A2cfec82db2": "short text: page not fetched",
+  "Adce2b3f6d3": "short text: teaser",
+  "A2f209d8b77": "short text: teaser",
+  "A67bbfb5da4": "full text",
+  "Aff0de8642d": "full text",
+  "Add03ec2c8d": "full text",
+  "Acb93c4e064": "full text",
+  "Aa4488a4c9c": "full text",
+  "A587506a000": "full text",
+  "A98aa3b5ab5": "full text",
+  "A251275669d": "short text: page not fetched",
+  "Ac136673603": "full text",
+  "Aafaa5221ba": "full text",
+  "Ae71112f12e": "full text",
+  "A468075561e": "full text",
+  "A9945d7a206": "full text",
+  "A18fa1194ff": "full text",
+  "A33632e3c53": "short text: teaser",
+  "Aaddc2e4810": "full text",
+  "Ac6cc19686f": "full text",
+  "A1bcda36707": "short text: page not fetched",
+  "Afe637bd9ac": "full text",
+  "A352acfa7e7": "full text",
+  "Ab8765c12c2": "full text",
+  "A3104a4cae7": "full text"
+ },
+ "notes": [
+  "The progress list of the first sheet command shows the titles in search order (search A, then search B). The label sheet and the reading page are shuffled."
+ ],
+ "package_versions": {
+  "streamlit": "1.66.1",
+  "langchain": "1.4.7",
+  "langchain-core": "1.7.3",
+  "langchain-google-genai": "4.4.2",
+  "langchain-groq": "1.1.3",
+  "groq": "0.37.1",
+  "newsapi-python": "0.2.7",
+  "trafilatura": "2.3.1",
+  "pandas": "3.1.0",
+  "python-dotenv": "1.2.4"
+ },
+ "report": {
+  "candidates": 36,
+  "relevant_candidates": 28,
+  "configurations": {
+   "O1+S1": {
+    "5": {
+     "selected": 5,
+     "relevant_selected": 5,
+     "precision": 1.0,
+     "article_recall": 0.17857142857142858,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_offer_deadline_outlook"
+     ],
+     "event_recall": 0.3333333333333333,
+     "slot_use": 0.8,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_offer_deadline_outlook"
+     ],
+     "direct_event_recall": 0.5,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": []
+     }
+    },
+    "10": {
+     "selected": 10,
+     "relevant_selected": 10,
+     "precision": 1.0,
+     "article_recall": 0.35714285714285715,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "tata_motors_q2_fy27_results"
+     ],
+     "event_recall": 0.5,
+     "slot_use": 0.6,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "tata_motors_q2_fy27_results"
+     ],
+     "direct_event_recall": 0.75,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206",
+      "Ab8765c12c2",
+      "A33632e3c53",
+      "A5d09a10230",
+      "A0c2176d8e7",
+      "Adce2b3f6d3"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": [],
+      "Ab8765c12c2": [],
+      "A33632e3c53": [],
+      "A5d09a10230": [],
+      "A0c2176d8e7": [],
+      "Adce2b3f6d3": []
+     }
+    },
+    "15": {
+     "selected": 15,
+     "relevant_selected": 15,
+     "precision": 1.0,
+     "article_recall": 0.5357142857142857,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "jlr_defender_local_assembly_price_cut",
+      "tata_motors_q2_fy27_results"
+     ],
+     "event_recall": 0.5833333333333334,
+     "slot_use": 0.5833333333333334,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "jlr_defender_local_assembly_price_cut",
+      "tata_motors_q2_fy27_results"
+     ],
+     "direct_event_recall": 0.875,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206",
+      "Ab8765c12c2",
+      "A33632e3c53",
+      "A5d09a10230",
+      "A0c2176d8e7",
+      "Adce2b3f6d3",
+      "Acb93c4e064",
+      "Ac6cc19686f",
+      "A1bcda36707",
+      "A314883433a",
+      "Aa48c5bc764"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": [],
+      "Ab8765c12c2": [],
+      "A33632e3c53": [],
+      "A5d09a10230": [],
+      "A0c2176d8e7": [],
+      "Adce2b3f6d3": [],
+      "Acb93c4e064": [],
+      "Ac6cc19686f": [],
+      "A1bcda36707": [],
+      "A314883433a": [],
+      "Aa48c5bc764": []
+     }
+    }
+   },
+   "O1+S2": {
+    "5": {
+     "selected": 5,
+     "relevant_selected": 5,
+     "precision": 1.0,
+     "article_recall": 0.17857142857142858,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_offer_deadline_outlook"
+     ],
+     "event_recall": 0.3333333333333333,
+     "slot_use": 0.8,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_offer_deadline_outlook"
+     ],
+     "direct_event_recall": 0.5,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": []
+     }
+    },
+    "10": {
+     "selected": 10,
+     "relevant_selected": 10,
+     "precision": 1.0,
+     "article_recall": 0.35714285714285715,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "tata_motors_q2_fy27_results"
+     ],
+     "event_recall": 0.5,
+     "slot_use": 0.6,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "tata_motors_q2_fy27_results"
+     ],
+     "direct_event_recall": 0.75,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206",
+      "Ab8765c12c2",
+      "A33632e3c53",
+      "A5d09a10230",
+      "A0c2176d8e7",
+      "Adce2b3f6d3"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": [],
+      "Ab8765c12c2": [],
+      "A33632e3c53": [],
+      "A5d09a10230": [],
+      "A0c2176d8e7": [],
+      "Adce2b3f6d3": []
+     }
+    },
+    "15": {
+     "selected": 15,
+     "relevant_selected": 15,
+     "precision": 1.0,
+     "article_recall": 0.5357142857142857,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "jlr_defender_local_assembly_price_cut",
+      "tata_motors_q2_fy27_results"
+     ],
+     "event_recall": 0.5833333333333334,
+     "slot_use": 0.5833333333333334,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "jlr_defender_local_assembly_price_cut",
+      "tata_motors_q2_fy27_results"
+     ],
+     "direct_event_recall": 0.875,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206",
+      "Ab8765c12c2",
+      "A33632e3c53",
+      "A5d09a10230",
+      "A0c2176d8e7",
+      "Adce2b3f6d3",
+      "Acb93c4e064",
+      "Ac6cc19686f",
+      "A1bcda36707",
+      "Aa48c5bc764",
+      "A363990ea5f"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": [],
+      "Ab8765c12c2": [],
+      "A33632e3c53": [],
+      "A5d09a10230": [],
+      "A0c2176d8e7": [],
+      "Adce2b3f6d3": [],
+      "Acb93c4e064": [],
+      "Ac6cc19686f": [
+       "A314883433a"
+      ],
+      "A1bcda36707": [],
+      "Aa48c5bc764": [],
+      "A363990ea5f": []
+     }
+    }
+   },
+   "O3+S1": {
+    "5": {
+     "selected": 5,
+     "relevant_selected": 5,
+     "precision": 1.0,
+     "article_recall": 0.17857142857142858,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_offer_deadline_outlook"
+     ],
+     "event_recall": 0.3333333333333333,
+     "slot_use": 0.8,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_offer_deadline_outlook"
+     ],
+     "direct_event_recall": 0.5,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": []
+     }
+    },
+    "10": {
+     "selected": 10,
+     "relevant_selected": 10,
+     "precision": 1.0,
+     "article_recall": 0.35714285714285715,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "tata_motors_q2_fy27_results"
+     ],
+     "event_recall": 0.5,
+     "slot_use": 0.6,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "tata_motors_q2_fy27_results"
+     ],
+     "direct_event_recall": 0.75,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206",
+      "Ab8765c12c2",
+      "A33632e3c53",
+      "A5d09a10230",
+      "A0c2176d8e7",
+      "Adce2b3f6d3"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": [],
+      "Ab8765c12c2": [],
+      "A33632e3c53": [],
+      "A5d09a10230": [],
+      "A0c2176d8e7": [],
+      "Adce2b3f6d3": []
+     }
+    },
+    "15": {
+     "selected": 15,
+     "relevant_selected": 15,
+     "precision": 1.0,
+     "article_recall": 0.5357142857142857,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "jlr_defender_local_assembly_price_cut",
+      "tata_motors_q2_fy27_results"
+     ],
+     "event_recall": 0.5833333333333334,
+     "slot_use": 0.5833333333333334,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "jlr_defender_local_assembly_price_cut",
+      "tata_motors_q2_fy27_results"
+     ],
+     "direct_event_recall": 0.875,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206",
+      "Ab8765c12c2",
+      "A33632e3c53",
+      "A5d09a10230",
+      "A0c2176d8e7",
+      "Adce2b3f6d3",
+      "Acb93c4e064",
+      "Ac6cc19686f",
+      "A1bcda36707",
+      "A314883433a",
+      "Aa48c5bc764"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": [],
+      "Ab8765c12c2": [],
+      "A33632e3c53": [],
+      "A5d09a10230": [],
+      "A0c2176d8e7": [],
+      "Adce2b3f6d3": [],
+      "Acb93c4e064": [],
+      "Ac6cc19686f": [],
+      "A1bcda36707": [],
+      "A314883433a": [],
+      "Aa48c5bc764": []
+     }
+    }
+   },
+   "O3+S2": {
+    "5": {
+     "selected": 5,
+     "relevant_selected": 5,
+     "precision": 1.0,
+     "article_recall": 0.17857142857142858,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_offer_deadline_outlook"
+     ],
+     "event_recall": 0.3333333333333333,
+     "slot_use": 0.8,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_offer_deadline_outlook"
+     ],
+     "direct_event_recall": 0.5,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": []
+     }
+    },
+    "10": {
+     "selected": 10,
+     "relevant_selected": 10,
+     "precision": 1.0,
+     "article_recall": 0.35714285714285715,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "tata_motors_q2_fy27_results"
+     ],
+     "event_recall": 0.5,
+     "slot_use": 0.6,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "tata_motors_q2_fy27_results"
+     ],
+     "direct_event_recall": 0.75,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206",
+      "Ab8765c12c2",
+      "A33632e3c53",
+      "A5d09a10230",
+      "A0c2176d8e7",
+      "Adce2b3f6d3"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": [],
+      "Ab8765c12c2": [],
+      "A33632e3c53": [],
+      "A5d09a10230": [],
+      "A0c2176d8e7": [],
+      "Adce2b3f6d3": []
+     }
+    },
+    "15": {
+     "selected": 15,
+     "relevant_selected": 15,
+     "precision": 1.0,
+     "article_recall": 0.5357142857142857,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "jlr_defender_local_assembly_price_cut",
+      "tata_motors_q2_fy27_results"
+     ],
+     "event_recall": 0.5833333333333334,
+     "slot_use": 0.5833333333333334,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "jlr_defender_local_assembly_price_cut",
+      "tata_motors_q2_fy27_results"
+     ],
+     "direct_event_recall": 0.875,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206",
+      "Ab8765c12c2",
+      "A33632e3c53",
+      "A5d09a10230",
+      "A0c2176d8e7",
+      "Adce2b3f6d3",
+      "Acb93c4e064",
+      "Ac6cc19686f",
+      "A1bcda36707",
+      "Aa48c5bc764",
+      "A363990ea5f"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": [],
+      "Ab8765c12c2": [],
+      "A33632e3c53": [],
+      "A5d09a10230": [],
+      "A0c2176d8e7": [],
+      "Adce2b3f6d3": [],
+      "Acb93c4e064": [],
+      "Ac6cc19686f": [
+       "A314883433a"
+      ],
+      "A1bcda36707": [],
+      "Aa48c5bc764": [],
+      "A363990ea5f": []
+     }
+    }
+   },
+   "O2+S1": {
+    "5": {
+     "selected": 5,
+     "relevant_selected": 5,
+     "precision": 1.0,
+     "article_recall": 0.17857142857142858,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_offer_deadline_outlook"
+     ],
+     "event_recall": 0.3333333333333333,
+     "slot_use": 0.8,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_offer_deadline_outlook"
+     ],
+     "direct_event_recall": 0.5,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": []
+     }
+    },
+    "10": {
+     "selected": 10,
+     "relevant_selected": 10,
+     "precision": 1.0,
+     "article_recall": 0.35714285714285715,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook"
+     ],
+     "event_recall": 0.4166666666666667,
+     "slot_use": 0.5,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook"
+     ],
+     "direct_event_recall": 0.625,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206",
+      "Ab8765c12c2",
+      "A33632e3c53",
+      "A5d09a10230",
+      "A66dd6cf637",
+      "A0c2176d8e7"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": [],
+      "Ab8765c12c2": [],
+      "A33632e3c53": [],
+      "A5d09a10230": [],
+      "A66dd6cf637": [],
+      "A0c2176d8e7": []
+     }
+    },
+    "15": {
+     "selected": 15,
+     "relevant_selected": 15,
+     "precision": 1.0,
+     "article_recall": 0.5357142857142857,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "jlr_defender_local_assembly_price_cut",
+      "tata_motors_q2_fy27_results"
+     ],
+     "event_recall": 0.5833333333333334,
+     "slot_use": 0.5833333333333334,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "jlr_defender_local_assembly_price_cut",
+      "tata_motors_q2_fy27_results"
+     ],
+     "direct_event_recall": 0.875,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206",
+      "Ab8765c12c2",
+      "A33632e3c53",
+      "A5d09a10230",
+      "A66dd6cf637",
+      "A0c2176d8e7",
+      "Adce2b3f6d3",
+      "Acb93c4e064",
+      "Ac6cc19686f",
+      "A1bcda36707",
+      "A314883433a"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": [],
+      "Ab8765c12c2": [],
+      "A33632e3c53": [],
+      "A5d09a10230": [],
+      "A66dd6cf637": [],
+      "A0c2176d8e7": [],
+      "Adce2b3f6d3": [],
+      "Acb93c4e064": [],
+      "Ac6cc19686f": [],
+      "A1bcda36707": [],
+      "A314883433a": []
+     }
+    }
+   },
+   "O2+S2": {
+    "5": {
+     "selected": 5,
+     "relevant_selected": 5,
+     "precision": 1.0,
+     "article_recall": 0.17857142857142858,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_offer_deadline_outlook"
+     ],
+     "event_recall": 0.3333333333333333,
+     "slot_use": 0.8,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_offer_deadline_outlook"
+     ],
+     "direct_event_recall": 0.5,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": []
+     }
+    },
+    "10": {
+     "selected": 10,
+     "relevant_selected": 10,
+     "precision": 1.0,
+     "article_recall": 0.35714285714285715,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook"
+     ],
+     "event_recall": 0.4166666666666667,
+     "slot_use": 0.5,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook"
+     ],
+     "direct_event_recall": 0.625,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206",
+      "Ab8765c12c2",
+      "A33632e3c53",
+      "A5d09a10230",
+      "A66dd6cf637",
+      "A0c2176d8e7"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": [],
+      "Ab8765c12c2": [],
+      "A33632e3c53": [],
+      "A5d09a10230": [],
+      "A66dd6cf637": [],
+      "A0c2176d8e7": []
+     }
+    },
+    "15": {
+     "selected": 15,
+     "relevant_selected": 15,
+     "precision": 1.0,
+     "article_recall": 0.5357142857142857,
+     "relevant_events": 12,
+     "events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "jlr_defender_local_assembly_price_cut",
+      "tata_motors_q2_fy27_results"
+     ],
+     "event_recall": 0.5833333333333334,
+     "slot_use": 0.5833333333333334,
+     "direct_events": 8,
+     "direct_events_covered": [
+      "amazon_tata_3000_electric_trucks",
+      "iveco_acceptance_threshold_cleared",
+      "iveco_initial_settlement_control",
+      "iveco_integration_next_steps",
+      "iveco_offer_deadline_outlook",
+      "jlr_defender_local_assembly_price_cut",
+      "tata_motors_q2_fy27_results"
+     ],
+     "direct_event_recall": 0.875,
+     "selected_keys": [
+      "A352acfa7e7",
+      "A98aa3b5ab5",
+      "Ab1e656bc1b",
+      "Aafaa5221ba",
+      "A9945d7a206",
+      "Ab8765c12c2",
+      "A33632e3c53",
+      "A5d09a10230",
+      "A66dd6cf637",
+      "A0c2176d8e7",
+      "Adce2b3f6d3",
+      "Acb93c4e064",
+      "Ac6cc19686f",
+      "A1bcda36707",
+      "Aa48c5bc764"
+     ],
+     "also_reported_by": {
+      "A352acfa7e7": [],
+      "A98aa3b5ab5": [],
+      "Ab1e656bc1b": [],
+      "Aafaa5221ba": [],
+      "A9945d7a206": [],
+      "Ab8765c12c2": [],
+      "A33632e3c53": [],
+      "A5d09a10230": [],
+      "A66dd6cf637": [],
+      "A0c2176d8e7": [],
+      "Adce2b3f6d3": [],
+      "Acb93c4e064": [],
+      "Ac6cc19686f": [
+       "A314883433a"
+      ],
+      "A1bcda36707": [],
+      "Aa48c5bc764": []
+     }
+    }
+   }
+  },
+  "acceptance": {
+   "O1+S2": {
+    "passed": false,
+    "conditions": {
+     "gain": false,
+     "no_direct_loss": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": true,
+     "retention": true
+    },
+    "events": {
+     "gained": [],
+     "lost": [],
+     "net": 0,
+     "direct_gained": [],
+     "direct_lost": [],
+     "direct_net": 0
+    }
+   },
+   "O3+S1": {
+    "passed": false,
+    "conditions": {
+     "gain": false,
+     "no_direct_loss": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": true,
+     "retention": true,
+     "runtime": false,
+     "fallback": true
+    },
+    "events": {
+     "gained": [],
+     "lost": [],
+     "net": 0,
+     "direct_gained": [],
+     "direct_lost": [],
+     "direct_net": 0
+    }
+   },
+   "O3+S2": {
+    "passed": false,
+    "conditions": {
+     "gain": false,
+     "no_direct_loss": true,
+     "event_recall_not_lower": true,
+     "precision_not_lower": true,
+     "retention": true,
+     "runtime": false,
+     "fallback": true
+    },
+    "events": {
+     "gained": [],
+     "lost": [],
+     "net": 0,
+     "direct_gained": [],
+     "direct_lost": [],
+     "direct_net": 0
+    }
+   },
+   "O2+S1": {
+    "passed": false,
+    "conditions": {
+     "gain": false,
+     "no_direct_loss": false,
+     "event_recall_not_lower": false,
+     "precision_not_lower": true,
+     "retention": true,
+     "runtime": false,
+     "fallback": true
+    },
+    "events": {
+     "gained": [],
+     "lost": [
+      "tata_motors_q2_fy27_results"
+     ],
+     "net": -1,
+     "direct_gained": [],
+     "direct_lost": [
+      "tata_motors_q2_fy27_results"
+     ],
+     "direct_net": -1
+    }
+   },
+   "O2+S2": {
+    "passed": false,
+    "conditions": {
+     "gain": false,
+     "no_direct_loss": false,
+     "event_recall_not_lower": false,
+     "precision_not_lower": true,
+     "retention": true,
+     "runtime": false,
+     "fallback": true
+    },
+    "events": {
+     "gained": [],
+     "lost": [
+      "tata_motors_q2_fy27_results"
+     ],
+     "net": -1,
+     "direct_gained": [],
+     "direct_lost": [
+      "tata_motors_q2_fy27_results"
+     ],
+     "direct_net": -1
+    }
+   }
+  },
+  "winner": "O1+S1",
+  "not_run": [],
+  "title_protection": {
+   "rescued": [
+    "Aff0de8642d"
+   ],
+   "promoted": [
+    "A2c1997b5bd"
+   ]
+  },
+  "retention_same": true,
+  "fallback_ok": true
+ }
+}

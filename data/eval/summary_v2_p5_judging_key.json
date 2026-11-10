@@ -1,0 +1,589 @@
+{
+ "record_fingerprint": "c5154e526318cbcc0178d6e295a639ef0fb2ca5ce538b135ff117e28efffe148",
+ "seed": 45,
+ "items": {
+  "1": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": true,
+   "fingerprint": "3a0adc97dc7cf7ae4c67f36af7592c8eedd4c822fa21af64207c6eaa704caa9f"
+  },
+  "2": {
+   "design": "direct",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "d96c4fcbfef3e64a240c5ac79e7e80ef7097422ea530dc709c3339bfabde9d0c"
+  },
+  "3": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "f5eabc678a7863d7e2a9a66d8c0a109ca87d734ae0d035bf74cb7ff8256c4ce7"
+  },
+  "4": {
+   "design": "direct",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "f384fe5f4518045db885bb8a676128142a25438933785f91db8c646b2c87842d"
+  },
+  "5": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "3afa50511cf3e2cf7a10d20b2f15c91ecad6e49f2009da5d1235edaccca82412"
+  },
+  "6": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 6,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "b69138d73110166ae51c14da0f95ee3cb2e770e424a1f213a126b87cba46ebf6"
+  },
+  "7": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "00fbc8fe2e04fdc1eef0607d4c44839c1d5566fe888e743d3431b7127e13ebce"
+  },
+  "8": {
+   "design": "direct",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "552fd1aa71d32360d8a8d6113edc68504461464525cd3b2816bc1134ac0256cc"
+  },
+  "9": {
+   "design": "direct",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 2,
+   "ids": [
+    4,
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "d578d6e88c3e7dcf3cf76c02613dec4a70fd6a2df6270fb92e6e616457a8786f"
+  },
+  "10": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "5d9c0dcea80db06a2d6338970500be177a3260ed2b877153396e3e418f58a7d0"
+  },
+  "11": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "industry_context",
+   "index": 0,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "ca75468b585f0b1d777634f3fae39cc00bbf7cc48d13e47b41d67a65c28b4fe8"
+  },
+  "12": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 7,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "c8b2a8036c18c0882a6f6e0f7606fb8ecfd9d34fc8277bad1948330f8081f0f3"
+  },
+  "13": {
+   "design": "direct",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "56da07a2b9a99e01bb587ea150d09f152bf7f8d0c44c5ab6afa1ba3a3082930c"
+  },
+  "14": {
+   "design": "direct",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "4a350b21cc54e60f4ec827726596a85088e41fdf634b021a086a68e11a73a310"
+  },
+  "15": {
+   "design": "direct",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 1,
+   "ids": [
+    4,
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "6b8c0fee03716bb902ab2724490d5f1750b3c7a41ca914806cbcebbbf7a66f9c"
+  },
+  "16": {
+   "design": "direct",
+   "run": "2026-10-14",
+   "section": "industry_context",
+   "index": 1,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "ef9c456e1d9c662c2a4789576ee82b02657bbb63d7c900b2bcb4ca71ccb4f225"
+  },
+  "17": {
+   "design": "direct",
+   "run": "2026-10-23",
+   "section": "industry_context",
+   "index": 0,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "b3afeae6e3a78c59b71afedd2687fcbba6341924e3e0c5ae970f7c4bca875781"
+  },
+  "18": {
+   "design": "direct",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "6af16d699b39c0a73eee17e5a212af5ddf142502c0fe749d1201f04ef10aa329"
+  },
+  "19": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "2bd16c2ff1cd873c86dfaa6805991e1bc261ecee259ccaa1ba8db6cdb0f34899"
+  },
+  "20": {
+   "design": "direct",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 2,
+   "ids": [
+    2,
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "fab6838422c5f032d309b7efcb95012d1be91e27c8b6bca1ae70d0a57cb53a0c"
+  },
+  "21": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "industry_context",
+   "index": 1,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "6f8e6243714633e7cf18ff588dce251aecd78fa9bc6da96e2a072aa5b16bf56f"
+  },
+  "22": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 9,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "3559c0e9c2560ebcb5f9115916ca13f4256e74caef301742fc94e0eb337b7cc2"
+  },
+  "23": {
+   "design": "direct",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": true,
+   "fingerprint": "93f0fc31b0a2c4fa239dafb15a115f044825afb89945c8d964995ac4c1c58b63"
+  },
+  "24": {
+   "design": "direct",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "9c6c1697d6dd06c96e6eabfe6f3a781d41243f0d281c6f51f640696595f902f7"
+  },
+  "25": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 4,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "06a61b26b6b2aa931ee7d318ff3475e084be70f6b49fe3325cc01325bb25f647"
+  },
+  "26": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 5,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "4b6a12e7bbae6265d791c9e3d2f0a51d9e9360d30ad60ed59fd5f87b65b097ae"
+  },
+  "27": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 1,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "9859dc4017f07e41494973bd7971991f0987cfb68c38d48d27d4ed7d67dd3a0c"
+  },
+  "28": {
+   "design": "direct",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "a6b816bdb40ea8425ba089f8527367a77092b5b999791464cb102bdb23472de3"
+  },
+  "29": {
+   "design": "direct",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 3,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "2d65f2463ee13d7613e809ba5f0d0e6e1868222dc6e8f59cba4426d87dac5aa6"
+  },
+  "30": {
+   "design": "direct",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "264f459347646f66936c0918b9234a7a56764942995361c2354c949feda5c787"
+  },
+  "31": {
+   "design": "direct",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 3,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "854c2ef591161b412f91b6a3f3fb2bbe0e343d7471b50b54a4c6801ebd6f9265"
+  },
+  "32": {
+   "design": "direct",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 4,
+   "ids": [
+    3,
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "266e04b174a644af6db6b99e0611dd85616f058db24c478834d28f40e8bed546"
+  },
+  "33": {
+   "design": "direct",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 1,
+   "ids": [
+    2,
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "b9c86ec77e0b3928e5a282467b0afbb5f7877e037a95d16ddab74075435c8562"
+  },
+  "34": {
+   "design": "direct",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "7a71ed3dae5981e6447426e0e1bff3b6765f817dbfe91161449795bba56a44db"
+  },
+  "35": {
+   "design": "direct",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "a555c2852785df5a857523af144d9550c96cb5006a1be8adf265dde2c4fbd215"
+  },
+  "36": {
+   "design": "direct",
+   "run": "2026-10-14",
+   "section": "industry_context",
+   "index": 0,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "a016caf47220eddb6f0f15645ce7cfaf7b07b1db7b58e90efbeca55af881edc0"
+  },
+  "37": {
+   "design": "direct",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 4,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "a354dbd80ed70e71ddba86184a38426ea3763be1f358e0ab1084336a804d6346"
+  },
+  "38": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 8,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "bdcfa7f1c382f874400153d6929ea1836482175a0c3a9c46e1d54b071bf53ae8"
+  },
+  "39": {
+   "design": "direct",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 3,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "7d10ef05d59f98367d24404f598a59ab0507d8830bccbdecf7426b53009c258e"
+  },
+  "40": {
+   "design": "direct",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 5,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "6cb6c73ea6ba2e9d9e8244e2eda6ec9815eaae2287ef1d2eb52b33de0e1a8461"
+  }
+ },
+ "carried": [
+  {
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 2,
+   "ids": [
+    1,
+    3
+   ],
+   "repaired": false,
+   "locked_row": "p3:18"
+  }
+ ],
+ "summaries": {
+  "A": {
+   "design": "direct",
+   "run": "2026-10-24"
+  },
+  "B": {
+   "design": "direct",
+   "run": "2026-10-23"
+  },
+  "C": {
+   "design": "direct",
+   "run": "2026-10-14"
+  }
+ },
+ "events": {
+  "1": {
+   "letter": "A",
+   "event": "iveco_investor_gains",
+   "ids": [
+    3
+   ],
+   "fingerprint": "0da9533a809f46d085363848d78e337ebd43c792a18f7438326765b6c92921b0"
+  },
+  "2": {
+   "letter": "A",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "019603860c2b241c9843d7c85a02d46358e4ccb74f92b88fbc7fb2a7fad08589"
+  },
+  "3": {
+   "letter": "A",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "d80ca31dd693eb52bc70ceff6f41d401715bed44fa4bd2ae40caf1df447bc81a"
+  },
+  "4": {
+   "letter": "A",
+   "event": "tata_motors_q2_actual_results",
+   "ids": [
+    5
+   ],
+   "fingerprint": "ac7d46a99fda255dce238f777ebcd267e1876f99fd9b0aa2f0774fff6cbf44d4"
+  },
+  "5": {
+   "letter": "B",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "bfb95a9336b279146049d3b1f7e9215cd7f622847e9260c4ee30378f43422a48"
+  },
+  "6": {
+   "letter": "B",
+   "event": "iveco_shareholders_approve",
+   "ids": [
+    4,
+    5
+   ],
+   "fingerprint": "509caff882cb8636caf721226c01c656d82b1eb1f0f8188a7c35f0dabd2ab1c3"
+  },
+  "7": {
+   "letter": "B",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "f06c703de354b44cde946211111b7181ecefcd3823d1a7f517878052e95faf00"
+  },
+  "8": {
+   "letter": "B",
+   "event": "tata_motors_market_ranking",
+   "ids": [
+    3
+   ],
+   "fingerprint": "3e1949ef1d3c9dfd6b8c19b4e639e01b365970a8d3b344c2390858df749d215c"
+  },
+  "9": {
+   "letter": "C",
+   "event": "iveco_offer_raised",
+   "ids": [
+    1
+   ],
+   "fingerprint": "a331f150ef7dca8ce40e33c1fef0fbbd4a7f3273b5f717b8a0299badac964879"
+  },
+  "10": {
+   "letter": "C",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    2,
+    5
+   ],
+   "fingerprint": "53b4b52d83c100a7a2f679c00001b4a75b625045b85e8ee8e26098edca673c2a"
+  },
+  "11": {
+   "letter": "C",
+   "event": "tata_stellantis_partnership",
+   "ids": [
+    3,
+    4
+   ],
+   "fingerprint": "8b47c3fc3b1d059f1e15a8eadf4f860eba1b8ab3e80af956a633895108602328"
+  }
+ },
+ "industry_carried": {
+  "2026-10-14": {
+   "industry_evidence": "no",
+   "note": "All five articles concern Tata Motors' Iveco takeover or its Stellantis partnership. Iveco, its shareholders and Stellantis appear in connection with Tata's transactions, not as independent industry evidence. Article No higher bid: Tata Motors\u2019 final price faces crucial test as Iveco shareholders hold the key mentions \u201cEurope\u2019s costly transition to cleaner commercial vehicles\u201d, but this is contextual analyst commentary about Iveco's position if the transaction collapses, not a reported market-wide fact or independent automotive-company result.",
+   "p4_row": "3"
+  },
+  "2026-10-23": {
+   "industry_evidence": "yes",
+   "note": "Story Tata Motors pips Mahindra to be No. 2 car company in April-September: Mahindra dispatched just under 3.6 lakh passenger vehicles, growing around 20%, while India's passenger-vehicle market grew 28.3% to around 26.4 lakh units during April\u2013September FY27. Both are independent competitor and market facts.",
+   "p4_row": "2"
+  },
+  "2026-10-24": {
+   "industry_evidence": "yes",
+   "note": "Story Q2 Results Today Live: Infosys, Adani Power, JSW Steel, Tata Motors\u2026: JK Tyre & Industries reported a 71.3% decline in consolidated Q2 profit to \u20b965.11 crore and 20.7% revenue growth. JK Tyre is an automotive-component maker reporting its own results, so this is evidence about another automotive company in its own right.",
+   "p4_row": "1"
+  }
+ },
+ "record_file": "summary_v2_dev_k5_c7_p5.json"
+}

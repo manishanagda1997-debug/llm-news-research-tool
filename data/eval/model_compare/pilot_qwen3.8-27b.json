@@ -1,0 +1,53 @@
+{
+ "configuration": "qwen3.8-27b",
+ "settings": {
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "generation": {
+   "temperature": 1.0,
+   "top_p": 0.95,
+   "reasoning_effort": "medium",
+   "reasoning_format": "hidden"
+  }
+ },
+ "articles": 5,
+ "wall_seconds": 3.0,
+ "llm_stats": {
+  "calls": 1,
+  "rate_limited": 0,
+  "retries": 0,
+  "failures": {},
+  "waits": [],
+  "waited_seconds": 0.0,
+  "input_tokens": 3743,
+  "output_tokens": 1217,
+  "reasoning_tokens": 887,
+  "per_call": [
+   {
+    "input": 3743,
+    "output": 1217,
+    "reasoning": 887
+   }
+  ]
+ },
+ "estimates": {
+  "2026-10-14": {
+   "kind": "estimate",
+   "tokens_per_article": 992.0,
+   "query_tokens": 24800,
+   "seconds": 186.0
+  },
+  "2026-10-23": {
+   "kind": "estimate",
+   "tokens_per_article": 992.0,
+   "query_tokens": 16864,
+   "seconds": 126.48
+  },
+  "2026-10-24": {
+   "kind": "estimate",
+   "tokens_per_article": 992.0,
+   "query_tokens": 24800,
+   "seconds": 186.0
+  }
+ }
+}

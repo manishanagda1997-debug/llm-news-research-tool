@@ -1,0 +1,114 @@
+{
+ "scores": {
+  "short": {
+   "central": {
+    "facts": 36,
+    "yes": 4,
+    "partly": 21,
+    "no": 11,
+    "distorted": 0,
+    "kept": 0.1111111111111111
+   },
+   "company": {
+    "facts": 64,
+    "yes": 4,
+    "partly": 25,
+    "no": 35,
+    "distorted": 0,
+    "kept": 0.0625
+   },
+   "context": {
+    "facts": 13,
+    "yes": 2,
+    "partly": 5,
+    "no": 6,
+    "distorted": 0,
+    "kept": 0.15384615384615385
+   },
+   "all": {
+    "facts": 77,
+    "yes": 6,
+    "partly": 30,
+    "no": 41,
+    "distorted": 0,
+    "kept": 0.07792207792207792
+   },
+   "central_distortions": 0,
+   "other_distortions": 0
+  },
+  "passage": {
+   "central": {
+    "facts": 36,
+    "yes": 31,
+    "partly": 4,
+    "no": 1,
+    "distorted": 0,
+    "kept": 0.8611111111111112
+   },
+   "company": {
+    "facts": 64,
+    "yes": 50,
+    "partly": 10,
+    "no": 4,
+    "distorted": 0,
+    "kept": 0.78125
+   },
+   "context": {
+    "facts": 13,
+    "yes": 11,
+    "partly": 0,
+    "no": 2,
+    "distorted": 0,
+    "kept": 0.8461538461538461
+   },
+   "all": {
+    "facts": 77,
+    "yes": 61,
+    "partly": 10,
+    "no": 6,
+    "distorted": 0,
+    "kept": 0.7922077922077922
+   },
+   "central_distortions": 0,
+   "other_distortions": 0
+  },
+  "evidence": {
+   "central": {
+    "facts": 36,
+    "yes": 29,
+    "partly": 4,
+    "no": 3,
+    "distorted": 0,
+    "kept": 0.8055555555555556
+   },
+   "company": {
+    "facts": 64,
+    "yes": 50,
+    "partly": 10,
+    "no": 4,
+    "distorted": 0,
+    "kept": 0.78125
+   },
+   "context": {
+    "facts": 13,
+    "yes": 12,
+    "partly": 0,
+    "no": 1,
+    "distorted": 0,
+    "kept": 0.9230769230769231
+   },
+   "all": {
+    "facts": 77,
+    "yes": 62,
+    "partly": 10,
+    "no": 5,
+    "distorted": 0,
+    "kept": 0.8051948051948052
+   },
+   "central_distortions": 0,
+   "other_distortions": 0
+  }
+ },
+ "choice": "passage",
+ "facts_fingerprint": "ef0a71b97c679ebebf58b79549376eef1742766afdd9fc3aff48c0e17edff6da"
+}

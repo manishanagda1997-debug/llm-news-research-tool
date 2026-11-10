@@ -1,0 +1,24 @@
+{
+ "attempt_id": "382bb8f27bf247b8953164ee3fe97252",
+ "source_commit": "080933e99ae40b8c346182d9b6798d74a23077b4",
+ "week": "reliance",
+ "started_at": "2026-11-10T08:38:57+00:00",
+ "clock_start": "2026-11-10T08:38:57+00:00",
+ "prompt": "4",
+ "ranking_fingerprint": "3dd1445e05c350ac6b49fe173b493a815dc7f70530b3390d13fdf03c1f354861",
+ "other_tokens": 0,
+ "budget": {
+  "window_start_utc": "2026-11-09T08:38:54+00:00",
+  "window_start_ist": "2026-11-09T14:08:54+05:30",
+  "now_utc": "2026-11-10T08:38:54+00:00",
+  "now_ist": "2026-11-10T14:08:54+05:30",
+  "logged_tokens": 50026,
+  "other_tokens": 0,
+  "need": 45000,
+  "limit": 200000,
+  "fits": true,
+  "fits_later_from_the_log": false,
+  "earliest_utc": null,
+  "earliest_ist": null
+ }
+}

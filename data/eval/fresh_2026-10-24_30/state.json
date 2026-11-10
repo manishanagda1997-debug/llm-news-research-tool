@@ -1,0 +1,403 @@
+{
+  "run_id": "fresh_2026-10-24_30",
+  "stages": {
+    "fetch": {
+      "done": true,
+      "raw_files": {
+        "A": "20261102_125631_tata-motors.json",
+        "B": "20261102_125632_tata-motors.json"
+      },
+      "requests": {
+        "A": {
+          "query": "Tata Motors",
+          "search_query": "\"Tata Motors\"",
+          "title_only": false,
+          "exact_phrase": true,
+          "aliases_added": false,
+          "search_part": "all",
+          "search_note": "",
+          "from_date": "2026-10-24T00:00:00Z",
+          "to_date": "2026-10-30T23:59:59Z",
+          "sort_by": "relevancy",
+          "page_size": 30,
+          "language": "en",
+          "fetched_at": "2026-11-02T07:26:31+00:00"
+        },
+        "B": {
+          "query": "Tata Motors",
+          "search_query": "(\"Jaguar Land Rover\" OR JLR OR (Jaguar AND (car OR cars OR carmaker OR carmakers OR \"car maker\" OR automaker OR automakers OR vehicle OR vehicles OR EV OR EVs OR electric OR SUV OR sedan OR \"Land Rover\")))",
+          "title_only": false,
+          "exact_phrase": true,
+          "aliases_added": true,
+          "search_part": "subsidiaries",
+          "search_note": "",
+          "from_date": "2026-10-24T00:00:00Z",
+          "to_date": "2026-10-30T23:59:59Z",
+          "sort_by": "relevancy",
+          "page_size": 30,
+          "language": "en",
+          "fetched_at": "2026-11-02T07:26:32+00:00"
+        }
+      },
+      "seen_files": [
+        "20261014_181801_tata-motors.json",
+        "20261014_182548_tata-motors.json",
+        "20261023_101707_tata-motors.json",
+        "20261023_161430_tata-motors.json",
+        "20261023_161430_tata-motors_2.json",
+        "20261024_111739_tata-motors.json",
+        "20261024_111739_tata-motors_2.json",
+        "20261024_111739_tata-motors_3.json"
+      ],
+      "fetched_at": "2026-11-02T07:26:31+00:00",
+      "day_counts": {
+        "A": {
+          "2026-10-24": 1,
+          "2026-10-25": 1,
+          "2026-10-26": 6,
+          "2026-10-27": 14,
+          "2026-10-28": 1,
+          "2026-10-29": 1,
+          "2026-10-30": 6
+        },
+        "B": {
+          "2026-10-24": 0,
+          "2026-10-25": 2,
+          "2026-10-26": 3,
+          "2026-10-27": 9,
+          "2026-10-28": 5,
+          "2026-10-29": 3,
+          "2026-10-30": 8
+        }
+      }
+    },
+    "overlap": {
+      "done": true,
+      "kept": [
+        "https://rt-english.com/india/648037-indian-billionaire-dutch-acquisition/",
+        "https://www.thehindubusinessline.com/companies/tata-motors-secures-iveco-takeover-as-8781-shareholders-back-391-billion-deal/article71628693.ece",
+        "https://www.thehindubusinessline.com/companies/tata-motors-391-billion-iveco-bid-faces-make-or-break-october-26-test-of-global-ambitions/article71622938.ece",
+        "https://www.thehindubusinessline.com/economy/logistics/tata-motors-amazon-partner-to-deploy-3000-electric-trucks-for-e-commerce-logistics/article71630252.ece",
+        "https://izismile.com/2026/10/31/airpod_a_possible_alternative_to_fuel_cars_12_pics.html",
+        "https://www.livemint.com/companies/news/tata-motors-completes-iveco-acquisition-to-turbocharge-global-play-11793019547840.html",
+        "https://financialpost.com/globe-newswire/tata-motors-completes-initial-settlement-of-recommended-tender-offer-for-iveco-group-iveco-group-has-now-become-part-of-tata-motors-subsequent-changes-are-announced",
+        "https://www.livemint.com/companies/tata-motors-stands-firm-on-1-531-per-share-iveco-bid-as-investor-questions-valuation-all-you-need-to-know-11792865438375.html",
+        "https://biztoc.com/x/f8a39f9caac82062",
+        "https://timesofindia.indiatimes.com/business/india-business/tata-motors-takes-control-of-italian-commercial-vehicle-maker-iveco-in-3-43-bn-euro-deal/articleshow/135373042.cms",
+        "https://timesofindia.indiatimes.com/business/india-business/tata-motors-iveco-takeover-bid-clears-80-threshold/articleshow/135222297.cms",
+        "https://www.livemint.com/companies/tata-motors-iveco-group-commercial-vehicles-acquisition-tender-offer-minority-shareholders-business-integration-11793064825363.html",
+        "https://biztoc.com/x/34a04369519e52c5",
+        "https://www.livemint.com/companies/news/jaguar-land-rover-jlr-defender-ev-tata-motors-aassenger-vehicle-11793102429858.html",
+        "https://economictimes.indiatimes.com/markets/stocks/news/from-104-shareholders-to-nearly-80-lakh-jio-becomes-indias-most-widely-owned-stock-on-listing-day/articleshow/135262546.cms",
+        "https://www.thehindubusinessline.com/companies/tata-motors-iveco-takeover-bid-clears-80-pc-acceptance-threshold/article71628654.ece",
+        "https://www.business-standard.com/companies/news/amazon-expects-india-ev-fleet-to-cross-20-000-vehicles-over-next-year-126102701463_1.html",
+        "https://www.business-standard.com/companies/news/tata-motors-iveco-takeover-bid-acceptance-threshold-acquisition-126102700175_1.html",
+        "https://www.business-standard.com/companies/news/tata-motors-bid-to-takeover-iveco-clears-80-acceptance-threshold-126102601676_1.html",
+        "https://www.business-standard.com/companies/news/tata-motors-completes-iveco-takeover-with-89-42-stake-buyout-continues-126103001773_1.html",
+        "https://www.livemint.com/companies/news/hyundai-bayon-launch-250000-suv-sales-target-11792995104338.html",
+        "https://economictimes.indiatimes.com/tech/startups/tata-motors-amazon-partner-to-deploy-3000-electric-trucks-for-ecommerce-logistics/articleshow/135228266.cms",
+        "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-takes-89-42-stake-in-iveco-gains-control-of-italian-cv-maker/articleshow/135371215.cms",
+        "https://www.business-standard.com/markets/news/stocks-to-watch-october-26-infosys-tata-motors-paytm-indusind-bank-senco-gold-126102600062_1.html",
+        "https://economictimes.indiatimes.com/industry/renewables/tata-motors-amazon-partner-to-deploy-3000-electric-trucks-for-e-commerce-logistics/articleshow/135227756.cms",
+        "https://www.thehindubusinessline.com/companies/tata-motors-takes-control-of-iveco-in-343-billion-deal-focus-shifts-to-debt-integration/article71646387.ece",
+        "https://www.business-standard.com/industry/news/tata-motors-amazon-to-deploy-3-000-electric-trucks-for-ecom-logistics-126102700584_1.html",
+        "https://www.business-standard.com/companies/news/amazon-tata-motors-3000-electric-trucks-india-logistics-126102700875_1.html",
+        "https://www.thehindubusinessline.com/companies/hyundai-puts-bayon-to-task-for-meeting-cretas-target/article71627344.ece",
+        "https://www.thehindubusinessline.com/economy/logistics/amazon-to-expand-ev-fleet-to-more-than-20000-by-next-year-for-transport-of-goods/article71632200.ece",
+        "https://www.theverge.com/transportation/1023112/waymos-next-robotaxi-is-a-purpose-built-toyota-bz4x",
+        "https://www.techradar.com/entertainment/tv-shows/how-to-watch-richard-hammonds-workshop-season-6",
+        "https://www.autoexpress.co.uk/land-rover/discovery/369596/new-land-rover-discovery-bold-reinvention-due-british-favourite-jlr",
+        "http://electrek.co/2026/10/30/waymo-toyota-bz4x-robotaxi-japan-2027/",
+        "https://bringatrailer.com/2026/10/27/new-make-mode-and-parts-and-automobilia-pages-healey-silverstone-maserati-mercedes-benz-w124-runge-and-more/",
+        "https://www.digitimes.com/news/a20261030PD209/commercial-ferrari-bev-market.html",
+        "https://www.autocar.co.uk/car-news/new-cars/range-rover-sport-electric-driven-it-really-could-be-best-4x4-far",
+        "https://bringatrailer.com/listing/1960-jaguar-xk150-28/",
+        "https://www.autocar.co.uk/car-news/features/small-cars-massive-sales-meet-team-behind-hot-wheels",
+        "https://bringatrailer.com/listing/1988-jaguar-xj6-13/",
+        "https://bringatrailer.com/listing/1962-jaguar-e-type-series-1-roadster-10/",
+        "https://bringatrailer.com/listing/2014-jaguar-xk-convertible-4/",
+        "https://bringatrailer.com/listing/2008-jaguar-xj8-l-7/",
+        "https://www.channelnewsasia.com/business/toyota-waymo-test-autonomous-bz4xs-in-japan-in-2027-eye-overseas-expansion-6506211",
+        "https://bringatrailer.com/listing/1997-jaguar-xk8-convertible-43/",
+        "https://www.thehindubusinessline.com/companies/jlr-india-starts-local-production-of-defender-110-in-pune-cuts-prices-by-up-to-34-lakh/article71630926.ece",
+        "https://bringatrailer.com/listing/1969-jaguar-e-type-series-ii-22-14/",
+        "https://economictimes.indiatimes.com/industry/auto/cars-uvs/jlr-looks-to-narrow-gap-with-bmw-in-india-on-local-defender-assembly-and-price-cuts-of-up-to-rs-34-lakh/articleshow/135243667.cms",
+        "https://bringatrailer.com/listing/2014-jaguar-xjr-3/",
+        "https://bringatrailer.com/listing/2011-jaguar-xjl-15/",
+        "https://bringatrailer.com/listing/1962-jaguar-e-type-roadster-4/",
+        "https://hiconsumption.com/motors/gunther-werks-brundle-edition-turbo/",
+        "https://bringatrailer.com/listing/2024-jaguar-f-type-p450-75-convertible-2/",
+        "https://bringatrailer.com/listing/2007-jaguar-xj8-16/",
+        "https://bringatrailer.com/listing/2000-jaguar-xjr-34/",
+        "https://bringatrailer.com/listing/2012-jaguar-xkr-s-coupe-14/",
+        "https://bringatrailer.com/listing/1996-jaguar-xj12-18/",
+        "https://bringatrailer.com/listing/2015-jaguar-xkr-s-coupe-2/"
+      ],
+      "excluded": [],
+      "review": []
+    },
+    "sheet": {
+      "done": true,
+      "article_ids": [
+        "A0e104f6834",
+        "A2c1997b5bd",
+        "Ab34338b34c",
+        "A0c2176d8e7",
+        "A1b5cf245a6",
+        "A24663871a5",
+        "Ab1fa08983d",
+        "A3896ecaf4f",
+        "A66704ee612",
+        "Aa48c5bc764",
+        "A5d09a10230",
+        "Ac69c771db7",
+        "Aef40a17de7",
+        "A6f2a00c304",
+        "A68c3530e1c",
+        "A5ba1fad383",
+        "A634281d41e",
+        "Ab1e656bc1b",
+        "A8847bd8a89",
+        "Ab3632d3883",
+        "Af80d4b144e",
+        "A66dd6cf637",
+        "A42d243196f",
+        "A363990ea5f",
+        "Afcec892819",
+        "Ab7856e37c7",
+        "A93923b4582",
+        "Ae9310d6959",
+        "A95d9ce85c5",
+        "A1defb27795",
+        "A314883433a",
+        "A67ca6f4610",
+        "A5b3c15c9fe",
+        "A2cfec82db2",
+        "Adce2b3f6d3",
+        "A2f209d8b77",
+        "A67bbfb5da4",
+        "Aff0de8642d",
+        "Add03ec2c8d",
+        "Acb93c4e064",
+        "Aa4488a4c9c",
+        "A587506a000",
+        "A98aa3b5ab5",
+        "A251275669d",
+        "Ac136673603",
+        "Aafaa5221ba",
+        "Ae71112f12e",
+        "A468075561e",
+        "A9945d7a206",
+        "A18fa1194ff",
+        "A33632e3c53",
+        "Aaddc2e4810",
+        "Ac6cc19686f",
+        "A1bcda36707",
+        "Afe637bd9ac",
+        "A352acfa7e7",
+        "Ab8765c12c2",
+        "A3104a4cae7"
+      ],
+      "evidence": {
+        "A0e104f6834": "full text",
+        "A2c1997b5bd": "short text: page not fetched",
+        "Ab34338b34c": "full text",
+        "A0c2176d8e7": "full text",
+        "A1b5cf245a6": "short text: page not fetched",
+        "A24663871a5": "full text",
+        "Ab1fa08983d": "full text",
+        "A3896ecaf4f": "full text",
+        "A66704ee612": "full text",
+        "Aa48c5bc764": "short text: page not fetched",
+        "A5d09a10230": "full text",
+        "Ac69c771db7": "full text",
+        "Aef40a17de7": "full text",
+        "A6f2a00c304": "short text: page not fetched",
+        "A68c3530e1c": "full text",
+        "A5ba1fad383": "full text",
+        "A634281d41e": "full text",
+        "Ab1e656bc1b": "full text",
+        "A8847bd8a89": "full text",
+        "Ab3632d3883": "full text",
+        "Af80d4b144e": "full text",
+        "A66dd6cf637": "full text",
+        "A42d243196f": "full text",
+        "A363990ea5f": "full text",
+        "Afcec892819": "full text",
+        "Ab7856e37c7": "full text",
+        "A93923b4582": "full text",
+        "Ae9310d6959": "full text",
+        "A95d9ce85c5": "full text",
+        "A1defb27795": "full text",
+        "A314883433a": "short text: page not fetched",
+        "A67ca6f4610": "full text",
+        "A5b3c15c9fe": "short text: page not fetched",
+        "A2cfec82db2": "short text: page not fetched",
+        "Adce2b3f6d3": "short text: teaser",
+        "A2f209d8b77": "short text: teaser",
+        "A67bbfb5da4": "full text",
+        "Aff0de8642d": "full text",
+        "Add03ec2c8d": "full text",
+        "Acb93c4e064": "full text",
+        "Aa4488a4c9c": "full text",
+        "A587506a000": "full text",
+        "A98aa3b5ab5": "full text",
+        "A251275669d": "short text: page not fetched",
+        "Ac136673603": "full text",
+        "Aafaa5221ba": "full text",
+        "Ae71112f12e": "full text",
+        "A468075561e": "full text",
+        "A9945d7a206": "full text",
+        "A18fa1194ff": "full text",
+        "A33632e3c53": "short text: teaser",
+        "Aaddc2e4810": "full text",
+        "Ac6cc19686f": "full text",
+        "A1bcda36707": "short text: page not fetched",
+        "Afe637bd9ac": "full text",
+        "A352acfa7e7": "full text",
+        "Ab8765c12c2": "full text",
+        "A3104a4cae7": "full text"
+      },
+      "notes": [
+        "The progress list of the first sheet command shows the titles in search order (search A, then search B). The label sheet and the reading page are shuffled."
+      ]
+    },
+    "events": {
+      "done": true
+    },
+    "collect": {
+      "cached_before": 0,
+      "passes": [
+        {
+          "pass": 1,
+          "status": "done",
+          "started": "2026-11-02T13:19:28+00:00",
+          "asked": 36,
+          "answered": 36,
+          "missing_after": 0,
+          "failures": {},
+          "failed_keys": {},
+          "seconds": 242.1,
+          "tokens": null,
+          "provider": "groq",
+          "model": "openai/gpt-oss-120b",
+          "llm_stats": {
+            "calls": 5,
+            "rate_limited": 0,
+            "retries": 0,
+            "failures": {},
+            "waits": [
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "learning",
+                "seconds": 0.5
+              },
+              {
+                "kind": "pacing",
+                "seconds": 56.235
+              },
+              {
+                "kind": "pacing",
+                "seconds": 55.985
+              },
+              {
+                "kind": "pacing",
+                "seconds": 55.985
+              },
+              {
+                "kind": "pacing",
+                "seconds": 60.0
+              },
+              {
+                "kind": "pacing",
+                "seconds": 59.985
+              },
+              {
+                "kind": "pacing",
+                "seconds": 55.25
+              },
+              {
+                "kind": "pacing",
+                "seconds": 59.985
+              },
+              {
+                "kind": "pacing",
+                "seconds": 59.985
+              },
+              {
+                "kind": "pacing",
+                "seconds": 60.0
+              }
+            ],
+            "waited_seconds": 531.41,
+            "header_updates": 5,
+            "splits": 1,
+            "input_tokens": 22159,
+            "output_tokens": 4766,
+            "reasoning_tokens": 2868
+          },
+          "finished": "2026-11-02T13:23:31+00:00"
+        }
+      ]
+    }
+  }
+}

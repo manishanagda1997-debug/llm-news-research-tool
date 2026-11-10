@@ -1,0 +1,214 @@
+{
+ "record_fingerprint": "a79f0d93499e12c196a679d8604f5befcb307d321e3f0cb621d43d9e8c954071",
+ "seed": 46,
+ "items": {
+  "1": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "industry_context",
+   "index": 0,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "1ac3a7e47f0709355a1806db8586937f5304876c03e9a5d75aa201ec84c2bcc8"
+  },
+  "2": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "article_briefs",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "51fac530cdd033072b59bd8ff0b947e4814889374b7f065cba62f2d8395ab538"
+  },
+  "3": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "industry_context",
+   "index": 1,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "21783cb769d9386b74ec36d89afcc178fe709a215df57bef975ae8fec38dc0e5"
+  },
+  "4": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "key_points",
+   "index": 5,
+   "ids": [
+    1,
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "397392208b2cc8623efe74e81f6849485175f3296f09107a40168ca4ed940609"
+  },
+  "5": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "article_briefs",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "fe4acd6dcb71652d13d6f533618e82127befcec87b507a369de20b714a8a10cd"
+  },
+  "6": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "article_briefs",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "b884a0e4247eac578b1688302d0fc6463a5276054d5da934402fc8fca0fc5872"
+  },
+  "7": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "key_points",
+   "index": 4,
+   "ids": [
+    4,
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "7ea5899f08935d183ff2725cb64eed83d1bfd8ab1f45e8d02d1a33cfcd376024"
+  },
+  "8": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "key_points",
+   "index": 2,
+   "ids": [
+    1,
+    2,
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "d935e84dfd22616c63ce1b028a0b65dfeb88b62433607d44e8c8e6966d323a79"
+  },
+  "9": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "key_points",
+   "index": 3,
+   "ids": [
+    1,
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "cc1d5f6a3de64eaf882e6b978e816ec83c702d93dbbf34920f4edc3689989c08"
+  },
+  "10": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "article_briefs",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "1ea855a8d80a8ffa8e7ef02b89744feb407f4fc008b375caa9ffe80efde0d37e"
+  },
+  "11": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "article_briefs",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "e84ef0ae39f8f6ececb6df3f463c4c1989f5066024b5b7db5d57c1c3f040a415"
+  },
+  "12": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "key_points",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "57e745237fc83c89d14d7be615614d0d796c7b0f18bd2ce1425aa3d5319da051"
+  },
+  "13": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "key_points",
+   "index": 6,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "325cf99e4c058529ff04e0e0f22df79029cfb25a08ddd4f10a436bc4064a5231"
+  },
+  "14": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30",
+   "section": "key_points",
+   "index": 1,
+   "ids": [
+    1,
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "13e694892adcb844666ccd7e38c2a3b99002a78b885c9e54bf9d05c3940c0ebc"
+  }
+ },
+ "carried": [],
+ "summaries": {
+  "A": {
+   "design": "direct",
+   "run": "fresh_2026-10-24_30"
+  }
+ },
+ "events": {
+  "1": {
+   "letter": "A",
+   "event": "amazon_tata_3000_electric_trucks",
+   "ids": [
+    3
+   ],
+   "fingerprint": "cc12a951884f0f3b1f6f58243161eb8aa9ba6ba94e878781878e317dd7233579"
+  },
+  "2": {
+   "letter": "A",
+   "event": "iveco_acceptance_threshold_cleared",
+   "ids": [
+    1,
+    4
+   ],
+   "fingerprint": "74ec083ba51fe45711fe018872e4ec9209fab2b1ea061852301b7178aaf698d0"
+  },
+  "3": {
+   "letter": "A",
+   "event": "iveco_initial_settlement_control",
+   "ids": [
+    5
+   ],
+   "fingerprint": "dc4da935f4a6fa522c8c110ddac64af66aa925d60af24104cb7242f4a76ca59d"
+  },
+  "4": {
+   "letter": "A",
+   "event": "iveco_offer_deadline_outlook",
+   "ids": [
+    2
+   ],
+   "fingerprint": "6a12d3d835ad0832330eab2cea27cca0eb0eeb939e6a9b11a312e2938b96867e"
+  }
+ },
+ "industry": {
+  "1": {
+   "letter": "A",
+   "fingerprint": "d2a4b37cac0a57e42b1fe002a68c2449a7e41646eec1a92a0f0acd39fae589ce"
+  }
+ }
+}

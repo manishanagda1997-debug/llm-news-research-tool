@@ -1,0 +1,23 @@
+{
+ "items": 15,
+ "judgement_agreement": 0.8667,
+ "contradicted_agreement": 1.0,
+ "table": {
+  "supported": {
+   "supported": 10,
+   "partly_supported": 1,
+   "not_supported": 0
+  },
+  "partly_supported": {
+   "supported": 1,
+   "partly_supported": 2,
+   "not_supported": 0
+  },
+  "not_supported": {
+   "supported": 0,
+   "partly_supported": 0,
+   "not_supported": 1
+  }
+ },
+ "note": "rows of the table: first judgement; columns: second judgement"
+}

@@ -1,0 +1,166 @@
+{
+ "record_fingerprint": "1610a3360293d6371eb4ec965630ab2a31c1d04a66b74627fcd0e492a7c9af8e",
+ "seed": 49,
+ "items": {
+  "1": {
+   "design": "direct",
+   "run": "week2_tata_2026-10-31_11-06",
+   "section": "article_briefs",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "6aafc8450257cc5780d08aee8e2d50cbfbc3f43b1cbdcd5f107c7f258683dd99"
+  },
+  "2": {
+   "design": "direct",
+   "run": "week2_tata_2026-10-31_11-06",
+   "section": "key_points",
+   "index": 3,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "e0bc6724d403df39393c007934416635b73d86cfaa36a989a094bf8f4a9fe5c8"
+  },
+  "3": {
+   "design": "direct",
+   "run": "week2_tata_2026-10-31_11-06",
+   "section": "article_briefs",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "1a69789af2926a70d94864e89b8f5c244cb4e6e3a9cb5a751f09a80b75c0b946"
+  },
+  "4": {
+   "design": "direct",
+   "run": "week2_tata_2026-10-31_11-06",
+   "section": "article_briefs",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "57fabdc4b417c2ad4b90d7c0b9d2c093a25c96ee1cea6fda1176811c330d16da"
+  },
+  "5": {
+   "design": "direct",
+   "run": "week2_tata_2026-10-31_11-06",
+   "section": "key_points",
+   "index": 4,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "367f9dc8383f60b1c417a0a47f0d040ac824851c87e3f53c3ac5bcb328dc9f61"
+  },
+  "6": {
+   "design": "direct",
+   "run": "week2_tata_2026-10-31_11-06",
+   "section": "key_points",
+   "index": 2,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "9bdffabb5380e83604d79db5cbaf037189c4e6877be8b9d8aa55bf9af951faec"
+  },
+  "7": {
+   "design": "direct",
+   "run": "week2_tata_2026-10-31_11-06",
+   "section": "key_points",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "1e22e014bde4ba8b29934106bf8f14c46f49ecc5c14e6bae71bb55bfc51b5b6e"
+  },
+  "8": {
+   "design": "direct",
+   "run": "week2_tata_2026-10-31_11-06",
+   "section": "article_briefs",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "ab1f314bfbb93c133aa2a5b393f21b8d0ea004260658dfa44ec6f6f301bc4567"
+  },
+  "9": {
+   "design": "direct",
+   "run": "week2_tata_2026-10-31_11-06",
+   "section": "article_briefs",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "85ec1847b90e80cfce79b27fe85712a56f44f5b01068f5decc94477982ee7877"
+  },
+  "10": {
+   "design": "direct",
+   "run": "week2_tata_2026-10-31_11-06",
+   "section": "key_points",
+   "index": 1,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "8ee42da773c74dcecc33a2faa1caae24a7d0dcb0668f9ed1106d149255e9d8d4"
+  }
+ },
+ "carried": [],
+ "summaries": {
+  "A": {
+   "design": "direct",
+   "run": "week2_tata_2026-10-31_11-06"
+  }
+ },
+ "events": {
+  "1": {
+   "letter": "A",
+   "event": "cert_in_ira_app_flaws",
+   "ids": [
+    1,
+    3
+   ],
+   "fingerprint": "8f11a7667a35c4847b9cb2d84fa501d44569b397f7414d798d5993416579c5fa"
+  },
+  "2": {
+   "letter": "A",
+   "event": "chandrasekaran_meloni_iveco_meeting",
+   "ids": [
+    5
+   ],
+   "fingerprint": "462090db1acec884e3218b11653881c4b4ac02ceee66321b6d2d11f3f2998083"
+  },
+  "3": {
+   "letter": "A",
+   "event": "tata_iveco_turin_plan",
+   "ids": [
+    2
+   ],
+   "fingerprint": "d6d92d2d90b76aec2bbac2f4e2f47c05f296325bf803fc595ac3e4e6d1ee40fa"
+  },
+  "4": {
+   "letter": "A",
+   "event": "tata_motors_october_pv_sales",
+   "ids": [
+    4
+   ],
+   "fingerprint": "d4b5b8a6ffd772775cda016cf5bc23fdce518e6efc5b2ee28d8d3f4ed5105389"
+  }
+ },
+ "industry": {
+  "1": {
+   "letter": "A",
+   "fingerprint": "d2a4b37cac0a57e42b1fe002a68c2449a7e41646eec1a92a0f0acd39fae589ce"
+  }
+ },
+ "pairs": {},
+ "record_file": "week2_summary_run.json"
+}

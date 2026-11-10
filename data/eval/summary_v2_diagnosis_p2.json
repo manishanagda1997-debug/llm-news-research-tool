@@ -1,0 +1,458 @@
+{
+ "version": "2",
+ "prompt_version": "2",
+ "model": "openai/gpt-oss-120b",
+ "generation": {
+  "temperature": 1.0,
+  "reasoning_effort": "medium"
+ },
+ "k": 5,
+ "records": [
+  {
+   "run": "2026-10-14",
+   "design": "direct",
+   "k": 5,
+   "articles": [
+    {
+     "id": 1,
+     "key": "A33d2a07840",
+     "title": "Tata Motors raises Iveco takeover offer price to 14.40 euro per share"
+    },
+    {
+     "id": 2,
+     "key": "A59aa7b0222",
+     "title": "No higher bid: Tata Motors’ final price faces crucial test as Iveco shareholders hold the key"
+    },
+    {
+     "id": 3,
+     "key": "A1f7d47f39c",
+     "title": "Stellantis and Tata Motors Passenger Vehicles broaden partnership to develop vehicles in Pune"
+    },
+    {
+     "id": 4,
+     "key": "A947c84dec7",
+     "title": "Tata Motors, Stellantis expand partnership: New deal details explained"
+    },
+    {
+     "id": 5,
+     "key": "A986c846cdc",
+     "title": "Tata Motors sweetens Iveco offer as key investors hold out"
+    }
+   ],
+   "result": {
+    "status": "unavailable",
+    "summary": null,
+    "message": "Summary unavailable. Showing article headlines and available details instead.",
+    "removed": [],
+    "attempts": 2,
+    "origin": "live",
+    "headlines": [
+     {
+      "id": 1,
+      "title": "Tata Motors raises Iveco takeover offer price to 14.40 euro per share",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-raises-iveco-takeover-offer-price-to-14-40-euro-per-share/articleshow/134848656.cms"
+     },
+     {
+      "id": 2,
+      "title": "No higher bid: Tata Motors’ final price faces crucial test as Iveco shareholders hold the key",
+      "source": "BusinessLine",
+      "published_at": "",
+      "url": "https://www.thehindubusinessline.com/companies/no-higher-bid-tata-motors-final-price-faces-crucial-test-as-iveco-shareholders-hold-the-key/article71575128.ece"
+     },
+     {
+      "id": 3,
+      "title": "Stellantis and Tata Motors Passenger Vehicles broaden partnership to develop vehicles in Pune",
+      "source": "BusinessLine",
+      "published_at": "",
+      "url": "https://www.thehindubusinessline.com/companies/stellantis-and-tata-motors-passenger-vehicles-broaden-partnership-to-develop-vehicles-in-pune/article71574881.ece"
+     },
+     {
+      "id": 4,
+      "title": "Tata Motors, Stellantis expand partnership: New deal details explained",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://timesofindia.indiatimes.com/auto/cars/tata-motors-stellantis-expand-partnership-new-deal-details-explained/articleshow/134911814.cms"
+     },
+     {
+      "id": 5,
+      "title": "Tata Motors sweetens Iveco offer as key investors hold out",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/tata-motors-iveco-acquisition-deal-status-11791713827262.html"
+     }
+    ],
+    "problems": {
+     "structural": [
+      {
+       "kind": "malformed_json",
+       "where": "answer"
+      }
+     ],
+     "numbers": []
+    },
+    "repairs": [],
+    "design": "direct",
+    "seconds": 67.0,
+    "usage": {
+     "calls": 2,
+     "requests": [
+      {
+       "estimated": 6584,
+       "prompt_chars": 15249,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 5985,
+       "prompt_chars": 15631,
+       "outcome": "answered"
+      }
+     ],
+     "finish_reasons": [
+      "stop",
+      "length"
+     ],
+     "input_tokens": 6364,
+     "output_tokens": 5291,
+     "reasoning_tokens": 2973,
+     "largest_call": 6305
+    },
+    "failures": [],
+    "prompt_chars": 30880,
+    "bad_answers": [
+     {
+      "call": 2,
+      "length": 5832,
+      "error": "Unterminated string starting at",
+      "position": 5831,
+      "line": 68,
+      "column": 7,
+      "fenced": false,
+      "starts_with_brace": true,
+      "ends_with_brace": false,
+      "text_before_json": false,
+      "text_after_json": true,
+      "finish_reason": "length",
+      "excerpt_file": "5a83ef64a0e3fc09.txt"
+     }
+    ]
+   }
+  },
+  {
+   "run": "2026-10-23",
+   "design": "direct",
+   "k": 5,
+   "articles": [
+    {
+     "id": 1,
+     "key": "A29c1a29e1d",
+     "title": "Silent shareholders hold the key to Tata Motors' Iveco deal"
+    },
+    {
+     "id": 2,
+     "key": "Af3ec3babc9",
+     "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus"
+    },
+    {
+     "id": 3,
+     "key": "Aa2665f4ad4",
+     "title": "Tata Motors pips Mahindra to be No. 2 car company in April-September"
+    },
+    {
+     "id": 4,
+     "key": "A4055c39453",
+     "title": "Iveco Group shareholders approve Tata Motors' takeover proposals"
+    },
+    {
+     "id": 5,
+     "key": "Ab38652cb91",
+     "title": "Iveco shareholders approve Tata Motors' takeover bid; acceptance threshold cut to 80 pc"
+    }
+   ],
+   "result": {
+    "status": "ok",
+    "summary": {
+     "article_briefs": [
+      {
+       "id": 1,
+       "brief": "Tata Motors needs approval from Iveco’s silent shareholders, who represent roughly three‑quarters of investors, to reach the 80% acceptance required for full control. About 52.9% of Iveco’s common shares, including Exor’s 27%, backed the deal, while opposition votes totaled 37.27 million (13.7% of 271.2 million shares) against the chair appointment and 34.05 million and 35.61 million against other Tata nominees. The offer was sweetened from €14.10 to €14.40 per share. Combined revenue of the merged business would be about €21 billion with sales over 590,000 vehicles.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 2,
+       "brief": "Analysts preview Tata Motors CV’s Q2 FY27 results, expecting volume growth of about 43% YoY (≈1,35,114‑1,37,339 units) and revenue of Rs 24,218.4‑24,638.1 crore, a 44‑45% YoY rise. Adjusted PAT could rise 44.3% (JM) or 25.7% (MOFSL). Margins face pressure despite a 2.5% net price hike. LCV volumes jumped 53.1% YoY, while MHCV grew 31%.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 3,
+       "brief": "Tata Motors overtook Mahindra to become India’s second‑largest passenger‑vehicle maker in April‑Sept FY27, dispatching over 3.9 lakh units (+43%) versus Mahindra’s just under 3.6 lakh (+20%). Overall passenger‑vehicle dispatches rose 28.3% to around 26.4 lakh units. Tata’s utility‑vehicle dispatches surged 59%, while Mahindra’s electric‑SUV volumes rose 82% to 42,338 units (EV share up from 7.8% to 11.8%).",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 4,
+       "brief": "Iveco shareholders approved all resolutions for Tata Motors’ €3.91 billion acquisition, lowering the minimum acceptance threshold from 95% to 80%. The offer price stands at €14.40 per share and the tender is set to close on October 26, pending other conditions.",
+       "enough_text": true,
+       "hidden": false
+      },
+      {
+       "id": 5,
+       "brief": "Iveco shareholders approved the Tata Motors takeover, cutting the acceptance threshold to 80 pc. Tata raised its offer by EUR 0.30 per share to EUR 14.40 (from EUR 14.10). The deal, valued at around EUR 3.8 billion (nearly Rs 38,240 crore) originally, had an earlier valuation of approximately EUR 3.82 billion. The tender period runs from September 7 to October 26, 2026.",
+       "enough_text": true,
+       "hidden": false
+      }
+     ],
+     "key_points": [
+      {
+       "text": "Tata Motors must secure approval from Iveco’s silent shareholders, representing roughly three‑quarters of investors, to achieve the 80% acceptance needed for full control; 52.9% of shares backed the deal while opposition votes totalled 37.27 million against board appointments, and the offer was increased to €14.40 per share.",
+       "citations": [
+        1
+       ]
+      },
+      {
+       "text": "Iveco shareholders approved resolutions lowering the minimum acceptance threshold to 80%, facilitating Tata Motors’ €3.91 billion acquisition at €14.40 per share.",
+       "citations": [
+        4,
+        5
+       ]
+      },
+      {
+       "text": "Tata Motors CV is expected to post ~43% YoY volume growth (≈1,35,114‑1,37,339 units), revenue of Rs 24,218.4‑24,638.1 crore (44‑45% YoY), and adjusted PAT growth of 44.3% or 25.7%, though margins may stay under pressure despite a 2.5% price hike; LCV volumes rose 53.1% YoY.",
+       "citations": [
+        2
+       ]
+      },
+      {
+       "text": "Tata Motors became India’s second‑largest passenger‑vehicle manufacturer in April‑Sept FY27, with dispatches over 3.9 lakh units (+43%), overtaking Mahindra’s ~3.6 lakh units (+20%).",
+       "citations": [
+        3
+       ]
+      }
+     ],
+     "industry_context": [
+      {
+       "text": "The Indian passenger‑vehicle market expanded 28.3% YoY to around 26.4 lakh units in April‑Sept FY27.",
+       "citations": [
+        3
+       ]
+      },
+      {
+       "text": "Mahindra’s electric‑SUV volumes surged 82% to 42,338 units, raising EV share from 7.8% to 11.8% of its passenger‑vehicle sales.",
+       "citations": [
+        3
+       ]
+      },
+      {
+       "text": "Tata Motors’ planned acquisition of Iveco would broaden its global commercial‑vehicle footprint, especially in Europe.",
+       "citations": [
+        4
+       ]
+      }
+     ],
+     "not_used": []
+    },
+    "message": "",
+    "removed": [],
+    "attempts": 2,
+    "origin": "live",
+    "headlines": [
+     {
+      "id": 1,
+      "title": "Silent shareholders hold the key to Tata Motors' Iveco deal",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/news/tata-motors-iveco-deal-status-shareholder-approval-11792483781433.html"
+     },
+     {
+      "id": 2,
+      "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-q2-results-preview-profit-may-rise-up-to-44-yoy-revenue-45-margins-volume-growth-in-focus/articleshow/135116132.cms"
+     },
+     {
+      "id": 3,
+      "title": "Tata Motors pips Mahindra to be No. 2 car company in April-September",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-motors-pips-mahindra-to-be-no-2-car-co-in-april-september/articleshow/134980266.cms"
+     },
+     {
+      "id": 4,
+      "title": "Iveco Group shareholders approve Tata Motors' takeover proposals",
+      "source": "Business Standard",
+      "published_at": "",
+      "url": "https://www.business-standard.com/industry/auto/iveco-group-shareholders-approve-tata-motors-takeover-proposals-126101600938_1.html"
+     },
+     {
+      "id": 5,
+      "title": "Iveco shareholders approve Tata Motors' takeover bid; acceptance threshold cut to 80 pc",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/industry/auto/lcv-hcv/iveco-shareholders-approve-tata-motors-takeover-bid-acceptance-threshold-cut-to-80-pc/articleshow/134996938.cms"
+     }
+    ],
+    "problems": {
+     "structural": [],
+     "numbers": []
+    },
+    "repairs": [
+     {
+      "section": "article_briefs",
+      "index": 4,
+      "numbers": [
+       "€0.30",
+       "€14.40",
+       "€14.10",
+       "€3.8 billion",
+       "€3.82 billion"
+      ],
+      "before": "Iveco shareholders also approved the Tata Motors takeover, cutting the acceptance threshold to 80%. Tata raised its offer by €0.30 per share to €14.40 (from €14.10). The deal, valued at around €3.8 billion (nearly Rs 38,240 crore) originally, had an earlier valuation of €3.82 billion. The tender period runs from September 7 to October 26, 2026.",
+      "after": "Iveco shareholders approved the Tata Motors takeover, cutting the acceptance threshold to 80 pc. Tata raised its offer by EUR 0.30 per share to EUR 14.40 (from EUR 14.10). The deal, valued at around EUR 3.8 billion (nearly Rs 38,240 crore) originally, had an earlier valuation of approximately EUR 3.82 billion. The tender period runs from September 7 to October 26, 2026.",
+      "ok": true
+     }
+    ],
+    "design": "direct",
+    "seconds": 174.8,
+    "usage": {
+     "calls": 3,
+     "requests": [
+      {
+       "estimated": 7189,
+       "prompt_chars": 16187,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 7367,
+       "prompt_chars": 16333,
+       "outcome": "answered"
+      },
+      {
+       "estimated": 4738,
+       "prompt_chars": 4150,
+       "outcome": "answered"
+      }
+     ],
+     "finish_reasons": [
+      "stop",
+      "stop",
+      "stop"
+     ],
+     "input_tokens": 7978,
+     "output_tokens": 6073,
+     "reasoning_tokens": 3199,
+     "largest_call": 6262
+    },
+    "failures": [],
+    "prompt_chars": 36670,
+    "bad_answers": []
+   }
+  },
+  {
+   "run": "2026-10-24",
+   "design": "direct",
+   "k": 5,
+   "articles": [
+    {
+     "id": 1,
+     "key": "A29c1a29e1d",
+     "title": "Silent shareholders hold the key to Tata Motors' Iveco deal"
+    },
+    {
+     "id": 2,
+     "key": "Af3ec3babc9",
+     "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus"
+    },
+    {
+     "id": 3,
+     "key": "A81fc8ba892",
+     "title": "Three Iveco investors stand to gain €63 million as Tata Motors races to secure buyout"
+    },
+    {
+     "id": 4,
+     "key": "Aaa3d8d3035",
+     "title": "Stocks in news: Swiggy, Infosys, HPCL, eMudhra, Adani Power, Shriram Finance, Tata Motors and NLC India"
+    },
+    {
+     "id": 5,
+     "key": "A79f20394bc",
+     "title": "Q2 Results Today Live: Infosys, Adani Power, JSW Steel, Tata Motors, Shriram Fin, Torrent Pharma, CG Power, BPCL, Dr Reddys Lab Share to announce Q2 results"
+    }
+   ],
+   "result": {
+    "status": "unavailable",
+    "summary": null,
+    "message": "Summary unavailable. Showing article headlines and available details instead.",
+    "removed": [],
+    "attempts": 1,
+    "origin": "live",
+    "headlines": [
+     {
+      "id": 1,
+      "title": "Silent shareholders hold the key to Tata Motors' Iveco deal",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/news/tata-motors-iveco-deal-status-shareholder-approval-11792483781433.html"
+     },
+     {
+      "id": 2,
+      "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-q2-results-preview-profit-may-rise-up-to-44-yoy-revenue-45-margins-volume-growth-in-focus/articleshow/135116132.cms"
+     },
+     {
+      "id": 3,
+      "title": "Three Iveco investors stand to gain €63 million as Tata Motors races to secure buyout",
+      "source": "Livemint",
+      "published_at": "",
+      "url": "https://www.livemint.com/companies/tata-motors-iveco-acquisition-deal-status-shareholders-approval-11792650839298.html"
+     },
+     {
+      "id": 4,
+      "title": "Stocks in news: Swiggy, Infosys, HPCL, eMudhra, Adani Power, Shriram Finance, Tata Motors and NLC India",
+      "source": "The Times of India",
+      "published_at": "",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-swiggy-infosys-hpcl-emudhra-adani-power-shriram-finance-tata-motors-and-nlc-india/articleshow/135123918.cms"
+     },
+     {
+      "id": 5,
+      "title": "Q2 Results Today Live: Infosys, Adani Power, JSW Steel, Tata Motors, Shriram Fin, Torrent Pharma, CG Power, BPCL, Dr Reddys Lab Share to announce Q2 results",
+      "source": "BusinessLine",
+      "published_at": "",
+      "url": "https://www.thehindubusinessline.com/companies/q2-results-today-live-updates-infosys-adani-power-jsw-steel-tata-motors-shiram-fin-torrent-pharma-cg-power-bpcl-dr-reddys-lab-company-results-23-october-2026/article71611542.ece"
+     }
+    ],
+    "problems": {
+     "structural": [],
+     "numbers": []
+    },
+    "design": "direct",
+    "seconds": 0.0,
+    "usage": {
+     "calls": 0,
+     "requests": [
+      {
+       "estimated": 8309,
+       "prompt_chars": 19395,
+       "outcome": "preflight_too_large"
+      }
+     ],
+     "finish_reasons": [],
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "reasoning_tokens": 0,
+     "largest_call": 0
+    },
+    "failures": [
+     "preflight_too_large"
+    ],
+    "prompt_chars": 19395,
+    "bad_answers": []
+   }
+  }
+ ]
+}

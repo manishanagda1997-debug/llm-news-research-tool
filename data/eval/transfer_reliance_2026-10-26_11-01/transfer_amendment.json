@@ -1,0 +1,26 @@
+{
+ "amendment": 1,
+ "reason": "A logical flaw in the protocol's definition, found before any Reliance ranking, model or summary run: the baseline \"O1\" equals O1+S1 by definition, because S1 takes the first k of the ordering, so the ranking conditions pass on any data. The amendment responds to that flaw, not to any Reliance result.",
+ "baseline": {
+  "name": "retrieval_order",
+  "definition": "search A's articles in the order returned, then search B's in the order returned; each article once; the frozen Stage 1 rules (cleaning and duplicates) applied with no other sorting; the surviving articles keep their relative order; the first k",
+  "note": "the retrieval order of two searches, not NewsAPI's relevance ranking of one search"
+ },
+ "independence": "not blind in the strictest sense: the labels and events exist when the amendment is made; it is written without reading them, and before any ranking result exists",
+ "absolute_values": "precision, event recall and direct-event recall of both lists at every k, without a level",
+ "configuration": "O1+S1",
+ "conditions": [
+  "no_direct_event_lost",
+  "event_recall_not_lower",
+  "precision_not_lower"
+ ],
+ "primary_k": 10,
+ "reported_k": [
+  5,
+  15
+ ],
+ "protocol_fingerprint": "628149ed39d68bc43ce5dee866ae1f1f81bb5ee0025f93b30867048b97e08410",
+ "source_commit": "68f6ae2db70668b308c3b0514ab6573032fd9765",
+ "tag": "freeze-reliance-transfer-amend1",
+ "created": "2026-11-04T06:01:01+00:00"
+}

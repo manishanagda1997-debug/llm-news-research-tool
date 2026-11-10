@@ -1,0 +1,1151 @@
+{
+ "configuration": "qwen3.8-27b-low",
+ "attempt": 1,
+ "settings": {
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "generation": {
+   "temperature": 1.0,
+   "top_p": 0.95,
+   "reasoning_effort": "low",
+   "reasoning_format": "hidden"
+  }
+ },
+ "commit": "95fdf9dd664768a1ddcca711e9cc4c3a2afd5e60",
+ "started": "2026-10-30T22:56:45+0530",
+ "runs": {
+  "2026-10-14": {
+   "cached": false,
+   "wall_seconds": 366.8,
+   "answers": {
+    "A9b85d3cb27": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "The article is about AirConsole's new partnership with Zeekr; Tata Motors is only listed among existing platform partners with no new business information about the company.",
+     "source": "model"
+    },
+    "A33d2a07840": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is about Tata Motors raising its takeover bid for Iveco, a major business decision.",
+     "source": "model"
+    },
+    "A59aa7b0222": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is about the critical final phase of Tata Motors' Iveco acquisition, including shareholder dynamics and strategic implications.",
+     "source": "model"
+    },
+    "A1f7d47f39c": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article reports Tata Motors Passenger Vehicles signing a definitive agreement with Stellantis to expand their partnership into advanced vehicle technology and architecture.",
+     "source": "model"
+    },
+    "A947c84dec7": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article details the expanded Tata Motors–Stellantis partnership for vehicle development, a major business development for TMPV.",
+     "source": "model"
+    },
+    "A986c846cdc": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is entirely about Tata Motors' acquisition of Iveco, including the raised offer price, holdout investors, and strategic rationale.",
+     "source": "model"
+    },
+    "Ab5f09d2bd1": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "A sector-wide auto stock decline following an RBI policy decision that names Tata Motors PV among affected stocks, with additional context on Q2 earnings outlook and demand.",
+     "source": "model"
+    },
+    "Afda0bbac4b": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Mainly about India's trade policy and ambitions to become a global car manufacturing hub, which is a regulatory/policy development in a market where Tata Motors operates; the Tata Motors mention is a past remark but the broader policy content is relevant.",
+     "source": "model"
+    },
+    "A24e6d8662d": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Covers the launch of a new Jaguar electric vehicle, a current product of a Tata Motors subsidiary.",
+     "source": "model"
+    },
+    "A8619a7e886": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Entirely about Tata Motors PV's expanded strategic partnership with Stellantis for global vehicle development and manufacturing.",
+     "source": "model"
+    },
+    "Ac20bce29ad": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is mainly about the launch of the Jaguar Type 01 EV, a current product of JLR (a Tata Motors subsidiary), including its production, strategy, and business context.",
+     "source": "model"
+    },
+    "Adc9449a897": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "The article discusses India-UK/EU trade agreements, tariff quotas, and CBAM that directly affect the car industry in markets where Tata Motors and JLR operate, and also directly discusses the JLR acquisition turnaround.",
+     "source": "model"
+    },
+    "A5f2210687a": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is mainly about Tata Motors raising its takeover offer price for Iveco, a major commercial vehicle acquisition decision.",
+     "source": "model"
+    },
+    "A8d5b4a5afc": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is mainly about Tata Motors PV signing a definitive technology and product development agreement with Stellantis.",
+     "source": "model"
+    },
+    "A289594c896": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is mainly about the Tata Motors PV–Stellantis manufacturing pact, including details on the first model (Jeep SUV on Argos platform) and production at their JV.",
+     "source": "model"
+    },
+    "Ab28c0c3a7a": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is mainly about Tata Motors' new vehicle-development partnership with Stellantis, a major business decision.",
+     "source": "model"
+    },
+    "A95a7eae323": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "The article is an opinion piece on privacy and AI; the mention of Tata Motors is a historical reference to TFL being folded in 2005 with no current business relevance.",
+     "source": "model"
+    },
+    "A86c03ba1b8": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "The article covers a supplier JV in India's automotive seating market where Tata Motors is named as a customer, providing information about a supplier development in a segment where the company operates.",
+     "source": "model"
+    },
+    "Ac6905343e4": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is mainly about Jaguar's EV transition and product strategy, a current subsidiary of Tata Motors (JLR).",
+     "source": "model"
+    },
+    "A02b25c8c80": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "The article provides market size and growth projections for the used truck segment where Tata Motors operates as a named player, giving demand and sector information relevant to its commercial vehicle business.",
+     "source": "model"
+    },
+    "Adfbc67b88f": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Article is about a former Tata Motors employee launching a consulting startup; no information about Tata Motors' business.",
+     "source": "model"
+    },
+    "A7ba6e5020c": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Government trade and manufacturing policy for the car industry in India, a market where Tata Motors operates, with specific reference to Tata's JLR re-engineering.",
+     "source": "model"
+    },
+    "A639826ac02": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "UK-India trade deal (CETA) discusses car market access and manufacturing expectations that directly affect Tata Motors' operations in India.",
+     "source": "model"
+    },
+    "A515b87254e": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Article is about Nazara's leadership reshuffle; Tata Motors is named only as a past employer of the new CFO.",
+     "source": "model"
+    },
+    "Adb9ff93da2": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "Article mainly covers Jaguar's (a Tata Motors subsidiary) new EV launch, its full-EV transition, and JLR's 4,000 job cuts.",
+     "source": "model"
+    }
+   },
+   "inputs": {
+    "A9b85d3cb27": "ac04928e6f5061bfefbb5d553532cd0e4f18ffd079757d83c3e29aff4191ec5e",
+    "A33d2a07840": "6c7ddc1940d00cf6c07f6e9d62cbe3a9b0040b26beb80b149b48bc05e6acc3fc",
+    "A59aa7b0222": "fbd60c6ac414ff04208f938c316b00ac6f3d445fcb77ffd9ec6e4d6587201848",
+    "A1f7d47f39c": "a635cf35884c6d57fab60d6d0b91046f013627a962c7fd7e579b02d1230487e2",
+    "A947c84dec7": "e7b4515622467326ec6aeb8087d2c38e2faa7db260f8a14052ebf5485ae72e26",
+    "A986c846cdc": "28c22c291322e2dbc6929ea147cd8c3f0a99453c264649b752930ef4453d152e",
+    "Ab5f09d2bd1": "1788144b82447ed43112bc8a697da70a177beb49100119b7100637ea245503da",
+    "Afda0bbac4b": "103ecee9798d5bb795d202a1dbe336fbf2c06a5e068e75d7d45b95f085d8a000",
+    "A24e6d8662d": "4a207ce219f8fb720474e0582e2eb3af5ba024373ce831bcc2f8d6f9d90fd969",
+    "A8619a7e886": "94ab93757f824ea6df1fdc4da2e83350e943f87ff0c9aa21bdf29a3146c5a792",
+    "Ac20bce29ad": "9bd557c9170fd595b2d7acf1dad7db0693d9860697e34ebbbd40995f1906bb55",
+    "Adc9449a897": "05a9f612703d9afdfa8a244d7bc8d5bfddd66712d129c22150e06dfc746dd4f5",
+    "A5f2210687a": "0ca8e3719788729c1cda7350cfa05e5c343b60aaadeca62b94429eb003904d4f",
+    "A8d5b4a5afc": "7943b64df2556a353bfc7611dce9e109974d01df08609ed977ceba1234dae644",
+    "A289594c896": "3a51629e1b0459645299f22162a9624f5431067a064c6af1cef4c1f67ad0c105",
+    "Ab28c0c3a7a": "da477ec4fd403274402105c1f056d201cb96ab474ac7d4c93f10fba752174dc0",
+    "A95a7eae323": "03bc2dd879b83803e23ec6e5a3f9afecd45dd72c93eb8ce1bdf3753bc0c14bb0",
+    "A86c03ba1b8": "57f8551ca952a7e4cd0eb5c1e8dae4aa85119d6a2d2cf63f964c168594a20a5a",
+    "Ac6905343e4": "8a68df491ff749432fc55e771e1c5da34059b7be9ea2131af7ce223848d2e7a5",
+    "A02b25c8c80": "41acc5722c7a2b06e9fa808949922ee8cb9e5e7bf9667bc637922139d6d995a3",
+    "Adfbc67b88f": "f2dc6804faa357d2e1379c6aef68079c34a5ad91456b2982b8ee063aca91b33f",
+    "A7ba6e5020c": "42f06fd5b79b9639dbab080d3466d2a270e541094ae4d959578186ba9a713e9a",
+    "A639826ac02": "fd4238a74d1b09923642b88a8dd4195a79b195e2adf1d53d9dc27e276dac388e",
+    "A515b87254e": "dadef0b5ceaa7a1311a4935d99a13bef34a0e96d6586cf36d2ba96f1759fd630",
+    "Adb9ff93da2": "2370360d6a530bc01ca0f1f8bcf71a3a58d7e7b966e2267645714d175c2aa166"
+   },
+   "llm_stats": {
+    "calls": 9,
+    "rate_limited": 0,
+    "retries": 0,
+    "failures": {},
+    "waits": [
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.094
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.985
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.813
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 1.891
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.313
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 0.313
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.594
+     },
+     {
+      "kind": "pacing",
+      "seconds": 1.985
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     }
+    ],
+    "waited_seconds": 715.988,
+    "header_updates": 9,
+    "splits": 4,
+    "input_tokens": 21368,
+    "output_tokens": 5285,
+    "reasoning_tokens": 3690,
+    "per_call": [
+     {
+      "input": 3773,
+      "output": 774,
+      "reasoning": 478,
+      "cached": 0,
+      "estimated": 7373,
+      "prompt_chars": 17618
+     },
+     {
+      "input": 3583,
+      "output": 1084,
+      "reasoning": 766,
+      "cached": 0,
+      "estimated": 5160,
+      "prompt_chars": 17082
+     },
+     {
+      "input": 1706,
+      "output": 209,
+      "reasoning": 133,
+      "cached": 0,
+      "estimated": 3130,
+      "prompt_chars": 7604
+     },
+     {
+      "input": 1627,
+      "output": 514,
+      "reasoning": 430,
+      "cached": 0,
+      "estimated": 3233,
+      "prompt_chars": 7719
+     },
+     {
+      "input": 2973,
+      "output": 520,
+      "reasoning": 333,
+      "cached": 0,
+      "estimated": 4701,
+      "prompt_chars": 14260
+     },
+     {
+      "input": 4286,
+      "output": 1111,
+      "reasoning": 803,
+      "cached": 0,
+      "estimated": 5816,
+      "prompt_chars": 19230
+     },
+     {
+      "input": 3420,
+      "output": 1073,
+      "reasoning": 747,
+      "cached": 0,
+      "estimated": 5020,
+      "prompt_chars": 15682
+     }
+    ]
+   }
+  },
+  "2026-10-23": {
+   "cached": false,
+   "wall_seconds": 444.8,
+   "answers": {
+    "A29c1a29e1d": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "too large",
+     "kind": "too_large"
+    },
+    "Af3ec3babc9": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is a detailed Q2 results preview for Tata Motors CV, covering volume growth, revenue estimates, margin outlook, and brokerage ratings.",
+     "source": "model"
+    },
+    "Aa2665f4ad4": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is mainly about Tata Motors overtaking Mahindra to become India's second-largest passenger vehicle manufacturer, with detailed dispatch and growth figures.",
+     "source": "model"
+    },
+    "Aee4703af04": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Mainly about global automakers' investment commitments in India, but includes a real partner development (Stellantis deepening its partnership with Tata Motors PV into engineering and a co-developed Jeep) and Tata's market share trajectory.",
+     "source": "model"
+    },
+    "A391b491c75": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is mainly about Tata Motors' acquisition of Iveco's commercial vehicle business, covering the EGM approval, offer price, acceptance threshold, and strategic rationale.",
+     "source": "model"
+    },
+    "A3959810ae8": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "The article covers Indian PV festive-season demand and includes real information on Tata Motors PV's strong bookings and deliveries alongside competitors in the same market segment.",
+     "source": "model"
+    },
+    "A4055c39453": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is mainly about Tata Motors' €3.91 billion acquisition of Iveco's commercial vehicle business, a major business decision.",
+     "source": "model"
+    },
+    "A690a6ec804": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "The article is about a workplace fatality and legal custody at supplier Schaeffler; Tata Motors is merely listed as one of several customers with no business impact discussed.",
+     "source": "model"
+    },
+    "Ab38652cb91": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is mainly about Tata Motors' acquisition of Iveco, a major business decision, with shareholder approvals advancing the deal.",
+     "source": "model"
+    },
+    "Ad8f06500d4": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Stellantis is a JV partner of Tata Motors Passenger Vehicle, and the article details an expanded collaboration agreement and significant investment in India that directly affects Tata Motors' operations.",
+     "source": "model"
+    },
+    "Acd42aaa992": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Sector-wide Navratri registration report in the Indian car market that includes Tata Motors' specific registration figures (24,843 units, -16.4%) and a quote from their CCO on current demand strength.",
+     "source": "model"
+    },
+    "A269a74e91b": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Tata Motors is named only as one of several customers of a mechatronics supplier in an article mainly about India's deep-tech IPO pipeline; no real business information about Tata Motors is given.",
+     "source": "model"
+    },
+    "A0ae8a2cfab": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "A general market round-up listing stocks at 52-week lows; TMPV is listed without any company- or sector-specific development explaining the move.",
+     "source": "model"
+    },
+    "A88c355a3b0": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Sector article on India's shift to multi-powertrain strategies, naming Tata Motors as an early mover alongside competitor strategies in its home market.",
+     "source": "model"
+    },
+    "Adea3a0907a": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "General market round-up that only lists Tata Motors' share price and percentage change among other stocks without a company- or sector-specific explanation.",
+     "source": "model"
+    },
+    "Ad74eeaf8f2": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Festive-period demand report for the Indian PV market where Tata operates, including a CCO quote on robust demand across its multi-powertrain portfolio.",
+     "source": "model"
+    },
+    "Aeea554d8db": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Festive sales report for the Indian auto sector that includes specific Tata Motors delivery figures (50,000+ vehicles, 10,000+ on Dussehra) from its CCO.",
+     "source": "model"
+    }
+   },
+   "inputs": {
+    "A29c1a29e1d": "bc0007422eca88ffd73bb584fd4700c8bd60ca1bdd588a53f2fb1792571637df",
+    "Af3ec3babc9": "7c68cc024b397c957ab93bb5a1c1952b942d742317c92b2c7eda34147bd63004",
+    "Aa2665f4ad4": "a43aa5b87846d23b512ec934e4f9dbdb65ed8a6dd64db986f6b48c7bc7c02a72",
+    "Aee4703af04": "7a8bad19a363fed62792aa5b605a62d73fdbdc0b66ffbfd9d403bf571e648d26",
+    "A391b491c75": "db5107dc17f6d2496f7253e3fe752415b97923f91bce9793412bc56b13e59fbc",
+    "A3959810ae8": "1534652089c9331412b6d2b6ae88117308883de37c0c1c9c6b107e6d07b6a561",
+    "A4055c39453": "86185bd4dda4a584f1013671ef0c821f9ed8a84f6059e48516fa7de48e25501d",
+    "A690a6ec804": "e0b80c691d366af1993281bc8d22fba7dba3f9f2e1da1fc1881c045e93aa974b",
+    "Ab38652cb91": "cd5fe0549f541ae9cf9db9f9cb89cb7ccdb964a3507543a8abda81230184f350",
+    "Ad8f06500d4": "acd706c18e76dde302ecf79c24c9de23ab41d9620dc50e30a537755a7c6b0b78",
+    "Acd42aaa992": "938a8b7a0b2ad9d89778e656d90a9068c0ba2f4a3d85172710eaa0cdfdc57805",
+    "A269a74e91b": "a9d059a85c5477d1842a6c61bbae8b857a3b1af505a8fd836151066f53e83df9",
+    "A0ae8a2cfab": "22032d413827275f947c2e09e40356c5b7e914847eedbcf4510a07cb1e06898d",
+    "A88c355a3b0": "ad57fca87ddee2e797f5b076777e5e5da68246dba84ec8cf6836e7c364c5d3c5",
+    "Adea3a0907a": "e27a643b931adf8b520706057f39917272bdfb0e3c780a617a228841a58e9051",
+    "Ad74eeaf8f2": "7b27e3acc04872232b1b19f5060fd6e5f683685b7b4623f360c01c03b90ab613",
+    "Aeea554d8db": "895c670e910a1ed82c7b30728359216dd401ef5036edc3ae44bc0af31304261b"
+   },
+   "llm_stats": {
+    "calls": 12,
+    "rate_limited": 1,
+    "retries": 1,
+    "failures": {},
+    "waits": [
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.859
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.468
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.859
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.875
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.484
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.484
+     },
+     {
+      "kind": "pacing",
+      "seconds": 0.406
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.234
+     },
+     {
+      "kind": "pacing",
+      "seconds": 1.328
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 58.219
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.828
+     },
+     {
+      "kind": "rate_limit",
+      "seconds": 16.0
+     }
+    ],
+    "waited_seconds": 732.528,
+    "header_updates": 12,
+    "splits": 7,
+    "input_tokens": 18602,
+    "output_tokens": 4634,
+    "reasoning_tokens": 3530,
+    "per_call": [
+     {
+      "input": 1660,
+      "output": 440,
+      "reasoning": 354,
+      "cached": 0,
+      "estimated": 3832,
+      "prompt_chars": 6993
+     },
+     {
+      "input": 2520,
+      "output": 690,
+      "reasoning": 549,
+      "cached": 0,
+      "estimated": 4273,
+      "prompt_chars": 11677
+     },
+     {
+      "input": 1872,
+      "output": 142,
+      "reasoning": 77,
+      "cached": 0,
+      "estimated": 3428,
+      "prompt_chars": 8117
+     },
+     {
+      "input": 3009,
+      "output": 689,
+      "reasoning": 475,
+      "cached": 0,
+      "estimated": 4637,
+      "prompt_chars": 13208
+     },
+     {
+      "input": 4537,
+      "output": 1316,
+      "reasoning": 1049,
+      "cached": 0,
+      "estimated": 5854,
+      "prompt_chars": 18336
+     },
+     {
+      "input": 2086,
+      "output": 621,
+      "reasoning": 489,
+      "cached": 0,
+      "estimated": 3974,
+      "prompt_chars": 9406
+     },
+     {
+      "input": 2918,
+      "output": 736,
+      "reasoning": 537,
+      "cached": 0,
+      "estimated": 4986,
+      "prompt_chars": 13496
+     }
+    ]
+   }
+  },
+  "2026-10-24": {
+   "cached": false,
+   "wall_seconds": 900.9,
+   "answers": {
+    "A29c1a29e1d": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article mainly discusses Tata Motors' €3.9 billion acquisition of Iveco's commercial vehicle business, including shareholder voting outcomes, strategic implications, and deal challenges.",
+     "source": "model"
+    },
+    "Af3ec3babc9": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "too large",
+     "kind": "too_large"
+    },
+    "A81fc8ba892": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is mainly about Tata Motors' acquisition of Iveco's commercial vehicle business, its progress toward the 80% threshold, and the strategic implications of the deal.",
+     "source": "model"
+    },
+    "A3959810ae8": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "The article reports on Indian PV market demand and festive-season sales trends (FADA data on YoY decline) in the segment where Tata Motors Passenger Vehicles operates, naming it as a top player.",
+     "source": "model"
+    },
+    "A690a6ec804": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "The article is about a workplace accident investigation and legal custody of a supplier's CEO; it states operations are unaffected and Tata Motors is named only as one of several customers of the supplier.",
+     "source": "model"
+    },
+    "Aaa3d8d3035": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "A general stocks-in-news round-up that lists Tata Motors among companies reporting results without providing any company-specific figures or development.",
+     "source": "model"
+    },
+    "A62643cad78": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Discusses Delhi's vehicle-entry regulations creating a replacement market for trucks and buses, a segment where Tata Motors operates, and notes its participation in the PARIVARTAN scheme.",
+     "source": "model"
+    },
+    "Ad8f06500d4": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "too large",
+     "kind": "too_large"
+    },
+    "Acd42aaa992": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "The article covers Indian car market registrations during Navratri with specific sales figures and management commentary for multiple manufacturers including Tata Motors, constituting a sector-level demand/sales development in the company's market.",
+     "source": "model"
+    },
+    "A79f20394bc": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "too large",
+     "kind": "too_large"
+    },
+    "A269a74e91b": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "The article is about India's deep-tech ecosystem; Tata Motors is named only as one of several customers of Mechatronics, a passing mention with no business impact on Tata Motors.",
+     "source": "model"
+    },
+    "A0ae8a2cfab": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "A list of BSE 500 stocks hitting 52-week lows with only a general macro explanation (crude prices, earnings concerns) and no company- or sector-specific development explaining TMPV's move.",
+     "source": "model"
+    },
+    "A88c355a3b0": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "The article's main topic is the Indian car market's powertrain shift (CNG, hybrid, EV), a segment where Tata Motors operates, with competitive positioning details relevant to the company's business.",
+     "source": "model"
+    },
+    "Aa3597011a3": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "A general market crash report that lists Tata Motors among stocks down over 2% without a company- or auto-sector-specific development explaining the move.",
+     "source": "model"
+    },
+    "Adea3a0907a": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "A general market report focused on bank earnings and IT stocks that lists Tata Motors' price and percentage change without any company- or sector-specific explanation for its decline.",
+     "source": "model"
+    },
+    "Ad74eeaf8f2": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Festive-season Indian auto sales data with a direct quote from Tata Motors PV's CCO on demand and deliveries, giving real information on the company's market segment.",
+     "source": "model"
+    },
+    "Aad645eceb7": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "General market round-up that only lists Tata Motors among companies with results due, without any company-specific development.",
+     "source": "model"
+    },
+    "Aeea554d8db": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "Navratri auto sales data including a specific figure (50,000+ vehicles delivered) from Tata Motors Passenger Vehicles' CCO, providing real information on the company's festive-season performance.",
+     "source": "model"
+    },
+    "A1f07d7f3d2": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "Mainly about Waymo's robotaxi expansion; the Jaguar I-Pace mention refers to a discontinued model used in another company's service, which is a passing mention.",
+     "source": "model"
+    },
+    "Aebbe4fd5d7": {
+     "label": "direct",
+     "certainty": "sure",
+     "reason": "The article is a test/review of the Range Rover Electric, a current product of JLR, a subsidiary of Tata Motors.",
+     "source": "model"
+    },
+    "Ae689fc3060": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "too large",
+     "kind": "too_large"
+    },
+    "A58b1377275": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "The article mainly covers Chinese brands gaining European market share and the resulting pressure on European carmakers, but provides specific information about JLR's £1.7 billion cost-cutting programme and job cuts, directly connecting the competitive dynamic to a Tata Motors subsidiary.",
+     "source": "model"
+    },
+    "A43ea61cb65": {
+     "label": "not",
+     "certainty": "sure",
+     "reason": "JLR is named once as an example of an advertiser seeking a marketing holdco, with no information about its business, operations, or market.",
+     "source": "model"
+    },
+    "Af6c1b429d2": {
+     "label": null,
+     "certainty": null,
+     "reason": "",
+     "source": "fallback",
+     "error": "too large",
+     "kind": "too_large"
+    },
+    "Aac357bfe35": {
+     "label": "indirect",
+     "certainty": "sure",
+     "reason": "The article reports that Jaguar I-PACE vehicles will be deployed in Madrid as part of Waymo's autonomous ride-hailing fleet, which is a concrete partner development involving JLR's current products.",
+     "source": "model"
+    }
+   },
+   "inputs": {
+    "A29c1a29e1d": "bc0007422eca88ffd73bb584fd4700c8bd60ca1bdd588a53f2fb1792571637df",
+    "Af3ec3babc9": "7c68cc024b397c957ab93bb5a1c1952b942d742317c92b2c7eda34147bd63004",
+    "A81fc8ba892": "d9780134c4bd3b83bb0dbc328fd9b108fa6fb323e2cbbbaeb9ec7dffafec9b48",
+    "A3959810ae8": "1534652089c9331412b6d2b6ae88117308883de37c0c1c9c6b107e6d07b6a561",
+    "A690a6ec804": "e0b80c691d366af1993281bc8d22fba7dba3f9f2e1da1fc1881c045e93aa974b",
+    "Aaa3d8d3035": "0d78046b878405d068f4cc94f57178769ad42982aa68e8ea986576e846f7bec8",
+    "A62643cad78": "4e30e8b934048cc897cf04571a5eb305587d7ae01b235545779b7139d44e52e6",
+    "Ad8f06500d4": "acd706c18e76dde302ecf79c24c9de23ab41d9620dc50e30a537755a7c6b0b78",
+    "Acd42aaa992": "938a8b7a0b2ad9d89778e656d90a9068c0ba2f4a3d85172710eaa0cdfdc57805",
+    "A79f20394bc": "33c5200a819b3735b4440f9b27706994a66f4ed7f01a21fb22373af7392206ae",
+    "A269a74e91b": "a9d059a85c5477d1842a6c61bbae8b857a3b1af505a8fd836151066f53e83df9",
+    "A0ae8a2cfab": "22032d413827275f947c2e09e40356c5b7e914847eedbcf4510a07cb1e06898d",
+    "A88c355a3b0": "ad57fca87ddee2e797f5b076777e5e5da68246dba84ec8cf6836e7c364c5d3c5",
+    "Aa3597011a3": "d66ce8518d38b3d2241645131d4c8161333c682d506ae1bd8081e4210ceef2f8",
+    "Adea3a0907a": "e27a643b931adf8b520706057f39917272bdfb0e3c780a617a228841a58e9051",
+    "Ad74eeaf8f2": "7b27e3acc04872232b1b19f5060fd6e5f683685b7b4623f360c01c03b90ab613",
+    "Aad645eceb7": "31715bd77f56f2c0691db33c81f5bc183c55ae113e59bb25a2f026a38a8f961c",
+    "Aeea554d8db": "895c670e910a1ed82c7b30728359216dd401ef5036edc3ae44bc0af31304261b",
+    "A1f07d7f3d2": "97e89735873e7f89c63df7829ff77f0eed4794f2a064282d2962f0e2e33a9a98",
+    "Aebbe4fd5d7": "25ac9bb1df53dd28b76453892c98957cc28510eeb132c4cfefbae700ad14b073",
+    "Ae689fc3060": "244d683a986d88b6a834c37bd547ef1cbd36430bf9e9a3b49a78a3cde438fee5",
+    "A58b1377275": "24bd739e580e62f82a656799c0e6805cdf751b9bdb86e5044612f4fcd9ddf332",
+    "A43ea61cb65": "90a3906da2b7572fffa32745f8143946c25b663a2db14a6eceb366581e413b63",
+    "Af6c1b429d2": "f398864bcbcc843544d02976351c4a1dbf0db8f3262b8d08ebd9b609ba9d0e3c",
+    "Aac357bfe35": "167a5b6193eff3d0677abdeff63074277af33066ceac3c5540df9bcaa944e39f"
+   },
+   "llm_stats": {
+    "calls": 25,
+    "rate_limited": 2,
+    "retries": 2,
+    "failures": {},
+    "waits": [
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.89
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.812
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.484
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.484
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "learning",
+      "seconds": 0.5
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.5
+     },
+     {
+      "kind": "rate_limit",
+      "seconds": 41.0
+     },
+     {
+      "kind": "rate_limit",
+      "seconds": 15.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 0.703
+     },
+     {
+      "kind": "pacing",
+      "seconds": 58.703
+     },
+     {
+      "kind": "pacing",
+      "seconds": 55.875
+     },
+     {
+      "kind": "pacing",
+      "seconds": 55.875
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 1.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 1.828
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.906
+     },
+     {
+      "kind": "pacing",
+      "seconds": 2.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 1.812
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 58.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 55.359
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 58.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 55.343
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 1.859
+     },
+     {
+      "kind": "pacing",
+      "seconds": 56.672
+     },
+     {
+      "kind": "pacing",
+      "seconds": 2.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.984
+     },
+     {
+      "kind": "pacing",
+      "seconds": 1.89
+     },
+     {
+      "kind": "pacing",
+      "seconds": 58.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.937
+     },
+     {
+      "kind": "pacing",
+      "seconds": 2.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 2.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 58.016
+     },
+     {
+      "kind": "pacing",
+      "seconds": 58.016
+     },
+     {
+      "kind": "pacing",
+      "seconds": 60.0
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.766
+     },
+     {
+      "kind": "pacing",
+      "seconds": 56.625
+     },
+     {
+      "kind": "pacing",
+      "seconds": 59.813
+     },
+     {
+      "kind": "pacing",
+      "seconds": 1.844
+     },
+     {
+      "kind": "pacing",
+      "seconds": 57.938
+     }
+    ],
+    "waited_seconds": 2013.354,
+    "header_updates": 25,
+    "splits": 17,
+    "input_tokens": 24118,
+    "output_tokens": 7241,
+    "reasoning_tokens": 5810,
+    "per_call": [
+     {
+      "input": 2520,
+      "output": 985,
+      "reasoning": 833,
+      "cached": 0,
+      "estimated": 5393,
+      "prompt_chars": 11677
+     },
+     {
+      "input": 1806,
+      "output": 166,
+      "reasoning": 92,
+      "cached": 0,
+      "estimated": 3241,
+      "prompt_chars": 8059
+     },
+     {
+      "input": 3101,
+      "output": 1080,
+      "reasoning": 871,
+      "cached": 0,
+      "estimated": 4361,
+      "prompt_chars": 13252
+     },
+     {
+      "input": 1891,
+      "output": 827,
+      "reasoning": 734,
+      "cached": 0,
+      "estimated": 3388,
+      "prompt_chars": 8062
+     },
+     {
+      "input": 2955,
+      "output": 959,
+      "reasoning": 742,
+      "cached": 0,
+      "estimated": 4608,
+      "prompt_chars": 13244
+     },
+     {
+      "input": 1808,
+      "output": 296,
+      "reasoning": 228,
+      "cached": 0,
+      "estimated": 3404,
+      "prompt_chars": 8109
+     },
+     {
+      "input": 1326,
+      "output": 640,
+      "reasoning": 561,
+      "cached": 0,
+      "estimated": 2897,
+      "prompt_chars": 5950
+     },
+     {
+      "input": 4623,
+      "output": 1270,
+      "reasoning": 942,
+      "cached": 0,
+      "estimated": 5761,
+      "prompt_chars": 18161
+     },
+     {
+      "input": 2428,
+      "output": 622,
+      "reasoning": 490,
+      "cached": 0,
+      "estimated": 4163,
+      "prompt_chars": 10110
+     },
+     {
+      "input": 1660,
+      "output": 396,
+      "reasoning": 317,
+      "cached": 0,
+      "estimated": 3370,
+      "prompt_chars": 6993
+     }
+    ]
+   }
+  }
+ }
+}

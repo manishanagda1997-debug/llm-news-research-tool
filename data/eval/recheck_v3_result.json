@@ -1,0 +1,11 @@
+{
+  "label_file": "v3_dev_tata_motors.csv",
+  "checked_file": "v3_dev_tata_motors_checked.csv",
+  "corrections_file": "v3_dev_tata_motors_corrections.csv",
+  "decided": "2026-11-03",
+  "decisions": 10,
+  "first_label_kept": 9,
+  "recheck_label_taken": 1,
+  "third_label": 0,
+  "corrections": 1
+}

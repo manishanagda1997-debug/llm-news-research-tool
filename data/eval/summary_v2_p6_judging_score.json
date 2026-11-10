@@ -1,0 +1,40 @@
+{
+ "choice": {
+  "prompt": "4",
+  "reason": "failed day",
+  "missing": [
+   "prompt 6, 2026-10-24: no usable summary"
+  ]
+ },
+ "rule": {
+  "pairs": {
+   "2026-10-24": [
+    "tata_motors_cv_q2_preview",
+    "tata_motors_q2_actual_results"
+   ],
+   "2026-10-23": [
+    "iveco_shareholder_acceptance",
+    "iveco_shareholders_approve"
+   ]
+  },
+  "no_pair": "2026-10-14 has no pair; it counts only in the guardrails",
+  "pair_score": "per pair and version: outlook_stated + kept_apart, each yes = 1 (0 to 2)",
+  "replace": "prompt 6 replaces prompt 4 only if its pair score is not lower on either pair and its total is higher, and every guardrail holds; a tie keeps prompt 4; with prompt 4 at 4 of 4, prompt 4 stays",
+  "guardrails": [
+   "no unsupported industry point",
+   "no unsupported key point or brief",
+   "no day with industry points when the evidence decision is no",
+   "days with an empty industry section despite evidence not more than prompt 4's, counted from its locked score",
+   "overreach count of prompt 6 not higher than prompt 4's (both judged hidden on sheet 1)",
+   "no contradicted item",
+   "key points and visible briefs judged supported / all key points and visible briefs, over prompt 6's three summaries, at least 0.75, unrounded; industry points are not in this share",
+   "event coverage on each day not lower than prompt 4's (same articles, same denominators; a tie is not lower)"
+  ],
+  "decoys": "10 locked prompt 4 items, fixed seed, unmarked on sheet 2; never used in the choice",
+  "outputs": "one output per day at temperature 1.0: evidence about these outputs, not a stable estimate",
+  "failed_day": "if any expected day has no usable summary (status ok or partial, with a summary) in either version, prompt 4 remains selected, no sheet is judged, and the run is not repeated",
+  "empty_days_counted": "the industry guardrail compares the number of days with an empty section despite evidence, not which days; the same count can stand for different days",
+  "recognition": "the judge has seen the prompt 4 summaries in Part 4, so the hiding reduces recognition bias but is not perfect; each row is judged only against the articles shown, without the Part 4 sheets"
+ },
+ "scored": "2026-11-07T09:40:50+00:00"
+}

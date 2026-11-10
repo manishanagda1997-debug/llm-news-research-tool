@@ -1,0 +1,19 @@
+{
+ "amendment": 2,
+ "reason": "The Stage 4 design adds an industry-context rule (prompt version 4): an industry point needs an article that itself reports on the wider industry, the market or other companies, and a fact about the company alone is never stated as a trend for the sector. The protocol judges industry points only as items among all the others, so it cannot show whether this rule holds for a second company. Reliance Industries runs several businesses in different sectors, where a fact about one business is easy to state as a sector trend.",
+ "follows": "The amendment follows the Stage 4 fresh-week result (summary_v2_fresh_judging_score.json), which reports these checks for Tata Motors.",
+ "timing": "Written before the Reliance run and before its summary exists: transfer_run.json and the attempt marker do not exist. The labels and events are sealed, and the amendment does not read them.",
+ "judging": "The rules of SUMMARY_JUDGING_GUIDE_PART6.md: first, from the five selected articles alone and before the summary is read, does any article report a fact about the sector, the market or another company in its own right; then every item of the summary; then the events.",
+ "added": {
+  "industry_evidence": "the answer to the industry-evidence question (yes or no), with a note naming the article and the fact, or the reason for no",
+  "industry_points": "the industry points judged supported, partly supported and not supported, and the check that no industry point is not supported",
+  "industry_section": "the check that the industry section matches the evidence answer: points only with evidence, and an empty section only without evidence"
+ },
+ "level": "all three are reported without a pass level and never decide whether the test passes",
+ "unchanged": "The ranking conditions, the summary pass levels (produced, event coverage, contradicted items, central contradiction) and every definition of the protocol and amendment 1 stay as they are.",
+ "protocol_fingerprint": "628149ed39d68bc43ce5dee866ae1f1f81bb5ee0025f93b30867048b97e08410",
+ "amendment1_fingerprint": "1e392122453e6e4c2109bb883e51355da55dd26819ecd8bd8fedb8f7429203ea",
+ "source_commit": "3edd259102ecdfe005a07deb01c688c0701b6f4f",
+ "tag": "freeze-reliance-transfer-amend2",
+ "created": "2026-11-05T12:14:20+00:00"
+}

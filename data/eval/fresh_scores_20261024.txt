@@ -1,0 +1,118 @@
+Labels: v2_dev_tata_motors.csv, dev_tata_motors_retrieval_20261023.csv, dev_tata_motors_fresh_20261024.csv
+Seen before the run: 5 raw files
+
+=== BROAD, whole pool: 54 articles, 20 relevant ===
+
+Config  requests  slots returned relevant pool recall precision rel/request listings
+A              1     30       21       15       0.750     0.714       15.00        0
+A+B            2     60       51       20       1.000     0.392       10.00       22
+C              1     30       24       15       0.750     0.625       15.00        0
+C+B            2     60       54       20       1.000     0.370       10.00       22
+
+Listing checks: pattern rejects 18 (0 relevant), site rejects 22 (0 relevant), both 18, either 22 (0 relevant)
+
+Relevance filter (with each listing mode):
+Config listings    TP  FP  FN  TN  Precision  Recall     F1
+A      off          8   0   7   6      1.000   0.533  0.696
+A      patterns     8   0   7   6      1.000   0.533  0.696
+A      sites        8   0   7   6      1.000   0.533  0.696
+A      both         8   0   7   6      1.000   0.533  0.696
+A+B    off         11  21   9  10      0.344   0.550  0.423
+A+B    patterns    11   4   9  27      0.733   0.550  0.629
+A+B    sites       11   1   9  30      0.917   0.550  0.687
+A+B    both        11   1   9  30      0.917   0.550  0.687
+C      off          8   0   7   9      1.000   0.533  0.696
+C      patterns     8   0   7   9      1.000   0.533  0.696
+C      sites        8   0   7   9      1.000   0.533  0.696
+C      both         8   0   7   9      1.000   0.533  0.696
+C+B    off         11  21   9  13      0.344   0.550  0.423
+C+B    patterns    11   4   9  30      0.733   0.550  0.629
+C+B    sites       11   1   9  33      0.917   0.550  0.687
+C+B    both        11   1   9  33      0.917   0.550  0.687
+
+=== BROAD, new articles only: 16 articles, 5 relevant ===
+
+Config  requests  slots returned relevant pool recall precision rel/request listings
+A              1     30        8        4       0.800     0.500        4.00        0
+A+B            2     60       13        5       1.000     0.385        2.50        3
+C              1     30       11        4       0.800     0.364        4.00        0
+C+B            2     60       16        5       1.000     0.312        2.50        3
+
+Listing checks: pattern rejects 3 (0 relevant), site rejects 3 (0 relevant), both 3, either 3 (0 relevant)
+
+Relevance filter (with each listing mode):
+Config listings    TP  FP  FN  TN  Precision  Recall     F1
+A      off          3   0   1   4      1.000   0.750  0.857
+A      patterns     3   0   1   4      1.000   0.750  0.857
+A      sites        3   0   1   4      1.000   0.750  0.857
+A      both         3   0   1   4      1.000   0.750  0.857
+A+B    off          4   3   1   5      0.571   0.800  0.667
+A+B    patterns     4   0   1   8      1.000   0.800  0.889
+A+B    sites        4   0   1   8      1.000   0.800  0.889
+A+B    both         4   0   1   8      1.000   0.800  0.889
+C      off          3   0   1   7      1.000   0.750  0.857
+C      patterns     3   0   1   7      1.000   0.750  0.857
+C      sites        3   0   1   7      1.000   0.750  0.857
+C      both         3   0   1   7      1.000   0.750  0.857
+C+B    off          4   3   1   8      0.571   0.800  0.667
+C+B    patterns     4   0   1  11      1.000   0.800  0.889
+C+B    sites        4   0   1  11      1.000   0.800  0.889
+C+B    both         4   0   1  11      1.000   0.800  0.889
+
+=== STRICT, whole pool: 54 articles, 6 relevant ===
+
+Config  requests  slots returned relevant pool recall precision rel/request listings
+A              1     30       21        3       0.500     0.143        3.00        0
+A+B            2     60       51        6       1.000     0.118        3.00       22
+C              1     30       24        3       0.500     0.125        3.00        0
+C+B            2     60       54        6       1.000     0.111        3.00       22
+
+Listing checks: pattern rejects 18 (0 relevant), site rejects 22 (0 relevant), both 18, either 22 (0 relevant)
+
+Relevance filter (with each listing mode):
+Config listings    TP  FP  FN  TN  Precision  Recall     F1
+A      off          3   5   0  13      0.375   1.000  0.545
+A      patterns     3   5   0  13      0.375   1.000  0.545
+A      sites        3   5   0  13      0.375   1.000  0.545
+A      both         3   5   0  13      0.375   1.000  0.545
+A+B    off          6  26   0  19      0.188   1.000  0.316
+A+B    patterns     6   9   0  36      0.400   1.000  0.571
+A+B    sites        6   6   0  39      0.500   1.000  0.667
+A+B    both         6   6   0  39      0.500   1.000  0.667
+C      off          3   5   0  16      0.375   1.000  0.545
+C      patterns     3   5   0  16      0.375   1.000  0.545
+C      sites        3   5   0  16      0.375   1.000  0.545
+C      both         3   5   0  16      0.375   1.000  0.545
+C+B    off          6  26   0  22      0.188   1.000  0.316
+C+B    patterns     6   9   0  39      0.400   1.000  0.571
+C+B    sites        6   6   0  42      0.500   1.000  0.667
+C+B    both         6   6   0  42      0.500   1.000  0.667
+
+=== STRICT, new articles only: 16 articles, 2 relevant ===
+
+Config  requests  slots returned relevant pool recall precision rel/request listings
+A              1     30        8        1       0.500     0.125        1.00        0
+A+B            2     60       13        2       1.000     0.154        1.00        3
+C              1     30       11        1       0.500     0.091        1.00        0
+C+B            2     60       16        2       1.000     0.125        1.00        3
+
+Listing checks: pattern rejects 3 (0 relevant), site rejects 3 (0 relevant), both 3, either 3 (0 relevant)
+
+Relevance filter (with each listing mode):
+Config listings    TP  FP  FN  TN  Precision  Recall     F1
+A      off          1   2   0   5      0.333   1.000  0.500
+A      patterns     1   2   0   5      0.333   1.000  0.500
+A      sites        1   2   0   5      0.333   1.000  0.500
+A      both         1   2   0   5      0.333   1.000  0.500
+A+B    off          2   5   0   6      0.286   1.000  0.444
+A+B    patterns     2   2   0   9      0.500   1.000  0.667
+A+B    sites        2   2   0   9      0.500   1.000  0.667
+A+B    both         2   2   0   9      0.500   1.000  0.667
+C      off          1   2   0   8      0.333   1.000  0.500
+C      patterns     1   2   0   8      0.333   1.000  0.500
+C      sites        1   2   0   8      0.333   1.000  0.500
+C      both         1   2   0   8      0.333   1.000  0.500
+C+B    off          2   5   0   9      0.286   1.000  0.444
+C+B    patterns     2   2   0  12      0.500   1.000  0.667
+C+B    sites        2   2   0  12      0.500   1.000  0.667
+C+B    both         2   2   0  12      0.500   1.000  0.667

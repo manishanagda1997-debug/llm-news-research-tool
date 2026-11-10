@@ -1,0 +1,30 @@
+# Exact versions, tested together on Python 3.12 (all tests pass, pip check clean).
+# environment-snapshot.txt lists every installed package, for checking problems.
+
+# Web app
+streamlit==1.66.1
+
+# LLM layer (LangChain + Google Gemini + Groq)
+langchain==1.4.7
+langchain-core==1.7.3
+langchain-google-genai==4.4.2
+langchain-groq==1.1.3
+groq==0.37.1
+
+# News source and web pages
+newsapi-python==0.2.7
+requests==2.34.2
+
+# Full article text from the article's own page (respects robots.txt)
+trafilatura==2.3.1
+
+# Settings and keys
+python-dotenv==1.2.4
+
+# Data handling and charts
+pandas==3.1.0
+yfinance==1.7.0
+
+# Notebooks and testing
+jupyter==1.1.1
+pytest==9.2.0

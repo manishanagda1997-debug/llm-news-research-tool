@@ -1,0 +1,838 @@
+{
+ "week": "reliance",
+ "company": "Reliance Industries",
+ "tested": "O1M5+S1",
+ "rule": {
+  "tested": "O1M5+S1, the default (src/research.py, default_order then S1)",
+  "primary": {
+   "baseline": "retrieval_order",
+   "conditions": [
+    "no_direct_event_lost",
+    "event_recall_not_lower",
+    "precision_not_lower"
+   ],
+   "primary_k": 10,
+   "reported_k": [
+    5,
+    15
+   ],
+   "decides": "passed"
+  },
+  "second": {
+   "baseline": "O1+S1",
+   "conditions": [
+    "no_direct_event_lost",
+    "event_recall_not_lower",
+    "precision_not_lower"
+   ],
+   "primary_k": 10,
+   "reported_k": [
+    5,
+    15
+   ],
+   "decides": "nothing: the round 1 no-harm rule on fresh data, reported only; it never changes the primary result"
+  },
+  "also_reported": [
+   "O1+S1 against the retrieval order, as in week 1",
+   "each relevant article whose title does not name the company: its place in the retrieval order, O1+S1 and O1M5+S1, and whether it reaches the top 10"
+  ],
+  "no_model": "the ranking test uses no model call"
+ },
+ "candidates": 49,
+ "primary": {
+  "configuration": "O1M5+S1",
+  "baseline": "retrieval_order",
+  "primary_k": 10,
+  "conditions": {
+   "no_direct_event_lost": false,
+   "event_recall_not_lower": true,
+   "precision_not_lower": true
+  },
+  "passed": false,
+  "events": {
+   "gained": [
+    "ambani_wealth_jump"
+   ],
+   "lost": [
+    "jio_comcast_charter_technology_talks"
+   ],
+   "net": 0,
+   "direct_gained": [],
+   "direct_lost": [
+    "jio_comcast_charter_technology_talks"
+   ],
+   "direct_net": -1
+  },
+  "absolute": {
+   "retrieval_order": {
+    "5": {
+     "selected": 5,
+     "precision": 0.6,
+     "event_recall": 0.1111111111111111,
+     "direct_event_recall": 0.16666666666666666
+    },
+    "10": {
+     "selected": 10,
+     "precision": 0.8,
+     "event_recall": 0.2222222222222222,
+     "direct_event_recall": 0.3333333333333333
+    },
+    "15": {
+     "selected": 15,
+     "precision": 0.8666666666666667,
+     "event_recall": 0.2777777777777778,
+     "direct_event_recall": 0.3333333333333333
+    }
+   },
+   "O1M5+S1": {
+    "5": {
+     "selected": 5,
+     "precision": 0.6,
+     "event_recall": 0.1111111111111111,
+     "direct_event_recall": 0.16666666666666666
+    },
+    "10": {
+     "selected": 10,
+     "precision": 0.8,
+     "event_recall": 0.2222222222222222,
+     "direct_event_recall": 0.25
+    },
+    "15": {
+     "selected": 15,
+     "precision": 0.8666666666666667,
+     "event_recall": 0.2222222222222222,
+     "direct_event_recall": 0.25
+    }
+   }
+  },
+  "events_covered": {
+   "retrieval_order": {
+    "5": [
+     "jio_comcast_charter_technology_talks",
+     "reliance_q2_results"
+    ],
+    "10": [
+     "jio_comcast_charter_technology_talks",
+     "reliance_q2_results",
+     "reliance_q2_share_surge",
+     "ril_post_q2_share_outlook"
+    ],
+    "15": [
+     "ambani_wealth_jump",
+     "jio_comcast_charter_technology_talks",
+     "reliance_q2_results",
+     "reliance_q2_share_surge",
+     "ril_post_q2_share_outlook"
+    ]
+   },
+   "O1M5+S1": {
+    "5": [
+     "reliance_q2_results",
+     "ril_post_q2_share_outlook"
+    ],
+    "10": [
+     "ambani_wealth_jump",
+     "reliance_q2_results",
+     "reliance_q2_share_surge",
+     "ril_post_q2_share_outlook"
+    ],
+    "15": [
+     "ambani_wealth_jump",
+     "reliance_q2_results",
+     "reliance_q2_share_surge",
+     "ril_post_q2_share_outlook"
+    ]
+   }
+  }
+ },
+ "passed": false,
+ "second": {
+  "configuration": "O1M5+S1",
+  "baseline": "O1+S1",
+  "primary_k": 10,
+  "conditions": {
+   "no_direct_event_lost": true,
+   "event_recall_not_lower": true,
+   "precision_not_lower": true
+  },
+  "passed": true,
+  "events": {
+   "gained": [
+    "ambani_wealth_jump"
+   ],
+   "lost": [],
+   "net": 1,
+   "direct_gained": [],
+   "direct_lost": [],
+   "direct_net": 0
+  },
+  "absolute": {
+   "O1+S1": {
+    "5": {
+     "selected": 5,
+     "precision": 0.6,
+     "event_recall": 0.1111111111111111,
+     "direct_event_recall": 0.16666666666666666
+    },
+    "10": {
+     "selected": 10,
+     "precision": 0.8,
+     "event_recall": 0.16666666666666666,
+     "direct_event_recall": 0.25
+    },
+    "15": {
+     "selected": 15,
+     "precision": 0.8666666666666667,
+     "event_recall": 0.3333333333333333,
+     "direct_event_recall": 0.4166666666666667
+    }
+   },
+   "O1M5+S1": {
+    "5": {
+     "selected": 5,
+     "precision": 0.6,
+     "event_recall": 0.1111111111111111,
+     "direct_event_recall": 0.16666666666666666
+    },
+    "10": {
+     "selected": 10,
+     "precision": 0.8,
+     "event_recall": 0.2222222222222222,
+     "direct_event_recall": 0.25
+    },
+    "15": {
+     "selected": 15,
+     "precision": 0.8666666666666667,
+     "event_recall": 0.2222222222222222,
+     "direct_event_recall": 0.25
+    }
+   }
+  },
+  "events_covered": {
+   "O1+S1": {
+    "5": [
+     "reliance_q2_results",
+     "ril_post_q2_share_outlook"
+    ],
+    "10": [
+     "reliance_q2_results",
+     "reliance_q2_share_surge",
+     "ril_post_q2_share_outlook"
+    ],
+    "15": [
+     "airtel_overtakes_jio_market_cap",
+     "jio_q2_results",
+     "jio_three_year_plan",
+     "reliance_q2_results",
+     "reliance_q2_share_surge",
+     "ril_post_q2_share_outlook"
+    ]
+   },
+   "O1M5+S1": {
+    "5": [
+     "reliance_q2_results",
+     "ril_post_q2_share_outlook"
+    ],
+    "10": [
+     "ambani_wealth_jump",
+     "reliance_q2_results",
+     "reliance_q2_share_surge",
+     "ril_post_q2_share_outlook"
+    ],
+    "15": [
+     "ambani_wealth_jump",
+     "reliance_q2_results",
+     "reliance_q2_share_surge",
+     "ril_post_q2_share_outlook"
+    ]
+   }
+  },
+  "decides": "nothing (reported only)"
+ },
+ "old_default_against_retrieval": {
+  "configuration": "O1+S1",
+  "baseline": "retrieval_order",
+  "primary_k": 10,
+  "conditions": {
+   "no_direct_event_lost": false,
+   "event_recall_not_lower": false,
+   "precision_not_lower": true
+  },
+  "passed": false,
+  "events": {
+   "gained": [],
+   "lost": [
+    "jio_comcast_charter_technology_talks"
+   ],
+   "net": -1,
+   "direct_gained": [],
+   "direct_lost": [
+    "jio_comcast_charter_technology_talks"
+   ],
+   "direct_net": -1
+  },
+  "absolute": {
+   "retrieval_order": {
+    "5": {
+     "selected": 5,
+     "precision": 0.6,
+     "event_recall": 0.1111111111111111,
+     "direct_event_recall": 0.16666666666666666
+    },
+    "10": {
+     "selected": 10,
+     "precision": 0.8,
+     "event_recall": 0.2222222222222222,
+     "direct_event_recall": 0.3333333333333333
+    },
+    "15": {
+     "selected": 15,
+     "precision": 0.8666666666666667,
+     "event_recall": 0.2777777777777778,
+     "direct_event_recall": 0.3333333333333333
+    }
+   },
+   "O1+S1": {
+    "5": {
+     "selected": 5,
+     "precision": 0.6,
+     "event_recall": 0.1111111111111111,
+     "direct_event_recall": 0.16666666666666666
+    },
+    "10": {
+     "selected": 10,
+     "precision": 0.8,
+     "event_recall": 0.16666666666666666,
+     "direct_event_recall": 0.25
+    },
+    "15": {
+     "selected": 15,
+     "precision": 0.8666666666666667,
+     "event_recall": 0.3333333333333333,
+     "direct_event_recall": 0.4166666666666667
+    }
+   }
+  },
+  "events_covered": {
+   "retrieval_order": {
+    "5": [
+     "jio_comcast_charter_technology_talks",
+     "reliance_q2_results"
+    ],
+    "10": [
+     "jio_comcast_charter_technology_talks",
+     "reliance_q2_results",
+     "reliance_q2_share_surge",
+     "ril_post_q2_share_outlook"
+    ],
+    "15": [
+     "ambani_wealth_jump",
+     "jio_comcast_charter_technology_talks",
+     "reliance_q2_results",
+     "reliance_q2_share_surge",
+     "ril_post_q2_share_outlook"
+    ]
+   },
+   "O1+S1": {
+    "5": [
+     "reliance_q2_results",
+     "ril_post_q2_share_outlook"
+    ],
+    "10": [
+     "reliance_q2_results",
+     "reliance_q2_share_surge",
+     "ril_post_q2_share_outlook"
+    ],
+    "15": [
+     "airtel_overtakes_jio_market_cap",
+     "jio_q2_results",
+     "jio_three_year_plan",
+     "reliance_q2_results",
+     "reliance_q2_share_surge",
+     "ril_post_q2_share_outlook"
+    ]
+   }
+  },
+  "decides": "nothing (reported only)"
+ },
+ "untitled_relevant": [
+  {
+   "key": "A376c19084a",
+   "title": "Exclusive-Ambani's Jio explores tech-for-equity talks with Comcast and Charter, sources say",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 5,
+    "O1+S1": 24,
+    "O1M5+S1": 30
+   },
+   "in_top_10": {
+    "retrieval_order": true,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "Acd8446f38e",
+   "title": "Why is market rallying today? Sensex soars over 950 pts, Nifty tops 23,300. 7 factors driving Rs 4 lakh crore D-Street gains",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 8,
+    "O1+S1": 25,
+    "O1M5+S1": 31
+   },
+   "in_top_10": {
+    "retrieval_order": true,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A03cd0f07e3",
+   "title": "Reliance Adds Record $19 Billion in Market Value on Profit Beat",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 11,
+    "O1+S1": 26,
+    "O1M5+S1": 32
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A7e0b797a58",
+   "title": "Richest person in Asia: Mukesh Ambani vs Zhang Yinmin net worth — Reliance boss overtakes China's ByteDance TikTok head",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 12,
+    "O1+S1": 27,
+    "O1M5+S1": 9
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": true
+   }
+  },
+  {
+   "key": "A435dc89caf",
+   "title": "Reliance shares surge 6%, eye best single-day gain since January 2024: What's driving the rally?",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 13,
+    "O1+S1": 28,
+    "O1M5+S1": 10
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": true
+   }
+  },
+  {
+   "key": "A2b27ac528e",
+   "title": "Reliance soars 7% post Q2 results; sees sharpest intraday rally in 3 years",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 17,
+    "O1+S1": 29,
+    "O1M5+S1": 13
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "Aad5c49d7a5",
+   "title": "Reliance fuels Nifty’s best single-day jump in months; Sensex reclaims 75,600",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 20,
+    "O1+S1": 40,
+    "O1M5+S1": 42
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A3bf0649f37",
+   "title": "Ambani tops Forbes' billionaire gainers list with $6.3 bn wealth jump",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 22,
+    "O1+S1": 42,
+    "O1M5+S1": 16
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "Ad9b153a13e",
+   "title": "Indian oil refiners expect healthy margins amid global supply disruptions",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 23,
+    "O1+S1": 30,
+    "O1M5+S1": 17
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A66b7ce1d1e",
+   "title": "Ambani's Reliance may not get Campa moment in biscuit market, Britannia CEO says",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 24,
+    "O1+S1": 31,
+    "O1M5+S1": 33
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A1f54298314",
+   "title": "When Reliance, Thala Ajith joined hands! Mukesh Ambani's FMCG segment expands Independence biscuit portfolio; 9 variants",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 26,
+    "O1+S1": 32,
+    "O1M5+S1": 34
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "Ac6e3f1edde",
+   "title": "Reliance’s Independence Power Up biscuits get a motorsport makeover with Ajith Kumar Racing",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 27,
+    "O1+S1": 33,
+    "O1M5+S1": 35
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "Ad8fcf3e191",
+   "title": "Jio launches industry-first 3-year plan at ₹10,000",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 28,
+    "O1+S1": 34,
+    "O1M5+S1": 36
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "Acf55ea97ee",
+   "title": "Mukesh Ambani’s Jio holds talks with Comcast, Charter for US broadband technology deal",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 29,
+    "O1+S1": 35,
+    "O1M5+S1": 37
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "Ab54614c065",
+   "title": "Is the 3-year unlimited connectivity plan Worth It?",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 30,
+    "O1+S1": 44,
+    "O1M5+S1": 18
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A964fb80b4d",
+   "title": "Airtel profit surges 33% to Rs 9,015 crore in Q2, outpacing Jio in ARPU growth",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 31,
+    "O1+S1": 36,
+    "O1M5+S1": 38
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "Ac96c1333a0",
+   "title": "Reliance Consumer expands Independence biscuit portfolio with nine variants",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 32,
+    "O1+S1": 37,
+    "O1M5+S1": 39
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A4fcf514374",
+   "title": "The business of belonging: how Jio built trust at scale | Overthinkers Anonymous | EP 05",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 34,
+    "O1+S1": 38,
+    "O1M5+S1": 40
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A62816452b7",
+   "title": "Airtel's premiumization strategy drives strong Q2 revenue and Ebitda growth",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 41,
+    "O1+S1": 46,
+    "O1M5+S1": 46
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A86d8100d53",
+   "title": "Delhi HC issues notice to Red Bull on food regulator's review plea",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 42,
+    "O1+S1": 47,
+    "O1M5+S1": 47
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "Af8c08ed001",
+   "title": "TRAI amends telecom interconnection framework, to be effective Jan 1, 2027",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 47,
+    "O1+S1": 48,
+    "O1M5+S1": 48
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  }
+ ],
+ "orders": {
+  "retrieval_order": [
+   "A8bd63fa905",
+   "Af486f777c1",
+   "Afb81b8b354",
+   "A5627dea41b",
+   "A376c19084a",
+   "A57ebf0da0a",
+   "A70599341f3",
+   "Acd8446f38e",
+   "Aaaf47a41d3",
+   "A14cfa37826",
+   "A03cd0f07e3",
+   "A7e0b797a58",
+   "A435dc89caf",
+   "A4f9d5c5e4f",
+   "Ac2ef1f7ab8",
+   "Aee04a3b309",
+   "A2b27ac528e",
+   "A19a0f26eaa",
+   "Adcec4f22e0",
+   "Aad5c49d7a5",
+   "A90b8bcd937",
+   "A3bf0649f37",
+   "Ad9b153a13e",
+   "A66b7ce1d1e",
+   "Ad9e32171d4",
+   "A1f54298314",
+   "Ac6e3f1edde",
+   "Ad8fcf3e191",
+   "Acf55ea97ee",
+   "Ab54614c065",
+   "A964fb80b4d",
+   "Ac96c1333a0",
+   "Aa3b604bd50",
+   "A4fcf514374",
+   "Adbaabcd2c0",
+   "Aa8fa41dc6f",
+   "Ab0adab18c3",
+   "A9288022f28",
+   "A61b18c5278",
+   "Ab7709f28c4",
+   "A62816452b7",
+   "A86d8100d53",
+   "Aeff9f2bb1d",
+   "Add1b597f8c",
+   "Af0f1ad0409",
+   "Ad7aa46e53d",
+   "Af8c08ed001",
+   "A390b8283b3",
+   "A486aa1f596"
+  ],
+  "O1+S1": [
+   "A8bd63fa905",
+   "Af486f777c1",
+   "Afb81b8b354",
+   "A5627dea41b",
+   "A57ebf0da0a",
+   "A70599341f3",
+   "Aaaf47a41d3",
+   "A14cfa37826",
+   "A4f9d5c5e4f",
+   "Ac2ef1f7ab8",
+   "A19a0f26eaa",
+   "Adcec4f22e0",
+   "Aa3b604bd50",
+   "Adbaabcd2c0",
+   "Aa8fa41dc6f",
+   "Ab0adab18c3",
+   "A9288022f28",
+   "A61b18c5278",
+   "Aeff9f2bb1d",
+   "Add1b597f8c",
+   "Af0f1ad0409",
+   "Ad7aa46e53d",
+   "A390b8283b3",
+   "A376c19084a",
+   "Acd8446f38e",
+   "A03cd0f07e3",
+   "A7e0b797a58",
+   "A435dc89caf",
+   "A2b27ac528e",
+   "Ad9b153a13e",
+   "A66b7ce1d1e",
+   "A1f54298314",
+   "Ac6e3f1edde",
+   "Ad8fcf3e191",
+   "Acf55ea97ee",
+   "A964fb80b4d",
+   "Ac96c1333a0",
+   "A4fcf514374",
+   "Aee04a3b309",
+   "Aad5c49d7a5",
+   "A90b8bcd937",
+   "A3bf0649f37",
+   "Ad9e32171d4",
+   "Ab54614c065",
+   "Ab7709f28c4",
+   "A62816452b7",
+   "A86d8100d53",
+   "Af8c08ed001",
+   "A486aa1f596"
+  ],
+  "O1M5+S1": [
+   "A8bd63fa905",
+   "Af486f777c1",
+   "Afb81b8b354",
+   "A5627dea41b",
+   "A57ebf0da0a",
+   "A70599341f3",
+   "Aaaf47a41d3",
+   "A14cfa37826",
+   "A7e0b797a58",
+   "A435dc89caf",
+   "A4f9d5c5e4f",
+   "Ac2ef1f7ab8",
+   "A2b27ac528e",
+   "A19a0f26eaa",
+   "Adcec4f22e0",
+   "A3bf0649f37",
+   "Ad9b153a13e",
+   "Ab54614c065",
+   "Aa3b604bd50",
+   "Adbaabcd2c0",
+   "Aa8fa41dc6f",
+   "Ab0adab18c3",
+   "A9288022f28",
+   "A61b18c5278",
+   "Aeff9f2bb1d",
+   "Add1b597f8c",
+   "Af0f1ad0409",
+   "Ad7aa46e53d",
+   "A390b8283b3",
+   "A376c19084a",
+   "Acd8446f38e",
+   "A03cd0f07e3",
+   "A66b7ce1d1e",
+   "A1f54298314",
+   "Ac6e3f1edde",
+   "Ad8fcf3e191",
+   "Acf55ea97ee",
+   "A964fb80b4d",
+   "Ac96c1333a0",
+   "A4fcf514374",
+   "Aee04a3b309",
+   "Aad5c49d7a5",
+   "A90b8bcd937",
+   "Ad9e32171d4",
+   "Ab7709f28c4",
+   "A62816452b7",
+   "A86d8100d53",
+   "Af8c08ed001",
+   "A486aa1f596"
+  ]
+ },
+ "seal": {
+  "labels_sha256": "323432e2d65e43aa25e332af9245a8a1f647c3d6ef5207fb9f139b80b35c77f3",
+  "events_sha256": "6473699a64a83d86cdf7d3e3062578529e0f94b1260c2a86e16c58cd7e38b6e1",
+  "pairs_sha256": "131d988ae105115793d9a768463d1d2111e676b3a936fdb179397dea8b481d76",
+  "sealed_at": null
+ },
+ "code": "9af7bc080be94e8e8aacbc1afc8d58b61243e732",
+ "scored": "2026-11-10T07:19:22+00:00"
+}

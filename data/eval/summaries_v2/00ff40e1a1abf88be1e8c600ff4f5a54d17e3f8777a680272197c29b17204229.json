@@ -1,0 +1,202 @@
+{
+  "result": {
+    "status": "ok",
+    "summary": {
+      "article_briefs": [
+        {
+          "id": 1,
+          "brief": "Tata Motors raised its all‑cash voluntary tender offer for Iveco to 14.40 euro per share, up from 14.10 euro per share, which would value the transaction at 3.91 billion euro if all 271.2 million Iveco common shares are tendered. The acceptance period runs from September 7 to October 26, 2026, with Iveco Group shareholders scheduled to vote on related resolutions at an extraordinary general meeting on October 16. Tata Motors said the price increase reflects a slight delay in the completion of the offer due to longer‑than‑expected authorisations, and the revised price represents a 33.47 per cent premium over Iveco's share price on July 17, 2025 and a 6.77 per cent premium over the price on July 29, 2025. The additional payout will be funded through an 85 million euro credit facility agreement with MUFG Bank Ltd, GIFT Branch, and Tata Motors noted that the revised offer will not be increased further.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 2,
+          "brief": "Tata Motors has lodged its “best and final” €3.91‑billion offer for Iveco Group at €14.40 a share, ruling out any higher bid. A shareholder vote this week could lower the acceptance threshold from 95 per cent to 80 per cent, with Exor committing its 27.06 per cent stake and controlling more than 43 per cent of voting rights, while minority investors such as Davidson Kempner, Syquant Capital and Petrus Advisers are estimated to hold about 20 per cent. The offer, up‑priced from €14.10 to €14.40 a share adding about €81 million, must be tendered by investors before the October 26 closing, and if completed would create a global commercial‑vehicle group with roughly €21 billion in annual revenue and annual sales of around 5,90,000 vehicles.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 3,
+          "brief": "Stellantis India, Tata Motors Passenger Vehicles Ltd (TMPV) and its subsidiary Tata Passenger Electric Mobility Ltd (TPEM) signed a Definitive Agreement on Monday to broaden their partnership into advanced technology and product collaboration. Under the agreement, TMPV will give Stellantis access to its advanced product technology and vehicle architecture, which Stellantis will apply through its Indian product development and engineering capabilities to serve the requirements of more than 50 global markets. The vehicles will be manufactured in India at Fiat India Automobiles Private Limited (FIAPL), the 50:50 joint venture between TMPV and Stellantis in Pune. The deal builds on the MoU signed in February 2026 and was highlighted by comments from Shailesh Chandra, MD & CEO of TMPV, and Tianshu Xin, COO of Stellantis Asia‑Pacific Region.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 4,
+          "brief": "Tata Motors Passenger Vehicles and Stellantis signed a definitive agreement on October 12, 2026 expanding their partnership to include advanced vehicle technology and product development. The deal, which builds on a February 2026 MoU, will focus on developing vehicles in India for more than 50 global markets, with manufacturing at Fiat India Automobiles Private Limited, a 50:50 joint venture between the two companies. Stellantis will gain access to Tata Motors' product technology and vehicle architecture and will leverage its portfolio of 14 automotive brands and global product development expertise for the initiative.",
+          "enough_text": true,
+          "hidden": false
+        },
+        {
+          "id": 5,
+          "brief": "Tata Motors raised its offer for Iveco to €14.40 per share, a 2% increase announced on 9 October, representing a 6.77% premium to Iveco’s 29 July 2025 closing price. The tender has so far attracted acceptances for only 28.4% of the shares, while three large shareholders – Davidson Kempner, Syquant Capital and activist investor Petrus Advisers – together hold about 20.4% of Iveco’s common shares and have not tendered, putting the deal at risk ahead of the 26 October deadline. The all‑cash €3.8 billion acquisition, announced on 30 July 2025 (excluding Iveco’s defence business) and expected to conclude by November, would give Tata Motors a foothold in Europe and Latin America and create a combined annual revenue of about €21 billion.",
+          "enough_text": true,
+          "hidden": false
+        }
+      ],
+      "key_points": [
+        {
+          "text": "Tata Motors raised its all‑cash voluntary tender offer for Iveco to 14.40 euro per share, up from 14.10 euro per share, which would value the transaction at 3.91 billion euro if all 271.2 million Iveco common shares are tendered.",
+          "citations": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The revised price represents a 33.47 per cent premium over Iveco's share price on July 17, 2025 and a 6.77 per cent premium over the price on July 29, 2025.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "The additional payout will be funded through an 85 million euro credit facility agreement with MUFG Bank Ltd, GIFT Branch.",
+          "citations": [
+            1
+          ]
+        },
+        {
+          "text": "Tata Motors lodged its “best and final” €3.91‑billion offer for Iveco Group at €14.40 a share, ruling out any higher bid.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "A shareholder vote could lower the acceptance threshold from 95 per cent to 80 per cent; Exor holds a 27.06 per cent stake and controls more than 43 per cent of voting rights, while minority investors are estimated to hold about 20 per cent.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "If completed, the combined entity would generate roughly €21 billion in annual revenue and sell around 5,90,000 vehicles per year.",
+          "citations": [
+            2
+          ]
+        },
+        {
+          "text": "Tender acceptances have so far covered only 28.4% of Iveco shares, while three large shareholders holding about 20.4% have not tendered, putting the deal at risk ahead of the 26 October deadline.",
+          "citations": [
+            5
+          ]
+        },
+        {
+          "text": "Brief 2 states the total deal value at 3.91 billion euro (or €3.91‑billion), whereas another brief cites an all‑cash €3.8 billion acquisition, indicating a discrepancy in the reported transaction size.",
+          "citations": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "text": "Tata Motors Passenger Vehicles and Stellantis signed a definitive agreement to broaden their partnership on advanced vehicle technology and product development, with manufacturing in India at Fiat India Automobiles Private Limited, a 50:50 joint venture.",
+          "citations": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "The first article notes the agreement was signed on a Monday, without specifying the date, while the second article states the signing occurred on October 12, 2026.",
+          "citations": [
+            3,
+            4
+          ]
+        }
+      ],
+      "industry_context": [
+        {
+          "text": "Stellantis is expanding its collaboration with Indian manufacturers, signing a definitive agreement with Tata Motors Passenger Vehicles to develop vehicles for more than 50 global markets, leveraging its portfolio of 14 automotive brands and global product development expertise.",
+          "citations": [
+            3,
+            4
+          ]
+        }
+      ],
+      "not_used": []
+    },
+    "message": "",
+    "removed": [],
+    "attempts": 2,
+    "origin": "live",
+    "headlines": [
+      {
+        "id": 1,
+        "title": "Tata Motors raises Iveco takeover offer price to 14.40 euro per share",
+        "source": "The Times of India",
+        "published_at": "",
+        "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/tata-motors-raises-iveco-takeover-offer-price-to-14-40-euro-per-share/articleshow/134848656.cms"
+      },
+      {
+        "id": 2,
+        "title": "No higher bid: Tata Motors’ final price faces crucial test as Iveco shareholders hold the key",
+        "source": "BusinessLine",
+        "published_at": "",
+        "url": "https://www.thehindubusinessline.com/companies/no-higher-bid-tata-motors-final-price-faces-crucial-test-as-iveco-shareholders-hold-the-key/article71575128.ece"
+      },
+      {
+        "id": 3,
+        "title": "Stellantis and Tata Motors Passenger Vehicles broaden partnership to develop vehicles in Pune",
+        "source": "BusinessLine",
+        "published_at": "",
+        "url": "https://www.thehindubusinessline.com/companies/stellantis-and-tata-motors-passenger-vehicles-broaden-partnership-to-develop-vehicles-in-pune/article71574881.ece"
+      },
+      {
+        "id": 4,
+        "title": "Tata Motors, Stellantis expand partnership: New deal details explained",
+        "source": "The Times of India",
+        "published_at": "",
+        "url": "https://timesofindia.indiatimes.com/auto/cars/tata-motors-stellantis-expand-partnership-new-deal-details-explained/articleshow/134911814.cms"
+      },
+      {
+        "id": 5,
+        "title": "Tata Motors sweetens Iveco offer as key investors hold out",
+        "source": "Livemint",
+        "published_at": "",
+        "url": "https://www.livemint.com/companies/tata-motors-iveco-acquisition-deal-status-11791713827262.html"
+      }
+    ],
+    "problems": {
+      "structural": [],
+      "numbers": []
+    },
+    "repairs": [
+      {
+        "section": "key_points",
+        "index": 7,
+        "numbers": [
+          "1",
+          "5"
+        ],
+        "before": "Briefs 1 and 2 state the total deal value at 3.91 billion euro (or €3.91‑billion), whereas brief 5 cites an all‑cash €3.8 billion acquisition, indicating a discrepancy in the reported transaction size.",
+        "after": "Brief 2 states the total deal value at 3.91 billion euro (or €3.91‑billion), whereas another brief cites an all‑cash €3.8 billion acquisition, indicating a discrepancy in the reported transaction size.",
+        "ok": true
+      },
+      {
+        "section": "key_points",
+        "index": 9,
+        "numbers": [
+          "3",
+          "4"
+        ],
+        "before": "The signing date is reported differently: brief 3 mentions the agreement was signed on Monday (date not specified), while brief 4 specifies the signing occurred on October 12, 2026.",
+        "after": "The first article notes the agreement was signed on a Monday, without specifying the date, while the second article states the signing occurred on October 12, 2026.",
+        "ok": true
+      }
+    ],
+    "design": "brief_first",
+    "seconds": 275.2,
+    "usage": {
+      "calls": 9,
+      "input_tokens": 9901,
+      "output_tokens": 9095,
+      "reasoning_tokens": 6587,
+      "largest_call": 3871
+    },
+    "failures": [],
+    "prompt_chars": 44394
+  },
+  "meta": {
+    "model": "openai/gpt-oss-120b",
+    "prompt_version": "2-brief_first",
+    "k": 5,
+    "created_at": "2026-11-03T08:11:27+00:00"
+  }
+}

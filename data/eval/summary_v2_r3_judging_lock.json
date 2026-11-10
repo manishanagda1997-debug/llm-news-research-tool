@@ -1,0 +1,36 @@
+{
+ "sheets": [
+  "463a1dcec8c5f1d9ee7f69322e81d30f3c1773a0f5961ebea95a17dc1e9f372e",
+  "5dda1ae69bf2857c85371e685910ddbfd7ec78f79f5ea92804ff24240a09119c",
+  "5f2a4429c9987f1fb734902cf517c1d6c3c02a89117e67a75c909118873d215f",
+  "220777811e414c0acfbe3fffbef60e8aa5c1397ff868988ece3dbd30094ff2ae"
+ ],
+ "key": "8f13aa0664c9d6dd72888d187937e164bd01f6f24d14ffd6f50442f42bb42dfc",
+ "code": "c0857d65dcc82a3d362a3335c282eec0f5b88c0783ab5de496b05429bac02eef",
+ "inputs": {
+  "summary_v2_r3_plan.json": "d6ddd4c5ed0f6bcf5e9197038e160cd4365ae0d5cc88efb51268882aef694c5e",
+  "SUMMARY_JUDGING_GUIDE_PART7.md": "ecca3af7e8f10d94db3753a2eefa2c7e16c32d6c030300c970976733fabe3bc5",
+  "SUMMARY_JUDGING_GUIDE.md": "98dab4e3a1157d9529da4daab47a511a561b44a3b1d65dab396dfad11c397a59",
+  "SUMMARY_JUDGING_GUIDE_PART4.md": "c9ff97ce25fc71262c7eae10a96e7e65aa4525d8a0f8177f6054662a9bf082c8",
+  "summary_v2_dev_k5_c7_p4.json": "82be45a93869260e223b4742a72932a788bdb5e57271a5692e2b473f97851bb4",
+  "events_dev_tata_motors.csv": "430eac9c8a0a8658bab3f5ad2064451df89304201949726efc9309a7045fbcaa",
+  "v3_dev_tata_motors_checked.csv": "c40b1343c920b41e410a4d9b0f17c1a81f71956de9e729309b7073d07fbecab6",
+  "summary_v2_judging.csv": "ca91b4efefb3d2b6d99de4835fbd0a25269f0f41c5853a487e271503f1c53a28",
+  "summary_v2_judging_key.json": "f480fd58f5ff2add0cf10ad110b27e2f9cff6d6cbce35e902c5fd26dba9e2bd0",
+  "summary_v2_judging_lock.json": "6c116e999b43fbcc8fc8737f7b5073b79f8969a8c9a2a74d6a778c7f4ee24eee",
+  "summary_v2_p4_judging.csv": "5ca4c5d9372bd39cd5ebeebef69b4b011419552698cfd7d86ec447ede9afd3e1",
+  "summary_v2_p4_industry.csv": "a2c0a4356a343c1e541efa9717e2bf3cc862c6b377f0f7ddd2baa08785f30a1d",
+  "summary_v2_p4_judging_key.json": "20bb9e614c35e4366b84dd470e62d81b963956ba3a518146228c05ef3c2e1be9",
+  "summary_v2_p4_judging_lock.json": "3dfa885a6e088bb844592e9700bab6ddbd3f3dc4f65b209a974d605ad259ce43",
+  "summary_v2_p4_judging_score.json": "2648ffce20b9ad119c539c7f220e6cc80f420267786c22208922d7e61547c724",
+  "summary_v2_events.csv": "c18cf5847b91b1eda51ffbfe09d87a85651970febe5cdcab0389966c3d225c13",
+  "summary_v2_p4_events.csv": "cffe0278d29a031797a83f51682270347230318c203911c8b068f1d91787037c",
+  "summary_v2_r3_pair1_p4.json": "43e0b59999d018348135319bab0f6f0784e307c610003997af7c7564a02f02a0",
+  "summary_v2_r3_pair1_p6.json": "913fb41d1c5fa3509189d1d9e5c43fe515bc281de0c2a62f0b01a936e9a77c03",
+  "summary_v2_r3_pair2_p4.json": "53d4ce06a6dcb2ae16dd61aaf0e750bb881065a081d758fbb901bdf1102c2505",
+  "summary_v2_r3_pair2_p6.json": "135e28164874d581a50a482c1fc16fb2983360699e628c2900c73f89883e4526",
+  "summary_v2_r3_pair3_p4.json": "b43bc24fdbb5055fd461de0831954db750ba43be83b364f89fdac365dd1f97d7",
+  "summary_v2_r3_pair3_p6.json": "ce62511d36559b103a22e8d215bc4a94fd966288fe58b84f818fb5d83102fe51"
+ },
+ "locked_at": "2026-11-10T08:35:58+00:00"
+}

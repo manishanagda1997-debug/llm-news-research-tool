@@ -1,0 +1,20 @@
+{
+ "changed_articles": [
+  "A8619a7e886",
+  "A986c846cdc",
+  "Ad74eeaf8f2"
+ ],
+ "lengths": {
+  "A8619a7e886": 3713,
+  "A986c846cdc": 3806,
+  "Ad74eeaf8f2": 3842
+ },
+ "new_passage_sha256": {
+  "A8619a7e886": "5e193dc220e8b9250214ea3c2c3d2e9bec5e6f6ad9d4ebdf066409021d2c65b6",
+  "A986c846cdc": "fef9dac703ef47661530daa5a74417ffee277ab8f26f845014245553fc2c2ee7",
+  "Ad74eeaf8f2": "9107b64a559ce559b291ca6bab3d02af96423ef9cbd6cf76b3205c9567e6d87b"
+ },
+ "not_fitted": {},
+ "facts_fingerprint": "ef0a71b97c679ebebf58b79549376eef1742766afdd9fc3aff48c0e17edff6da",
+ "made": "2026-11-03T07:02:56Z"
+}

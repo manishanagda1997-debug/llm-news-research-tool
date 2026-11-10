@@ -1,0 +1,101 @@
+{
+ "source_commit": "104747a23caf88babdad71161ec9865dfd206622",
+ "code_files": [
+  "src/transfer_eval.py",
+  "src/relevance_check.py",
+  "src/ranking_eval.py",
+  "src/ranking.py",
+  "src/summarizer.py",
+  "src/summary_v2.py",
+  "src/summary_passage.py",
+  "src/boilerplate.py",
+  "src/preprocess.py",
+  "src/fulltext.py",
+  "src/query.py",
+  "src/llm.py",
+  "data/company_aliases.json"
+ ],
+ "inputs": {
+  "code": "fbbf410b63b8b768f4f229a2d4aba4ad637dafd225cc67ba0eaf4c7a73139d6c",
+  "protocol": "628149ed39d68bc43ce5dee866ae1f1f81bb5ee0025f93b30867048b97e08410",
+  "amendment1": "1e392122453e6e4c2109bb883e51355da55dd26819ecd8bd8fedb8f7429203ea",
+  "amendment2": "dbec021267dcd340c347317eb117d2de5312aaf9d570a8449d662d8f343f52ca",
+  "seal": "a98033294d5dd17d797e49fc5ef454797ca63c49a0c8bd419821c26cc5725738",
+  "freeze": "6810217961e5b1e6e7bb8d76bfa898ef6d90903329f805bbfe59f8defdf4f3b1",
+  "evidence": "7df9a8f2c520ee39780b3deb48cac8b2224e0b9d29786aeb306a6abad019500b"
+ },
+ "plan": {
+  "candidates": 53,
+  "relevance_batches_before_split": 6,
+  "relevance_prompt_chars": [
+   20210,
+   20647,
+   27572,
+   22927,
+   18519,
+   22037,
+   20260,
+   18508,
+   22161,
+   11738
+  ],
+  "relevance_fallbacks_too_large": 0,
+  "summary_prompt_chars": 16341,
+  "plan_fingerprint": "ab7087bfafbd48a1d46cacbe114889a861719a318c5eb11a7957b4902841e86c"
+ },
+ "report": {
+  "requests": {
+   "relevance_requests": 10,
+   "relevance_input_estimates": [
+    4826,
+    4931,
+    6584,
+    5475,
+    4423,
+    5263,
+    4838,
+    4420,
+    5292,
+    2803
+   ],
+   "summary_input_estimate": 4875
+  },
+  "per_request": {
+   "limit": 7449,
+   "over": []
+  },
+  "day": {
+   "relevance": 133150,
+   "summary": 53826,
+   "total": 186976,
+   "limit": 200000
+  },
+  "assumptions": {
+   "groq_extra": "551: the largest difference between Groq's requested tokens and its input count in its refusal messages; an observed value, not a proven maximum",
+   "token_bounds": {
+    "relevance": {
+     "rate": 0.2388,
+     "base": 0.0,
+     "requests": 65
+    },
+    "summary": {
+     "rate": 0.2372,
+     "base": 998.0,
+     "requests": 93
+    }
+   },
+   "relevance_output": "1772 per request: the largest recorded relevance answer times 1.25 (the relevance requests have no output limit)",
+   "relevance_tries": "2 per request (one try and one retry)",
+   "relevance_split": "a batch over the minute limit splits in two, as the frozen relevance check does; the split is planned with the conservative token bound",
+   "summary": "2 full attempts and 4 repairs (the most repair requests recorded for one summary at k = 5), each at the summary's input estimate plus the full output limit of 4,096",
+   "no_groq_24h": "the whole daily limit is used only after 24 hours with no Groq use; the user confirms this when starting the run; the code cannot see the Groq usage",
+   "estimate": "a conservative estimate from recorded requests, not a guaranteed maximum"
+  },
+  "decision": "go only if no Groq use in the 24 hours before the run is confirmed; otherwise stop"
+ },
+ "decision": "go only if no Groq use in the 24 hours before the run is confirmed; otherwise stop",
+ "confirmation_note": "The 24-hour condition is the user's confirmation, given with --no-groq-24h when the run starts; this report does not and cannot verify the Groq usage.",
+ "model_requests": 0,
+ "answer_cache": "not read and not written",
+ "created": "2026-11-06T04:13:49+00:00"
+}

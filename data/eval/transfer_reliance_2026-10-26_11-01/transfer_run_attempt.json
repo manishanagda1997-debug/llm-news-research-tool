@@ -1,0 +1,7 @@
+{
+ "attempt_id": "328574c0823b4584846ac48ff8ba587f",
+ "source_commit": "ddbf013de967b74bafab0db2191dcecf72e7031c",
+ "started_at": "2026-11-06T11:15:52+00:00",
+ "candidates": 53,
+ "confirmation": "The user confirms no Groq use in the 24 hours before the run. The program cannot see the Groq usage; this is the user's statement, not a check made by the code."
+}

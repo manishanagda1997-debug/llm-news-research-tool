@@ -1,0 +1,94 @@
+{
+  "status_counts": {
+    "ok": 71,
+    "blocked_by_robots": 3
+  },
+  "relevant": {
+    "total": 45,
+    "fetched": 42
+  },
+  "missed": {
+    "total": 12,
+    "fetched": 11,
+    "names_company_in_full_text": 11
+  },
+  "not_relevant": {
+    "total": 29,
+    "fetched": 29,
+    "names_company_in_full_text": 15
+  },
+  "missed_details": [
+    {
+      "url": "https://www.prnewswire.com/news-releases/used-truck-market-to-reach-usd-70-74-billion-by-2031-as-digital-auctions-and-fleet-renewal-reshape-the-secondary-market-reports-mordor-intelligence-302902412.html",
+      "title": "Used Truck Market to Reach USD 70.74 Billion by 2031 as Digital Auctions and Fleet Renewal Reshape the Secondary Market, Reports Mordor Intelligence",
+      "status": "ok",
+      "names_company": true
+    },
+    {
+      "url": "https://www.livemint.com/industry/piyush-goyal-says-india-will-become-global-car-manufacturing-hub-european-firms-to-follow-11791823601770.html",
+      "title": "Piyush Goyal says India will become global car manufacturing hub, European firms to follow",
+      "status": "ok",
+      "names_company": true
+    },
+    {
+      "url": "https://www.thehindubusinessline.com/companies/gabrielforvia-100-crore-jv-targets-10-share-as-india-seating-market-heads-to-4-billion/article71554345.ece",
+      "title": "Gabriel–Forvia ₹100-crore JV targets 10% share as India seating market heads to €4 billion",
+      "status": "ok",
+      "names_company": true
+    },
+    {
+      "url": "https://www.business-standard.com/industry/auto/european-carmakers-to-favour-india-as-it-emerges-as-global-hub-goyal-126101200390_1.html",
+      "title": "European carmakers to favour India as it emerges as global hub: Goyal",
+      "status": "ok",
+      "names_company": true
+    },
+    {
+      "url": "https://economictimes.indiatimes.com/industry/auto/auto-components/stellantis-india-targets-to-halve-vehicle-development-time-boost-localisation/articleshow/135067508.cms",
+      "title": "Stellantis India targets to halve vehicle development time, boost localisation",
+      "status": "ok",
+      "names_company": true
+    },
+    {
+      "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/car-registrations-plunge-22-this-navratri-despite-strong-deliveries/articleshow/135099020.cms",
+      "title": "Car registrations plunge 22% this Navratri despite strong deliveries",
+      "status": "ok",
+      "names_company": true
+    },
+    {
+      "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/carmakers-gear-up-with-multi-powertrain-models-as-indian-buyers-shift-beyond-petrol-diesel/articleshow/135054934.cms",
+      "title": "Carmakers gear up with multi-powertrain models as Indian buyers shift beyond petrol, diesel",
+      "status": "ok",
+      "names_company": true
+    },
+    {
+      "url": "https://www.thehindubusinessline.com/news/car-sales-decline-by-22-two-wheelers-by-75-this-navratri-on-higher-base-plus-additional-day-in-2025/article71607845.ece",
+      "title": "Car sales decline by 22%, two-wheelers by 7.5% this Navratri, on higher base plus additional day in 2025",
+      "status": "ok",
+      "names_company": true
+    },
+    {
+      "url": "https://www.deccanchronicle.com/business/navratri-auto-retail-sales-rise-27-to-1123-lakh-units-says-fada-1997678",
+      "title": "Navratri Auto Retail Sales Rise 27% to 11.23 Lakh Units, Says FADA",
+      "status": "ok",
+      "names_company": true
+    },
+    {
+      "url": "https://www.rte.ie/news/business/2026/1017/1595710-china-cars-ev/",
+      "title": "Hard Drive: China forcing European car brands to cut back",
+      "status": "ok",
+      "names_company": true
+    },
+    {
+      "url": "https://www.autocar.co.uk/car-news/business-manufacturing/return-world-car-china-backs-one-size-fits-all-approach",
+      "title": "Return of the world car: China backs one-size-fits-all approach",
+      "status": "blocked_by_robots",
+      "names_company": false
+    },
+    {
+      "url": "https://www.thehindubusinessline.com/news/delhis-vehicle-curbs-put-19-lakh-older-trucks-16000-buses-in-replacement-spotlight/article71608942.ece",
+      "title": "Delhi’s vehicle curbs put 1.9 lakh older trucks, 16,000 buses in replacement spotlight",
+      "status": "ok",
+      "names_company": true
+    }
+  ]
+}

@@ -1,0 +1,1964 @@
+{
+ "letters": {
+  "A": {
+   "prompt": "6",
+   "run": "pair1_p6",
+   "day": "2026-10-24"
+  },
+  "B": {
+   "prompt": "4",
+   "run": "pair3_p4",
+   "day": "2026-10-23"
+  },
+  "C": {
+   "prompt": "4",
+   "run": "pair1_p4",
+   "day": "2026-10-14"
+  },
+  "D": {
+   "prompt": "6",
+   "run": "pair3_p6",
+   "day": "2026-10-23"
+  },
+  "E": {
+   "prompt": "6",
+   "run": "pair2_p6",
+   "day": "2026-10-23"
+  },
+  "F": {
+   "prompt": "6",
+   "run": "pair3_p6",
+   "day": "2026-10-24"
+  },
+  "G": {
+   "prompt": "6",
+   "run": "pair2_p6",
+   "day": "2026-10-24"
+  },
+  "H": {
+   "prompt": "4",
+   "run": "pair2_p4",
+   "day": "2026-10-14"
+  },
+  "I": {
+   "prompt": "4",
+   "run": "pair3_p4",
+   "day": "2026-10-14"
+  },
+  "J": {
+   "prompt": "4",
+   "run": "pair1_p4",
+   "day": "2026-10-23"
+  },
+  "K": {
+   "prompt": "4",
+   "run": "pair3_p4",
+   "day": "2026-10-24"
+  },
+  "L": {
+   "prompt": "6",
+   "run": "pair1_p6",
+   "day": "2026-10-23"
+  },
+  "M": {
+   "prompt": "4",
+   "run": "pair2_p4",
+   "day": "2026-10-23"
+  },
+  "N": {
+   "prompt": "4",
+   "run": "pair1_p4",
+   "day": "2026-10-24"
+  },
+  "O": {
+   "prompt": "6",
+   "run": "pair2_p6",
+   "day": "2026-10-14"
+  },
+  "P": {
+   "prompt": "6",
+   "run": "pair3_p6",
+   "day": "2026-10-14"
+  },
+  "Q": {
+   "prompt": "6",
+   "run": "pair1_p6",
+   "day": "2026-10-14"
+  },
+  "R": {
+   "prompt": "4",
+   "run": "pair2_p4",
+   "day": "2026-10-24"
+  }
+ },
+ "pairs": {
+  "1": {
+   "letter": "A",
+   "fingerprint": "58999728c54bb488f7ee070f3a737ba8011066c6172545fb1e81bd46dc4656d7"
+  },
+  "2": {
+   "letter": "B",
+   "fingerprint": "950ca641788e37a488c213b0bc60defa87cec13b801499feedc72ca375c4b0e5"
+  },
+  "3": {
+   "letter": "D",
+   "fingerprint": "d9c2f36acaf150adf836347a9fdde780ee635972f5d7261f8332d1aa41dfa324"
+  },
+  "4": {
+   "letter": "E",
+   "fingerprint": "1ce5374b172b02b561417165a48b808ef7acc37e51633132191d81000a4b590b"
+  },
+  "5": {
+   "letter": "F",
+   "fingerprint": "70d270c6e1d20d57198f218df60a54e52e09a97f96c64c4dee3972759a1563a6"
+  },
+  "6": {
+   "letter": "G",
+   "fingerprint": "41364193d6710562d254f31054c9ecaa9326c3901127fb1fb67590a355d38919"
+  },
+  "7": {
+   "letter": "J",
+   "fingerprint": "eb1067684ae75fabee1417c7f047c9d78f08f716370c9e0c9e11a1bbad4593e2"
+  },
+  "8": {
+   "letter": "K",
+   "fingerprint": "179f4aa3497de46070119d24eef5be4dfc45b3e1b42b31667d959bd756023b64"
+  },
+  "9": {
+   "letter": "L",
+   "fingerprint": "cfdb064fb1a1243ebd85e0093e59e7b34163b71cbd388adae53e616eeae95aa6"
+  },
+  "10": {
+   "letter": "M",
+   "fingerprint": "e52d01815787e853cd17e586365c1bf39cef30b8fae83520b85648396687d6ec"
+  },
+  "11": {
+   "letter": "N",
+   "fingerprint": "3a08007531d53e69a40206fe328cd85eb5457ace20b15922070f287f90c1ea0e"
+  },
+  "12": {
+   "letter": "R",
+   "fingerprint": "1a89b6d46f55c469a63a0ae7da18de28506b07481b6849d387e2d5d31271a48a"
+  }
+ },
+ "overreach": {
+  "1": {
+   "letter": "E",
+   "fingerprint": "ea308f7714a50afc7d6623574c91944b42c08cd91bb34d95033784ca187020d2"
+  },
+  "2": {
+   "letter": "B",
+   "fingerprint": "073eed4cec3a764067f6d16d990bfd51451a0227a0b02b623f9418d291bf6508"
+  },
+  "3": {
+   "letter": "P",
+   "fingerprint": "8aedfc09bf55b3a5ab69026182287a9ed9237f6c923e4d17234ed64ba2e9b044"
+  },
+  "4": {
+   "letter": "L",
+   "fingerprint": "0270e20a960c43c0da6fb6c845cd16e6746ec0d776ac1418e59f3961a3b17743"
+  },
+  "5": {
+   "letter": "J",
+   "fingerprint": "b9aad46b1af064f03cde5a1e02f2eba0e02131c3e4dcc6024403d95fa37b11aa"
+  },
+  "6": {
+   "letter": "H",
+   "fingerprint": "f4cb49628b2cf13ffc43989c865a62012dee6d517062bdde46a476fbffc760c1"
+  },
+  "7": {
+   "letter": "K",
+   "fingerprint": "43cf7ac86d059f3a83251eee83062a5388a1f35a9673b7e6d7ae549a76a9c407"
+  },
+  "8": {
+   "letter": "H",
+   "fingerprint": "7606056cfd9a3c22bf32366dea4422a0428c7074dfbc165a8d85b14417c78e7f"
+  },
+  "9": {
+   "letter": "D",
+   "fingerprint": "cb055dde86d9771f41cde1b3c5d452fe200d5bbd5b666f4bd315f67b4f96d3d4"
+  },
+  "10": {
+   "letter": "M",
+   "fingerprint": "baa0080f9a00c88ae9797df81f962de6ce7cc6bff5d153895498df294f1da505"
+  },
+  "11": {
+   "letter": "C",
+   "fingerprint": "963cb1811bd200c43c0b42b9f25b323dc7a2e8fa708f9d188c9358ddbcf70e1a"
+  }
+ },
+ "items": {
+  "1": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 10,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "d1bcf515adee60cd54aa318f06bf22b4daf20b82120406715aa0e319ae7b231b"
+  },
+  "2": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "77515858d5cbdcc8bbc68e6d1d2e90f93a28a483f1474765fad35f82b9e6959f"
+  },
+  "3": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "d87b805118ff519f7f71ce52f7bfa65036772a01d8f9494f970a08b7c4638bfb"
+  },
+  "4": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 2,
+   "ids": [
+    2,
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "cf4815ff3295bd5d978f67ffdcd61afca7d37b3d652501f4f8d58dd3812150e8"
+  },
+  "5": {
+   "decoy": true,
+   "locked_row": "21",
+   "locked_judgement": "supported",
+   "locked_contradicted": "no",
+   "fingerprint": "3f2480f0008d9e06f83cdf001e9fcf4bb0ee85b16420bc3820c03a758d14d356"
+  },
+  "6": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 3,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "b6baf129e89a87394bdecbf975487832dd984dd02c27268a483652ba9d5aa018"
+  },
+  "7": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "07159b0bc7677676f58973c770e1ff8659c7d68b6f2a57c2fa94d0365c5c9c09"
+  },
+  "8": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 4,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "c1cb22b105cfa5a14b382285159f83ea19eae12ab72c2a79af55564cbba9a2aa"
+  },
+  "9": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "6c484f26b2f29974ad4128312dcc863f65b567fd73a2289e6b6a87d3e9bde0f5"
+  },
+  "10": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 2,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "a6f5b26be1654b7d778dec8e12f7ea3a3a4784b4c4941a0d1eb606c91bfda542"
+  },
+  "11": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 1,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "001066e512888e79d11809d7f84d8efc16a66e4300df3136c2448bdad1d51ec7"
+  },
+  "12": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "a7ecbe8995a0b4a32feffd60812e34906c4036395fdc396ad6f2567275c9494a"
+  },
+  "13": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 1,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "be2f70cdff4050e82f54915712275a3882efd9b32434715822e94db75bc2e2e1"
+  },
+  "14": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 11,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "b88a1aa3e574259f3431983ded925d11d20e130aff2000c183e3949595329269"
+  },
+  "15": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 4,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "f6340a9ca6a3b83f69839d1978ae656f4fdf677f96df2709331961b9e5e6e8c7"
+  },
+  "16": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 5,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "3d781c475286b8168ba75609973b372f487c4373e6744186507529304e8139d7"
+  },
+  "17": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 4,
+   "ids": [
+    2
+   ],
+   "repaired": true,
+   "fingerprint": "d0eeba1154a2c3656a58345831552c90fb3a84af9ebaad95d154f9ae34c02da5"
+  },
+  "18": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "industry_context",
+   "index": 1,
+   "ids": [
+    3,
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "67e7b0755078d7e3237dfced7de0283b22034f114e42648eea99aef39645aa6d"
+  },
+  "19": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 2,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "f061742db43751e3edf563fd693ce14eb7bcedcd509bbe73f128106b30672211"
+  },
+  "20": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "cf42229d88fa71885c9c13b59d6c74b68867659cb515516dc4f42c486f461a6b"
+  },
+  "21": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": true,
+   "fingerprint": "9b13b7adf17b965758be6172dbab298ab35641065d82f60f03dca7c588c57ad7"
+  },
+  "22": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 6,
+   "ids": [
+    3,
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "9eae18a5f8aa0876f1d84f24d49c958751b11960bc5b010db5de653dab67cdec"
+  },
+  "23": {
+   "decoy": true,
+   "locked_row": "8",
+   "locked_judgement": "supported",
+   "locked_contradicted": "no",
+   "fingerprint": "b1f64a10900902df9702c6f7f7aa078465acea75394f85b829fc30e4fcadc426"
+  },
+  "24": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 7,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "5b8e8c8de3258adf5d7a491a12a884d642cd0c04b97e77c3fef74bcea43f7e16"
+  },
+  "25": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 4,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "92e7574a03ad2229c03070ad6fc13763849e086837fa2c39029dd93f92c09e2a"
+  },
+  "26": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "2fe825939dcb907bfab4d9ca92f2204dbb8b94ea4dd77329c8a8fcb56637a2dc"
+  },
+  "27": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": true,
+   "fingerprint": "936367bd999a37bb93b55550fbcff7911a7b7fcb25afb32f57cc94cd64f7e938"
+  },
+  "28": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "a8a959444b95d725c29f5b869abba2994e79723c7f6f3433d7ec3ffbc46216c0"
+  },
+  "29": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "512a6cea33fec38c2eda2e69f58568cf96036594612a232893c9fe23c2d973ee"
+  },
+  "30": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "f62e992ec1b6cf46fd3b6f5b6f50f728e1cfc2f77c42222007f1714b2fe7eba8"
+  },
+  "31": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 3,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "59e1efd78f2bd405f3a5d479b65b8fc03d34271376a703344a6f1123764dcdbb"
+  },
+  "32": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "02978d7cd363b35fb85f02cadc6709699484a8f7a85dca9ff31237b5f4c56024"
+  },
+  "33": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 4,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "9c36a5b228323893d351746235cc36b5fd5e1e9ceeec9ea8c4b43c106ee2d940"
+  },
+  "34": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 10,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "2b8f31e9496b33775fac671c02d9306d4dd00e258e9608de29d40f1778e1cae0"
+  },
+  "35": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "e417329aa00cbb953b61b26945e8b63e9043263fdb1ad8e0d8fe0d3fef0eae79"
+  },
+  "36": {
+   "decoy": true,
+   "locked_row": "40",
+   "locked_judgement": "partly_supported",
+   "locked_contradicted": "yes",
+   "fingerprint": "45c6912a8b9824e4f7fcac11a005ad268192fe70a48d399edc9e931d695b20fb"
+  },
+  "37": {
+   "decoy": true,
+   "locked_row": "37",
+   "locked_judgement": "supported",
+   "locked_contradicted": "no",
+   "fingerprint": "42a7f1c15d14499af689ec399c88403cbdd0af2b534f8c532c345bd4f3d07b30"
+  },
+  "38": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": true,
+   "fingerprint": "29532ed2b35649f4ac8fb332c7561b51f2723a86762a3458531c692bcac7c44d"
+  },
+  "39": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": true,
+   "fingerprint": "2293dc20ebf58476cabac962a0814902c646d52b17096a4061c9276670ede3c6"
+  },
+  "40": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": true,
+   "fingerprint": "d65f5cca1a846afc038c74c11417d33d79d7c9f44e8ff782dc3d52b4d8384ac9"
+  },
+  "41": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 1,
+   "ids": [
+    2,
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "08c2a25254589dfae3468af466df61b9cc8abc79d348e99c5747976a7be414f8"
+  },
+  "42": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 1,
+   "ids": [
+    2,
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "c6c81f7f390a876342a712ec5ecca6ccc8cdbc8b1a64ac6d3768a3c419cd6456"
+  },
+  "43": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-23",
+   "section": "industry_context",
+   "index": 0,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "38ad5728ae88761fc193f2840a403a657848149ce731b8b1409b2119eb096dfd"
+  },
+  "44": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 3,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "492e387282cae822c3b7f4918c3192902fb30293eaf503a7e8900944cd8d0f1e"
+  },
+  "45": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 5,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "f7e557455aa6ba3964d682c12ec1f24140a3566c34321a17810212b023a9f6b4"
+  },
+  "46": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 3,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "ece73301df40fc3fe579fb8a41a8e3be258f32b3464e7b0437a9f1383c0e59fc"
+  },
+  "47": {
+   "decoy": true,
+   "locked_row": "23",
+   "locked_judgement": "supported",
+   "locked_contradicted": "no",
+   "fingerprint": "3f928479bd4183775cf76060171866f71b5d43c1214ff1c377afa7df39720437"
+  },
+  "48": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 8,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "d0d35d806a6bbf0b8f5d38f18cf1d85de994c668851116182c5181f7be8e40af"
+  },
+  "49": {
+   "decoy": true,
+   "locked_row": "12",
+   "locked_judgement": "partly_supported",
+   "locked_contradicted": "no",
+   "fingerprint": "6fa35233960cbfaac621a653d6aa510874d5e64a2156a0d2c65ddc7e42438e9a"
+  },
+  "50": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "dab0c9b4989ca9a8d2c6b2b1bc38380c05ff028fe69c880ed55ac9d557c56edc"
+  },
+  "51": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 2,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "dd05c697a1a5e635afd6801151e88a8f5627004cfba19637da7d47e828f1a31b"
+  },
+  "52": {
+   "decoy": true,
+   "locked_row": "33",
+   "locked_judgement": "supported",
+   "locked_contradicted": "no",
+   "fingerprint": "dee5ee284193b950e3c8e0a0eb4f0d633b256ebdc7f080b19fd9e4f1d2d9a5e9"
+  },
+  "53": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 1,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "05a4e1eb64ee85e382dc921ffbdaf9d7840182448caab9dddbfb8c2cfcd2db92"
+  },
+  "54": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 8,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "0008714a980f35be3012cd5c14d0e4ec8a4c11bad64f01d1fd991cb96d18eb6a"
+  },
+  "55": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 7,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "2a5151ed0b06c109762295a1de0eb708ad23757098a90cd5e4b228000eaf0df3"
+  },
+  "56": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 5,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "3b301d293c366fd8c28c89bd6eac0ab31122cecea658da7632b19b9114632921"
+  },
+  "57": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "8dbc32c2a1953f2614eed86ee440faff14347f53f889267bd034af4f6b73102e"
+  },
+  "58": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "industry_context",
+   "index": 0,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "5a6fc9413bab0358ab74d06870ce843b96027b3888b043a817bf3c51c7c65bd0"
+  },
+  "59": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "0d2286c48b39dc85b828c8ca8690ffa2a173b8ef32a890eca55952f3018c2acc"
+  },
+  "60": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "4a54cc3ab632693cb7d71ee7fd2735efdb2e4b078d668f9f69158a3869f11d2d"
+  },
+  "61": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 1,
+   "ids": [
+    1,
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "2833892f4c662e30ed1853472231985aa043df76456e8a3a8e2d5cb216408813"
+  },
+  "62": {
+   "decoy": true,
+   "locked_row": "20",
+   "locked_judgement": "supported",
+   "locked_contradicted": "no",
+   "fingerprint": "41c2831cfd760938b5ca660281df79b7a54695a6f08c5db17926f8001f009399"
+  },
+  "63": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "105261bb7985c4cdab1375d9d0e9100f42d1fa135d1f1beaf0adf3ef5f878447"
+  },
+  "64": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 3,
+   "ids": [
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "6f21e030f3c018808f3beaab7fd2cbc3d479cfd80fccc8dc3f3abb3aceab9f64"
+  },
+  "65": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "4e4ee5a7575a10c2ab5c5f4b680b47e1150b672bd8ddf11c5643a3a967a2ad1d"
+  },
+  "66": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "71b9a94866a38a916598c639d4a7ab46a9ef18b997d35b379ff7fa1c4c18e8ef"
+  },
+  "67": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 6,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "2511826fbed73cbfc7306231f2e0f684bb792d80b1720af3ffca3e282477007c"
+  },
+  "68": {
+   "decoy": true,
+   "locked_row": "39",
+   "locked_judgement": "partly_supported",
+   "locked_contradicted": "no",
+   "fingerprint": "39b690c69c861706ae0faed814eca25f06ed245f4597d062c79bd53a6d125804"
+  },
+  "69": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "189c011d1f0c5406682946e95ed15222749bf667b6222d5995617d6ba479d139"
+  },
+  "70": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "4a0ed154db58fc5af352ac419d807436f53f97ae1795018128b647a1de3dceeb"
+  },
+  "71": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "be55402d4ac478351b2df218ccd78798e5ec9cc0f002a134b7bdcca979cc8f8b"
+  },
+  "72": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "b68732800dd4c5e85ffe96537c8e9eb6dd820438380ea59b35f407c688c24a55"
+  },
+  "73": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 2,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "0dde27f3fd495b36e5a7c405bc559c3c1bfa394f87c60f13d0bd12466b8dfb62"
+  },
+  "74": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 2,
+   "ids": [
+    4,
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "b8a7a828a5476aa474455927af7472455a8fd2d61d39bd671cd32a79b66082fa"
+  },
+  "75": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 9,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "7a01e243ee02373486d35e139698a745e79681465c2ccb72af801f9ed03f9c91"
+  },
+  "76": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 11,
+   "ids": [
+    5
+   ],
+   "repaired": true,
+   "fingerprint": "0dd9d048212410543e3ed701240b9325bab95c7b50034c15132507c767856e92"
+  },
+  "77": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-14",
+   "section": "industry_context",
+   "index": 0,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "97abf06ffaca1c290215b8320c47a0634ff4531348686f3cc9b2925e400cad44"
+  },
+  "78": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 9,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "0c1a4c3dd2dbd838e2711639ef51ae693409c2c2db7b39f92e4f8e5b321bca74"
+  },
+  "79": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 0,
+   "ids": [
+    1,
+    2,
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "1fe9164fbc42d4e95563b670872fd0392f1249bd94c73f5b4c9c6d55850d2ca8"
+  },
+  "80": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "key_points",
+   "index": 6,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "81c6794c1481026df607bb5db4a9ec7c9044a0af23375eaae56471d4795e5af3"
+  },
+  "81": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 4,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "49ae7095638b59c2a03dd1d8a7e38e67069a853dc92b1579143117b1fc7e7473"
+  },
+  "82": {
+   "decoy": true,
+   "locked_row": "14",
+   "locked_judgement": "supported",
+   "locked_contradicted": "no",
+   "fingerprint": "3a9936899601ef4461aad254a19de6e0e3cd15abae8e665e72f9cc1f86b120cc"
+  },
+  "83": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 7,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "50094b5f241c4c60715da9208c7262f7016b77eeb906af57fe1472d818033dc1"
+  },
+  "84": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 5,
+   "ids": [
+    2
+   ],
+   "repaired": false,
+   "fingerprint": "c6671c19c7554cae0d2c7ae596b98b2c237db9e24b90c8c6ce21e12fe6f0b28b"
+  },
+  "85": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-23",
+   "section": "article_briefs",
+   "index": 1,
+   "ids": [
+    2
+   ],
+   "repaired": true,
+   "fingerprint": "7b5a509a26239e8e8f96a794d5b67cbc3012a396c2d75bc283e9e79bd720cc9c"
+  },
+  "86": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 5,
+   "ids": [
+    3,
+    4
+   ],
+   "repaired": false,
+   "fingerprint": "4af830729f0a36dad3dfbb8261dc7b8ab205b33d7fd8eea5fe5f43dd1ef0f463"
+  },
+  "87": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "article_briefs",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "2bf34f9534f903e5a0691a7ae6cfce4e66534ec7c0ce91cca8f107b45175ccb9"
+  },
+  "88": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 2,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "38dd1034b4b687a89d52deb9cd930d68cd44c1d7b35a5ed07bda649562f631e4"
+  },
+  "89": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 6,
+   "ids": [
+    2
+   ],
+   "repaired": true,
+   "fingerprint": "f8fb9a7a47ce0bb5a26c65c40359424e92e0a33ce7742f4e88dc444023c74af1"
+  },
+  "90": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 5,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "eb61176b8d2b28e7422dcdc26ba3f273c3758c2fd53582351becfb4581d3a880"
+  },
+  "91": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-23",
+   "section": "industry_context",
+   "index": 0,
+   "ids": [
+    3
+   ],
+   "repaired": false,
+   "fingerprint": "337cd7017ce1a11d785a2ef6f4a8b73ce9e752a3961a63da87991efb0a771cdf"
+  },
+  "92": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 4,
+   "ids": [
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "4e3c42c67fb07deb1986908000d9a23819cdf2cafebe6b4e43c6d0a17d2f5f5f"
+  },
+  "93": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-14",
+   "section": "key_points",
+   "index": 3,
+   "ids": [
+    2,
+    5
+   ],
+   "repaired": false,
+   "fingerprint": "a1a16ded184d129c3a8ee24432ac4335c17f9261144fb6304cbf60610da1fba7"
+  },
+  "94": {
+   "design": "direct",
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "68bae979bdf27cea44576a1414b8a10e0bfa4ff0e4cd95d17f01335296c37a5e"
+  },
+  "95": {
+   "design": "direct",
+   "prompt": "6",
+   "source_run": "pair3_p6",
+   "run": "2026-10-24",
+   "section": "article_briefs",
+   "index": 0,
+   "ids": [
+    1
+   ],
+   "repaired": false,
+   "fingerprint": "9b13486ecf56a5e3d1913ba7512db13c031884834884ed1f60d1eb8595a956ba"
+  }
+ },
+ "carried": [
+  {
+   "prompt": "4",
+   "source_run": "pair2_p4",
+   "run": "2026-10-24",
+   "section": "key_points",
+   "index": 3,
+   "ids": [
+    1,
+    3
+   ],
+   "repaired": false,
+   "locked_row": "p3:18"
+  }
+ ],
+ "events": {
+  "1": {
+   "letter": "A",
+   "event": "iveco_investor_gains",
+   "ids": [
+    3
+   ],
+   "fingerprint": "0da9533a809f46d085363848d78e337ebd43c792a18f7438326765b6c92921b0"
+  },
+  "2": {
+   "letter": "A",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "019603860c2b241c9843d7c85a02d46358e4ccb74f92b88fbc7fb2a7fad08589"
+  },
+  "3": {
+   "letter": "A",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "d80ca31dd693eb52bc70ceff6f41d401715bed44fa4bd2ae40caf1df447bc81a"
+  },
+  "4": {
+   "letter": "A",
+   "event": "tata_motors_q2_actual_results",
+   "ids": [
+    5
+   ],
+   "fingerprint": "ac7d46a99fda255dce238f777ebcd267e1876f99fd9b0aa2f0774fff6cbf44d4"
+  },
+  "5": {
+   "letter": "B",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "bfb95a9336b279146049d3b1f7e9215cd7f622847e9260c4ee30378f43422a48"
+  },
+  "6": {
+   "letter": "B",
+   "event": "iveco_shareholders_approve",
+   "ids": [
+    4,
+    5
+   ],
+   "fingerprint": "509caff882cb8636caf721226c01c656d82b1eb1f0f8188a7c35f0dabd2ab1c3"
+  },
+  "7": {
+   "letter": "B",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "f06c703de354b44cde946211111b7181ecefcd3823d1a7f517878052e95faf00"
+  },
+  "8": {
+   "letter": "B",
+   "event": "tata_motors_market_ranking",
+   "ids": [
+    3
+   ],
+   "fingerprint": "3e1949ef1d3c9dfd6b8c19b4e639e01b365970a8d3b344c2390858df749d215c"
+  },
+  "9": {
+   "letter": "C",
+   "event": "iveco_offer_raised",
+   "ids": [
+    1
+   ],
+   "fingerprint": "a331f150ef7dca8ce40e33c1fef0fbbd4a7f3273b5f717b8a0299badac964879"
+  },
+  "10": {
+   "letter": "C",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    2,
+    5
+   ],
+   "fingerprint": "53b4b52d83c100a7a2f679c00001b4a75b625045b85e8ee8e26098edca673c2a"
+  },
+  "11": {
+   "letter": "C",
+   "event": "tata_stellantis_partnership",
+   "ids": [
+    3,
+    4
+   ],
+   "fingerprint": "8b47c3fc3b1d059f1e15a8eadf4f860eba1b8ab3e80af956a633895108602328"
+  },
+  "12": {
+   "letter": "D",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "47017c5de3fc7fdfd0ddc0323a9fcf5d2cf78e61ba51e73773a995efc4265aeb"
+  },
+  "13": {
+   "letter": "D",
+   "event": "iveco_shareholders_approve",
+   "ids": [
+    4,
+    5
+   ],
+   "fingerprint": "ec982753b8d3687bae22eac56c107e36dd099aa9debf910661287ae0dee1f85f"
+  },
+  "14": {
+   "letter": "D",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "5f38f4462c0c88984ad50b721bdcc2c10360b1d82fe322df440a78b6d92caa59"
+  },
+  "15": {
+   "letter": "D",
+   "event": "tata_motors_market_ranking",
+   "ids": [
+    3
+   ],
+   "fingerprint": "df2d8b873faef48bcfd045bb6940c78fce2ce98e5c6cc70b6049a439f8be3e3d"
+  },
+  "16": {
+   "letter": "E",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "a1b0d5d5e2ddecac44481a37ba1a0fa016e8357912f7f2def89965afb5023191"
+  },
+  "17": {
+   "letter": "E",
+   "event": "iveco_shareholders_approve",
+   "ids": [
+    4,
+    5
+   ],
+   "fingerprint": "74b256f69b69fbb2061a0ee25fe4947008ed6fca26061ca649a19c0f48f4759e"
+  },
+  "18": {
+   "letter": "E",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "bcd62e88d96ea67adf8b4a9db4ff95bd7846e8fd41f91324c978dcad71ca70c6"
+  },
+  "19": {
+   "letter": "E",
+   "event": "tata_motors_market_ranking",
+   "ids": [
+    3
+   ],
+   "fingerprint": "6b9f73f6e30ebeee16bf053af89b04a471e40ad9a5a62b1e00446305e97ce5a8"
+  },
+  "20": {
+   "letter": "F",
+   "event": "iveco_investor_gains",
+   "ids": [
+    3
+   ],
+   "fingerprint": "58697f3c56b5e0a10fac40be4df8e14b40d2d72d089f88e634adf3127c467268"
+  },
+  "21": {
+   "letter": "F",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "36954558eba3496583d6cf50b99d3aff77ced9f5e94e75a3fa4f928c2df8914e"
+  },
+  "22": {
+   "letter": "F",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "264d5c4d0762915fa68b6b6ab755c8506d276e57939424cbe4f338e170a20a10"
+  },
+  "23": {
+   "letter": "F",
+   "event": "tata_motors_q2_actual_results",
+   "ids": [
+    5
+   ],
+   "fingerprint": "5295685e1faec2ccca20ca1ab7f4124353a6b3057005f0a2be6aa2f74e6d0961"
+  },
+  "24": {
+   "letter": "G",
+   "event": "iveco_investor_gains",
+   "ids": [
+    3
+   ],
+   "fingerprint": "fe9b1dac9a61e8a6a3208306afbfb8dec7708b875281cada1e9e4fb8dd8da3d2"
+  },
+  "25": {
+   "letter": "G",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "aba0faa91869c1c5e72c4fc3bc8386f7deca9e6c75e7b667abab825b0497e186"
+  },
+  "26": {
+   "letter": "G",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "c1f3a7fc520fcac045c4b792ceab1eb03a3c630529eb4d0a728e8f683b499af1"
+  },
+  "27": {
+   "letter": "G",
+   "event": "tata_motors_q2_actual_results",
+   "ids": [
+    5
+   ],
+   "fingerprint": "a596bd204778e8374277c4a21b389f2af594b154b2bceb097d10804731cbdbde"
+  },
+  "28": {
+   "letter": "H",
+   "event": "iveco_offer_raised",
+   "ids": [
+    1
+   ],
+   "fingerprint": "f6bd3531ba004d3606d5cf4fbb4f0978edb1b818604f5b8a1fd4f56f2d9160db"
+  },
+  "29": {
+   "letter": "H",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    2,
+    5
+   ],
+   "fingerprint": "299d0e26b068e7b7a693871277e56815ec476efb7ecd197bbdae8322fda92cd9"
+  },
+  "30": {
+   "letter": "H",
+   "event": "tata_stellantis_partnership",
+   "ids": [
+    3,
+    4
+   ],
+   "fingerprint": "cc97b20675ccf5e142aa8390faf118964bf6fcca8b4c0d0d1060908153faeac0"
+  },
+  "31": {
+   "letter": "I",
+   "event": "iveco_offer_raised",
+   "ids": [
+    1
+   ],
+   "fingerprint": "a77a8b7c1725f3924575d469f61e793733c4e4e95ebbe9554ceba56a741c23f3"
+  },
+  "32": {
+   "letter": "I",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    2,
+    5
+   ],
+   "fingerprint": "7809c9995da62f6519455e66951c04494253f85c876626da1aed21f329e9da7b"
+  },
+  "33": {
+   "letter": "I",
+   "event": "tata_stellantis_partnership",
+   "ids": [
+    3,
+    4
+   ],
+   "fingerprint": "9877ca294ebb4705b7add486c6036af569307324c1d7eefab38a16e193062d13"
+  },
+  "34": {
+   "letter": "J",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "6a3a532bb289230e774b503269caf9dc014389e9a821e341b5153532ceeb58b7"
+  },
+  "35": {
+   "letter": "J",
+   "event": "iveco_shareholders_approve",
+   "ids": [
+    4,
+    5
+   ],
+   "fingerprint": "07764eac1105fde32c62738fca35f5b35011e1bbaccddfb0fe6aedbc71e0ef9a"
+  },
+  "36": {
+   "letter": "J",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "a79979f3f1db289cc1345f0fe9efd96cfb11865eabc59516331038d1fc2a22f7"
+  },
+  "37": {
+   "letter": "J",
+   "event": "tata_motors_market_ranking",
+   "ids": [
+    3
+   ],
+   "fingerprint": "82b135f5f0c994dc8b86dc23bab1283358bce01a7606392d3d6ab151f491e075"
+  },
+  "38": {
+   "letter": "K",
+   "event": "iveco_investor_gains",
+   "ids": [
+    3
+   ],
+   "fingerprint": "929469766edb256b57415689e317b65c26d11213992385ea4b36741fb8989dbd"
+  },
+  "39": {
+   "letter": "K",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "cfc329fa41e1b5b5a8cdbdbd78daf2618ac30c839b18e8a292a80c91198d7ab8"
+  },
+  "40": {
+   "letter": "K",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "156e143039d2c73d9643195f5865bdd733c13d57d655e939d9497b89d10b3ddf"
+  },
+  "41": {
+   "letter": "K",
+   "event": "tata_motors_q2_actual_results",
+   "ids": [
+    5
+   ],
+   "fingerprint": "c1f60bf83ba04e78a263b03210bca95749594881a4a59aaa1bb57ff18cc9f8e7"
+  },
+  "42": {
+   "letter": "L",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "b0d1bfaf4fd76159fdc687c4e3f0324a1654eac739b6308a7d6285525e2b459d"
+  },
+  "43": {
+   "letter": "L",
+   "event": "iveco_shareholders_approve",
+   "ids": [
+    4,
+    5
+   ],
+   "fingerprint": "4302475249bd13a9b914e82265e75f1ddb1a3e480359ff9b9237884146be114f"
+  },
+  "44": {
+   "letter": "L",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "dd877f2b1d496bd9b5ae542ffb3f5a57e40a6e59345e6c38b48e39fcd1abdf4b"
+  },
+  "45": {
+   "letter": "L",
+   "event": "tata_motors_market_ranking",
+   "ids": [
+    3
+   ],
+   "fingerprint": "cc1f22f7b9d5f29682f968a722d8bc6e127ee5bbc502951553525660f22d2309"
+  },
+  "46": {
+   "letter": "M",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "61037d5eb054a9a77f267e66e91129ad0d5160e0fa5a9eabafd70c5ef3716c4e"
+  },
+  "47": {
+   "letter": "M",
+   "event": "iveco_shareholders_approve",
+   "ids": [
+    4,
+    5
+   ],
+   "fingerprint": "520ec83e944d3f84b4e37cfaf16d846a7267bc9d4c60419f0fc2549da2edc4f6"
+  },
+  "48": {
+   "letter": "M",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "e9ac54e63b07e216fe2c691038f01ffdefff897286109910e88469497ba92723"
+  },
+  "49": {
+   "letter": "M",
+   "event": "tata_motors_market_ranking",
+   "ids": [
+    3
+   ],
+   "fingerprint": "7f83b07b83267eaec49cf928307848790aa1a9616fbc7f166a538caef98771db"
+  },
+  "50": {
+   "letter": "N",
+   "event": "iveco_investor_gains",
+   "ids": [
+    3
+   ],
+   "fingerprint": "ffda48173b77f5a03e1d27e31f391d1ec6de2ed18528045e09e697cb9e8ff7e7"
+  },
+  "51": {
+   "letter": "N",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "03e1b16064f094836c69970ba115dbf377233d012153603c448fdd6f60b4ca8b"
+  },
+  "52": {
+   "letter": "N",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "5b859a44d404b703ed7f8085dacdd6a1a0dd6f085fcca7d40f3def861c47675e"
+  },
+  "53": {
+   "letter": "N",
+   "event": "tata_motors_q2_actual_results",
+   "ids": [
+    5
+   ],
+   "fingerprint": "4aa9438689c7ae877fb6820c1ddfdd1b037500b22dcadc39d669a22ea47a6e88"
+  },
+  "54": {
+   "letter": "O",
+   "event": "iveco_offer_raised",
+   "ids": [
+    1
+   ],
+   "fingerprint": "2e06b526ce52d364708f5730aded740e40047e01272c318a7affc814bb9ac97c"
+  },
+  "55": {
+   "letter": "O",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    2,
+    5
+   ],
+   "fingerprint": "d2ae6076dc336331119e7cfcf66128f1ca7d63c1c0fcfcddff91ccb81413d03d"
+  },
+  "56": {
+   "letter": "O",
+   "event": "tata_stellantis_partnership",
+   "ids": [
+    3,
+    4
+   ],
+   "fingerprint": "b994ed42eaf0e9cb929110f53dd4818b9b862d31d0a53181490487c2824d235f"
+  },
+  "57": {
+   "letter": "P",
+   "event": "iveco_offer_raised",
+   "ids": [
+    1
+   ],
+   "fingerprint": "e5713aec5a975528e95715ddc45ff9639b012a1a89ccb8d3e95f38183a8fb175"
+  },
+  "58": {
+   "letter": "P",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    2,
+    5
+   ],
+   "fingerprint": "4175b9ecd6c7ed10f15a56046631e9fb6ac84f2af82edc8332547d129d76a2c1"
+  },
+  "59": {
+   "letter": "P",
+   "event": "tata_stellantis_partnership",
+   "ids": [
+    3,
+    4
+   ],
+   "fingerprint": "f861c29df9bd0f1f1a44add2b05928013eb99ad490c78c45b104a04716dcb3aa"
+  },
+  "60": {
+   "letter": "Q",
+   "event": "iveco_offer_raised",
+   "ids": [
+    1
+   ],
+   "fingerprint": "847045e2b1f1aa75a1991f1791c88e9669f9f4d076e65bd0746d63e31c396b39"
+  },
+  "61": {
+   "letter": "Q",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    2,
+    5
+   ],
+   "fingerprint": "6ab38d86be0b906cc15f837b85145078da6adb94d13004e031ca9eddd64976d8"
+  },
+  "62": {
+   "letter": "Q",
+   "event": "tata_stellantis_partnership",
+   "ids": [
+    3,
+    4
+   ],
+   "fingerprint": "c01ace220294b50369ca985a2ffdcb065bc50ef1e5c1fa557b4a6b9919cf0af4"
+  },
+  "63": {
+   "letter": "R",
+   "event": "iveco_investor_gains",
+   "ids": [
+    3
+   ],
+   "fingerprint": "400803d40442e630c83361f59b7cfb35329d7ab70c39c24172a568ae7564f557"
+  },
+  "64": {
+   "letter": "R",
+   "event": "iveco_shareholder_acceptance",
+   "ids": [
+    1
+   ],
+   "fingerprint": "2e979ee419284e83763d3360f83cfed7dced2e1010c5573106bc2592b47724cd"
+  },
+  "65": {
+   "letter": "R",
+   "event": "tata_motors_cv_q2_preview",
+   "ids": [
+    2
+   ],
+   "fingerprint": "7e4590ae952dc4cc4d89437183e4753a73264ab57d78b1f52b7b77a065bed043"
+  },
+  "66": {
+   "letter": "R",
+   "event": "tata_motors_q2_actual_results",
+   "ids": [
+    5
+   ],
+   "fingerprint": "20a322c710e88ffeef78ce16782eaf72301f9cabd71df9b95a61849923008c7f"
+  }
+ },
+ "full_item_evidence": {
+  "4": {
+   "2026-10-14": "pair2_p4",
+   "2026-10-23": "pair2_p4",
+   "2026-10-24": "pair2_p4"
+  },
+  "6": {
+   "2026-10-14": "pair3_p6",
+   "2026-10-23": "pair3_p6",
+   "2026-10-24": "pair3_p6"
+  }
+ },
+ "kept": [
+  1,
+  2,
+  3
+ ],
+ "seeds": {
+  "sheet1": 72,
+  "sheet2": 73,
+  "decoys": 74
+ },
+ "stopped_at": null
+}

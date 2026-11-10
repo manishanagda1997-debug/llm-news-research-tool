@@ -1,0 +1,78 @@
+{
+ "week": "reliance",
+ "company": "Reliance Industries",
+ "prompt": "4",
+ "design": "direct",
+ "relevance_check": "not run",
+ "status": "judged",
+ "summary": {
+  "status": "scored",
+  "checks": {
+   "produced": true,
+   "event_coverage": true,
+   "contradicted": true,
+   "no_central_contradiction": true
+  },
+  "passed": true,
+  "values": {
+   "produced": {
+    "count": 1,
+    "total": 1,
+    "share": 1.0
+   },
+   "items": {
+    "total": 13,
+    "supported": 11,
+    "partly_supported": 2,
+    "not_supported": 0,
+    "supported_share": 0.8462,
+    "contradicted": 0,
+    "contradicted_share": 0.0,
+    "central_contradicted": 0
+   },
+   "events": {
+    "covered": 2,
+    "total": 2,
+    "coverage": 1.0,
+    "cited": 2,
+    "cited_share": 1.0
+   },
+   "repaired_items": {
+    "total": 0,
+    "supported": 0,
+    "supported_share": null,
+    "contradicted": 0
+   },
+   "calls": 1.0,
+   "checks": {
+    "produced": true,
+    "event_coverage": true,
+    "contradicted": true,
+    "no_central_contradiction": true
+   },
+   "passes": true
+  }
+ },
+ "industry": {
+  "industry_evidence": "yes",
+  "industry_points_produced": 2,
+  "industry_points": {
+   "total": 2,
+   "supported": 1,
+   "partly_supported": 1,
+   "not_supported": 0,
+   "supported_share": 0.5,
+   "contradicted": 0
+  },
+  "checks": {
+   "no_unsupported_industry_point": true,
+   "industry_section_matches_evidence": true
+  },
+  "level": "reported without a pass level (amendment 2)"
+ },
+ "pairs": {
+  "rows": [],
+  "level": "reported without a pass level"
+ },
+ "scored": "2026-11-10T09:24:47+00:00"
+}

@@ -1,0 +1,147 @@
+{
+  "about": "Verified company names used by the optional alias check. Names are added only with a source. Different legal companies stay separate identities; a search group joins them only when chosen on purpose.",
+  "identities": {
+    "tata_motors_pv": {
+      "legal_name": "Tata Motors Passenger Vehicles Limited",
+      "ticker": "TMPV",
+      "business": "Passenger cars, electric vehicles and Jaguar Land Rover",
+      "names": [
+        "Tata Motors Passenger Vehicles",
+        "TMPV"
+      ],
+      "sources": [
+        "https://hdfcsky.com/news/tata-motors-demerger-tata-motors-passenger-vehicles-begins-trading-under-new-symbol-tmpv",
+        "https://www.exchange4media.com/marketing-news/tata-motors-renamed-to-tata-motors-passenger-vehicles-after-demerger-completion-148679.html"
+      ]
+    },
+    "tata_motors_cv": {
+      "legal_name": "Tata Motors Limited (commercial vehicles)",
+      "ticker": "TMCV",
+      "business": "Trucks, buses and commercial vehicles",
+      "names": [
+        "Tata Motors Commercial Vehicles",
+        "TMCV"
+      ],
+      "sources": [
+        "https://www.outlookmoney.com/invest/tmcv-share-price-tata-motors-commercial-vehicles-arm-lists-at-over-26-premium-on-nse-bse",
+        "https://ticker.finology.in/discover/market-update/tatamotors-split-into-tmpv-tmlcv"
+      ]
+    },
+    "jaguar_land_rover": {
+      "legal_name": "Jaguar Land Rover (JLR)",
+      "parent": "tata_motors_pv",
+      "business": "Luxury cars and SUVs under the Jaguar, Range Rover, Defender and Discovery brands",
+      "names": [
+        "Jaguar Land Rover",
+        "JLR"
+      ],
+      "names_needing_context": [
+        {
+          "name": "Jaguar",
+          "context_words": [
+            "car",
+            "cars",
+            "carmaker",
+            "carmakers",
+            "car maker",
+            "automaker",
+            "automakers",
+            "vehicle",
+            "vehicles",
+            "EV",
+            "EVs",
+            "electric",
+            "SUV",
+            "sedan",
+            "Land Rover"
+          ],
+          "why": "Jaguar alone can mean the animal, a fighter jet or a sports team, so it counts only when the same text also has a general car word."
+        }
+      ],
+      "sources": [
+        "https://storyboard18.com/how-it-works/tata-motors-completes-demerger-passenger-arm-now-tata-motors-passenger-vehicles-ltd-83114.htm",
+        "https://www.business-standard.com/amp/markets/news/tata-motors-demerger-pv-unit-vulnerable-as-jlr-dominance-clouds-growth-125111200702_1.html"
+      ]
+    },
+    "reliance_industries": {
+      "legal_name": "Reliance Industries Limited",
+      "ticker": "RELIANCE",
+      "business": "Oil-to-chemicals (refining, fuels, petrochemicals), oil and gas, and the parent of the digital, retail and new energy businesses",
+      "names": [
+        "Reliance Industries",
+        "RIL"
+      ],
+      "sources": [
+        "https://ril.com/investors/subsidiaries-associates/major-subsidiaries-associates-list"
+      ]
+    },
+    "jio_platforms": {
+      "legal_name": "Jio Platforms Limited",
+      "parent": "reliance_industries",
+      "business": "Telecom and digital services through Reliance Jio Infocomm; listed on 28 October 2026, still controlled by Reliance Industries",
+      "names": [
+        "Jio Platforms",
+        "Reliance Jio",
+        "Reliance Jio Infocomm"
+      ],
+      "sources": [
+        "https://ril.com/investors/subsidiaries-associates/major-subsidiaries-associates-list",
+        "https://groww.in/blog/jio-platforms-shares-list-at-21-36-premium-on-nse-bse"
+      ]
+    },
+    "reliance_retail": {
+      "legal_name": "Reliance Retail Ventures Limited",
+      "parent": "reliance_industries",
+      "business": "Retail stores and online shopping through Reliance Retail",
+      "names": [
+        "Reliance Retail Ventures",
+        "Reliance Retail"
+      ],
+      "sources": [
+        "https://ril.com/investors/subsidiaries-associates/major-subsidiaries-associates-list"
+      ]
+    },
+    "reliance_consumer_products": {
+      "legal_name": "Reliance Consumer Products Limited",
+      "parent": "reliance_industries",
+      "business": "Consumer brands (food, drinks and personal care)",
+      "names": [
+        "Reliance Consumer Products"
+      ],
+      "sources": [
+        "https://ril.com/investors/subsidiaries-associates/major-subsidiaries-associates-list"
+      ]
+    },
+    "reliance_new_energy": {
+      "legal_name": "Reliance New Energy Limited",
+      "parent": "reliance_industries",
+      "business": "Solar, batteries and other new energy businesses",
+      "names": [
+        "Reliance New Energy"
+      ],
+      "sources": [
+        "https://ril.com/investors/subsidiaries-associates/major-subsidiaries-associates-list"
+      ]
+    }
+  },
+  "search_groups": {
+    "tata motors": {
+      "identities": [
+        "tata_motors_pv",
+        "tata_motors_cv",
+        "jaguar_land_rover"
+      ],
+      "note": "Since the demerger (effective 1 October 2025) there are two listed companies. News uses \"Tata Motors\" for both, so a search for Tata Motors covers both identities, and Jaguar Land Rover, which belongs to the passenger vehicle company. \"Tata\" alone is not used: it also matches other Tata Group companies such as Tata Steel and Tata Elxsi."
+    },
+    "reliance industries": {
+      "identities": [
+        "reliance_industries",
+        "jio_platforms",
+        "reliance_retail",
+        "reliance_consumer_products",
+        "reliance_new_energy"
+      ],
+      "note": "Reliance Industries and the companies it controls, from its own list of subsidiaries. Control decides, not a separate listing. \"Reliance\" alone is not used: it also matches separate companies such as Reliance Power and Reliance Infrastructure. Jio Financial Services is a separate listed company and is not in this group."
+    }
+  }
+}

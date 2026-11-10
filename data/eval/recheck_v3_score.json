@@ -1,0 +1,99 @@
+{
+  "label_file": "v3_dev_tata_motors.csv",
+  "guide_version": "3",
+  "seed": 42,
+  "part_a": {
+    "articles": 40,
+    "measures": "agreement on the unexposed development subset",
+    "limits": "Part A covers the unexposed development subset only, not all 74 articles. The fact-check sample holds the long relevant articles, so long relevant articles are underrepresented in Part A.",
+    "sample": "stratified by first label, proportional, fixed seed, from the articles still blind",
+    "agreement": 0.825,
+    "kappa": 0.7230464886251237,
+    "per_label": {
+      "direct": {
+        "articles": 12,
+        "same": 12,
+        "agreement": 1.0
+      },
+      "indirect": {
+        "articles": 9,
+        "same": 5,
+        "agreement": 0.5555555555555556
+      },
+      "not": {
+        "articles": 19,
+        "same": 16,
+        "agreement": 0.8421052631578947
+      }
+    },
+    "relevant_agreement": 0.85,
+    "relevant_kappa": 0.6992481203007519,
+    "pairs": {
+      "direct -> direct": 12,
+      "direct -> indirect": 0,
+      "direct -> not": 0,
+      "indirect -> direct": 1,
+      "indirect -> indirect": 5,
+      "indirect -> not": 3,
+      "not -> direct": 0,
+      "not -> indirect": 3,
+      "not -> not": 16
+    }
+  },
+  "part_b": [
+    {
+      "article_id": "A24e6d8662d",
+      "first_label": "direct",
+      "recheck_label": "direct",
+      "exposure": "in the relevant-only fact sheet"
+    },
+    {
+      "article_id": "A79f20394bc",
+      "first_label": "indirect",
+      "recheck_label": "not",
+      "exposure": "in the relevant-only fact sheet"
+    },
+    {
+      "article_id": "Ab5f09d2bd1",
+      "first_label": "indirect",
+      "recheck_label": "indirect",
+      "exposure": "first label shown"
+    },
+    {
+      "article_id": "A58b7f6f1f1",
+      "first_label": "indirect",
+      "recheck_label": "direct",
+      "exposure": "first label shown"
+    },
+    {
+      "article_id": "Afda0bbac4b",
+      "first_label": "indirect",
+      "recheck_label": "not",
+      "exposure": "blind"
+    },
+    {
+      "article_id": "Adc9449a897",
+      "first_label": "indirect",
+      "recheck_label": "not",
+      "exposure": "blind"
+    },
+    {
+      "article_id": "A02b25c8c80",
+      "first_label": "indirect",
+      "recheck_label": "indirect",
+      "exposure": "first label shown"
+    },
+    {
+      "article_id": "Aac357bfe35",
+      "first_label": "not",
+      "recheck_label": "indirect",
+      "exposure": "first label shown"
+    }
+  ],
+  "part_b_note": "Part B is the chosen model-label disagreements: an error review, not combined with Part A.",
+  "pool_fingerprint": "951ef13029bd06dd238b227e60965e540b7f0e250ee3a32e8f8973c92923022f",
+  "first_labelling": "2026-10-24",
+  "last_seen": "2026-11-02",
+  "sheet_created": "2026-11-03T04:30:58Z",
+  "scored": "2026-11-03T05:16:35Z"
+}

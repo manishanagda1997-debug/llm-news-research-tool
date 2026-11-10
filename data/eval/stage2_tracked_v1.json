@@ -1,0 +1,34 @@
+{
+  "about": "Articles tracked in every stage 2 run. From the first development run of stage 2 (prompt version 1, model answers saved in commit 4a601ea), scored on the guide version 3 labels with broad relevance.",
+  "false_negatives": [
+    "A24e6d8662d",
+    "A79f20394bc",
+    "Ab5f09d2bd1",
+    "A58b7f6f1f1",
+    "Afda0bbac4b",
+    "Adc9449a897",
+    "A02b25c8c80"
+  ],
+  "false_negatives_note": "Relevant articles kept by stage 1 on full text and dropped by stage 2.",
+  "false_positives": [
+    "A9b85d3cb27",
+    "A95a7eae323",
+    "Adfbc67b88f",
+    "A515b87254e",
+    "A690a6ec804",
+    "A269a74e91b",
+    "A0ae8a2cfab",
+    "Adea3a0907a",
+    "A4b6965db21",
+    "A1f07d7f3d2",
+    "Aac357bfe35",
+    "Aaa3d8d3035",
+    "Aa3597011a3",
+    "Aad645eceb7",
+    "A43ea61cb65",
+    "Ad2c7b7d7f8",
+    "A3d725bd712",
+    "A39c3196d92"
+  ],
+  "false_positives_note": "Articles labelled not relevant that stage 1 keeps on full text."
+}

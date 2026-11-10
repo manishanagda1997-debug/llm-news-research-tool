@@ -1,0 +1,12 @@
+row,summary,text,evidence,overreach,note
+1,E,"The Indian passenger‑vehicle market recorded robust growth, with domestic dispatches increasing 28.3% to around 26.4 lakh units in April‑Sept FY27.",Aa2665f4ad4,no,
+2,B,The Indian passenger‑vehicle market expanded 28.3% YoY to roughly 26.4 lakh units in April‑September FY27.,Aa2665f4ad4,no,
+3,P,"Analysts note that Europe’s transition to cleaner commercial vehicles increases the importance of financial backing for companies like Iveco, implying sector‑wide pressure for investments in cleaner technology.",A59aa7b0222,no,
+4,L,The Indian passenger‑vehicle market grew 28.3% YoY to around 26.4 lakh units in Apr‑Sept FY27.,Aa2665f4ad4,no,
+5,J,"The Indian passenger‑vehicle industry recorded a 28.3% increase in domestic dispatches to around 26.4 lakh units in April‑Sept FY27, indicating robust sector growth that benefits manufacturers such as Tata Motors.",Aa2665f4ad4,no,
+6,H,"The European commercial‑vehicle market is facing a costly transition to cleaner vehicles, creating financing pressures for manufacturers such as Iveco.",A59aa7b0222,no,
+7,K,"The commercial‑vehicle sector is confronting geopolitical headwinds and input‑cost inflation, yet Tata Motors' volume expansion is outpacing peers, highlighting broader industry pressures.",Af3ec3babc9,yes,Generalises Tata Motors CV's own geopolitical headwinds and input-cost inflation into pressures on the whole commercial-vehicle sector.
+8,H,"India is increasingly being positioned as a hub for developing and exporting vehicles, as evidenced by Stellantis’ expanded partnership with Tata Motors to build cars for over 50 markets.",A1f7d47f39c; A947c84dec7,yes,Infers that India is increasingly a vehicle development and export hub from one Tata–Stellantis deal; the article only says the companies aim to strengthen India's position.
+9,D,Domestic passenger‑vehicle dispatches in India grew 28.3% to around 26.4 lakh units in the April‑Sept FY27 period.,Aa2665f4ad4,no,
+10,M,The Indian passenger‑vehicle market expanded 28.3% YoY to around 26.4 lakh units during April‑Sept FY27.,Aa2665f4ad4,no,
+11,C,"The European commercial‑vehicle market is undergoing a costly transition to cleaner vehicles, increasing the importance of financial backing for manufacturers such as Iveco.",A59aa7b0222,no,

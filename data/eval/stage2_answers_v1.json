@@ -1,0 +1,320 @@
+{
+ "about": "Stage 2 answers of prompt version 1 (model gemini-3.8-flash, saved answers of commit 4a601ea), by article id, for comparison with later versions.",
+ "answers": {
+  "A02b25c8c80": {
+   "title": "Used Truck Market to Reach USD 70.74 Billion by 2031 as Digital Auctions and Fleet Renewal Reshape the Secondary Market, Reports Mordor Intelligence",
+   "label": "not",
+   "reason": "Tata Motors is merely listed as one of several market participants in a syndicated industry research report summary."
+  },
+  "A0ae8a2cfab": {
+   "title": "Lupin, SRF, TMPV, Maruti, NTPC among 74 BSE 500 stocks hit 52-week lows",
+   "label": "not",
+   "reason": "Tata Motors Passenger Vehicles is merely mentioned in a list of stocks hitting 52-week lows during a broader market decline."
+  },
+  "A1f07d7f3d2": {
+   "title": "Waymo Reportedly Plans to Put 20,000 Robotaxis on the Road by the End of 2027",
+   "label": "not",
+   "reason": "Mentions discontinued Jaguar I-Pace vehicles in passing while discussing Waymo's robotaxi fleet expansion and shift to Zeekr."
+  },
+  "A1f7d47f39c": {
+   "title": "Stellantis and Tata Motors Passenger Vehicles broaden partnership to develop vehicles in Pune",
+   "label": "direct",
+   "reason": "The article details a definitive partnership agreement signed by Tata Motors Passenger Vehicles and Stellantis."
+  },
+  "A24e6d8662d": {
+   "title": "Jaguar unveils $130,500 electric vehicle two years after controversial rebrand",
+   "label": "not",
+   "reason": "Despite the headline, the text contains only unrelated market commentary on crude oil prices and provides no information on Tata Motors."
+  },
+  "A269a74e91b": {
+   "title": "Building India’s deep-tech enterprise pipeline: from IP to IPO",
+   "label": "not",
+   "reason": "Tata Motors is named merely in passing as a customer of a featured startup."
+  },
+  "A289594c896": {
+   "title": "Stellantis, Tata Motors ink passenger vehicle manufacturing pact for global markets",
+   "label": "direct",
+   "reason": "It covers a definitive partnership between Tata Motors Passenger Vehicles and Stellantis to manufacture global vehicles using Tata's architecture."
+  },
+  "A29c1a29e1d": {
+   "title": "Silent shareholders hold the key to Tata Motors' Iveco deal",
+   "label": "direct",
+   "reason": "It analyzes shareholder voting and challenges surrounding Tata Motors' proposed €3.9 billion acquisition of Iveco."
+  },
+  "A33d2a07840": {
+   "title": "Tata Motors raises Iveco takeover offer price to 14.40 euro per share",
+   "label": "direct",
+   "reason": "It focuses entirely on Tata Motors increasing its tender offer price to acquire commercial vehicle maker Iveco."
+  },
+  "A391b491c75": {
+   "title": "Chandrasekaran, P.B. Balaji to join Iveco board as Tata deal reaches final stage",
+   "label": "direct",
+   "reason": "It covers the progress and board appointments related to Tata Motors' acquisition of Iveco."
+  },
+  "A3959810ae8": {
+   "title": "Carmakers look to Diwali to rev up sales",
+   "label": "indirect",
+   "reason": "It discusses festive passenger vehicle sales trends and registrations across major Indian automakers, including Tata Motors."
+  },
+  "A39c3196d92": {
+   "title": "IT stocks reverse course, buck global AI rout; Brent at $114 caps market recovery",
+   "label": "not",
+   "reason": "It is a general market report that only mentions TMPV's stock price movement in passing."
+  },
+  "A3d725bd712": {
+   "title": "Private banks, IT drag Sensex 756 points lower at noon; metals buck the slide",
+   "label": "not",
+   "reason": "It is a routine midday market roundup that only includes a passing mention of TMPV's share price."
+  },
+  "A4055c39453": {
+   "title": "Iveco Group shareholders approve Tata Motors' takeover proposals",
+   "label": "direct",
+   "reason": "It reports on Iveco shareholders approving key resolutions for Tata Motors' takeover bid."
+  },
+  "A43ea61cb65": {
+   "title": "Future of Marketing Briefing: Advertisers have more ways than ever to choose a holdco, and free holdcos to choose from",
+   "label": "not",
+   "reason": "Jaguar Land Rover is mentioned only in passing as an example in a marketing industry report about ad holding companies."
+  },
+  "A4b6965db21": {
+   "title": "Waymo Puts Toronto on the Map for Its Robotaxis",
+   "label": "not",
+   "reason": "Focuses on Waymo's Canadian expansion, mentioning Jaguar I-Pace vehicles only as fleet equipment."
+  },
+  "A515b87254e": {
+   "title": "Nazara founder Nitish Mittersain steps down as MD after nearly 27 years",
+   "label": "not",
+   "reason": "Tata Motors is mentioned only as a former employer of Nazara's incoming CFO."
+  },
+  "A58b1377275": {
+   "title": "Hard Drive: China forcing European car brands to cut back",
+   "label": "indirect",
+   "reason": "Reports on European automotive competitive dynamics against China, noting significant job cuts and a cost-cutting program at JLR."
+  },
+  "A58b7f6f1f1": {
+   "title": "Stocks to watch: HCLTech, RBL Bank, IRCON, TMPV, Hero Motors, Nazara Tech",
+   "label": "not",
+   "reason": "It is a broad market roundup mentioning Tata Motors Passenger Vehicles only in a brief one-line bullet."
+  },
+  "A59aa7b0222": {
+   "title": "No higher bid: Tata Motors’ final price faces crucial test as Iveco shareholders hold the key",
+   "label": "direct",
+   "reason": "The article focuses on Tata Motors' final takeover bid for Iveco Group and its strategic implications."
+  },
+  "A59fff9b0d3": {
+   "title": "Jaguar unveils $130,000 electric vehicle two years after controversial rebrand",
+   "label": "direct",
+   "reason": "It reports on the unveiling of a new electric vehicle by Jaguar, a key subsidiary of Tata Motors."
+  },
+  "A5f2210687a": {
+   "title": "Tata Motors raises Iveco takeover offer to 14.4 euro per share amid delays",
+   "label": "direct",
+   "reason": "It covers Tata Motors raising its takeover offer price for Italian truck maker Iveco."
+  },
+  "A62643cad78": {
+   "title": "Delhi’s vehicle curbs put 1.9 lakh older trucks, 16,000 buses in replacement spotlight",
+   "label": "indirect",
+   "reason": "It reports on Delhi regulatory vehicle curbs that create a major commercial vehicle replacement market affecting Tata Motors and its peers."
+  },
+  "A639826ac02": {
+   "title": "UK announces £1 billion in new commercial deals with India",
+   "label": "indirect",
+   "reason": "It covers UK-India trade deals and auto manufacturing policies, citing Tata Motors' past turnaround of Jaguar."
+  },
+  "A690a6ec804": {
+   "title": "Schaeffler India CEO taken into police custody over two worker deaths at Pune factory",
+   "label": "not",
+   "reason": "Tata Motors is mentioned only in passing as one of several clients of a component supplier."
+  },
+  "A79f20394bc": {
+   "title": "Q2 Results Today Live: Infosys, Adani Power, JSW Steel, Tata Motors, Shriram Fin, Torrent Pharma, CG Power, BPCL, Dr Reddys Lab Share to announce Q2 results",
+   "label": "not",
+   "reason": "It is a broad market live results blog that only lists Tata Motors in a roster of reporting companies."
+  },
+  "A7ba6e5020c": {
+   "title": "European carmakers to favour India as it emerges as global hub: Goyal",
+   "label": "indirect",
+   "reason": "It discusses trade pacts and European auto manufacturing shifting to India, referencing Tata Motors' historical acquisition of Jaguar."
+  },
+  "A7c14e6a8fe": {
+   "title": "Piyush Goyal sees India becoming global car hub as Europe’s regulations hurt competitiveness",
+   "label": "indirect",
+   "reason": "It discusses Indian automotive manufacturing competitiveness and regulations, mentioning Tata Motors' historical JLR turnaround in passing."
+  },
+  "A81fc8ba892": {
+   "title": "Three Iveco investors stand to gain €63 million as Tata Motors races to secure buyout",
+   "label": "direct",
+   "reason": "It details investor shareholding dynamics critical to Tata Motors' proposed buyout of Iveco."
+  },
+  "A8619a7e886": {
+   "title": "Tata Motors PV, Stellantis expand tie-up for global vehicle development",
+   "label": "direct",
+   "reason": "It details a major partnership agreement between Tata Motors Passenger Vehicles and Stellantis for global vehicle development."
+  },
+  "A86c03ba1b8": {
+   "title": "Gabriel–Forvia ₹100-crore JV targets 10% share as India seating market heads to €4 billion",
+   "label": "indirect",
+   "reason": "It covers a joint venture by seating supplier Forvia, which supplies Tata Motors and other Indian automakers."
+  },
+  "A88c355a3b0": {
+   "title": "Carmakers gear up with multi-powertrain models as Indian buyers shift beyond petrol, diesel",
+   "label": "indirect",
+   "reason": "Examines competitor multi-powertrain strategies and consumer demand shifts in the Indian automotive market, referencing Tata Motors as an early mover."
+  },
+  "A8d5b4a5afc": {
+   "title": "Stellantis, Tata Motors PV join hands for vehicle tech, product development",
+   "label": "direct",
+   "reason": "It details a definitive agreement between Tata Motors Passenger Vehicles and Stellantis for vehicle architecture and product collaboration."
+  },
+  "A947c84dec7": {
+   "title": "Tata Motors, Stellantis expand partnership: New deal details explained",
+   "label": "direct",
+   "reason": "The article directly discusses the expansion of the product and technology partnership between Tata Motors and Stellantis."
+  },
+  "A95a7eae323": {
+   "title": "Why privacy must survive the age of AI: Not just humans, even the economy needs it",
+   "label": "not",
+   "reason": "The article is an opinion piece on AI privacy that mentions Tata Motors only in passing as historical context from 2005."
+  },
+  "A986c846cdc": {
+   "title": "Tata Motors sweetens Iveco offer as key investors hold out",
+   "label": "direct",
+   "reason": "The article covers Tata Motors' revised takeover offer for Iveco and the response of key institutional shareholders."
+  },
+  "A9b85d3cb27": {
+   "title": "AirConsole partners with Zeekr in its first Geely deal",
+   "label": "not",
+   "reason": "Tata Motors is mentioned only in passing as one of several existing carmakers using the platform."
+  },
+  "Aa2665f4ad4": {
+   "title": "Tata Motors pips Mahindra to be No. 2 car company in April-September",
+   "label": "direct",
+   "reason": "It reports on Tata Motors surpassing Mahindra to become the second-largest passenger vehicle maker in India."
+  },
+  "Aa3597011a3": {
+   "title": "Market crash: Sensex sinks 1,279 pts from day's high; Nifty tests 22,400",
+   "label": "not",
+   "reason": "It is a general market report mentioning Tata Motors Passenger Vehicles only in passing among daily share price losers."
+  },
+  "Aaa3d8d3035": {
+   "title": "Stocks in news: Swiggy, Infosys, HPCL, eMudhra, Adani Power, Shriram Finance, Tata Motors and NLC India",
+   "label": "not",
+   "reason": "Tata Motors is only mentioned in passing as one of many companies scheduled to report earnings."
+  },
+  "Aac357bfe35": {
+   "title": "Waymo to launch autonomous ride-hailing in Madrid next year",
+   "label": "not",
+   "reason": "It is about Waymo's robotaxi plans, only mentioning a Jaguar model used by the service."
+  },
+  "Aad645eceb7": {
+   "title": "Rupee snaps eight-day run, crude tops $112 as Nifty falls for third straight day",
+   "label": "not",
+   "reason": "Tata Motors is mentioned only in passing in a general market report as part of an upcoming earnings schedule."
+  },
+  "Ab28c0c3a7a": {
+   "title": "Tata Motors, Stellantis to develop vehicles in India for 50-plus global markets",
+   "label": "direct",
+   "reason": "It reports on a partnership between Tata Motors and Stellantis to develop vehicles in India for global markets."
+  },
+  "Ab38652cb91": {
+   "title": "Iveco shareholders approve Tata Motors' takeover bid; acceptance threshold cut to 80 pc",
+   "label": "direct",
+   "reason": "It focuses on Iveco shareholders approving resolutions to advance Tata Motors' acquisition offer."
+  },
+  "Ab5f09d2bd1": {
+   "title": "Tata Motors PV, Maruti Suzuki, Ashok Leyland, auto stocks drop up to 3% as RBI signals rate cuts are ‘off the table’",
+   "label": "not",
+   "reason": "Tata Motors is mentioned only in passing regarding routine share price movements in a general market report."
+  },
+  "Ac20bce29ad": {
+   "title": "Tata Motors' Jaguar rolls out £130,000 Type 01 luxury EV as British brand begins electric reboot",
+   "label": "direct",
+   "reason": "It discusses the launch of the Type 01 luxury EV by Tata Motors' subsidiary Jaguar Land Rover."
+  },
+  "Ac6905343e4": {
+   "title": "The long road to the Type 01: Jaguar's EV timeline",
+   "label": "direct",
+   "reason": "It covers the EV transition and product roadmap of Jaguar, a key subsidiary brand of Tata Motors."
+  },
+  "Acd42aaa992": {
+   "title": "Car registrations plunge 22% this Navratri despite strong deliveries",
+   "label": "indirect",
+   "reason": "It provides festive sales and registration figures comparing Tata Motors with industry peers."
+  },
+  "Ad2c7b7d7f8": {
+   "title": "Crude fears clip wings; Axis Bank dives 3.84% as Sensex, Nifty open flat",
+   "label": "not",
+   "reason": "It is a general market report that only mentions TMPV's share price movement in passing."
+  },
+  "Ad74eeaf8f2": {
+   "title": "Car sales decline by 22%, two-wheelers by 7.5% this Navratri, on higher base plus additional day in 2025",
+   "label": "indirect",
+   "reason": "Covers festive vehicle retail sales data and consumer demand trends, featuring commentary on sales figures from a Tata Motors executive."
+  },
+  "Ad8f06500d4": {
+   "title": "Stellantis India targets to halve vehicle development time, boost localisation",
+   "label": "indirect",
+   "reason": "It discusses the strategy of partner Stellantis and details its joint vehicle development venture with Tata Motors."
+  },
+  "Adb9ff93da2": {
+   "title": "Jaguar reveals $130K electric vehicle two years after failed ‘woke’ rebrand video",
+   "label": "direct",
+   "reason": "It discusses the product reveal, strategy, and business challenges of Tata Motors' subsidiary Jaguar Land Rover."
+  },
+  "Adc9449a897": {
+   "title": "Piyush Goyal says India will become global car manufacturing hub, European firms to follow",
+   "label": "not",
+   "reason": "Tata Motors is only mentioned in passing as a historical anecdote regarding past acquisition challenges."
+  },
+  "Adea3a0907a": {
+   "title": "Private lenders weigh on equity markets as PSU banks buck the selloff",
+   "label": "not",
+   "reason": "Tata Motors Passenger Vehicles is only mentioned in passing via its stock price movement in a general market wrap-up."
+  },
+  "Adfbc67b88f": {
+   "title": "TaMo, Unilever's ex-veteran Siddharth Kapur launches InsynQ to help Indian businesses",
+   "label": "not",
+   "reason": "Tata Motors is only mentioned as a former employer of an individual launching a new venture."
+  },
+  "Ae689fc3060": {
+   "title": "Rawdon Glover Admits Jaguar Lost the Narrative With the Type 00, But Sees the Payoff in the Type 01",
+   "label": "direct",
+   "reason": "It focuses on Tata Motors' subsidiary Jaguar, detailing its product strategy, brand transition, and the new Type 01 model."
+  },
+  "Aebbe4fd5d7": {
+   "title": "Better than the V8: Range Rover Electric tested",
+   "label": "direct",
+   "reason": "Reviews and discusses the engineering and launch of a major new vehicle model from Tata Motors' subsidiary, JLR."
+  },
+  "Aee4703af04": {
+   "title": "Global auto once fled India; but some MNCs are now changing the script",
+   "label": "indirect",
+   "reason": "It analyzes Indian automotive market share changes across major carmakers and highlights Stellantis's joint venture with Tata Motors."
+  },
+  "Aeea554d8db": {
+   "title": "Navratri Auto Retail Sales Rise 27% to 11.23 Lakh Units, Says FADA",
+   "label": "indirect",
+   "reason": "Reports on industry-wide Navratri automotive retail sales and features festive demand metrics from Tata Motors Passenger Vehicles."
+  },
+  "Aef4e916be4": {
+   "title": "Tata Motors raises Iveco takeover offer to €14.40 per share",
+   "label": "direct",
+   "reason": "The article directly reports on Tata Motors raising its takeover offer for Iveco Group."
+  },
+  "Af3ec3babc9": {
+   "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus",
+   "label": "direct",
+   "reason": "Detailed broker preview of Tata Motors' commercial vehicle division's financial results, margins, and volume growth."
+  },
+  "Af6c1b429d2": {
+   "title": "Jaguar Land Rover India expands retail presence in Delhi, Gurugram; sees NCR as key market",
+   "label": "direct",
+   "reason": "It covers retail expansion and dealership developments for Tata Motors' subsidiary Jaguar Land Rover in India."
+  },
+  "Afda0bbac4b": {
+   "title": "Piyush Goyal sees India becoming global car hub as Europe’s regulations hurt competitiveness",
+   "label": "not",
+   "reason": "Tata Motors is referenced only in passing as a historical anecdote regarding its past acquisition of Jaguar."
+  }
+ }
+}

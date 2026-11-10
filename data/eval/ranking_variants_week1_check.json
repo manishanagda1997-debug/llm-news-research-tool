@@ -1,0 +1,14 @@
+{
+ "chosen": "O1M5",
+ "candidates": 53,
+ "articles": {
+  "A6327d7dcd9": {
+   "retrieval": 1,
+   "O1": 47,
+   "O1M5": 50,
+   "in_top_10": false
+  }
+ },
+ "note": "information only; the Stage 7 result stays as scored, and the choice does not change",
+ "created": "2026-11-07T07:05:03+00:00"
+}

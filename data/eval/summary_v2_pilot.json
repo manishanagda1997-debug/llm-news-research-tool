@@ -1,0 +1,198 @@
+{
+ "run": "2026-10-24",
+ "design": "direct",
+ "k": 5,
+ "articles": [
+  {
+   "id": 1,
+   "key": "A29c1a29e1d",
+   "title": "Silent shareholders hold the key to Tata Motors' Iveco deal"
+  },
+  {
+   "id": 2,
+   "key": "Af3ec3babc9",
+   "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus"
+  },
+  {
+   "id": 3,
+   "key": "A81fc8ba892",
+   "title": "Three Iveco investors stand to gain €63 million as Tata Motors races to secure buyout"
+  },
+  {
+   "id": 4,
+   "key": "Aaa3d8d3035",
+   "title": "Stocks in news: Swiggy, Infosys, HPCL, eMudhra, Adani Power, Shriram Finance, Tata Motors and NLC India"
+  },
+  {
+   "id": 5,
+   "key": "A79f20394bc",
+   "title": "Q2 Results Today Live: Infosys, Adani Power, JSW Steel, Tata Motors, Shriram Fin, Torrent Pharma, CG Power, BPCL, Dr Reddys Lab Share to announce Q2 results"
+  }
+ ],
+ "result": {
+  "status": "partial",
+  "summary": {
+   "article_briefs": [
+    {
+     "id": 1,
+     "brief": "Tata Motors needs approval from roughly three‑quarters of Iveco’s silent shareholders to complete its €3.9 billion acquisition and delist the Italian truck maker. About 52.9% of Iveco’s common shares backed the deal, while one‑third of non‑promoter votes opposed key resolutions, including appointments of Tata executives. The offer price was increased to €14.40 per share. If the 66.67% threshold is met but not the 80% threshold, Tata could complete the acquisition without full delisting. The combined business would generate annual revenue of about €21 billion and sell over 590,000 vehicles.",
+     "enough_text": true,
+     "hidden": false
+    },
+    {
+     "id": 2,
+     "brief": "",
+     "enough_text": true,
+     "hidden": true
+    },
+    {
+     "id": 3,
+     "brief": "Three Iveco investors (Davidson Kempner, Syquant Capital, Petrus Advisers) hold about 20.4% of Iveco’s common shares, positioning them to influence Tata Motors’ ability to reach the 80% threshold. At the €14.40 offer price they could earn roughly €63 million, plus €288 million in extraordinary dividends received in April. As of 21 Oct, shareholders had tendered about 33.4% of Iveco’s shares; the offer closes on 26 Oct. The combined business would have annual revenue of about €21 billion and sales of more than 590,000 vehicles.",
+     "enough_text": true,
+     "hidden": false
+    },
+    {
+     "id": 4,
+     "brief": "Tata Motors is listed among stocks to watch on 23 Oct as investors track September‑quarter earnings and other developments, but the article provides no specific financial or operational data for the company.",
+     "enough_text": false,
+     "hidden": false
+    },
+    {
+     "id": 5,
+     "brief": "Tata Motors reported Q2 consolidated profit of ₹1,257 crore, with revenue rising 36.3% YoY. Shares fell about 4% ahead of the results, trading around ₹397.80 and later ₹395.45, after opening at ₹410 versus the previous close of ₹414.25.",
+     "enough_text": true,
+     "hidden": false
+    }
+   ],
+   "key_points": [
+    {
+     "text": "Tata Motors' €3.9 billion acquisition of Iveco requires 80% shareholder acceptance; only 52.9% of shares have backed the deal and a significant portion of silent shareholders remain undecided, making their vote critical.",
+     "citations": [
+      1
+     ]
+    },
+    {
+     "text": "Three Iveco investors holding about 20.4% of shares could determine whether Tata Motors reaches the 80% threshold, with only 33.4% of shares tendered as of 21 Oct and the offer closing on 26 Oct; their potential gain at €14.40 per share is roughly €63 million plus €288 million in dividends.",
+     "citations": [
+      3
+     ]
+    },
+    {
+     "text": "Tata Motors posted Q2 FY27 consolidated profit of ₹1,257 crore and revenue growth of 36.3% YoY, while its share price slipped roughly 4% ahead of the results, trading near ₹397.80 to ₹395.45.",
+     "citations": [
+      5
+     ]
+    }
+   ],
+   "industry_context": [
+    {
+     "text": "The commercial vehicle sector is experiencing strong volume expansion of roughly 43% YoY despite geopolitical headwinds, supporting Tata Motors' volume and revenue outlook.",
+     "citations": [
+      2
+     ]
+    },
+    {
+     "text": "The sale of Iveco’s defence business to Leonardo for an enterprise value of €1.7 billion, with dividend distribution to shareholders, affects the overall valuation and cash flow considerations of the Tata‑Iveco transaction.",
+     "citations": [
+      3
+     ]
+    }
+   ],
+   "not_used": [
+    {
+     "id": 4,
+     "reason": "Only mentions Tata Motors in a list of stocks to watch; provides no specific company data."
+    }
+   ]
+  },
+  "message": "2 summary points are omitted because their numerical information cannot be confirmed from the available article excerpts.",
+  "removed": [
+   {
+    "section": "key_points",
+    "text": "Analysts expect Tata Motors Commercial Vehicles Q2 revenue to rise about 44‑45% YoY to roughly Rs 24,200‑24,600 crore and volumes to grow ~43% YoY to ~1.35 million units, but operating margins may face pressure from input‑cost inflation despite a 2.5% price increase."
+   },
+   {
+    "section": "article_briefs",
+    "id": 2,
+    "text": "Analysts preview Tata Motors Commercial Vehicles Q2 FY27, expecting volume growth of around 43% YoY (≈1.35 million units) and revenue growth of about 44‑45% YoY to Rs 24,218.4‑24,638.1 crore. Adjusted PAT is projected to rise 44.3% (JM) or 25.7% (MOFSL). A 2.5% net price hike has been applied since July, but margins may be pressured by input‑cost inflation. Light commercial vehicles led the expansion with a 53.1% YoY volume increase."
+   }
+  ],
+  "attempts": 2,
+  "origin": "live",
+  "headlines": [
+   {
+    "id": 1,
+    "title": "Silent shareholders hold the key to Tata Motors' Iveco deal",
+    "source": "Livemint",
+    "published_at": "",
+    "url": "https://www.livemint.com/companies/news/tata-motors-iveco-deal-status-shareholder-approval-11792483781433.html"
+   },
+   {
+    "id": 2,
+    "title": "Tata Motors CV Q2 Results Preview: Profit may rise up to 44% YoY, revenue 45%; margins, volume growth in focus",
+    "source": "The Times of India",
+    "published_at": "",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-motors-cv-q2-results-preview-profit-may-rise-up-to-44-yoy-revenue-45-margins-volume-growth-in-focus/articleshow/135116132.cms"
+   },
+   {
+    "id": 3,
+    "title": "Three Iveco investors stand to gain €63 million as Tata Motors races to secure buyout",
+    "source": "Livemint",
+    "published_at": "",
+    "url": "https://www.livemint.com/companies/tata-motors-iveco-acquisition-deal-status-shareholders-approval-11792650839298.html"
+   },
+   {
+    "id": 4,
+    "title": "Stocks in news: Swiggy, Infosys, HPCL, eMudhra, Adani Power, Shriram Finance, Tata Motors and NLC India",
+    "source": "The Times of India",
+    "published_at": "",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-swiggy-infosys-hpcl-emudhra-adani-power-shriram-finance-tata-motors-and-nlc-india/articleshow/135123918.cms"
+   },
+   {
+    "id": 5,
+    "title": "Q2 Results Today Live: Infosys, Adani Power, JSW Steel, Tata Motors, Shriram Fin, Torrent Pharma, CG Power, BPCL, Dr Reddys Lab Share to announce Q2 results",
+    "source": "BusinessLine",
+    "published_at": "",
+    "url": "https://www.thehindubusinessline.com/companies/q2-results-today-live-updates-infosys-adani-power-jsw-steel-tata-motors-shiram-fin-torrent-pharma-cg-power-bpcl-dr-reddys-lab-company-results-23-october-2026/article71611542.ece"
+   }
+  ],
+  "problems": {
+   "structural": [],
+   "numbers": [
+    {
+     "section": "article_briefs",
+     "index": 1,
+     "numbers": [
+      "1.35 million"
+     ]
+    },
+    {
+     "section": "key_points",
+     "index": 3,
+     "numbers": [
+      "₹24,200",
+      "24,600 crore",
+      "1.35 million"
+     ]
+    }
+   ]
+  },
+  "design": "direct",
+  "seconds": 66.8,
+  "usage": {
+   "calls": 2,
+   "input_tokens": 9240,
+   "output_tokens": 5070,
+   "reasoning_tokens": 2963,
+   "largest_call": 7544
+  },
+  "failures": [],
+  "prompt_chars": 38802
+ },
+ "model": "openai/gpt-oss-120b",
+ "generation": {
+  "temperature": 1.0,
+  "reasoning_effort": "medium"
+ },
+ "version": "2"
+}

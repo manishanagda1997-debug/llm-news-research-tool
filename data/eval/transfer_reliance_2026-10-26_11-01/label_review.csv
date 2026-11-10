@@ -1,0 +1,8 @@
+row,article_id,title,first_label,first_unsure,final_label,final_unsure,reason
+4,Ae0b5e75023,Negative bias seen amid global headwinds,indirect,,not,,Results-calendar mention without expected or actual figures (guide: results calendar rule)
+18,A83ee698971,"Potential LTCG tax cut could revive FIIs’ India bet, says Jefferies: Which stocks may benefit most?",indirect,,indirect,yes,The fit with conditions 1 to 4 is loose: a broker names RIL as a preferred stock in a market note
+28,Ae8f3172b06,"JioStar Q2 PAT falls 13.2% to ₹1,147 crore; revenue rises 9.8%",direct,,direct,yes,The article calls JioStar a joint venture of RIL and Disney and does not state that RIL controls it (guide: control unclear rule)
+39,Aadbe12435e,Jio’s halo brightens momentum for mega deals in India pipeline,direct,,indirect,yes,The main subject is the pipeline of other companies' share sales; Jio's debut is the context
+42,Ac0f925c479,"Sensex, Nifty fall as IT stocks slide, rising oil prices weigh",indirect,,not,,The text does not name RIL or Jio; a market and crude-price report (Tata Motors precedent for market reports)
+47,A6b45552a81,"Sensex today | Stock Market Highlights: Sensex declines 353 points dragged by Reliance, IT stocks, rising crude oil prices",direct,,indirect,,"A market live blog, not mainly about RIL; it gives real facts on Jio's listing (Tata Motors precedent for round-ups)"
+51,A1d192a0338,Where are mutual funds investing your money? These stocks saw the biggest buying in September 2026. Check full list,direct,,indirect,yes,"Mutual-fund buying across many stocks; RIL is one entry, so not mainly about the company"

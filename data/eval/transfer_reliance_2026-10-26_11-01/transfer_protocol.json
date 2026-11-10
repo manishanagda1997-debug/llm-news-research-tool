@@ -1,0 +1,76 @@
+{
+ "run_id": "transfer_reliance_2026-10-26_11-01",
+ "company": "Reliance Industries",
+ "window": [
+  "2026-10-26T00:00:00Z",
+  "2026-11-01T23:59:59Z"
+ ],
+ "fetch_not_before": "2026-11-03T06:00:00+00:00",
+ "searches": {
+  "A": "\"Reliance Industries\"",
+  "B": "(\"Jio Platforms\" OR \"Reliance Jio\" OR \"Reliance Jio Infocomm\" OR \"Reliance Retail Ventures\" OR \"Reliance Retail\" OR \"Reliance Consumer Products\" OR \"Reliance New Energy\")"
+ },
+ "search_settings": {
+  "page_size": 30,
+  "sort_by": "relevancy",
+  "exact_phrase": true,
+  "title_only": false
+ },
+ "alias_fingerprint": "7736ef3fa58b7fa4a303db58397cdb1e0e5719e03151f4342fd1f03a027c079d",
+ "guide_fingerprint": "76aadfe90ede3356a2846f13e2ec9789153d6dddac002fa17df9380ef4a83fb0",
+ "company_scope": "News about any of these counts as news about Reliance Industries, including their subsidiaries and current products:\n- Reliance Industries Limited: Oil-to-chemicals (refining, fuels, petrochemicals), oil and gas, and the parent of the digital, retail and new energy businesses\n- Jio Platforms Limited: Telecom and digital services through Reliance Jio Infocomm; listed on 28 October 2026, still controlled by Reliance Industries\n- Reliance Retail Ventures Limited: Retail stores and online shopping through Reliance Retail\n- Reliance Consumer Products Limited: Consumer brands (food, drinks and personal care)\n- Reliance New Energy Limited: Solar, batteries and other new energy businesses\nOther companies with a similar name or from the same business group are separate businesses.",
+ "sample_rule": "Search A (up to 30 articles), then search B (up to 30), merged in that order; each article kept once by tidy link; articles published outside the window or without a date are excluded and logged; the sample is what remains, even when it is small or unbalanced: no top-up and no replacement. An article whose page cannot be fetched stays and is labelled on its short text.",
+ "definitions": {
+  "relevant_event": "an event with at least one article labelled direct or indirect",
+  "direct_event": "an event with at least one article labelled direct",
+  "event_recall": "distinct relevant events among the relevant articles in the top k, divided by the relevant events among the articles Stage 1 keeps; undefined when there is no relevant event",
+  "precision": "relevant articles among the selected articles, divided by the number selected (k, or fewer when fewer articles are available; the number available is reported)",
+  "no_direct_event_lost": "every direct event that O1's top 10 covers is also covered by O1+S1's top 10, on the same articles and the same event names",
+  "model_coverage": "the share of the articles Stage 1 keeps that have a model answer after the first live pass, started with no saved answers; it applies only to configurations that use the model",
+  "model_time": "the seconds of that first pass; it applies only to configurations that use the model",
+  "summary_event_coverage": "event rows marked covered = yes, divided by all event rows: one row per relevant event among the summary's own top 5 articles (SUMMARY_JUDGING_GUIDE.md, Part 3)",
+  "contradicted_rate": "items with contradicted = yes, divided by all judged items (company points, industry points and visible article briefs)",
+  "produced": "the one summary comes out (1 of 1)"
+ },
+ "pass_levels": {
+  "ranking": {
+   "configuration": "O1+S1",
+   "baseline": "O1",
+   "primary_k": 10,
+   "reported_k": [
+    5,
+    15
+   ],
+   "conditions": [
+    "no_direct_event_lost",
+    "event_recall_not_lower",
+    "precision_not_lower"
+   ],
+   "min_model_coverage": 0.9,
+   "max_model_seconds": 180,
+   "note": "the Tata 'gain' condition is not used: it decided whether O1+S1 replaces the baseline, which is settled; this test checks that the default does no worse on a new company"
+  },
+  "summary": {
+   "design": "the design frozen in Stage 4",
+   "k": 5,
+   "produced": true,
+   "min_event_coverage": 0.8,
+   "max_contradicted": 0.05,
+   "no_central_contradiction": true
+  },
+  "reported_without_level": [
+   "the relevance check against the labels",
+   "unsure labels, on their own"
+  ]
+ },
+ "reading": {
+  "candidate_pool": "event recall is recall within the articles Stage 1 keeps, not within all news published about the company",
+  "one_summary": "the test judges one summary for factual support, event coverage and completion; it does not establish production reliability across repeated searches",
+  "no_tuning": "Reliance labels and results do not change the pipeline, the Stage 4 design or any setting; an experimental configuration never becomes the default because of this test",
+  "fixes": "a failure is reported with its diagnosis; a fix is built and tested on Tata Motors development data only, then checked on a new, unseen Reliance week",
+  "balance": "a sample with few indirect or not articles is reported as it is; the searches are not changed"
+ },
+ "source_commit": "c433fc70b8f1c4cf3c479d1c996fb55d67ec3514",
+ "freeze_tag": "freeze-reliance-transfer",
+ "created": "2026-11-03T10:30:10+00:00"
+}

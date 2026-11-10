@@ -1,0 +1,922 @@
+{
+ "week": "tata",
+ "company": "Tata Motors",
+ "tested": "O1M5+S1",
+ "rule": {
+  "tested": "O1M5+S1, the default (src/research.py, default_order then S1)",
+  "primary": {
+   "baseline": "retrieval_order",
+   "conditions": [
+    "no_direct_event_lost",
+    "event_recall_not_lower",
+    "precision_not_lower"
+   ],
+   "primary_k": 10,
+   "reported_k": [
+    5,
+    15
+   ],
+   "decides": "passed"
+  },
+  "second": {
+   "baseline": "O1+S1",
+   "conditions": [
+    "no_direct_event_lost",
+    "event_recall_not_lower",
+    "precision_not_lower"
+   ],
+   "primary_k": 10,
+   "reported_k": [
+    5,
+    15
+   ],
+   "decides": "nothing: the round 1 no-harm rule on fresh data, reported only; it never changes the primary result"
+  },
+  "also_reported": [
+   "O1+S1 against the retrieval order, as in week 1",
+   "each relevant article whose title does not name the company: its place in the retrieval order, O1+S1 and O1M5+S1, and whether it reaches the top 10"
+  ],
+  "no_model": "the ranking test uses no model call"
+ },
+ "candidates": 40,
+ "primary": {
+  "configuration": "O1M5+S1",
+  "baseline": "retrieval_order",
+  "primary_k": 10,
+  "conditions": {
+   "no_direct_event_lost": true,
+   "event_recall_not_lower": false,
+   "precision_not_lower": true
+  },
+  "passed": false,
+  "events": {
+   "gained": [
+    "tata_motors_share_price_surge"
+   ],
+   "lost": [
+    "dhanteras_festive_auto_deliveries",
+    "october_vahan_registrations"
+   ],
+   "net": -1,
+   "direct_gained": [
+    "tata_motors_share_price_surge"
+   ],
+   "direct_lost": [],
+   "direct_net": 1
+  },
+  "absolute": {
+   "retrieval_order": {
+    "5": {
+     "selected": 5,
+     "precision": 1.0,
+     "event_recall": 0.2222222222222222,
+     "direct_event_recall": 0.3
+    },
+    "10": {
+     "selected": 10,
+     "precision": 1.0,
+     "event_recall": 0.3888888888888889,
+     "direct_event_recall": 0.5
+    },
+    "15": {
+     "selected": 15,
+     "precision": 1.0,
+     "event_recall": 0.4444444444444444,
+     "direct_event_recall": 0.6
+    }
+   },
+   "O1M5+S1": {
+    "5": {
+     "selected": 5,
+     "precision": 1.0,
+     "event_recall": 0.2222222222222222,
+     "direct_event_recall": 0.4
+    },
+    "10": {
+     "selected": 10,
+     "precision": 1.0,
+     "event_recall": 0.3333333333333333,
+     "direct_event_recall": 0.6
+    },
+    "15": {
+     "selected": 15,
+     "precision": 1.0,
+     "event_recall": 0.3888888888888889,
+     "direct_event_recall": 0.6
+    }
+   }
+  },
+  "events_covered": {
+   "retrieval_order": {
+    "5": [
+     "cert_in_ira_app_flaws",
+     "october_vahan_registrations",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales"
+    ],
+    "10": [
+     "cert_in_ira_app_flaws",
+     "chandrasekaran_meloni_iveco_meeting",
+     "dhanteras_festive_auto_deliveries",
+     "iveco_turnaround_challenges",
+     "october_vahan_registrations",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales"
+    ],
+    "15": [
+     "cert_in_ira_app_flaws",
+     "chandrasekaran_meloni_iveco_meeting",
+     "dhanteras_festive_auto_deliveries",
+     "iveco_turnaround_challenges",
+     "october_vahan_registrations",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales",
+     "tata_motors_share_price_surge"
+    ]
+   },
+   "O1M5+S1": {
+    "5": [
+     "cert_in_ira_app_flaws",
+     "chandrasekaran_meloni_iveco_meeting",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales"
+    ],
+    "10": [
+     "cert_in_ira_app_flaws",
+     "chandrasekaran_meloni_iveco_meeting",
+     "iveco_turnaround_challenges",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales",
+     "tata_motors_share_price_surge"
+    ],
+    "15": [
+     "cert_in_ira_app_flaws",
+     "chandrasekaran_meloni_iveco_meeting",
+     "iveco_turnaround_challenges",
+     "october_ev_registrations",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales",
+     "tata_motors_share_price_surge"
+    ]
+   }
+  }
+ },
+ "passed": false,
+ "second": {
+  "configuration": "O1M5+S1",
+  "baseline": "O1+S1",
+  "primary_k": 10,
+  "conditions": {
+   "no_direct_event_lost": true,
+   "event_recall_not_lower": true,
+   "precision_not_lower": true
+  },
+  "passed": true,
+  "events": {
+   "gained": [
+    "chandrasekaran_meloni_iveco_meeting"
+   ],
+   "lost": [],
+   "net": 1,
+   "direct_gained": [
+    "chandrasekaran_meloni_iveco_meeting"
+   ],
+   "direct_lost": [],
+   "direct_net": 1
+  },
+  "absolute": {
+   "O1+S1": {
+    "5": {
+     "selected": 5,
+     "precision": 1.0,
+     "event_recall": 0.2222222222222222,
+     "direct_event_recall": 0.4
+    },
+    "10": {
+     "selected": 10,
+     "precision": 1.0,
+     "event_recall": 0.2777777777777778,
+     "direct_event_recall": 0.5
+    },
+    "15": {
+     "selected": 15,
+     "precision": 1.0,
+     "event_recall": 0.4444444444444444,
+     "direct_event_recall": 0.6
+    }
+   },
+   "O1M5+S1": {
+    "5": {
+     "selected": 5,
+     "precision": 1.0,
+     "event_recall": 0.2222222222222222,
+     "direct_event_recall": 0.4
+    },
+    "10": {
+     "selected": 10,
+     "precision": 1.0,
+     "event_recall": 0.3333333333333333,
+     "direct_event_recall": 0.6
+    },
+    "15": {
+     "selected": 15,
+     "precision": 1.0,
+     "event_recall": 0.3888888888888889,
+     "direct_event_recall": 0.6
+    }
+   }
+  },
+  "events_covered": {
+   "O1+S1": {
+    "5": [
+     "cert_in_ira_app_flaws",
+     "iveco_turnaround_challenges",
+     "tata_motors_october_pv_sales",
+     "tata_motors_share_price_surge"
+    ],
+    "10": [
+     "cert_in_ira_app_flaws",
+     "iveco_turnaround_challenges",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales",
+     "tata_motors_share_price_surge"
+    ],
+    "15": [
+     "cert_in_ira_app_flaws",
+     "chandrasekaran_meloni_iveco_meeting",
+     "iveco_turnaround_challenges",
+     "october_ev_registrations",
+     "october_vahan_registrations",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales",
+     "tata_motors_share_price_surge"
+    ]
+   },
+   "O1M5+S1": {
+    "5": [
+     "cert_in_ira_app_flaws",
+     "chandrasekaran_meloni_iveco_meeting",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales"
+    ],
+    "10": [
+     "cert_in_ira_app_flaws",
+     "chandrasekaran_meloni_iveco_meeting",
+     "iveco_turnaround_challenges",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales",
+     "tata_motors_share_price_surge"
+    ],
+    "15": [
+     "cert_in_ira_app_flaws",
+     "chandrasekaran_meloni_iveco_meeting",
+     "iveco_turnaround_challenges",
+     "october_ev_registrations",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales",
+     "tata_motors_share_price_surge"
+    ]
+   }
+  },
+  "decides": "nothing (reported only)"
+ },
+ "old_default_against_retrieval": {
+  "configuration": "O1+S1",
+  "baseline": "retrieval_order",
+  "primary_k": 10,
+  "conditions": {
+   "no_direct_event_lost": false,
+   "event_recall_not_lower": false,
+   "precision_not_lower": true
+  },
+  "passed": false,
+  "events": {
+   "gained": [
+    "tata_motors_share_price_surge"
+   ],
+   "lost": [
+    "chandrasekaran_meloni_iveco_meeting",
+    "dhanteras_festive_auto_deliveries",
+    "october_vahan_registrations"
+   ],
+   "net": -2,
+   "direct_gained": [
+    "tata_motors_share_price_surge"
+   ],
+   "direct_lost": [
+    "chandrasekaran_meloni_iveco_meeting"
+   ],
+   "direct_net": 0
+  },
+  "absolute": {
+   "retrieval_order": {
+    "5": {
+     "selected": 5,
+     "precision": 1.0,
+     "event_recall": 0.2222222222222222,
+     "direct_event_recall": 0.3
+    },
+    "10": {
+     "selected": 10,
+     "precision": 1.0,
+     "event_recall": 0.3888888888888889,
+     "direct_event_recall": 0.5
+    },
+    "15": {
+     "selected": 15,
+     "precision": 1.0,
+     "event_recall": 0.4444444444444444,
+     "direct_event_recall": 0.6
+    }
+   },
+   "O1+S1": {
+    "5": {
+     "selected": 5,
+     "precision": 1.0,
+     "event_recall": 0.2222222222222222,
+     "direct_event_recall": 0.4
+    },
+    "10": {
+     "selected": 10,
+     "precision": 1.0,
+     "event_recall": 0.2777777777777778,
+     "direct_event_recall": 0.5
+    },
+    "15": {
+     "selected": 15,
+     "precision": 1.0,
+     "event_recall": 0.4444444444444444,
+     "direct_event_recall": 0.6
+    }
+   }
+  },
+  "events_covered": {
+   "retrieval_order": {
+    "5": [
+     "cert_in_ira_app_flaws",
+     "october_vahan_registrations",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales"
+    ],
+    "10": [
+     "cert_in_ira_app_flaws",
+     "chandrasekaran_meloni_iveco_meeting",
+     "dhanteras_festive_auto_deliveries",
+     "iveco_turnaround_challenges",
+     "october_vahan_registrations",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales"
+    ],
+    "15": [
+     "cert_in_ira_app_flaws",
+     "chandrasekaran_meloni_iveco_meeting",
+     "dhanteras_festive_auto_deliveries",
+     "iveco_turnaround_challenges",
+     "october_vahan_registrations",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales",
+     "tata_motors_share_price_surge"
+    ]
+   },
+   "O1+S1": {
+    "5": [
+     "cert_in_ira_app_flaws",
+     "iveco_turnaround_challenges",
+     "tata_motors_october_pv_sales",
+     "tata_motors_share_price_surge"
+    ],
+    "10": [
+     "cert_in_ira_app_flaws",
+     "iveco_turnaround_challenges",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales",
+     "tata_motors_share_price_surge"
+    ],
+    "15": [
+     "cert_in_ira_app_flaws",
+     "chandrasekaran_meloni_iveco_meeting",
+     "iveco_turnaround_challenges",
+     "october_ev_registrations",
+     "october_vahan_registrations",
+     "tata_iveco_turin_plan",
+     "tata_motors_october_pv_sales",
+     "tata_motors_share_price_surge"
+    ]
+   }
+  },
+  "decides": "nothing (reported only)"
+ },
+ "untitled_relevant": [
+  {
+   "key": "A2d50094f01",
+   "title": "Tata-Iveco aims for 6 lakh annual vehicle sales in five years; India assembly plans underway",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 2,
+    "O1+S1": 25,
+    "O1M5+S1": 2
+   },
+   "in_top_10": {
+    "retrieval_order": true,
+    "O1+S1": false,
+    "O1M5+S1": true
+   }
+  },
+  {
+   "key": "Aa333b4d52a",
+   "title": "Passenger EV retail dips 4% amid supply crunch; overall PV market grows 15%",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 5,
+    "O1+S1": 11,
+    "O1M5+S1": 23
+   },
+   "in_top_10": {
+    "retrieval_order": true,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "Af1455a6eab",
+   "title": "Tata Sons chair Chandrasekaran meets Italy PM Meloni after Iveco takeover",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 6,
+    "O1+S1": 12,
+    "O1M5+S1": 5
+   },
+   "in_top_10": {
+    "retrieval_order": true,
+    "O1+S1": false,
+    "O1M5+S1": true
+   }
+  },
+  {
+   "key": "Ac49b28bf4e",
+   "title": "Festive surge: Cars near 5 lakh despite EV dip; two-wheelers top 23 lakh as electric models hit 2026 peak",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 7,
+    "O1+S1": 26,
+    "O1M5+S1": 30
+   },
+   "in_top_10": {
+    "retrieval_order": true,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "Ae998c86389",
+   "title": "Auto sales dip in Dhanteras due to a higher base last year",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 8,
+    "O1+S1": 27,
+    "O1M5+S1": 31
+   },
+   "in_top_10": {
+    "retrieval_order": true,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A63d696ef74",
+   "title": "TaMo looks at manufacturing Iveco in India",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 9,
+    "O1+S1": 13,
+    "O1M5+S1": 6
+   },
+   "in_top_10": {
+    "retrieval_order": true,
+    "O1+S1": false,
+    "O1M5+S1": true
+   }
+  },
+  {
+   "key": "Ae3899daaac",
+   "title": "Chandrasekaran allays fears of Iveco plant closures ahead of union talks",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 11,
+    "O1+S1": 28,
+    "O1M5+S1": 8
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": true
+   }
+  },
+  {
+   "key": "Ae00e267508",
+   "title": "TaMo-Iveco to create world's 4th largest CV group with ₹2.28 trn revenue",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 12,
+    "O1+S1": 14,
+    "O1M5+S1": 9
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": true
+   }
+  },
+  {
+   "key": "A6cb4c237a6",
+   "title": "Top Business & Market Headlines Today — BL Morning Report, November 4, 2026",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 14,
+    "O1+S1": 29,
+    "O1M5+S1": 32
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A3c97ae9052",
+   "title": "BSE, Infosys, CG Power and 6 others to watch: Motilal Oswal reveals 9 stock ratings and target prices after Q2 results",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 16,
+    "O1+S1": 30,
+    "O1M5+S1": 33
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A322b9dd376",
+   "title": "EV registrations soar 75% in October even as PV market shrinks 14.6%",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 18,
+    "O1+S1": 15,
+    "O1M5+S1": 13
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A6f38ca2eec",
+   "title": "Festive mode brings cheer to automakers with record sales in October",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 21,
+    "O1+S1": 16,
+    "O1M5+S1": 24
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A95bfdbb31e",
+   "title": "Tata Sons Chairman meets Italian PM Giorgia Meloni after Iveco acquisition",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 22,
+    "O1+S1": 32,
+    "O1M5+S1": 15
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A8d40df54bd",
+   "title": "Tata Sons' Chandrasekaran meets Italian PM Meloni after Iveco acquisition",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 23,
+    "O1+S1": 17,
+    "O1M5+S1": 16
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A0add287d9f",
+   "title": "Hyundai, Tata, M&M October sales surge amid festive cheer; Escorts Kubota declines 10%",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 26,
+    "O1+S1": 18,
+    "O1M5+S1": 25
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A2068bcf06a",
+   "title": "Electric car sales nearly double in October",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 28,
+    "O1+S1": 19,
+    "O1M5+S1": 26
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "Ab3129414e0",
+   "title": "Auto sector sees strong Dhanteras deliveries, expects momentum to continue till Diwali",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 29,
+    "O1+S1": 20,
+    "O1M5+S1": 27
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A960040ec40",
+   "title": "The Jaguar Type 01's U.S.-Spec Bumper Is Fantastically Well Integrated",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 30,
+    "O1+S1": 34,
+    "O1M5+S1": 36
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A201f024648",
+   "title": "Jaguar flagship store",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 31,
+    "O1+S1": 21,
+    "O1M5+S1": 19
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A5d2ecfb236",
+   "title": "Range Rover is axing its two cheapest SUVs, making way for a new entry-level EV",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 32,
+    "O1+S1": 35,
+    "O1M5+S1": 37
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A16e94bbd1c",
+   "title": "Mint Explainer | Why are premium European automakers betting on India?",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 34,
+    "O1+S1": 22,
+    "O1M5+S1": 28
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A80977ae00e",
+   "title": "Range Rover Evoque and Velar to be axed in 2027 as new £90,000 electric GT becomes luxury brand's entry car",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 35,
+    "O1+S1": 23,
+    "O1M5+S1": 20
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A1562e9dafd",
+   "title": "Range Rover reliability a key focus as brand maps its EV future",
+   "label": "direct",
+   "places": {
+    "retrieval_order": 36,
+    "O1+S1": 37,
+    "O1M5+S1": 21
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "Ac73bfee158",
+   "title": "Life after China: Can the US save Europe's luxury car makers?",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 39,
+    "O1+S1": 24,
+    "O1M5+S1": 29
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  },
+  {
+   "key": "A064eb714c7",
+   "title": "Jaecoo's Chinese owner Chery wants to 'be a British brand' as it looks to build on stellar UK sales",
+   "label": "indirect",
+   "places": {
+    "retrieval_order": 40,
+    "O1+S1": 40,
+    "O1M5+S1": 22
+   },
+   "in_top_10": {
+    "retrieval_order": false,
+    "O1+S1": false,
+    "O1M5+S1": false
+   }
+  }
+ ],
+ "orders": {
+  "retrieval_order": [
+   "A056d18d611",
+   "A2d50094f01",
+   "A47eb665db5",
+   "Adad19fb7a2",
+   "Aa333b4d52a",
+   "Af1455a6eab",
+   "Ac49b28bf4e",
+   "Ae998c86389",
+   "A63d696ef74",
+   "A5835e58999",
+   "Ae3899daaac",
+   "Ae00e267508",
+   "Ad2b481945b",
+   "A6cb4c237a6",
+   "A259437f152",
+   "A3c97ae9052",
+   "A9cee9e03c1",
+   "A322b9dd376",
+   "A59d7ddb8eb",
+   "A88457b10cc",
+   "A6f38ca2eec",
+   "A95bfdbb31e",
+   "A8d40df54bd",
+   "A91e198502a",
+   "A4b82ee5280",
+   "A0add287d9f",
+   "A38b7a3703a",
+   "A2068bcf06a",
+   "Ab3129414e0",
+   "A960040ec40",
+   "A201f024648",
+   "A5d2ecfb236",
+   "A50f51b1c2d",
+   "A16e94bbd1c",
+   "A80977ae00e",
+   "A1562e9dafd",
+   "A95b817170e",
+   "Ae8b8dac40c",
+   "Ac73bfee158",
+   "A064eb714c7"
+  ],
+  "O1+S1": [
+   "A056d18d611",
+   "A47eb665db5",
+   "Adad19fb7a2",
+   "A5835e58999",
+   "Ad2b481945b",
+   "A259437f152",
+   "A9cee9e03c1",
+   "A59d7ddb8eb",
+   "A91e198502a",
+   "A4b82ee5280",
+   "Aa333b4d52a",
+   "Af1455a6eab",
+   "A63d696ef74",
+   "Ae00e267508",
+   "A322b9dd376",
+   "A6f38ca2eec",
+   "A8d40df54bd",
+   "A0add287d9f",
+   "A2068bcf06a",
+   "Ab3129414e0",
+   "A201f024648",
+   "A16e94bbd1c",
+   "A80977ae00e",
+   "Ac73bfee158",
+   "A2d50094f01",
+   "Ac49b28bf4e",
+   "Ae998c86389",
+   "Ae3899daaac",
+   "A6cb4c237a6",
+   "A3c97ae9052",
+   "A88457b10cc",
+   "A95bfdbb31e",
+   "A38b7a3703a",
+   "A960040ec40",
+   "A5d2ecfb236",
+   "A50f51b1c2d",
+   "A1562e9dafd",
+   "A95b817170e",
+   "Ae8b8dac40c",
+   "A064eb714c7"
+  ],
+  "O1M5+S1": [
+   "A056d18d611",
+   "A2d50094f01",
+   "A47eb665db5",
+   "Adad19fb7a2",
+   "Af1455a6eab",
+   "A63d696ef74",
+   "A5835e58999",
+   "Ae3899daaac",
+   "Ae00e267508",
+   "Ad2b481945b",
+   "A259437f152",
+   "A9cee9e03c1",
+   "A322b9dd376",
+   "A59d7ddb8eb",
+   "A95bfdbb31e",
+   "A8d40df54bd",
+   "A91e198502a",
+   "A4b82ee5280",
+   "A201f024648",
+   "A80977ae00e",
+   "A1562e9dafd",
+   "A064eb714c7",
+   "Aa333b4d52a",
+   "A6f38ca2eec",
+   "A0add287d9f",
+   "A2068bcf06a",
+   "Ab3129414e0",
+   "A16e94bbd1c",
+   "Ac73bfee158",
+   "Ac49b28bf4e",
+   "Ae998c86389",
+   "A6cb4c237a6",
+   "A3c97ae9052",
+   "A88457b10cc",
+   "A38b7a3703a",
+   "A960040ec40",
+   "A5d2ecfb236",
+   "A50f51b1c2d",
+   "A95b817170e",
+   "Ae8b8dac40c"
+  ]
+ },
+ "seal": {
+  "labels_sha256": "575d2137d663e245c20727e3bd44fc3b835dce36745e0f4f5bd4b1320e6395c7",
+  "events_sha256": "b6aedb7964c7f7245804ecf529834b771625cfab0ef6370a26f165c85a0e5d12",
+  "pairs_sha256": "131d988ae105115793d9a768463d1d2111e676b3a936fdb179397dea8b481d76",
+  "sealed_at": null
+ },
+ "code": "00d99ea08d084e32966ca7e289b4321fcb40c382",
+ "scored": "2026-11-09T16:31:22+00:00"
+}

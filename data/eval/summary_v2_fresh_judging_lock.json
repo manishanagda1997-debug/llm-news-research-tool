@@ -1,0 +1,22 @@
+{
+ "items_fingerprint": "4e4a7e033ed7e2785d9eee085191094805ca226cc937aa75994d3c19f9cfc780",
+ "events_fingerprint": "359443881aa75c7f284837f7a0cb3c409b768ad87afee43b28123fe5d1fad250",
+ "industry_fingerprint": "2febcc10da5b94cc009c73bcd735934ebeca145e48622f9bf5d890e5233ced65",
+ "key_fingerprint": "96c85003f427c81e480f9b654a54ccd51415f6b7a13bec149ba269d3f3e9b88e",
+ "code_fingerprint": "15cacbce826aee7b3027bc72c5de34ab3b6bd988e66123f840d3a8f6c0b76828",
+ "inputs": {
+  "guides": [
+   "98dab4e3a1157d9529da4daab47a511a561b44a3b1d65dab396dfad11c397a59",
+   "c9ff97ce25fc71262c7eae10a96e7e65aa4525d8a0f8177f6054662a9bf082c8",
+   "f31ddf78f19db8032230f2cf585c479b7b4d78f362433d5c805c0c908ca630cf"
+  ],
+  "freeze": "6810217961e5b1e6e7bb8d76bfa898ef6d90903329f805bbfe59f8defdf4f3b1",
+  "record": "f513cb9ece2bfe89ea4bc91abb8d956fd4ea2ed69f9fc53b9369297034938534",
+  "passages": "733a7e6aea2e1f318a1715a9a6e0ac10100aba4ec05e33cdb721a20578883f49",
+  "development_score": "2648ffce20b9ad119c539c7f220e6cc80f420267786c22208922d7e61547c724",
+  "labels": "fbcb53ce47de681f7baaea6898f96d603db7aef3e1e2dfe44e75c3961f88268d",
+  "events_data": "20728beeabc9850e869544710a8439a1cf3bc4c1e0df0b08f894ccb447ad3abf"
+ },
+ "scoring_version": "1",
+ "locked_at": "2026-11-05T10:57:50+00:00"
+}

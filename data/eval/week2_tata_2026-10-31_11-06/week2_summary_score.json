@@ -1,0 +1,78 @@
+{
+ "week": "tata",
+ "company": "Tata Motors",
+ "prompt": "4",
+ "design": "direct",
+ "relevance_check": "not run",
+ "status": "judged",
+ "summary": {
+  "status": "scored",
+  "checks": {
+   "produced": true,
+   "event_coverage": false,
+   "contradicted": true,
+   "no_central_contradiction": true
+  },
+  "passed": false,
+  "values": {
+   "produced": {
+    "count": 1,
+    "total": 1,
+    "share": 1.0
+   },
+   "items": {
+    "total": 10,
+    "supported": 9,
+    "partly_supported": 1,
+    "not_supported": 0,
+    "supported_share": 0.9,
+    "contradicted": 0,
+    "contradicted_share": 0.0,
+    "central_contradicted": 0
+   },
+   "events": {
+    "covered": 3,
+    "total": 4,
+    "coverage": 0.75,
+    "cited": 4,
+    "cited_share": 1.0
+   },
+   "repaired_items": {
+    "total": 0,
+    "supported": 0,
+    "supported_share": null,
+    "contradicted": 0
+   },
+   "calls": 1.0,
+   "checks": {
+    "produced": true,
+    "event_coverage": false,
+    "contradicted": true,
+    "no_central_contradiction": true
+   },
+   "passes": false
+  }
+ },
+ "industry": {
+  "industry_evidence": "no",
+  "industry_points_produced": 0,
+  "industry_points": {
+   "total": 0,
+   "supported": 0,
+   "partly_supported": 0,
+   "not_supported": 0,
+   "supported_share": null,
+   "contradicted": 0
+  },
+  "checks": {
+   "no_unsupported_industry_point": true,
+   "industry_section_matches_evidence": true
+  },
+  "level": "reported without a pass level (amendment 2)"
+ },
+ "pairs": {
+  "rows": [],
+  "level": "reported without a pass level"
+ },
+ "scored": "2026-11-10T09:24:40+00:00"
+}

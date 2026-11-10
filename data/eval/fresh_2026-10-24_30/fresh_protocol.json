@@ -1,0 +1,107 @@
+{
+ "run_id": "fresh_2026-10-24_30",
+ "created": "2026-11-02T13:18:32+00:00",
+ "source_commit": "670a80387e6c451a070a0728077c8d7b8ad0cef8",
+ "freeze_tag": "freeze-fresh-eval",
+ "commits": "source_commit is the code before this file; the freeze tag marks the commit that adds it",
+ "labels_sha256": "fbcb53ce47de681f7baaea6898f96d603db7aef3e1e2dfe44e75c3961f88268d",
+ "events_sha256": "20728beeabc9850e869544710a8439a1cf3bc4c1e0df0b08f894ccb447ad3abf",
+ "dev_record_sha256": "13e6bf901760e3265ef6f52dcd63ba552299c10394bb6be49dd3e4d853176041",
+ "threshold": 0.3,
+ "experiment": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "generation": {
+   "temperature": 1.0,
+   "reasoning_effort": "medium"
+  },
+  "relevance": {
+   "prompt_version": "3",
+   "batch_size": 10,
+   "workers": 3,
+   "passage_limit": 3500
+  },
+  "ranking": {
+   "threshold": 0.3,
+   "ks": [
+    5,
+    10,
+    15
+   ],
+   "primary_k": 10,
+   "order": [
+    "O1+S1",
+    "O1+S2",
+    "O3+S1",
+    "O3+S2",
+    "O2+S1",
+    "O2+S2"
+   ]
+  },
+  "commit": "052da94c3a9451fc1871c5d99139c70d98f804d1"
+ },
+ "llm": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "cache_tag": "groq|{\"reasoning_effort\": \"medium\", \"temperature\": 1.0}"
+ },
+ "compare_choice": "O1",
+ "eligible": [
+  "O1+S1"
+ ],
+ "dev_winner": "O1+S1",
+ "dev_runs_passed": {
+  "O1+S2": 0,
+  "O3+S1": 0,
+  "O3+S2": 0,
+  "O2+S1": 0,
+  "O2+S2": 0
+ },
+ "configurations": [
+  "O1+S1",
+  "O1+S2",
+  "O3+S1",
+  "O3+S2",
+  "O2+S1",
+  "O2+S2"
+ ],
+ "experimental": [
+  "O1+S2",
+  "O3+S1",
+  "O3+S2",
+  "O2+S1",
+  "O2+S2"
+ ],
+ "ks": [
+  5,
+  10,
+  15
+ ],
+ "primary_k": 10,
+ "acceptance": {
+  "rule": "src/ranking.py acceptance(), the same for every configuration",
+  "max_model_seconds": 180,
+  "runtime_from": "the first collection pass only",
+  "min_first_pass_coverage": 0.9,
+  "fallback": "an article without a model answer keeps its O1 place"
+ },
+ "default_rule": "The development winner becomes the default only if it passes the acceptance rule on the fresh run; otherwise the default is the baseline. Configurations outside the eligible set are reported as experimental evidence only.",
+ "collection": {
+  "max_passes": 3,
+  "asks": "only articles without a saved model answer",
+  "saved_answers": "never asked again",
+  "cache_identity": "company, model, prompt version, title, passage, company scope and provider settings (src/relevance_check.py, _key)"
+ },
+ "packages": {
+  "streamlit": "1.66.1",
+  "langchain": "1.4.7",
+  "langchain-core": "1.7.3",
+  "langchain-google-genai": "4.4.2",
+  "langchain-groq": "1.1.3",
+  "groq": "0.37.1",
+  "newsapi-python": "0.2.7",
+  "trafilatura": "2.3.1",
+  "pandas": "3.1.0",
+  "python-dotenv": "1.2.4"
+ }
+}

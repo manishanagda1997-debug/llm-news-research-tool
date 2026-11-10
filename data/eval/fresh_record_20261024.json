@@ -1,0 +1,15 @@
+{
+  "query": "Tata Motors",
+  "raw_files": {
+    "A": "20261024_111739_tata-motors.json",
+    "B": "20261024_111739_tata-motors_2.json",
+    "C": "20261024_111739_tata-motors_3.json"
+  },
+  "seen_files": [
+    "20261014_181801_tata-motors.json",
+    "20261014_182548_tata-motors.json",
+    "20261023_101707_tata-motors.json",
+    "20261023_161430_tata-motors.json",
+    "20261023_161430_tata-motors_2.json"
+  ]
+}

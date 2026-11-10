@@ -1,0 +1,221 @@
+{
+ "ranking": {
+  "configuration": "O1+S1",
+  "baseline": "retrieval_order",
+  "primary_k": 10,
+  "conditions": {
+   "no_direct_event_lost": false,
+   "event_recall_not_lower": true,
+   "precision_not_lower": true
+  },
+  "passed": false,
+  "events": {
+   "gained": [
+    "ril_ncd_fundraising_announcement"
+   ],
+   "lost": [
+    "jio_ipo_mobile_data_price_outlook"
+   ],
+   "net": 0,
+   "direct_gained": [
+    "ril_ncd_fundraising_announcement"
+   ],
+   "direct_lost": [
+    "jio_ipo_mobile_data_price_outlook"
+   ],
+   "direct_net": 0
+  },
+  "absolute": {
+   "retrieval_order": {
+    "5": {
+     "selected": 5,
+     "precision": 0.8,
+     "event_recall": 0.12,
+     "direct_event_recall": 0.13043478260869565
+    },
+    "10": {
+     "selected": 10,
+     "precision": 0.9,
+     "event_recall": 0.2,
+     "direct_event_recall": 0.21739130434782608
+    },
+    "15": {
+     "selected": 15,
+     "precision": 0.8666666666666667,
+     "event_recall": 0.24,
+     "direct_event_recall": 0.2608695652173913
+    }
+   },
+   "O1+S1": {
+    "5": {
+     "selected": 5,
+     "precision": 1.0,
+     "event_recall": 0.12,
+     "direct_event_recall": 0.13043478260869565
+    },
+    "10": {
+     "selected": 10,
+     "precision": 1.0,
+     "event_recall": 0.2,
+     "direct_event_recall": 0.21739130434782608
+    },
+    "15": {
+     "selected": 15,
+     "precision": 1.0,
+     "event_recall": 0.32,
+     "direct_event_recall": 0.34782608695652173
+    }
+   }
+  },
+  "events_covered": {
+   "retrieval_order": {
+    "5": [
+     "hamleys_uk_subsidiary_dissolution",
+     "jio_ipo_mobile_data_price_outlook",
+     "jio_listing"
+    ],
+    "10": [
+     "hamleys_uk_subsidiary_dissolution",
+     "jio_ipo_mobile_data_price_outlook",
+     "jio_listing",
+     "ril_q2_results",
+     "ril_q2_results_preview"
+    ],
+    "15": [
+     "hamleys_uk_subsidiary_dissolution",
+     "jio_ipo_mobile_data_price_outlook",
+     "jio_listing",
+     "ril_ncd_fundraising_announcement",
+     "ril_q2_results",
+     "ril_q2_results_preview"
+    ]
+   },
+   "O1+S1": {
+    "5": [
+     "hamleys_uk_subsidiary_dissolution",
+     "ril_q2_results",
+     "ril_q2_results_preview"
+    ],
+    "10": [
+     "hamleys_uk_subsidiary_dissolution",
+     "jio_listing",
+     "ril_ncd_fundraising_announcement",
+     "ril_q2_results",
+     "ril_q2_results_preview"
+    ],
+    "15": [
+     "hamleys_uk_subsidiary_dissolution",
+     "jio_listing",
+     "jio_listing_mutual_fund_exposure",
+     "jio_listing_parent_value_outlook",
+     "ril_board_meeting_notice",
+     "ril_ncd_fundraising_announcement",
+     "ril_q2_results",
+     "ril_q2_results_preview"
+    ]
+   }
+  }
+ },
+ "relevance_check": {
+  "articles": 53,
+  "answered": 53,
+  "same_label": 46,
+  "agreement": 0.8679245283018868,
+  "relevant_precision": 0.9791666666666666,
+  "relevant_recall": 0.9215686274509803,
+  "coverage": 1.0,
+  "seconds": 549.2
+ },
+ "unsure": [
+  {
+   "article_id": "A83ee698971",
+   "label": "indirect",
+   "retrieval_order": false,
+   "O1+S1": false
+  },
+  {
+   "article_id": "Ae8f3172b06",
+   "label": "direct",
+   "retrieval_order": false,
+   "O1+S1": false
+  },
+  {
+   "article_id": "Aadbe12435e",
+   "label": "indirect",
+   "retrieval_order": false,
+   "O1+S1": false
+  },
+  {
+   "article_id": "A1d192a0338",
+   "label": "indirect",
+   "retrieval_order": false,
+   "O1+S1": false
+  }
+ ],
+ "summary": {
+  "status": "scored",
+  "checks": {
+   "produced": true,
+   "event_coverage": true,
+   "contradicted": true,
+   "no_central_contradiction": true
+  },
+  "passed": true,
+  "values": {
+   "produced": {
+    "count": 1,
+    "total": 1,
+    "share": 1.0
+   },
+   "items": {
+    "total": 11,
+    "supported": 8,
+    "partly_supported": 3,
+    "not_supported": 0,
+    "supported_share": 0.7273,
+    "contradicted": 0,
+    "contradicted_share": 0.0,
+    "central_contradicted": 0
+   },
+   "events": {
+    "covered": 3,
+    "total": 3,
+    "coverage": 1.0,
+    "cited": 3,
+    "cited_share": 1.0
+   },
+   "repaired_items": {
+    "total": 1,
+    "supported": 1,
+    "supported_share": 1.0,
+    "contradicted": 0
+   },
+   "calls": 2.0,
+   "checks": {
+    "produced": true,
+    "event_coverage": true,
+    "contradicted": true,
+    "no_central_contradiction": true
+   },
+   "passes": true
+  }
+ },
+ "industry": {
+  "industry_evidence": "yes",
+  "industry_points_produced": 1,
+  "industry_points": {
+   "total": 1,
+   "supported": 0,
+   "partly_supported": 1,
+   "not_supported": 0,
+   "supported_share": 0.0,
+   "contradicted": 0
+  },
+  "checks": {
+   "no_unsupported_industry_point": true,
+   "industry_section_matches_evidence": true
+  },
+  "level": "reported without a pass level (amendment 2)"
+ },
+ "scored": "2026-11-06T18:10:06+00:00"
+}

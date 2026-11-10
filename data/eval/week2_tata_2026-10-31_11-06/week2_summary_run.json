@@ -1,0 +1,256 @@
+{
+ "week": "tata",
+ "company": "Tata Motors",
+ "attempt_id": "933886d8a8904d628660027713f246d3",
+ "source_commit": "14afab7fa87dc7221a97cd3f732f55b872d1d5f3",
+ "prompt": "4",
+ "design": "direct",
+ "k": 5,
+ "clock_start": "2026-11-10T08:38:10+00:00",
+ "ranking_file": "week2_ranking.json",
+ "ranking_fingerprint": "d6c9c49037afcdb0fe60533e86d6f0ec69b91b73308527f10b6eed9d19ad0ecd",
+ "summary_record": {
+  "records": [
+   {
+    "run": "week2_tata_2026-10-31_11-06",
+    "design": "direct",
+    "k": 5,
+    "articles": [
+     {
+      "id": 1,
+      "key": "A056d18d611",
+      "title": "CERT-In flags high-severity security vulnerabilities in Tata Motors’ iRA connected vehicle apps",
+      "url": "https://www.thehindubusinessline.com/companies/cert-in-flags-high-severity-security-vulnerabilities-in-tata-motors-ira-connected-vehicle-apps/article71668222.ece"
+     },
+     {
+      "id": 2,
+      "key": "A2d50094f01",
+      "title": "Tata-Iveco aims for 6 lakh annual vehicle sales in five years; India assembly plans underway",
+      "url": "https://www.thehindubusinessline.com/companies/tata-iveco-aims-for-6-lakh-annual-vehicle-sales-in-five-years-india-assembly-plans-underway/article71660738.ece"
+     },
+     {
+      "id": 3,
+      "key": "A47eb665db5",
+      "title": "CERT-In flags vulnerability in Tata Motors’ mobile apps iRA 2.0, iRA.ev",
+      "url": "https://www.thehindubusinessline.com/companies/cert-in-flags-vulnerability-in-tata-motors-mobile-apps-ira-20-iraev/article71669300.ece"
+     },
+     {
+      "id": 4,
+      "key": "Adad19fb7a2",
+      "title": "Tata Motors sales rise 23% to 75,426 in October",
+      "url": "https://biztoc.com/x/46321cc87434187e"
+     },
+     {
+      "id": 5,
+      "key": "Af1455a6eab",
+      "title": "Tata Sons chair Chandrasekaran meets Italy PM Meloni after Iveco takeover",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/tata-sons-chair-chandrasekaran-meets-italy-pm-meloni-after-iveco-takeover/articleshow/135566488.cms"
+     }
+    ],
+    "result": {
+     "status": "ok",
+     "summary": {
+      "article_briefs": [
+       {
+        "id": 1,
+        "brief": "CERT‑In flagged four high‑severity vulnerabilities in Tata Motors’ iRA 2.0 (versions 26.7.3 and below) and iRA.ev (versions 26.7.2 and below) apps, exposing credentials, URLs, logs and SSL pinning. Users are urged to upgrade to iRA 2.0 version 26.8.2 and iRA.ev version 26.9.1.",
+        "enough_text": true,
+        "hidden": false
+       },
+       {
+        "id": 2,
+        "brief": "Tata‑Iveco, the $24 billion commercial‑vehicle venture, targets 6 lakh annual vehicle sales in five years, plans SKD assembly of Iveco products in India, and aims for higher volumes, revenue growth and margin improvement. Iveco’s FPT Industrial engines and its distribution networks in Brazil and Argentina could open new markets for Tata.",
+        "enough_text": true,
+        "hidden": false
+       },
+       {
+        "id": 3,
+        "brief": "Tata Motors confirmed that the iRA 2.0 and iRA.ev vulnerabilities reported by CERT‑In have been addressed via over‑the‑air updates to iRA 2.0 version 26.8.2 (August 2026) and iRA.ev version 26.9.1 (September 2026), which are automatically prompted for users.",
+        "enough_text": true,
+        "hidden": false
+       },
+       {
+        "id": 4,
+        "brief": "Tata Motors Passenger Vehicles reported a 23 % year‑on‑year increase in total sales for October, reaching 75,426 units across domestic and international markets, up from 61,295 units.",
+        "enough_text": true,
+        "hidden": false
+       },
+       {
+        "id": 5,
+        "brief": "Tata Sons chairman N Chandrasekaran met Italy’s PM Giorgia Meloni after Tata Motors acquired an 89.42 % stake in Iveco for nearly 3.43 billion euros, creating a combined revenue of €21 billion (≈Rs 2,28,000 crore) and a presence in over 130 countries.",
+        "enough_text": true,
+        "hidden": false
+       }
+      ],
+      "key_points": [
+       {
+        "text": "CERT‑In identified high‑severity security flaws in Tata Motors’ iRA 2.0 (≤ 26.7.3) and iRA.ev (≤ 26.7.2) apps, urging users to upgrade to version 26.8.2 and 26.9.1.",
+        "citations": [
+         1
+        ]
+       },
+       {
+        "text": "Tata Motors deployed over‑the‑air updates to iRA 2.0 version 26.8.2 (August 2026) and iRA.ev version 26.9.1 (September 2026) to remediate the reported vulnerabilities.",
+        "citations": [
+         3
+        ]
+       },
+       {
+        "text": "Tata Motors posted a 23 % YoY rise in October sales to 75,426 units, up from 61,295 units.",
+        "citations": [
+         4
+        ]
+       },
+       {
+        "text": "Tata Motors completed acquisition of an 89.42 % stake in Iveco for nearly 3.43 billion euros, forming a combined entity with €21 billion revenue and operations in more than 130 countries.",
+        "citations": [
+         5
+        ]
+       },
+       {
+        "text": "The Tata‑Iveco joint venture targets 6 lakh annual vehicle sales within five years, plans semi‑knocked‑down assembly in India, and expects higher volumes, revenue growth and margin expansion.",
+        "citations": [
+         2
+        ]
+       }
+      ],
+      "industry_context": [],
+      "not_used": []
+     },
+     "message": "",
+     "removed": [],
+     "attempts": 1,
+     "origin": "live",
+     "headlines": [
+      {
+       "id": 1,
+       "title": "CERT-In flags high-severity security vulnerabilities in Tata Motors’ iRA connected vehicle apps",
+       "source": "BusinessLine",
+       "published_at": "",
+       "url": "https://www.thehindubusinessline.com/companies/cert-in-flags-high-severity-security-vulnerabilities-in-tata-motors-ira-connected-vehicle-apps/article71668222.ece"
+      },
+      {
+       "id": 2,
+       "title": "Tata-Iveco aims for 6 lakh annual vehicle sales in five years; India assembly plans underway",
+       "source": "BusinessLine",
+       "published_at": "",
+       "url": "https://www.thehindubusinessline.com/companies/tata-iveco-aims-for-6-lakh-annual-vehicle-sales-in-five-years-india-assembly-plans-underway/article71660738.ece"
+      },
+      {
+       "id": 3,
+       "title": "CERT-In flags vulnerability in Tata Motors’ mobile apps iRA 2.0, iRA.ev",
+       "source": "BusinessLine",
+       "published_at": "",
+       "url": "https://www.thehindubusinessline.com/companies/cert-in-flags-vulnerability-in-tata-motors-mobile-apps-ira-20-iraev/article71669300.ece"
+      },
+      {
+       "id": 4,
+       "title": "Tata Motors sales rise 23% to 75,426 in October",
+       "source": "Biztoc.com",
+       "published_at": "",
+       "url": "https://biztoc.com/x/46321cc87434187e"
+      },
+      {
+       "id": 5,
+       "title": "Tata Sons chair Chandrasekaran meets Italy PM Meloni after Iveco takeover",
+       "source": "The Times of India",
+       "published_at": "",
+       "url": "https://timesofindia.indiatimes.com/business/india-business/tata-sons-chair-chandrasekaran-meets-italy-pm-meloni-after-iveco-takeover/articleshow/135566488.cms"
+      }
+     ],
+     "problems": {
+      "structural": [],
+      "numbers": [],
+      "sources": []
+     },
+     "repairs": [],
+     "attempt_log": [
+      {
+       "attempt": 1,
+       "valid_json": true,
+       "structural": [],
+       "numbers": [],
+       "sources": []
+      }
+     ],
+     "correction": "targeted",
+     "design": "direct",
+     "seconds": 4.0,
+     "usage": {
+      "calls": 1,
+      "requests": [
+       {
+        "estimated": 4930,
+        "prompt_chars": 12989,
+        "outcome": "answered",
+        "admission": "paced",
+        "input_estimate": 4330
+       }
+      ],
+      "per_call": [
+       {
+        "input": 2723,
+        "output": 1462,
+        "reasoning": 609,
+        "cached": 0,
+        "estimated": 4930,
+        "prompt_chars": 12989,
+        "finish_reason": "stop",
+        "sent_at": 0.047,
+        "window_used": 0,
+        "provider_remaining": null,
+        "header_age": null,
+        "answered_at": 3.969
+       }
+      ],
+      "finish_reasons": [
+       "stop"
+      ],
+      "input_tokens": 2723,
+      "output_tokens": 1462,
+      "reasoning_tokens": 609,
+      "largest_call": 4185
+     },
+     "failures": [],
+     "failure_waits": [],
+     "prompt_chars": 12989,
+     "bad_answers": []
+    }
+   }
+  ]
+ },
+ "passage_fingerprints": [
+  {
+   "id": 1,
+   "key": "A056d18d611",
+   "sha256": "b5576b5e39e8433b2c7f5172152715b0742d2cea19a79946ec934ea6a2dd6cf0"
+  },
+  {
+   "id": 2,
+   "key": "A2d50094f01",
+   "sha256": "99da9febfde83131608c2d79adfd7c4a1008aab652c6a74170634fad5969aa2c"
+  },
+  {
+   "id": 3,
+   "key": "A47eb665db5",
+   "sha256": "795d8b38d2c74eec7eacd2c56a5b1d04ccdc27268b2b5e704b246b072d77440f"
+  },
+  {
+   "id": 4,
+   "key": "Adad19fb7a2",
+   "sha256": "572f494f14b6cd5e38a69354c9c04b967bf3435d1e3bf10c008711142ad2f0cb"
+  },
+  {
+   "id": 5,
+   "key": "Af1455a6eab",
+   "sha256": "34d4ba422b294008b2e15c1d9b323c634ff6ccf2a9fbfb09564a7de6ad3377b0"
+  }
+ ],
+ "tokens": 4185,
+ "allowance": 45000,
+ "allowance_refused": false,
+ "allowance_exceeded": false,
+ "relevance_check": "not run (experimental, not part of the default)",
+ "cache": "none",
+ "created": "2026-11-10T08:38:14+00:00"
+}

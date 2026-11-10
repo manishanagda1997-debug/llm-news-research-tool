@@ -1,0 +1,100 @@
+{
+ "run_id": "week2_reliance_2026-11-02_11-08",
+ "company": "Reliance Industries",
+ "week": "reliance",
+ "window": [
+  "2026-11-02T00:00:00Z",
+  "2026-11-08T23:59:59Z"
+ ],
+ "window_convention": "start <= publishedAt < the next midnight after the last day (whole seconds, so the same as publishedAt <= 23:59:59 of the last day); the request asks for the same from and to times as week 1",
+ "fetch_not_before": "2026-11-10T06:00:00+00:00",
+ "searches": {
+  "A": "\"Reliance Industries\"",
+  "B": "(\"Jio Platforms\" OR \"Reliance Jio\" OR \"Reliance Jio Infocomm\" OR \"Reliance Retail Ventures\" OR \"Reliance Retail\" OR \"Reliance Consumer Products\" OR \"Reliance New Energy\")"
+ },
+ "search_settings": {
+  "page_size": 30,
+  "sort_by": "relevancy",
+  "exact_phrase": true,
+  "title_only": false
+ },
+ "alias_fingerprint": "7736ef3fa58b7fa4a303db58397cdb1e0e5719e03151f4342fd1f03a027c079d",
+ "guide_fingerprint": "76aadfe90ede3356a2846f13e2ec9789153d6dddac002fa17df9380ef4a83fb0",
+ "company_scope": "News about any of these counts as news about Reliance Industries, including their subsidiaries and current products:\n- Reliance Industries Limited: Oil-to-chemicals (refining, fuels, petrochemicals), oil and gas, and the parent of the digital, retail and new energy businesses\n- Jio Platforms Limited: Telecom and digital services through Reliance Jio Infocomm; listed on 28 October 2026, still controlled by Reliance Industries\n- Reliance Retail Ventures Limited: Retail stores and online shopping through Reliance Retail\n- Reliance Consumer Products Limited: Consumer brands (food, drinks and personal care)\n- Reliance New Energy Limited: Solar, batteries and other new energy businesses\nOther companies with a similar name or from the same business group are separate businesses.",
+ "earlier_data": "Reliance Industries week 1 (transfer_reliance_2026-10-26_11-01)",
+ "sample_rule": "Search A (up to 30 articles, by relevance), then search B (up to 30), merged in that order; each article kept once by tidy link; excluded and logged: an article with the same tidy link as an article of the company's earlier data, an article published outside the window, an article with no date, and an article judged a repost of an earlier article in the overlap review (near-identical titles: `same` only for the same article or a repost). The sample is what remains, even when small or unbalanced: no top-up and no replacement. An article whose page cannot be fetched stays and is labelled on its short text.",
+ "definitions": {
+  "relevant_event": "an event with at least one article labelled direct or indirect",
+  "direct_event": "an event with at least one article labelled direct",
+  "event_recall": "distinct relevant events among the relevant articles in the top k, divided by the relevant events among the articles Stage 1 keeps; undefined when there is no relevant event",
+  "precision": "relevant articles among the selected articles, divided by the number selected (k, or fewer when fewer articles are available; the number available is reported)",
+  "no_direct_event_lost": "every direct event that the baseline's top 10 covers is also covered by the tested list's top 10, on the same article ids and the same event names from the sealed sheet",
+  "retrieval_order": "search A's articles in the order returned, then search B's; each once; the frozen Stage 1 rules (cleaning and duplicates) with no other sorting; the surviving articles keep their relative order; the first k (Reliance amendment 1)",
+  "duplicates": "only the frozen Stage 1 rules; S1 takes the first k with no grouping",
+  "summary_event_coverage": "event rows marked covered = yes, divided by all event rows: one row per relevant event among the summary's own top 5 articles (SUMMARY_JUDGING_GUIDE.md, Part 3)",
+  "contradicted_rate": "items with contradicted = yes, divided by all judged items (company points, industry points and visible article briefs)",
+  "produced": "the one summary comes out (1 of 1)"
+ },
+ "ranking": {
+  "tested": "O1M5+S1, the default (src/research.py, default_order then S1)",
+  "primary": {
+   "baseline": "retrieval_order",
+   "conditions": [
+    "no_direct_event_lost",
+    "event_recall_not_lower",
+    "precision_not_lower"
+   ],
+   "primary_k": 10,
+   "reported_k": [
+    5,
+    15
+   ],
+   "decides": "passed"
+  },
+  "second": {
+   "baseline": "O1+S1",
+   "conditions": [
+    "no_direct_event_lost",
+    "event_recall_not_lower",
+    "precision_not_lower"
+   ],
+   "primary_k": 10,
+   "reported_k": [
+    5,
+    15
+   ],
+   "decides": "nothing: the round 1 no-harm rule on fresh data, reported only; it never changes the primary result"
+  },
+  "also_reported": [
+   "O1+S1 against the retrieval order, as in week 1",
+   "each relevant article whose title does not name the company: its place in the retrieval order, O1+S1 and O1M5+S1, and whether it reaches the top 10"
+  ],
+  "no_model": "the ranking test uses no model call"
+ },
+ "summary": {
+  "design": "the summary design frozen after round 3 of the second development cycle (its freeze tag), k = 5, on the default's top 5; one run per week; no answer cache; no retry",
+  "pass_levels": {
+   "produced": true,
+   "min_event_coverage": 0.8,
+   "max_contradicted": 0.05,
+   "no_central_contradiction": true
+  },
+  "industry": "amendment 2 of week 1, built in: the industry evidence judged first from the five articles alone; the industry points split into supported, partly supported and not supported; the checks 'no industry point not supported' and 'the section matches the evidence'; reported without a level",
+  "pairs": "the expectation-and-outcome pairs listed in pairs.csv at the seal (event names from the sealed event sheet), before any run: for each pair whose two events are among the summary's articles, the Part 7 rows outlook_stated and kept_apart; reported without a level",
+  "judging": "blind, with SUMMARY_JUDGING_GUIDE.md, Parts 4, 6 and 7; the sheets locked before the score",
+  "relevance_check": "not run: it is experimental and not part of the default; reported as not run",
+  "tokens": "before each run: the logged tokens of the last 24 hours (round 2, round 3 and week 2 records) + the stated other use + 45,000 <= 200,000; each call guarded by the round 3 allowance guard (the estimated worst case before, the real count after); no retry",
+  "order": "a run only after round 3 is scored and the final design frozen, and only on a sealed week",
+  "run_cutoff": "no week 2 summary run starts after 2026-11-10T22:00:00+05:30; a run not started is reported as not run",
+  "judging_cutoff": "summaries not judged and locked by 2026-11-11T05:30:00+05:30 are reported as run but not judged, with no result claimed"
+ },
+ "reading": {
+  "candidate_pool": "the measures cover the articles the two searches return (up to 30 each, by relevance) and Stage 1 keeps, not all news of the week",
+  "no_tuning": "nothing in the pipeline, the aliases or the searches changes because of these weeks",
+  "one_week": "each result covers one week of one company"
+ },
+ "replaces": "the earlier decision to skip the week 2 tests; round 3 is not shortened",
+ "source_commit": "a602ce7c28dc12fd9331e313136b80a867fd6c16",
+ "freeze_tag": "freeze-week2-reliance",
+ "created": "2026-11-09T18:02:47+00:00"
+}

@@ -1,0 +1,13 @@
+row,summary,pair,outlook_stated,kept_apart,note
+1,A,tata_motors_cv_q2_preview -> tata_motors_q2_actual_results,yes,yes,
+2,B,iveco_shareholder_acceptance -> iveco_shareholders_approve,no,yes,The acceptance stage is stated as a requirement; no point says who expects it.
+3,D,iveco_shareholder_acceptance -> iveco_shareholders_approve,no,yes,The acceptance stage is stated as a requirement; no point says who expects it.
+4,E,iveco_shareholder_acceptance -> iveco_shareholders_approve,no,yes,The acceptance stage is stated as a requirement; no point says who expects it.
+5,F,tata_motors_cv_q2_preview -> tata_motors_q2_actual_results,yes,yes,
+6,G,tata_motors_cv_q2_preview -> tata_motors_q2_actual_results,yes,yes,
+7,J,iveco_shareholder_acceptance -> iveco_shareholders_approve,no,yes,The acceptance stage is stated as a requirement; no point says who expects it.
+8,K,tata_motors_cv_q2_preview -> tata_motors_q2_actual_results,no,yes,Says growth is expected to drive revenue but does not name who expects it.
+9,L,iveco_shareholder_acceptance -> iveco_shareholders_approve,no,yes,The acceptance stage is stated as a requirement; no point says who expects it.
+10,M,iveco_shareholder_acceptance -> iveco_shareholders_approve,no,yes,The acceptance stage is stated as a requirement; no point says who expects it.
+11,N,tata_motors_cv_q2_preview -> tata_motors_q2_actual_results,yes,yes,
+12,R,tata_motors_cv_q2_preview -> tata_motors_q2_actual_results,yes,yes,

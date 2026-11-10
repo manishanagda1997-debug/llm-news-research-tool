@@ -1,0 +1,338 @@
+{
+ "configuration": "gpt-oss-120b",
+ "settings": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "generation": {
+   "temperature": 1.0,
+   "reasoning_effort": "medium"
+  }
+ },
+ "batch_size": 5,
+ "query": "2026-10-14",
+ "started": "2026-10-31T11:36:49+0530",
+ "result": {
+  "cached": false,
+  "batch_size": 5,
+  "wall_seconds": 242.2,
+  "answers": {
+   "A9b85d3cb27": {
+    "label": "not",
+    "certainty": "sure",
+    "reason": "Mainly about AirConsole‑Zeekr deal; Tata is only a brief mention of platform usage.",
+    "source": "model"
+   },
+   "A33d2a07840": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Article focuses on Tata Motors raising its offer for the Iveco takeover.",
+    "source": "model"
+   },
+   "A59aa7b0222": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Centers on Tata Motors’ final offer price and shareholder vote for the Iveco acquisition.",
+    "source": "model"
+   },
+   "A1f7d47f39c": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Discusses a new partnership agreement directly between Tata Motors Passenger Vehicles and Stellantis.",
+    "source": "model"
+   },
+   "A947c84dec7": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Details the expanded Tata‑Stellantis partnership, a direct development for Tata Motors.",
+    "source": "model"
+   },
+   "A986c846cdc": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Article focuses on Tata Motors' acquisition of Iveco and related negotiations.",
+    "source": "model"
+   },
+   "Ab5f09d2bd1": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Mainly about RBI policy and auto‑sector stock moves, but Tata Motors is mentioned as part of the sector.",
+    "source": "model"
+   },
+   "Afda0bbac4b": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Discusses policy and market outlook affecting car makers, with specific reference to Tata Motors' past challenges.",
+    "source": "model"
+   },
+   "A24e6d8662d": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Covers Jaguar's new electric vehicle launch; Jaguar is a Tata Motors subsidiary.",
+    "source": "model"
+   },
+   "A8619a7e886": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Details a new strategic partnership agreement involving Tata Motors Passenger Vehicles.",
+    "source": "model"
+   },
+   "Ac20bce29ad": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Main focus is Jaguar's new EV, a product of JLR owned by Tata Motors.",
+    "source": "model"
+   },
+   "Adc9449a897": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Article centers on India's automotive policy, which impacts Tata Motors' market.",
+    "source": "model"
+   },
+   "A5f2210687a": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Discusses Tata Motors' revised takeover offer for Iveco.",
+    "source": "model"
+   },
+   "A8d5b4a5afc": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Focuses on a new technology and product partnership between Tata Motors PV and Stellantis.",
+    "source": "model"
+   },
+   "A289594c896": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Details a manufacturing pact between Tata Motors and Stellantis for global markets.",
+    "source": "model"
+   },
+   "Ab28c0c3a7a": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Article primarily discusses a new partnership between Tata Motors and Stellantis to develop vehicles.",
+    "source": "model"
+   },
+   "A95a7eae323": {
+    "label": "not",
+    "certainty": "sure",
+    "reason": "Tata Motors is only mentioned in a historical anecdote; the article is about privacy, not the company.",
+    "source": "model"
+   },
+   "A86c03ba1b8": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Focus is on a seating joint venture, but it notes Tata Motors as a customer, a supplier development affecting the company.",
+    "source": "model"
+   },
+   "Ac6905343e4": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Article centers on Jaguar (a Tata Motors subsidiary) and its EV roadmap, a core product line.",
+    "source": "model"
+   },
+   "A02b25c8c80": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Market report on used trucks mentions Tata Motors among participants; it relates to the segment Tata Motors operates in.",
+    "source": "model"
+   },
+   "Adfbc67b88f": {
+    "label": "not",
+    "certainty": "sure",
+    "reason": "Article is about a consulting startup; no connection to Tata Motors business.",
+    "source": "model"
+   },
+   "A7ba6e5020c": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Main focus is India's auto manufacturing hub policy; mentions Tata Motors as industry example.",
+    "source": "model"
+   },
+   "A639826ac02": {
+    "label": "indirect",
+    "certainty": "sure",
+    "reason": "Article covers UK‑India trade deals; Tata Motors is cited only in a quote about car manufacturing.",
+    "source": "model"
+   },
+   "A515b87254e": {
+    "label": "not",
+    "certainty": "sure",
+    "reason": "Only a past employment reference to Tata Motors; no business relevance to its automotive operations.",
+    "source": "model"
+   },
+   "Adb9ff93da2": {
+    "label": "direct",
+    "certainty": "sure",
+    "reason": "Discusses Jaguar Land Rover’s EV launch and job cuts; JLR is a Tata Motors subsidiary.",
+    "source": "model"
+   }
+  },
+  "inputs": {
+   "A9b85d3cb27": "ac04928e6f5061bfefbb5d553532cd0e4f18ffd079757d83c3e29aff4191ec5e",
+   "A33d2a07840": "6c7ddc1940d00cf6c07f6e9d62cbe3a9b0040b26beb80b149b48bc05e6acc3fc",
+   "A59aa7b0222": "fbd60c6ac414ff04208f938c316b00ac6f3d445fcb77ffd9ec6e4d6587201848",
+   "A1f7d47f39c": "a635cf35884c6d57fab60d6d0b91046f013627a962c7fd7e579b02d1230487e2",
+   "A947c84dec7": "e7b4515622467326ec6aeb8087d2c38e2faa7db260f8a14052ebf5485ae72e26",
+   "A986c846cdc": "28c22c291322e2dbc6929ea147cd8c3f0a99453c264649b752930ef4453d152e",
+   "Ab5f09d2bd1": "1788144b82447ed43112bc8a697da70a177beb49100119b7100637ea245503da",
+   "Afda0bbac4b": "103ecee9798d5bb795d202a1dbe336fbf2c06a5e068e75d7d45b95f085d8a000",
+   "A24e6d8662d": "4a207ce219f8fb720474e0582e2eb3af5ba024373ce831bcc2f8d6f9d90fd969",
+   "A8619a7e886": "94ab93757f824ea6df1fdc4da2e83350e943f87ff0c9aa21bdf29a3146c5a792",
+   "Ac20bce29ad": "9bd557c9170fd595b2d7acf1dad7db0693d9860697e34ebbbd40995f1906bb55",
+   "Adc9449a897": "05a9f612703d9afdfa8a244d7bc8d5bfddd66712d129c22150e06dfc746dd4f5",
+   "A5f2210687a": "0ca8e3719788729c1cda7350cfa05e5c343b60aaadeca62b94429eb003904d4f",
+   "A8d5b4a5afc": "7943b64df2556a353bfc7611dce9e109974d01df08609ed977ceba1234dae644",
+   "A289594c896": "3a51629e1b0459645299f22162a9624f5431067a064c6af1cef4c1f67ad0c105",
+   "Ab28c0c3a7a": "da477ec4fd403274402105c1f056d201cb96ab474ac7d4c93f10fba752174dc0",
+   "A95a7eae323": "03bc2dd879b83803e23ec6e5a3f9afecd45dd72c93eb8ce1bdf3753bc0c14bb0",
+   "A86c03ba1b8": "57f8551ca952a7e4cd0eb5c1e8dae4aa85119d6a2d2cf63f964c168594a20a5a",
+   "Ac6905343e4": "8a68df491ff749432fc55e771e1c5da34059b7be9ea2131af7ce223848d2e7a5",
+   "A02b25c8c80": "41acc5722c7a2b06e9fa808949922ee8cb9e5e7bf9667bc637922139d6d995a3",
+   "Adfbc67b88f": "f2dc6804faa357d2e1379c6aef68079c34a5ad91456b2982b8ee063aca91b33f",
+   "A7ba6e5020c": "42f06fd5b79b9639dbab080d3466d2a270e541094ae4d959578186ba9a713e9a",
+   "A639826ac02": "fd4238a74d1b09923642b88a8dd4195a79b195e2adf1d53d9dc27e276dac388e",
+   "A515b87254e": "dadef0b5ceaa7a1311a4935d99a13bef34a0e96d6586cf36d2ba96f1759fd630",
+   "Adb9ff93da2": "2370360d6a530bc01ca0f1f8bcf71a3a58d7e7b966e2267645714d175c2aa166"
+  },
+  "llm_stats": {
+   "calls": 5,
+   "rate_limited": 0,
+   "retries": 0,
+   "failures": {},
+   "waits": [
+    {
+     "kind": "learning",
+     "seconds": 0.5
+    },
+    {
+     "kind": "learning",
+     "seconds": 0.5
+    },
+    {
+     "kind": "learning",
+     "seconds": 0.5
+    },
+    {
+     "kind": "learning",
+     "seconds": 0.5
+    },
+    {
+     "kind": "learning",
+     "seconds": 0.5
+    },
+    {
+     "kind": "learning",
+     "seconds": 0.5
+    },
+    {
+     "kind": "learning",
+     "seconds": 0.5
+    },
+    {
+     "kind": "learning",
+     "seconds": 0.5
+    },
+    {
+     "kind": "learning",
+     "seconds": 0.5
+    },
+    {
+     "kind": "learning",
+     "seconds": 0.5
+    },
+    {
+     "kind": "learning",
+     "seconds": 0.5
+    },
+    {
+     "kind": "learning",
+     "seconds": 0.5
+    },
+    {
+     "kind": "pacing",
+     "seconds": 57.406
+    },
+    {
+     "kind": "pacing",
+     "seconds": 57.0
+    },
+    {
+     "kind": "pacing",
+     "seconds": 57.0
+    },
+    {
+     "kind": "pacing",
+     "seconds": 60.0
+    },
+    {
+     "kind": "pacing",
+     "seconds": 60.0
+    },
+    {
+     "kind": "pacing",
+     "seconds": 57.469
+    },
+    {
+     "kind": "pacing",
+     "seconds": 59.984
+    },
+    {
+     "kind": "pacing",
+     "seconds": 59.984
+    },
+    {
+     "kind": "pacing",
+     "seconds": 60.0
+    }
+   ],
+   "waited_seconds": 534.843,
+   "header_updates": 5,
+   "splits": 0,
+   "input_tokens": 18518,
+   "output_tokens": 3890,
+   "reasoning_tokens": 2456,
+   "per_call": [
+    {
+     "input": 3599,
+     "output": 607,
+     "reasoning": 322,
+     "cached": 0,
+     "estimated": 7373,
+     "prompt_chars": 17618
+    },
+    {
+     "input": 3260,
+     "output": 884,
+     "reasoning": 578,
+     "cached": 0,
+     "estimated": 4705,
+     "prompt_chars": 15682
+    },
+    {
+     "input": 4086,
+     "output": 856,
+     "reasoning": 571,
+     "cached": 768,
+     "estimated": 5499,
+     "prompt_chars": 19230
+    },
+    {
+     "input": 4124,
+     "output": 804,
+     "reasoning": 531,
+     "cached": 0,
+     "estimated": 5889,
+     "prompt_chars": 20649
+    },
+    {
+     "input": 3449,
+     "output": 739,
+     "reasoning": 454,
+     "cached": 0,
+     "estimated": 5131,
+     "prompt_chars": 17082
+    }
+   ]
+  }
+ }
+}

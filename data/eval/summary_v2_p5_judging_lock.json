@@ -1,0 +1,14 @@
+{
+ "items_fingerprint": "382b50c0979a6c29504bb617f8ef446ab935097558235548f04a855fc4ecf03b",
+ "events_fingerprint": "5de5ac94d106e93f410cf36b8900a581bffe18482ba0c8fcb2988b76deae18fc",
+ "key_fingerprint": "cc0b8ecfda2a596202b92983079636c6d3250758e2d81a5e6341b39c26d483a0",
+ "guide_fingerprints": [
+  "a4d77910dad06f0be11d135684d6931306b2f085b348327ea9ff72ad3210feb3",
+  "bd073b40f85f50f25718317f99685b60209a4c5347157f5a9269b849efd832c2"
+ ],
+ "record_fingerprint": "c888a95158aff6e4188f7e94fd39614e09d9a5433ce06650ece554a12fe2da56",
+ "code_fingerprint": "1aac655ec1095f59a03b28545780885a88d975c3481eb580183456a98026968a",
+ "scoring_version": "1",
+ "record_file": "summary_v2_dev_k5_c7_p5.json",
+ "locked_at": "2026-11-04T19:09:18+00:00"
+}

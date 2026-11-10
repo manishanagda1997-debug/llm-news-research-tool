@@ -1,0 +1,64 @@
+{
+ "passage_version": "3",
+ "fact_check": {
+  "articles": 16,
+  "changed": []
+ },
+ "development_top10": {
+  "passages": 30,
+  "changed": []
+ },
+ "saved_pages": {
+  "with_text": 204,
+  "with_boilerplate": 3,
+  "pages": [
+   {
+    "page": "433b74b36c471fbcb683dd20afea2b8f88095d0d",
+    "site": "www.thehindubusinessline.com",
+    "removed_chars": 598,
+    "removed": [
+     {
+      "kind": "tail",
+      "heading": "Comments"
+     }
+    ],
+    "v2_chars": 1090,
+    "v3_chars": 472,
+    "news_lines_lost": 0
+   },
+   {
+    "page": "9945d7a20638bf7b9e1143d9f9abbbafe758c0c1",
+    "site": "financialpost.com",
+    "removed_chars": 12047,
+    "removed": [
+     {
+      "kind": "leading_notice",
+      "heading": ""
+     },
+     {
+      "kind": "tail",
+      "heading": "Contacts"
+     }
+    ],
+    "v2_chars": 3497,
+    "v3_chars": 3480,
+    "news_lines_lost": 0
+   },
+   {
+    "page": "c99e29dd5479ab2c9bd0acf26d547d89c594eaa3",
+    "site": "www.prnewswire.com",
+    "removed_chars": 1068,
+    "removed": [
+     {
+      "kind": "tail",
+      "heading": "About Mordor Intelligence"
+     }
+    ],
+    "v2_chars": 3498,
+    "v3_chars": 3498,
+    "news_lines_lost": 0
+   }
+  ]
+ },
+ "accepted": true
+}

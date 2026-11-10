@@ -1,0 +1,87 @@
+{
+ "old": {
+  "central": {
+   "facts": 36,
+   "yes": 31,
+   "partly": 4,
+   "no": 1,
+   "distorted": 0,
+   "kept": 0.8611111111111112
+  },
+  "company": {
+   "facts": 64,
+   "yes": 50,
+   "partly": 10,
+   "no": 4,
+   "distorted": 0,
+   "kept": 0.78125
+  },
+  "context": {
+   "facts": 13,
+   "yes": 11,
+   "partly": 0,
+   "no": 2,
+   "distorted": 0,
+   "kept": 0.8461538461538461
+  },
+  "all": {
+   "facts": 77,
+   "yes": 61,
+   "partly": 10,
+   "no": 6,
+   "distorted": 0,
+   "kept": 0.7922077922077922
+  }
+ },
+ "new": {
+  "central": {
+   "facts": 36,
+   "yes": 32,
+   "partly": 4,
+   "no": 0,
+   "distorted": 0,
+   "kept": 0.8888888888888888
+  },
+  "company": {
+   "facts": 64,
+   "yes": 51,
+   "partly": 10,
+   "no": 3,
+   "distorted": 0,
+   "kept": 0.796875
+  },
+  "context": {
+   "facts": 13,
+   "yes": 11,
+   "partly": 0,
+   "no": 2,
+   "distorted": 0,
+   "kept": 0.8461538461538461
+  },
+  "all": {
+   "facts": 77,
+   "yes": 62,
+   "partly": 10,
+   "no": 5,
+   "distorted": 0,
+   "kept": 0.8051948051948052
+  }
+ },
+ "changed_articles": [
+  "A8619a7e886",
+  "A986c846cdc",
+  "Ad74eeaf8f2"
+ ],
+ "gained": [
+  [
+   "Ad74eeaf8f2",
+   "1"
+  ]
+ ],
+ "lost": [],
+ "distorted": [],
+ "too_long": [],
+ "added_text_problems": [],
+ "accepted": true,
+ "refused_because": []
+}

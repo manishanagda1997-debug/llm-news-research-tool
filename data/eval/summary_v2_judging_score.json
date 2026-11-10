@@ -1,0 +1,99 @@
+{
+ "lock": {
+  "items_fingerprint": "424739bf37d4dd004e6c97ee7a715806080a7dbfcae34718145808e9c8377652",
+  "events_fingerprint": "3c2f920f963cbd82d14a531fc857d37c483c0b9d131e67aa915ab5a37dcef7db",
+  "guide_fingerprint": "0e5714008ab22b66939ca38fec62b0cb3f76e5613dfb0ff756ef15916b58cce1",
+  "record_fingerprint": "3d13909a01ab0bcd3efef1ee8b8fe985cd97e2b456a5af23ff9e8737a565c2dd",
+  "code_fingerprint": "e8de1f968f7eb5e89d3fe1945115997ab73b739174d5560ded0573f1a345b1c6",
+  "scoring_version": "1",
+  "record_file": "summary_v2_dev_k5_c7_p3_run2.json",
+  "locked_at": "2026-11-04T11:53:55+00:00"
+ },
+ "record_file": "summary_v2_dev_k5_c7_p3_run2.json",
+ "designs": {
+  "brief_first": {
+   "produced": {
+    "count": 3,
+    "total": 3,
+    "share": 1.0
+   },
+   "items": {
+    "total": 30,
+    "supported": 18,
+    "partly_supported": 10,
+    "not_supported": 2,
+    "supported_share": 0.6,
+    "contradicted": 0,
+    "contradicted_share": 0.0,
+    "central_contradicted": 0
+   },
+   "events": {
+    "covered": 10,
+    "total": 11,
+    "coverage": 0.9091,
+    "cited": 11,
+    "cited_share": 1.0
+   },
+   "repaired_items": {
+    "total": 2,
+    "supported": 0,
+    "supported_share": 0.0,
+    "contradicted": 0
+   },
+   "calls": 7.0,
+   "checks": {
+    "produced": true,
+    "event_coverage": true,
+    "contradicted": true,
+    "no_central_contradiction": true
+   },
+   "passes": true
+  },
+  "direct": {
+   "produced": {
+    "count": 3,
+    "total": 3,
+    "share": 1.0
+   },
+   "items": {
+    "total": 45,
+    "supported": 31,
+    "partly_supported": 10,
+    "not_supported": 4,
+    "supported_share": 0.6889,
+    "contradicted": 0,
+    "contradicted_share": 0.0,
+    "central_contradicted": 0
+   },
+   "events": {
+    "covered": 11,
+    "total": 11,
+    "coverage": 1.0,
+    "cited": 11,
+    "cited_share": 1.0
+   },
+   "repaired_items": {
+    "total": 4,
+    "supported": 4,
+    "supported_share": 1.0,
+    "contradicted": 0
+   },
+   "calls": 2.33,
+   "checks": {
+    "produced": true,
+    "event_coverage": true,
+    "contradicted": true,
+    "no_central_contradiction": true
+   },
+   "passes": true
+  }
+ },
+ "choice": "direct",
+ "rule": {
+  "min_produced": 0.9,
+  "min_event_coverage": 0.8,
+  "max_contradicted": 0.05,
+  "no_central_contradiction": true,
+  "choice": "higher supported share, then higher event coverage, then fewer calls"
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "attempt_id": "933886d8a8904d628660027713f246d3",
+ "source_commit": "14afab7fa87dc7221a97cd3f732f55b872d1d5f3",
+ "week": "tata",
+ "started_at": "2026-11-10T08:38:10+00:00",
+ "clock_start": "2026-11-10T08:38:10+00:00",
+ "prompt": "4",
+ "ranking_fingerprint": "d6c9c49037afcdb0fe60533e86d6f0ec69b91b73308527f10b6eed9d19ad0ecd",
+ "other_tokens": 0,
+ "budget": {
+  "window_start_utc": "2026-11-09T08:38:07+00:00",
+  "window_start_ist": "2026-11-09T14:08:07+05:30",
+  "now_utc": "2026-11-10T08:38:07+00:00",
+  "now_ist": "2026-11-10T14:08:07+05:30",
+  "logged_tokens": 45841,
+  "other_tokens": 0,
+  "need": 45000,
+  "limit": 200000,
+  "fits": true,
+  "fits_later_from_the_log": false,
+  "earliest_utc": null,
+  "earliest_ist": null
+ }
+}
